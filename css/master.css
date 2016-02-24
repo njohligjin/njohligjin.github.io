@@ -1,0 +1,243 @@
+.navbar .nav,
+.navbar .nav > li {
+  /*float:none;
+  display:inline-block;
+  *display:inline; /* ie7 fix
+  zoom:1;  hasLayout ie7 trigger
+  vertical-align: top;
+  font-size: 16px;*/
+}
+
+.navbar .navbar-nav{
+  float: none;
+  display: inline-block;
+}
+nav.main {
+  text-align:center;
+}
+
+#logo{
+  margin-bottom: 10px;
+}
+
+/*form.forma-kerkimit input[type="search"]{
+  width:75%;
+}
+form.forma-kerkimit input[type="button"]{
+  width:20%;
+}*/
+
+.social {
+  font-size: 20px;
+  padding: 0px 20px;
+  text-align: center;
+}
+.social i {
+  padding: 0px 10px;
+  color: #65ACD6;
+}
+
+a {
+  color: #273D73;
+}
+
+#carousel-example-generic{
+  margin-top: 25px;
+}
+
+#carousel-example-generic img {
+  width: 100%;
+  max-height: 450px;
+  min-height: 450px;
+}
+
+.carousel-control{
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.lajmet {
+  margin-top: 20px;
+}
+.lajmet div {
+  display: block;
+  height: 150px;
+  border: 1px solid #ddd;
+  padding: 20px 10px;
+}
+
+.carousel-indicators li {
+  width: 100%;
+  display: block;
+}
+
+.law-categories {
+  padding: 20px 0px;
+}
+.law-categories nav {
+  background: #fff;
+  border: none;
+}
+.law-categories>nav>ul li {
+  display: inline;
+  border: 1px solid #fff;
+  vertical-align: middle;
+  background: #ddd;
+  padding: 10px;
+  width: 24%;
+  height: 69px;
+  transition: 200ms;
+  border-radius: 5px;
+}
+.law-categories>nav>ul li:hover {
+  background: #eee;
+  cursor: pointer;
+}
+.law-categories>nav>ul li.active {
+  background: #eee;
+}
+
+.cat-details {
+  height: 150px;
+  background: #DDDDDD;
+  padding: 20px;
+}
+
+footer {
+  background-color: rgb(51, 122, 183);
+}
+.kategori-container{
+    overflow: hidden;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.kategori-ligjore {
+  /*margin: 0 auto;*/
+  width: 100%%;
+  position: relative;
+  overflow: hidden;
+  /*padding: 5px;*/
+  /*padding:55px;*/
+  color: #fff;
+  font-size: 15pt;
+  text-align: center;
+  /* Firefox */
+  display:-moz-box;
+  -moz-box-pack:center;
+  -moz-box-align:center;
+
+  /* Safari, Opera, and Chrome */
+  display:-webkit-box;
+  -webkit-box-pack:center;
+  -webkit-box-align:center;
+
+  /* W3C */
+  display:box;
+  box-pack:center;
+  box-align:center;
+  background-color: #337AB7; /* #273D73 */
+}
+.kategori-ligjore .fa {
+  font-size: 27pt;
+}
+.kategori-details {
+  /*margin-left: -106%;
+  margin-top: -100%;*/
+  position: absolute;
+  top:0;
+  left: -100%;
+  background-color: #337AB7; /* #273D73 */
+  opacity: 0;
+  z-index: 999;
+  padding: 10px;
+  width: 100%;
+  /* Firefox */
+  display:-moz-box;
+  -moz-box-pack:start;
+  -moz-box-align:center;
+
+  /* Safari, Opera, and Chrome */
+  display:-webkit-box;
+  -webkit-box-pack:start;
+  -webkit-box-align:center;
+
+  /* W3C */
+  display:box;
+  box-pack:start;
+  box-align:center;
+  color: #fff;
+}
+.kategori-container:hover .kategori-details {
+  -webkit-transition: margin-left 0.2s;
+  transition: margin-left 0.2s;
+}
+.kategori-ligjore-titull {
+  padding: 5px;
+}
+.kategori-details ul{
+  list-style-type: none;
+  padding-left: 0;
+  margin: auto;
+}
+.kategori-details ul li:first-child{
+  font-size: 15pt;
+  font-weight: bold;
+}
+.kategori-details ul a{
+  color: #ccc;
+  font-size: 12pt;
+}
+.kategori-details ul li{
+  margin: 0;
+}
+.kategori-title a {
+  color: #fff;
+}
+
+.homepage-info {
+  padding: 0!important;
+  margin: 10px 0;
+}
+
+.navbar {
+  margin-bottom: 0;
+  background-color: rgb(51, 122, 183);
+  /*background-color: #555;*/
+}
+
+.navbar ul.nav li>a {
+  color: #fff;
+}
+
+
+#search-input{
+  height:40px;
+}
+.buton-kerkimi {
+  position: relative;
+  margin-top: -37px;
+  float: right;
+  margin-right:  3px;
+}
+
+/** {
+  z-index: 0;
+  position: relative;
+}*/
+
+#results-container{
+  /*position: absolute;*/
+  background: #fff;
+  list-style: none;
+  font-size: 13px;
+  top: 20px;
+  left: 5px;
+  margin: 0;
+  padding: 10px 5px;
+  border: 1px solid #d1d1d1;
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+  z-index: 9999;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
