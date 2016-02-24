@@ -59,14 +59,13 @@ $(document).ready(function(){
       $("#results-container *").remove();
     }
 
-    if($("#results-container li").length == 0){
+    if($("#results-container *").length == 0){
       $("#results-container").hide();
     } else {
-      $("#results-container").show();      
+      $("#results-container").show();
     }
 
   });
-
-  // $("#results-container").width($("#search-input").width());
+  $("#results-container").hide();
 
 });
