@@ -132,6 +132,11 @@ footer {
   -webkit-box-pack:center;
   -webkit-box-align:center;
 
+  /* Internet Explorer 10 */
+  display:-ms-flexbox;
+  -ms-flex-pack:center;
+  -ms-flex-align:center;
+
   /* W3C */
   display:box;
   box-pack:center;
@@ -161,6 +166,11 @@ footer {
   display:-webkit-box;
   -webkit-box-pack:start;
   -webkit-box-align:center;
+
+  /* Internet Explorer 10 */
+  display:-ms-flexbox;
+  -ms-flex-pack:center;
+  -ms-flex-align:center;
 
   /* W3C */
   display:box;

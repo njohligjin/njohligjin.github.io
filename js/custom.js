@@ -68,4 +68,25 @@ $(document).ready(function(){
   });
   $("#results-container").hide();
 
+
+  $("#submit-form").click(function() {
+    $.ajax({
+      url: 'http://formspree.io/g.malo@commprog.com',
+      method: 'POST',
+      data: $("#contact-form").serialize(),
+      dataType: 'json',
+      beforeSend: function() {
+        $("body").append('<div class="alert alert--loading">Sending message…</div>');        
+      },
+      success: function(data) {
+        $("body").find('.alert--loading').hide();
+        $("body").append('<div class="alert alert--success">Message sent!</div>');
+      },
+      error: function(err) {
+        $("body").find('.alert--loading').hide();
+        $("body").append('<div class="alert alert--error">Ops, there was an error.</div>');
+      }
+    });
+  });
+
 });

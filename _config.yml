@@ -3,7 +3,7 @@ author: "Communication Progress"
 description: ""
 email:
 markdown: kramdown
-permalink: /:categories/:title/
+permalink: /informacion-ligjor/:categories/:title/
 encoding: UTF-8
 social:
 title: Njoh ligjin

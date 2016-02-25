@@ -1,0 +1,9 @@
+---
+layout: default
+title: Pasuria e paluajtshme
+---
+<main id="content" class="content container" role="main">
+  {% for post in site.categories.pasuria-e-paluajtshme %}
+        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</main>
