@@ -109,6 +109,7 @@ footer {
     overflow: hidden;
     margin-bottom: 5px;
     margin-top: 5px;
+    z-index: 0;
 }
 
 .kategori-ligjore {
@@ -240,4 +241,8 @@ footer {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
+}
+
+header {
+  z-index: 1;
 }

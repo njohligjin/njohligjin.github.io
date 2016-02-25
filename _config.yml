@@ -1,26 +1,11 @@
 ---
 author: "Communication Progress"
-description: "Technology, creative coding, politics, philosophy, tech criticism, blogging."
-email: grigormalo@gmail.com
+description: ""
+email:
 markdown: kramdown
 permalink: /:categories/:title/
 encoding: UTF-8
 social:
-  -
-    icon: twitter
-    title: twitter
-    url: "https://twitter.com/grigormalo"
-  -
-    icon: github
-    title: github
-    url: "https://github.com/GrigorM"
-  -
-    icon: envelope
-    title: mail
-    url: "mailto:grigormalo@gmail.com"
-  -
-    icon: facebook
-    title: facebook
-    url: "https://facebook.com/grigor.komunisti"
 title: Njoh ligjin
 url: http://njohligjin.github.io
+# url: http://localhost:4000
