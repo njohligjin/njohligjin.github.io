@@ -285,6 +285,7 @@ function compile(data){
       initWithURL(options.json)
     }
   }
+  window.repository = repository;
 
   // for backwards compatibility
   window.SimpleJekyllSearch.init = window.SimpleJekyllSearch

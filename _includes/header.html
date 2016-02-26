@@ -28,13 +28,13 @@
             <input type="search" name="search" value="" class="form-control">
             <input type="button" name="submit" value="Kërko" class="form-control">
           </form> -->
-          <form class="site-search">
-              <input id="search-input" type="search" class="search-box form-control" placeholder="Kerko legjislacion">
-              <button type="button" name="kerko" class="buton-kerkimi btn btn-primary">Kerko</button>
+          <form class="site-search" action="/search" method="GET">
+              <input id="search-input" name="kerkimi" type="search" class="search-box form-control" placeholder="Kerko legjislacion" autocomplete="off">
+              <button type="submit" class="buton-kerkimi btn btn-primary">Kerko</button>
           </form>
-          <div id="search-results">
+          <!-- <div id="search-results">
             <ul id="results-container"></ul>
-          </div>
+          </div> -->
 
           <!-- <div id="search-results" class="search-results"></div> -->
         </div>

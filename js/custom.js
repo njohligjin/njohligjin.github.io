@@ -68,6 +68,17 @@ $(document).ready(function(){
   });
   $("#results-container").hide();
 
+  $("#search-results").css({
+    "top": function(){
+      console.log($("#search-input").offset().top + $("#search-input").css("height").substring(0, 2));
+      // var top = substring($("#search-input").offset().top, 0, $("#search-input").offset().top.length-2);
+      //top += substring($("#search-input").height(), 0, $("#search-input").height-2);
+      return $("#search-input").offset().top + +$("#search-input").css("height").substring(0, 2);
+    },
+    "left": $("#search-input").offset().left,
+    "width": 26 + +$("#search-input").width()
+  });
+
 
   $("#submit-form").click(function() {
     $.ajax({
@@ -76,7 +87,7 @@ $(document).ready(function(){
       data: $("#contact-form").serialize(),
       dataType: 'json',
       beforeSend: function() {
-        $("body").append('<div class="alert alert--loading">Sending message…</div>');        
+        $("body").append('<div class="alert alert--loading">Sending message…</div>');
       },
       success: function(data) {
         $("body").find('.alert--loading').hide();
@@ -88,5 +99,67 @@ $(document).ready(function(){
       }
     });
   });
+
+  if(window.location.href.indexOf("search") > -1){
+    var url = window.location.href;
+    var start = url.indexOf("kerkimi") + 8;
+    var q = url.substring(start, url.length);
+    $("#search-input").val(q);
+    setTimeout(function(){
+      var matches = repository.search(q);
+      for(var i=0; i<matches.length; i++){
+        $("#results").append("<p>"+matches[i].title+"</p>");
+          console.log(matches[i]);
+      }
+    }, 1000);
+  }
+
+
+  function search(crit){
+    console.log("Gotcha!");
+    if( !crit ){
+      return []
+    }
+    return findMatches(data,crit,opt.searchStrategy,opt)
+  }
+
+  function setOptions(_opt){
+    opt = _opt || {}
+
+    opt.fuzzy = _opt.fuzzy || false
+    opt.limit = _opt.limit || 10
+    opt.searchStrategy = _opt.fuzzy ? FuzzySearchStrategy : LiteralSearchStrategy
+  }
+
+  function findMatches(data,crit,strategy,opt){
+    var matches = []
+    for(var i = 0; i < data.length && matches.length < opt.limit; i++) {
+      var match = findMatchesInObject(data[i],crit,strategy,opt)
+      if( match ){
+        matches.push(match)
+      }
+    }
+    return matches
+  }
+
+  function findMatchesInObject(obj,crit,strategy,opt){
+    for(var key in obj) {
+      if( !isExcluded(obj[key], opt.exclude) && strategy.matches(obj[key], crit) ){
+        return obj
+      }
+    }
+  }
+
+  function isExcluded(term, excludedTerms){
+    var excluded = false
+    excludedTerms = excludedTerms || []
+    for (var i = 0; i<excludedTerms.length; i++) {
+      var excludedTerm = excludedTerms[i]
+      if( !excluded && new RegExp(term).test(excludedTerm) ){
+        excluded = true
+      }
+    }
+    return excluded
+  }
 
 });
