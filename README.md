@@ -1,2 +1,2 @@
-# grigorm.github.io
-Personal blog created with github pages and Jekyll.
+# njohligjin.al
+Website informativ mbi legjislacionin e Republikës së Shqipërisë

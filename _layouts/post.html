@@ -6,11 +6,20 @@
   <body>
     <div class="site-wrapper">
       {% include header.html %}
-
-      {{ content }}
+      <main id="content" class="content container" role="main">
+        <div class="controls">
+            <button type="button" name="dec" class="btn btn-default">-A</button><!--
+            --><button type="button" name="inc" class="btn btn-default">A+</button>
+        </div>
+        {{ content }}
+      </main>
 
       {% include footer.html %}
     </div>
+    <div id="search-results">
+      <ul style="" id="results-container"></ul>
+    </div>
+    {% include feedback.html %}
     {% include scripts.html %}
   </body>
 </html>

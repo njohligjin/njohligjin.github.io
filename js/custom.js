@@ -80,6 +80,7 @@ $(document).ready(function(){
   });
 
 
+  //submit i formes se kontaktit
   $("#submit-form").click(function() {
     $.ajax({
       url: 'http://formspree.io/g.malo@commprog.com',
@@ -104,6 +105,7 @@ $(document).ready(function(){
     var url = window.location.href;
     var start = url.indexOf("kerkimi") + 8;
     var q = url.substring(start, url.length);
+    q = q.replace("+", " ");
     $("#search-input").val(q);
     setTimeout(function(){
       var matches = repository.search(q);
@@ -111,55 +113,81 @@ $(document).ready(function(){
         $("#results").append("<p>"+matches[i].title+"</p>");
           console.log(matches[i]);
       }
-    }, 1000);
+    }, 200);
   }
 
-
-  function search(crit){
-    console.log("Gotcha!");
-    if( !crit ){
-      return []
+  // font-size controls
+  $(".controls button").click(function(){
+    if($(this).attr("name")=="inc"){
+      $("main.container").find("*").not(".controls, button").each(function(){
+        var fs = $(this).css("font-size");
+        fs = fs.substr(0, fs.length-2);
+        fs++;
+        $(this).css("font-size", fs+"px");
+      });
+    } else if($(this).attr("name")=="dec"){
+      $("main.container").find("*").not(".controls, button").each(function(){
+        var fs = $(this).css("font-size");
+        fs = fs.substr(0, fs.length-2);
+        fs--;
+        $(this).css("font-size", fs+"px");
+      });
     }
-    return findMatches(data,crit,opt.searchStrategy,opt)
-  }
+  });
 
-  function setOptions(_opt){
-    opt = _opt || {}
 
-    opt.fuzzy = _opt.fuzzy || false
-    opt.limit = _opt.limit || 10
-    opt.searchStrategy = _opt.fuzzy ? FuzzySearchStrategy : LiteralSearchStrategy
-  }
+  //feedback for website
+  setTimeout(function(){
+    $(".feedback-popup").css({
+      right             : "50px",
+      WebkitTransition : 'right 0.5s ease-in-out',
+      MozTransition    : 'right 0.5s ease-in-out',
+      MsTransition     : 'right 0.5s ease-in-out',
+      OTransition      : 'right 0.5s ease-in-out',
+      transition       : 'right 0.5s ease-in-out'
+    });
+    $("#feedback").removeClass("hidden");
+  }, 30000);
 
-  function findMatches(data,crit,strategy,opt){
-    var matches = []
-    for(var i = 0; i < data.length && matches.length < opt.limit; i++) {
-      var match = findMatchesInObject(data[i],crit,strategy,opt)
-      if( match ){
-        matches.push(match)
-      }
-    }
-    return matches
-  }
+  $("#later").click(function(){
+    $(".feedback-popup").css({
+      right             : "-300px",
+      WebkitTransition : 'right 0.5s ease-in-out',
+      MozTransition    : 'right 0.5s ease-in-out',
+      MsTransition     : 'right 0.5s ease-in-out',
+      OTransition      : 'right 0.5s ease-in-out',
+      transition       : 'right 0.5s ease-in-out'
+    });
+    $("#feedback").css({
+        right             : "-25px",
+        WebkitTransition : 'right 0.7s ease-in-out',
+        MozTransition    : 'right 0.7s ease-in-out',
+        MsTransition     : 'right 0.7s ease-in-out',
+        OTransition      : 'right 0.7s ease-in-out',
+        transition       : 'right 0.7s ease-in-out'
+      });
+  });
+  $("#feedback").click(function(){
+    $(".feedback-popup").css({
+      right             : "50px",
+      WebkitTransition : 'right 0.5s ease-in-out',
+      MozTransition    : 'right 0.5s ease-in-out',
+      MsTransition     : 'right 0.5s ease-in-out',
+      OTransition      : 'right 0.5s ease-in-out',
+      transition       : 'right 0.5s ease-in-out'
+    });
+    $(this).css({
+      right             : "-70px",
+      WebkitTransition : 'right 0.1s ease-in-out',
+      MozTransition    : 'right 0.1s ease-in-out',
+      MsTransition     : 'right 0.1s ease-in-out',
+      OTransition      : 'right 0.1s ease-in-out',
+      transition       : 'right 0.1s ease-in-out'
+    });
+  });
 
-  function findMatchesInObject(obj,crit,strategy,opt){
-    for(var key in obj) {
-      if( !isExcluded(obj[key], opt.exclude) && strategy.matches(obj[key], crit) ){
-        return obj
-      }
-    }
-  }
+  if(!window.location.href=="http://localhost:4000/"){
 
-  function isExcluded(term, excludedTerms){
-    var excluded = false
-    excludedTerms = excludedTerms || []
-    for (var i = 0; i<excludedTerms.length; i++) {
-      var excludedTerm = excludedTerms[i]
-      if( !excluded && new RegExp(term).test(excludedTerm) ){
-        excluded = true
-      }
-    }
-    return excluded
   }
 
 });
