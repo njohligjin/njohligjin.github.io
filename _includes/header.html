@@ -1,27 +1,9 @@
 <header class="main-header no-cover">
-
-    <nav class="navbar navbar-default">
-      <div class="navbar-header">
-        <button type="button" name="button" class="navbar-toggle collapsed"
-        data-toggle="collapse" data-target="#menu" aria-expanded="false">Menu</button>
-      </div>
-      <div class="collapse navbar-collapse" id="menu">
-        <ul class="nav navbar-nav">
-              <li><a href="/">Kreu</a></li>
-              <li><a href="/about">Rreth nesh</a></li>
-              <li><a href="/links/">Linqe</a></li>
-              <li><a href="/burime">Burime dhe dokumenta</a></li>
-              <li><a href="/informacion-ligjor">Informacion ligjor</a></li>
-              <li><a href="/kontakt/">Kontakt</a></li>
-              <li><a href="/fjalorth/">Fjalorth</a></li>
-        </ul>
-      </div>
-    </nav>
     <nav class="main-nav  clearfix"> <!-- overlay -->
         <div class="main-header-content container"> <!-- inner -->
-         <div class="col-md-4 col-lg-4">
+         <div class="col-md-4 col-lg-4" id="logodiv">
           <!-- {{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>{{/if}} -->
-          <a href="/"><img id="logo" src="/images/logo.png"></a>
+          <a href="/"><img id="logo" src="/img/logo.png"></a>
         </div>
         <div class="col-md-8 col-lg-8" id="search-container">
           <!-- <form class="forma-kerkimit form-inline" action="index.html" method="post">
@@ -29,7 +11,7 @@
             <input type="button" name="submit" value="Kërko" class="form-control">
           </form> -->
           <form class="site-search" action="/search" method="GET">
-              <input id="search-input" name="kerkimi" type="search" class="search-box form-control" placeholder="Kerko legjislacion" autocomplete="off">
+              <input id="search-input" name="kerkimi" type="search" class="search-box form-control" placeholder="Kerko informacion" autocomplete="off">
               <button type="submit" class="buton-kerkimi btn btn-primary">Kerko</button>
           </form>
           <!-- <div id="search-results">
@@ -49,8 +31,32 @@
            <h2 class="page-description">{{@blog.description}}</h2> -->
        </div>
     </nav>
-    <div class="vertical">
-
+    <div class="header-container">
+      <div class="container ">
+        <nav class="navbar navbar-default">
+          <div class="navbar-header">
+            <button type="button" name="button" class="navbar-toggle collapsed"
+            data-toggle="collapse" data-target="#menu" aria-expanded="false">Menu</button>
+          </div>
+          <div class="collapse navbar-collapse" id="menu">
+            <ul class="nav nav-justified">
+                  <li><a href="/">Kreu</a></li>
+                  <li><a href="/about/">Rreth nesh</a></li>
+                  <li><a href="/links/">Linqe</a></li>
+                  <li><a href="/burime/">Burime dhe dokumenta</a></li>
+                  <li><a href="/informacion-ligjor/">Informacion ligjor</a></li>
+                  <li><a href="/kontakt/">Kontakt</a></li>
+                  <li><a href="/fjalorth/">Fjalorth</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </div>
+    {% if page.image %}
+    <div ><!-- class="vertical" -->
+      <!-- <img width="100%" src="/img/cover1.png" alt="Njoh ligjin"> -->
+      <img width="100%" src="/img/{{ page.image }}" alt="Njoh ligjin">
+    </div>
+    {% endif %}
     <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
 </header>

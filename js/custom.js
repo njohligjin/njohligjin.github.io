@@ -1,4 +1,12 @@
 $(document).ready(function(){
+
+  var path = window.location.href; // because the 'href' property of the DOM element is the absolute path
+   $('ul.nav a').each(function() {
+    if (this.href === path) {
+     $(this).parent().addClass('active');
+    }
+  });
+
   $("#main-categories li").click(function(){
     var data = $(this).attr("data-attr");
     $("div.cat-details").hide();
@@ -139,7 +147,7 @@ $(document).ready(function(){
   //feedback for website
   setTimeout(function(){
     $(".feedback-popup").css({
-      right             : "50px",
+      right             : "10px",
       WebkitTransition : 'right 0.5s ease-in-out',
       MozTransition    : 'right 0.5s ease-in-out',
       MsTransition     : 'right 0.5s ease-in-out',
@@ -147,7 +155,7 @@ $(document).ready(function(){
       transition       : 'right 0.5s ease-in-out'
     });
     $("#feedback").removeClass("hidden");
-  }, 30000);
+  }, 1000);
 
   $("#later").click(function(){
     $(".feedback-popup").css({
@@ -169,7 +177,7 @@ $(document).ready(function(){
   });
   $("#feedback").click(function(){
     $(".feedback-popup").css({
-      right             : "50px",
+      right             : "10px",
       WebkitTransition : 'right 0.5s ease-in-out',
       MozTransition    : 'right 0.5s ease-in-out',
       MsTransition     : 'right 0.5s ease-in-out',
