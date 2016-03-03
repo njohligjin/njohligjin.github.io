@@ -337,3 +337,15 @@ background: -o-linear-gradient(left, #0A4C8A, #1a82f7);
   border-radius: 5px 0 0 5px;
   width: 45px;
 }
+
+.custom-nav-tabs li {
+  margin: 0;
+  width: 100%;
+}
+.custom-nav-tabs li.active a{
+  color: #fff;
+}
+.custom-nav-tabs li.active a:focus{
+  background-color: #5588BA;
+  color: #fff;
+}

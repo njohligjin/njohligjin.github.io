@@ -155,7 +155,7 @@ $(document).ready(function(){
       transition       : 'right 0.5s ease-in-out'
     });
     $("#feedback").removeClass("hidden");
-  }, 1000);
+  }, 30000);
 
   $("#later").click(function(){
     $(".feedback-popup").css({
