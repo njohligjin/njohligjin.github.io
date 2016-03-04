@@ -7,18 +7,28 @@ title: "E drejta për informim"
 excerpt: ""
 lang: sq
 ---
-<div class="col-lg-3">
-<ul class="nav nav-tabs custom-nav-tabs" role="tablist">
-  <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Ku mund të marrim informacion?</a></li>
-  <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Rregullat për marrjen informacion nga individët</a></li>
-  <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Informacioni që duhet bërë publik edhe pa kërkesë nga individi</a></li>
-  <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Kur mund të kufizohet e drejta për informim?</a></li>
-</ul>
-</div>
+<script>
+var data = { topics: [
+  {
+    title: "Ku mund të marrim informacion?",
+    text: function(){ return $("#part1").html(); }
+  },
+  {
+    title: "Rregullat për marrjen informacion nga individët",
+    text: function(){ return $("#part2").html(); }
+  },
+  {
+    title: "Informacioni që duhet bërë publik edhe pa kërkesë nga individi",
+    text: function(){ return $("#part3").html(); }
+  },
+  {
+    title: "Kur mund të kufizohet e drejta për informim?",
+    text: function(){ return $("#part4").html(); }
+  }
+]};
+</script>
 
-<div class="tab-content col-lg-9">
-
-  <div role="tabpanel" class="tab-pane fade in active" id="home">
+  <div id="part1" class="hidden">
     <h3>Ku ka të drejtë të marrë informacion çdo person?</h3>
     Çdo person gëzon të drejtën për të marrë informacion, nga:
     <ul>
@@ -36,7 +46,7 @@ lang: sq
     </ul>  
   </div>
 
-  <div role="tabpanel" class="tab-pane fade" id="profile">
+  <div id="part2" class="hidden">
     <h3>Cilat janë rregullat për marrjen e informacionit nga individët?</h3>
     <ul>
       <li>Çdo person ka të drejtë të njihet me informacionin publik, pa u detyruar të shpjegojë arsyet apo motivet.</li>
@@ -46,7 +56,7 @@ lang: sq
     </ul>  
   </div>
 
-  <div role="tabpanel" class="tab-pane fade" id="messages">
+  <div id="part3" class="hidden">
     <h3>Cilat informacione duhet të bëhen publike pa kërkesën e individëve?</h3>
     Çdo  individ ka të drejtë të gjejë informacion, në formate të kuptueshme dhe të aksesueshme lehtësisht në faqet e internetit të autoriteteve publike, për kategoritë e mëposhtme të informacionit:
     <ul>
@@ -66,7 +76,7 @@ lang: sq
     </ul>  
   </div>
 
-  <div role="tabpanel" class="tab-pane fade" id="settings">
+  <div id="part4" class="hidden">
     <h3>Kur mund të kufizohet e drejta për informim?</h3>
     E drejta për informim mund të kufizohet, nëse ky kufizim është i domosdoshëm, proporcional dhe mbron interesa të rëndësishëm, si:
     <ul>
@@ -88,4 +98,4 @@ lang: sq
     </ul>  
   </div>
 
-</div>
+<div class="post-content"></div>

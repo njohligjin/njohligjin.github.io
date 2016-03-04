@@ -15,7 +15,8 @@ $(document).ready(function(){
   // var tile = $(".kategori-ligjore").width();
 
   //merr second child sepse i pari eshte col-md-6
-  var tile = $(".kategori-container:nth-child(2)").width();
+  // var tile = $(".kategori-container:nth-child(2)").width();
+  var tile = $(".kategori-container#ref").width();
   $(".kategori-container").height(tile);
   $(".kategori-ligjore").height(tile);
 

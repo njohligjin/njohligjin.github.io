@@ -7,22 +7,44 @@ title: "Martesa"
 excerpt: ""
 lang: sq
 ---
-<div class="col-lg-3">
-<ul class="nav nav-tabs custom-nav-tabs" role="tablist">
-  <li role="presentation" class="active"><a href="#1" aria-controls="home" role="tab" data-toggle="tab">Kushtet për lidhjen e martesës</a></li>
-  <li role="presentation"><a href="#2" aria-controls="profile" role="tab" data-toggle="tab">Pengesat ligjore për lidhjen e martesës</a></li>
-  <li role="presentation"><a href="#3" aria-controls="messages" role="tab" data-toggle="tab">Veprimet e nevojshme për lidhjen e martesës</a></li>
-  <li role="presentation"><a href="#4" aria-controls="settings" role="tab" data-toggle="tab">Pavlefshmëria e martesës</a></li>
-  <li role="presentation"><a href="#5" aria-controls="settings" role="tab" data-toggle="tab">Të drejtat dhe detyrimet në martesë</a></li>
-  <li role="presentation"><a href="#6" aria-controls="settings" role="tab" data-toggle="tab">Marrëdhënia pasurore mes bashkëshortëve</a></li>    
-  <li role="presentation"><a href="#7" aria-controls="settings" role="tab" data-toggle="tab">Zgjidhja e martesës</a></li>
-  <li role="presentation"><a href="#8" aria-controls="settings" role="tab" data-toggle="tab">Pasojat e zgjidhjes së martesës</a></li>
-</ul>
-</div>
+<script>
+var data = { topics: [
+  {
+    title: "Kushtet për lidhjen e martesës",
+    text: function(){ return $("#part1").html(); }
+  },
+  {
+    title: "Pengesat ligjore për lidhjen e martesës",
+    text: function(){ return $("#part2").html(); }
+  },
+  {
+    title: "Veprimet e nevojshme për lidhjen e martesës",
+    text: function(){ return $("#part3").html(); }
+  },
+  {
+    title: "Pavlefshmëria e martesës",
+    text: function(){ return $("#part4").html(); }
+  },
+  {
+    title: "Të drejtat dhe detyrimet në martesë",
+    text: function(){ return $("#part5").html(); }
+  },
+  {
+    title: "Marrëdhënia pasurore mes bashkëshortëve",
+    text: function(){ return $("#part6").html(); }
+  },
+  {
+    title: "Zgjidhja e martesës",
+    text: function(){ return $("#part7").html(); }
+  },
+  {
+    title: "Pasojat e zgjidhjes së martesës",
+    text: function(){ return $("#part8").html(); }
+  }
+]};
+</script>
 
-<div class="tab-content col-lg-9">
-
-  <div role="tabpanel" class="tab-pane fade in active" id="1">
+  <div id="part1" class="hidden">
   <h3>Çfarë është martesa?</h3>
   Martesa është bashkëjetesa ligjore, e cila mbështetet në barazinë morale dhe juridike të bashkëshortëve, në ndjenjën e dashurisë, respektit dhe mirëkuptimit reciprok, si baza të unitetit në familje.
   <h3>Cilat janë kushtet për lidhjen e martesës?</h3>
@@ -30,7 +52,7 @@ lang: sq
   Përjashtimi: Gjykata për shkaqe me rëndësi, mund të lejojë martesën përpara arritjes së kësaj moshe. Kërkesa për autorizimin e lidhjes së martesës, bëhet nga vetë i mituri. Konstatohet se “shkaqet me rëndësi”, më të ndeshura në praktikën gjyqësore, në bazë të të cilave, i mituri pretendon lidhjen e martesës përpara moshës së lejuar nga ligji janë: shtatzënia, lindja e një fëmije, bashkëjetesa. I mituri që kërkon autorizimin e lidhjes së martesës duhet të provojë ekzistencën e një shkaku me rëndësi që përligj lidhjen e martesës, ashtu dhe ekzistencën e një pjekurie fizike e psikike, të domosdoshme për të kuptuar rëndësinë e martesës dhe për të përmbushur detyrimet që rrjedhin prej saj.  
   </div>
 
-  <div role="tabpanel" class="tab-pane fade" id="2">
+  <div id="part2" class="hidden">
   <h3>Cilat janë pengesat ligjore për lidhjen e martesës?</h3>
   Konsiderohen pengesa ligjore për lidhjen e martesës, ekzistenca e rrethanave të mëposhtme, të cilat pengojnë lidhjen e martesës. Martesa e lidhur në këto kushte, konsiderohet e pavlefshme.
 
@@ -45,7 +67,7 @@ lang: sq
   </ul>
   </div>
 
-  <div role="tabpanel" class="tab-pane fade" id="3">
+  <div id="part3" class="hidden">
   <h3>Cilat janë veprimet që duhen kryer për lidhjen e martesës?</h3>
   Përpara lidhjes së martesës, bashkëshortët e ardhshëm bëjnë kërkesën për shpalljen e martesës në bashkinë ose komunën ku ata kanë vendbanimin. Shpallja afishohet në vendet e caktuara nga bashkia apo komuna, ku tregohet: (i) identiteti i bashkëshortëve të ardhshëm, (ii) profesioni, (iii) vendbanimi dhe vendqëndrimi, si dhe (iv) vendi ku do të lidhet martesa. Martesa nuk mund të lidhet pa kaluar 10 ditë nga e nesërmja e shpalljes.
 
@@ -77,7 +99,7 @@ lang: sq
   Akti i martesës pasqyrohet në Regjistrin Kombëtar të Gjendjes Civile. Nëpunësi i gjendjes civile, që mban aktin e martesës, bën përditësimin e të dhënave për bashkëshortët e ardhshëm, në faqen përkatëse.
   </div>
 
-  <div role="tabpanel" class="tab-pane fade" id="4">
+  <div id="part4" class="hidden">
   <h3>Kur është e pavlefshme martesa?</h3>
   <ul>
   <li>Kur mungon shfaqja e vullnetit  për të lidhur martesë.</li>
@@ -102,7 +124,7 @@ lang: sq
   Kërkesa për pavlefshmërinë e martesës, paraqitet në gjykatën e rrethit gjyqësor, ku bashkëshortët kanë vendbanimin.
   </div>
 
-  <div role="tabpanel" class="tab-pane fade" id="5">
+  <div id="part5" class="hidden">
   <h3>Cilat janë të drejtat dhe detyrimet që lindin nga martesa?</h3>
   <ul>
   <li>Ruajtja e besnikërisë bashkëshortore</li>
@@ -126,7 +148,7 @@ lang: sq
   </ul>
   </div>
 
-  <div role="tabpanel" class="tab-pane fade" id="6">
+  <div id="part6" class="hidden">
   <h3>Si rregullohet marrëdhënia pasurore midis bashkëshortëve?</h3>
   Marrëdhënia pasurore midis bashkëshortëve rregullohet me ligj në formën e bashkësisë ligjore. Por, marrëdhënia pasurore midis bashkëshortëve mund të rregullohet gjithashtu me anë të një marrëveshjeje të veçantë noteriale (kontrata martesore), ku bashkëshortët rregullojnë marrëdhënien pasurore sipas dëshirës, për aq kohë sa nuk bie në kundërshtim me dispozitat e Kodit të Familjes dhe legjislacionin përkatës.
   <h3>Kontrata martesore</h3>
@@ -169,7 +191,7 @@ lang: sq
   Gjykimi për pjesëtimin e sendeve në bashkëpronësi, në fazën e parë të tij, ka për qëllim të hetojë e të përcaktojë të drejtën e bashkëpronësisë së bashkëshortëve, pjesët takuese të tyre, si dhe sendet që do të pjesëtohen. Në fazën e dytë bëhet ndarja faktike e sendeve në bashkëpronësi sipas pjesës takuese të secilit bashkëshort, që në këtë rast është 50% për secilin prej tyre, pasi prezumohet se kontributi i tyre në bashkësinë ligjore ka qenë i barabartë.  
   </div>
 
-  <div role="tabpanel" class="tab-pane fade" id="7">
+  <div id="part7" class="hidden">
   <h3>Kur mbaron martesa?</h3>
     Martesa mbaron me:
     <ul>
@@ -191,7 +213,7 @@ lang: sq
   </ul>
   </div>
 
-  <div role="tabpanel" class="tab-pane fade" id="8">
+  <div id="part8" class="hidden">
   <h3>Cilat janë pasojat e zgjidhjes së martesës për bashkëshortët?</h3>
   Bashkëshorti që me lidhjen e martesës ka ndryshuar mbiemrin e tij, pas zgjidhjes së saj, merr mbiemrin që ka pasur më parë. Gjykata, me kërkesën e bashkëshortit dhe kur është në interes të tij ose të fëmijëve, mund të lejojë që ai të mbajë mbiemrin që ka marrë me lidhjen e martesës.
 
@@ -213,5 +235,4 @@ lang: sq
 
   Çdonjëri prej ish-bashkëshortëve është i detyruar t’i japë tjetrit të dhëna të sakta për pasurinë dhe të ardhurat e tij, kur ato janë të nevojshme për të caktuar detyrimin për ushqim. Me kërkesën e njërit prej ish-bashkëshortëve, punëdhënësi, organet financiare përkatëse, zyrat e tatimeve dhe çdo organ tjetër ku mund të merren prova, janë të detyruar të japin gjithë informacionin e nevojshëm për gjendjen pasurore të ish-bashkëshortit tjetër dhe për të gjitha të ardhurat e tjera të tij.
   </div>
-
-</div>
+<div class="post-content"></div>

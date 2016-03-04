@@ -511,7 +511,7 @@ body.nav-opened .site-wrapper {
     text-align: center;
     background: #222 no-repeat center center;
     background-size: cover;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
 .main-header .inner {

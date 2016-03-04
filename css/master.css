@@ -251,7 +251,7 @@ hr.underline{
 .page-parts-images .round:hover{
   background-color: #337AB7;
   color: #fff;
-  /*cursor: pointer;*/
+  cursor: pointer;
 }
 
 .homepage-info {
@@ -292,6 +292,14 @@ background: -o-linear-gradient(left, #0A4C8A, #1a82f7);
 }
 .nav > li.active > a {
   background-color: #5588BA;
+}
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover, .dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+  background-color: #5588BA;
+  color: #fff;
+}
+.dropdown-menu {
+  background-color: #337AB7;
+  width:100%;
 }
 
 #logo {

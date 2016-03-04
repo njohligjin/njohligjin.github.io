@@ -7,19 +7,33 @@ title: "Amësia dhe Atësia"
 excerpt: ""
 lang: sq
 ---
-<div class="col-lg-3">
-  <ul class="nav nav-tabs custom-nav-tabs" role="tablist">
-    <li role="presentation" class="active"><a href="#1" aria-controls="settings" role="tab" data-toggle="tab">Si vërtetohet amësia dhe atësia?</a></li>
-    <li role="presentation"><a href="#2" aria-controls="settings" role="tab" data-toggle="tab">Akti i lindjes</a></li>    
-    <li role="presentation"><a href="#3" aria-controls="settings" role="tab" data-toggle="tab">Ndryshimi i aktit të lindjes</a></li>
-    <li role="presentation"><a href="#4" aria-controls="settings" role="tab" data-toggle="tab">Pavlefshmëria e aktit të lindjes</a></li>
-    <li role="presentation"><a href="#5" aria-controls="settings" role="tab" data-toggle="tab">Vërtetimi i aktit të lindjes</a></li>  
-  </ul>
-</div>
+<script>
+var data = { topics: [
+  {
+    title: "Si vërtetohet amësia dhe atësia?",
+    text: function(){ return $("#part1").html(); }
+  },
+  {
+    title: "Akti i lindjes",
+    text: function(){ return $("#part2").html(); }
+  },
+  {
+    title: "Ndryshimi i aktit të lindjes",
+    text: function(){ return $("#part3").html(); }
+  },
+  {
+    title: "Pavlefshmëria e aktit të lindjes",
+    text: function(){ return $("#part4").html(); }
+  },
+  {
+    title: "Vërtetimi i aktit të lindjes",
+    text: function(){ return $("#part5").html(); }
+  }
+]};
+</script>
 
-<div class="tab-content col-lg-9">
 
-  <div role="tabpanel" class="tab-pane fade in active" id="1">
+  <div id="part1" class="hidden">
   <h3>Çfarë do të kuptojmë me “atësi” dhe “amësi”?</h3>
   Njëra prej marrëdhënieve juridike familjare që rregullohet nga Kodi i Familjes, është marrëdhënia që krijohet nëpërmjet fëmijës dhe secilit prej prindërve të tij.
 
@@ -29,7 +43,7 @@ lang: sq
   Amësia dhe atësia e fëmijës së lindur nga martesa provohen nga akti i lindjes, i regjistruar në Regjistrin e Gjendjes Civile. Në mungesë të aktit të lindjes ose në qoftë se fëmija është regjistruar me emër të rremë, ose pa treguar emrin e nënës dhe të atit, amësia dhe atësia mund të vërtetohen me vendim gjyqësor. Vendimi i gjykatës që përcakton amësinë ose atësinë, ka efekt që nga lindja e fëmijës. Nuk mund të ngrihet padi për vërtetimin e amësisë ose atësisë për një fëmijë që nuk ka lindur i gjallë.
   </div>
 
-  <div role="tabpanel" class="tab-pane fade" id="2">
+  <div id="part2" class="hidden">
   <h3>Çfarë është akti i lindjes?</h3>
   Akti i lindjes vërteton ligjërisht lindjen e shtetasit. Akti i lindjes është procesverbali, që mbahet për çdo të lindur, i nënshkruar nga nëpunësi i gjendjes civile dhe deklaruesi.
   <h3>Çfarë përmban akti i lindjes?</h3>
@@ -50,7 +64,7 @@ lang: sq
   </ul>
   </div>
 
-  <div role="tabpanel" class="tab-pane fade" id="3">
+  <div id="part3" class="hidden">
   <h3>Çfarë mund të ndryshohet në aktin e lindjes dhe kush mund ta bëjë këtë ndryshim?</h3>
   Përmbajtja e aktit të lindjes, e pasqyruar në Regjistrin Kombëtar të Gjendjes Civile mund të ndryshohet për emrin, mbiemrin dhe shtetësinë e përkohshme:
   <ul>
@@ -60,14 +74,14 @@ lang: sq
   </ul>
   </div>
 
-  <div role="tabpanel" class="tab-pane fade" id="4">
+  <div id="part4" class="hidden">
   <h3>Kur konsiderohet i pavlefshëm akti i lindjes?</h3>
   Akti i lindjes është absolutisht i pavlefshëm (nuk sjell pasoja juridike) kur nuk është mbajtur nga nëpunësi i shërbimit të gjendjes civile, ose kur nuk është nënshkruar qoftë edhe nga njëri prej personave të parashikuar nga ligji, pra nëpunësi i gjendjes civile dhe deklaruesi. Në raste të tjera, akti i lindjes është relativisht i pavlefshëm (sjell pasoja juridike për sa kohë nuk shpallet nga gjykata si absolutisht i pavlefshëm).
   </div>
 
-  <div role="tabpanel" class="tab-pane fade" id="5">
+  <div id="part5" class="hidden">
   <h3>Si vërtetohet përmbajtja e aktit të lindjes?</h3>
   Lindja si fakt, koha, vendi, gjinia dhe amësia vërtetohen me certifikatën e asistencës së lindjes, me raport mjekësor ose procesverbal, të hartuar në kohën e lindjes, i cili vërtetohet nga personeli mjekësor i pranishëm ose në mungesë të tyre nga persona të tjerë të autorizuar nga ligji. Këto dokumente shërbejnë për plotësimin e aktit të lindjes. Në mungesë të dokumentacionit të përmendur më lart, vërtetimi i faktit të lindjes mund të provohet edhe nëpërmjet gjykatës.
   </div>
 
-</div>
+  <div class="post-content"></div>
