@@ -24,6 +24,8 @@ $(document).ready(function(){
     $(this).height($(this).parent().height()-20);
   })
 
+  $(".page-parts-images").height($(".page-parts-images").width());
+
   $(".kategori-container").hover(
     function () {
        $(this).find(".kategori-details").animate({
@@ -194,8 +196,15 @@ $(document).ready(function(){
     });
   });
 
-  if(!window.location.href=="http://localhost:4000/"){
-
+  if($(".custom-nav-tabs li").html()!=undefined){
+    if(window.location.href.indexOf("#")!=-1){
+      var index = window.location.href.substring(window.location.href.indexOf("#")+1, window.location.href.length);
+      $(".custom-nav-tabs li:eq("+index+")").addClass("active");
+      $("#"+index+"").addClass("active in");
+    } else {
+      $(".custom-nav-tabs li:first-child").addClass("active");
+      $("#0").addClass("active in");
+    }
   }
 
 });

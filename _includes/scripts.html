@@ -16,3 +16,11 @@
     fuzzy: false,
   });
 </script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+<script type="text/javascript">
+  if($("#post-template").html() != undefined ){
+    var source   = $("#post-template").html();
+    var template = Handlebars.compile(source);
+    $(".post-content").html(template(data));
+  }
+</script>

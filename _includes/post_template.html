@@ -1,0 +1,19 @@
+<script id="post-template" type="text/x-handlebars-template">
+  {% raw %}
+  <div class="col-lg-3">
+    <ul class="nav nav-tabs custom-nav-tabs" role="tablist">
+      {{#topics}}
+      <li role="presentation">
+        <a href="#{{@index}}" aria-controls="settings" role="tab" data-toggle="tab">{{title}}</a>
+      </li>
+      {{/topics}}
+    </ul>
+  </div>
+  <div class="tab-content col-lg-9">
+    {{#topics}}
+      <div role="tabpanel" class="tab-pane fade" id="{{@index}}">
+        {{{text}}}
+      </div>
+    {{/topics}}
+  {% endraw %}
+</script>

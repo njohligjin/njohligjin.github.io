@@ -213,6 +213,47 @@ footer {
   color: #fff;
 }
 
+
+hr.underline{
+  width: 33%;
+  margin: 0px 33%;
+  border: 1px solid #B0C9D8;
+}
+.page-parts-images{
+  margin-top: 10px;
+  /* Firefox */
+  display:-moz-box;
+  -moz-box-pack:start;
+  -moz-box-align:center;
+
+  /* Safari, Opera, and Chrome */
+  display:-webkit-box;
+  -webkit-box-pack:start;
+  -webkit-box-align:center;
+
+  /* Internet Explorer 10 */
+  display:-ms-flexbox;
+  -ms-flex-pack:center;
+  -ms-flex-align:center;
+
+  /* W3C */
+  display:box;
+  box-pack:start;
+  box-align:center;
+}
+.page-parts-images .round {
+  margin: auto;
+  font-size: 33px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  padding: 0px 17px;
+}
+.page-parts-images .round:hover{
+  background-color: #337AB7;
+  color: #fff;
+  /*cursor: pointer;*/
+}
+
 .homepage-info {
   padding: 0!important;
   margin: 10px 0;
@@ -338,6 +379,9 @@ background: -o-linear-gradient(left, #0A4C8A, #1a82f7);
   width: 45px;
 }
 
+.custom-nav-tabs{
+    margin-top: 20px;
+}
 .custom-nav-tabs li {
   margin: 0;
   width: 100%;
@@ -345,7 +389,10 @@ background: -o-linear-gradient(left, #0A4C8A, #1a82f7);
 .custom-nav-tabs li.active a{
   color: #fff;
 }
-.custom-nav-tabs li.active a:focus{
+.custom-nav-tabs li.active a:focus, .custom-nav-tabs li.active a:hover{
   background-color: #5588BA;
   color: #fff;
+}
+.custom-nav-tabs li a:hover{
+  background-color: #E7ECF3;
 }
