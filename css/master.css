@@ -404,3 +404,8 @@ background: -o-linear-gradient(left, #0A4C8A, #1a82f7);
 .custom-nav-tabs li a:hover{
   background-color: #E7ECF3;
 }
+
+.kat-title{
+  color: #003376;
+  text-align: left;
+}

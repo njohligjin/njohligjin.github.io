@@ -1,5 +1,5 @@
 ---
-category: pasuria-e-paluatjshme
+category: pasuria-e-paluajtshme
 description: ""
 img: phones.png
 layout: post
