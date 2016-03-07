@@ -39,9 +39,22 @@ $(document).ready(function(){
       $(this).find(".kategori-details").css("background-color", nuance);
   });
 
-  if($(document).width()>1200){
-
-  }
+  // if($(document).width()>1200 && path=="http://localhost:4000/"){
+  //   $(".kategori-details#puna").append("<div class='col-lg-6' id='col1'></div><div class='col-lg-6' id='col2'></div>");
+  //   $("#lista-punes").children("li").each(function(i){
+  //      if(i<5){
+  //
+  //     } else {
+  //       $("#kolona2").append("<li>"+$(this).html()+"</li>");
+  //       $(this).remove();
+  //     }
+  //   });
+  //   $("#col1").append("<ul></ul>");
+  //   $("#col2").append("<ul></ul>");
+  //   $("#col1 ul").append($("#lista-punes").html());
+  //   $("#col2 ul").append($("#kolona2").html());
+  //   $(".kategori-details#puna>ul").remove();
+  // }
 
   $(".page-parts-images").height($(".page-parts-images").width());
 

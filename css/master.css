@@ -197,9 +197,11 @@ footer {
   padding-left: 0;
   margin: auto;
 }
+.kategori-details ul li a{
+  color: #fff;
+}
 .kategori-details ul li:first-child a{
-  font-size: 15px;
-  font-weight: bold;
+  font-size: 15pt;
 }
 .kategori-details ul a{
   color: #ccc;
