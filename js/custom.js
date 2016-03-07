@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+  var pallete = ["#2D4D86", "#006496", "#4A78A9", "#6884B3", "#337AB7"];
+
   var path = window.location.href; // because the 'href' property of the DOM element is the absolute path
    $('ul.nav a').each(function() {
     if (this.href === path) {
@@ -30,8 +32,15 @@ $(document).ready(function(){
     $(this).height($(this).parent().height()-20);
   });
 
+  $(".kategori-ligjore").each(function(){
+      var nuance = pallete[Math.floor(Math.random()*5)];
+      // alert(nuance);
+      $(this).css("background-color", nuance);
+      $(this).find(".kategori-details").css("background-color", nuance);
+  });
+
   if($(document).width()>1200){
-      
+
   }
 
   $(".page-parts-images").height($(".page-parts-images").width());
