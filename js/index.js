@@ -11,11 +11,11 @@
     $document.ready(function () {
 
         var $postContent = $(".post-content");
-        $postContent.fitVids();
+        //$postContent.fitVids();
 
-        $("#search").ghostHunter({
-            results: "#search-results"
-        });
+        // $("#search").ghostHunter({
+        //     results: "#search-results"
+        // });
 
         $(".scroll-down").arctic_scroll();
 
