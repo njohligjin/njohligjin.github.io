@@ -18,28 +18,24 @@ var data = { topics: [
     text: function(){ return $("#part2").html(); }
   },
   {
-    title: "Si mund të dërgohet kërkesa?",
+    title: "Si duhet të veprojë autoriteti publik?",
     text: function(){ return $("#part3").html(); }
   },
   {
-    title: "Si duhet të veprojë autoriteti publik?",
+    title: "Pagesat",
     text: function(){ return $("#part4").html(); }
   },
   {
-    title: "Pagesat",
+    title: "Afati për marrjen e informacionit",
     text: function(){ return $("#part5").html(); }
   },
   {
-    title: "Afati për marrjen e informacionit",
+    title: "Mosdhënia e informacionit",
     text: function(){ return $("#part6").html(); }
   },
   {
-    title: "Mosdhënia e informacionit",
-    text: function(){ return $("#part7").html(); }
-  },
-  {
     title: "Shkelja e të drejtës për të marrë informacion",
-    text: function(){ return $("#part8").html(); }
+    text: function(){ return $("#part7").html(); }
   }
 ]};
 </script>
@@ -108,10 +104,11 @@ var data = { topics: [
     </ul>
     <h3>Ku mund të ankimohet vendimi i Komisionerit?</h3>
     Vendimi i Komisionerit ankimohet në Gjykatën Administrative.    
+    <h3>Si duhet të veprojë individi nëse nga mohimi i të drejtës për informim i shkaktohet një dëm?</h3>
+    Çdo person që ka pësuar një dëm nga mohimi i të drejtës për informim ka të drejtë të kërkojë shpërblimin e dëmit në gjykatë.    
     </div>
   <div id="part8" class="hidden">
-    <h3>Si duhet të veprojë individi nëse nga mohimi i të drejtës për informim i shkaktohet një dëm?</h3>
-    Çdo person që ka pësuar një dëm nga mohimi i të drejtës për informim ka të drejtë të kërkojë shpërblimin e dëmit në gjykatë.
+
   </div>
 
 <div class="post-content"></div>
