@@ -31,49 +31,62 @@
            <h2 class="page-description">{{@blog.description}}</h2> -->
        </div>
     </nav>
-    <div class="header-container">
-      <div class="container ">
-        <nav class="navbar navbar-default">
-          <div class="navbar-header">
-            <button type="button" name="button" class="navbar-toggle collapsed"
-            data-toggle="collapse" data-target="#menu" aria-expanded="false">Menu</button>
-          </div>
-          <div class="collapse navbar-collapse" id="menu">
-            <ul class="nav nav-justified">
-                  <li><a href="/">Kreu</a></li>
-                  <li><a href="/about/">Rreth nesh</a></li>
-                  <li><a href="/links/">Lidhje</a></li>
-                  <li><a href="/burime/">Burime dhe dokumente</a></li>
-                  <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                    Informacion ligjor <span class="caret"></span></a>
-                      <ul class="dropdown-menu">
-                        <li><a href="/puna">Puna</a></li>
-                        <li><a href="/sigurimet-shoqerore">Sigurimet shoqërore</a></li>
-                        <li><a href="/kodi-rrugor">Kodi rrugor</a></li>
-                        <li><a href="/mjedisi">Mjedisi</a></li>
-                        <li><a href="/ankimi-administrativ">Ankimi administrativ</a></li>
-                        <li><a href="/informimi-publik">Informimi publik</a></li>
-                        <li><a href="/familja">Familja</a></li>
-                        <li><a href="/ndihma-juridike">Ndihma juridike</a></li>
-                        <li><a href="/konsumatori">Konsumatori</a></li>
-                        <li><a href="/pasuria-e-paluajtshme">Pasuria e paluajtshme</a></li>
-                        <li><a href="/bashkepronesia-ne-ndertesa" style="white-space: unset;">Bashkëpronësia në ndërtesat e banimit</a></li>
-                        <li><a href="/tatimet-dhe-taksat">Tatimet dhe taksat</a></li>
-                        <li><a href="/procesi-gjyqesor-civil">Procesi gjyqësor civil</a></li>
-                      </ul>
-                  </li>
-                  <li><a href="/kontakt/">Kontakt</a></li>
-                  <li><a href="/fjalorth/">Fjalorth</a></li>
-            </ul>
-          </div>
-        </nav>
+    <div
+    {% if page.image %}
+     style="background-image: url('/img/{{ page.image }}'); background-position: center top; background-size: 101% 100%; height: 200px;"
+    {% endif %} >
+      <div class="menu-container">
+        <div class="container ">
+          <nav class="navbar navbar-default">
+            <div class="navbar-header">
+              <button type="button" name="button" class="navbar-toggle collapsed"
+              data-toggle="collapse" data-target="#menu" aria-expanded="false">Menu</button>
+            </div>
+            <div class="collapse navbar-collapse" id="menu">
+              <ul class="nav nav-justified">
+                    <li><a href="/">Kreu</a></li>
+                    <li><a href="/about/">Rreth nesh</a></li>
+                    <li><a href="/links/">Lidhje</a></li>
+                    <li><a href="/burime/">Burime dhe dokumente</a></li>
+                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                      Informacion ligjor <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="/puna">Puna</a></li>
+                          <li><a href="/sigurimet-shoqerore">Sigurimet shoqërore</a></li>
+                          <li><a href="/kodi-rrugor">Kodi rrugor</a></li>
+                          <li><a href="/mjedisi">Mjedisi</a></li>
+                          <li><a href="/ankimi-administrativ">Ankimi administrativ</a></li>
+                          <li><a href="/informimi-publik">Informimi publik</a></li>
+                          <li><a href="/familja">Familja</a></li>
+                          <li><a href="/ndihma-juridike">Ndihma juridike</a></li>
+                          <li><a href="/konsumatori">Konsumatori</a></li>
+                          <li><a href="/pasuria-e-paluajtshme">Pasuria e paluajtshme</a></li>
+                          <li><a href="/bashkepronesia-ne-ndertesa" style="white-space: unset;">Bashkëpronësia në ndërtesat e banimit</a></li>
+                          <li><a href="/tatimet-dhe-taksat">Tatimet dhe taksat</a></li>
+                          <li><a href="/procesi-gjyqesor-civil">Procesi gjyqësor civil</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/kontakt/">Kontakt</a></li>
+                    <li><a href="/fjalorth/">Fjalorth</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
       </div>
     </div>
     {% if page.image %}
-    <div ><!-- class="vertical" -->
+    <!-- <div ><!-- class="vertical" -->
       <!-- <img width="100%" src="/img/cover1.png" alt="Njoh ligjin"> -->
+      <!-- <div class="" style="background: url(/img/{{ page.image }}); height: 200px;">
+
+      </div> -->
+      <!-- <img width="100%" src="/img/{{ page.image }}" alt="Njoh ligjin"> -->
+    <!-- </div> -->
+    {% endif %}
+    <!-- {% if page.image %}
+    <div >
       <img width="100%" src="/img/{{ page.image }}" alt="Njoh ligjin">
     </div>
-    {% endif %}
+    {% endif %} -->
     <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
 </header>

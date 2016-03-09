@@ -262,18 +262,21 @@ hr.underline{
 }
 
 .header-container{
-  /*background-color: rgb(51, 122, 183);*/
-/* Safari 4-5, Chrome 1-9 */
-background: -webkit-gradient(linear, left top, right top, from(#1a82f7), to(#0A4C8A));
-/* Safari 5.1, Chrome 10+ */
-background: -webkit-linear-gradient(left, #0A4C8A, #1a82f7);
-/* Firefox 3.6+ */
-background: -moz-linear-gradient(left, #0A4C8A, #1a82f7);
-/* IE 10 */
-background: -ms-linear-gradient(left, #0A4C8A, #1a82f7);
-/* Opera 11.10+ */
-background: -o-linear-gradient(left, #0A4C8A, #1a82f7);
 
+}
+.menu-container {
+  /*background-color: rgb(51, 122, 183);*/
+  /* left, #0A4C8A, #1a82f7 ngjyrat e meparshme */
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, left top, right top, from(rgba(26, 130, 247, 0.8)), to(rgba(10, 76, 138, 0.8)));
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(left, rgba(10, 76, 138, 0.8), rgba(26, 130, 247, 0.8));
+  /* Firefox 3.6+ */
+  background: transparent -moz-linear-gradient(left center , rgba(10, 76, 138, 0.8), rgba(26, 130, 247, 0.8)) repeat scroll 0% 0%;
+  /* IE 10 */
+  background: -ms-linear-gradient(left, rgba(10, 76, 138, 0.8), rgba(26, 130, 247, 0.8));
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(left,rgba(10, 76, 138, 0.8), rgba(26, 130, 247, 0.8));
 }
 
 .navbar {
