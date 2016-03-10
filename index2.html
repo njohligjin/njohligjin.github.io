@@ -14,7 +14,7 @@ image: cover2.png
       <div class="kategori-details" id="puna">
         <ul>
           <li><a href="/puna/">Puna</a></li>
-          {% for post in site.categories.puna %}
+          {% for post in site.categories.puna reversed %}
             <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
           {% endfor %}
           <!-- <li><a href="/puna/kontrata-e-punes">Kontrata e punës</a></li>
@@ -29,26 +29,6 @@ image: cover2.png
       </div>
     </div>
   </div>
-  <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12 kategori-container" id="ref">
-    <div class="kategori-ligjore">
-        <div class="kategori-ligjore-titull">
-          <i class="fa fa-shield"></i><br>
-          SIGURIMET SHOQËRORE
-        </div>
-        <div class="kategori-details">
-          <ul>
-            <li><a href="/sigurimet-shoqerore/">Sigurimet shoqërore</a></li>
-            {% for post in site.categories.sigurimet-shoqerore %}
-              <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-            {% endfor %}
-            <!-- <li><a href="/sigurimet-shoqerore/sigurimi-shoqeror-i-detyrueshem">Sigurimi shoqëror i detyrueshëm</a></li>
-            <li><a href="/sigurimet-shoqerore/kontributi">Kontributi</a></li>
-            <li><a href="/sigurimet-shoqerore/te-ardhurat-nga-sigurimet-shoqerore">Të ardhurat nga sigurimet shoqërore</a></li>
-            <li><a href="/sigurimet-shoqerore/pensionet">Pensionet</a></li> -->
-          </ul>
-        </div>
-    </div>
-  </div>
   <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12 kategori-container">
     <div class="kategori-ligjore">
       <div class="kategori-ligjore-titull">
@@ -58,7 +38,7 @@ image: cover2.png
       <div class="kategori-details">
         <ul>
           <li><a href="/kodi-rrugor/">Kodi rrugor</li>
-            {% for post in site.categories.kodi-rrugor %}
+            {% for post in site.categories.kodi-rrugor reversed %}
               <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
             {% endfor %}
           <!-- <li><a href="/kodi-rrugor/si-veprohet-ne-rruge">Si veprohet në rrugë</a></li>
@@ -72,7 +52,7 @@ image: cover2.png
       </div>
     </div>
   </div>
-  <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12 kategori-container">
+  <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12 kategori-container" id="ref">
     <div class="kategori-ligjore">
       <div class="kategori-ligjore-titull">
         <i class="fa fa-tree"></i><br>
@@ -81,7 +61,7 @@ image: cover2.png
       <div class="kategori-details">
         <ul>
           <li><a href="/mjedisi/">Mjedisi</a></li>
-          {% for post in site.categories.mjedisi %}
+          {% for post in site.categories.mjedisi reversed %}
             <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
           {% endfor %}
           <!-- <li><a href="/mjedisi/shqetesimi-dhe-demtimi-nga-zhurmat">Shqetësimi dhe dëmtimi nga zhurmat</a></li>
@@ -90,6 +70,26 @@ image: cover2.png
           <li><a href="/mjedisi/">Menaxhimi i mbetjeve</a></li> -->
         </ul>
       </div>
+    </div>
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-8 col-xs-12 kategori-container">
+    <div class="kategori-ligjore">
+        <div class="kategori-ligjore-titull">
+          <i class="fa fa-shield"></i><br>
+          SIGURIMET SHOQËRORE
+        </div>
+        <div class="kategori-details">
+          <ul>
+            <li><a href="/sigurimet-shoqerore/">Sigurimet shoqërore</a></li>
+            {% for post in site.categories.sigurimet-shoqerore reversed %}
+              <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+            <!-- <li><a href="/sigurimet-shoqerore/sigurimi-shoqeror-i-detyrueshem">Sigurimi shoqëror i detyrueshëm</a></li>
+            <li><a href="/sigurimet-shoqerore/kontributi">Kontributi</a></li>
+            <li><a href="/sigurimet-shoqerore/te-ardhurat-nga-sigurimet-shoqerore">Të ardhurat nga sigurimet shoqërore</a></li>
+            <li><a href="/sigurimet-shoqerore/pensionet">Pensionet</a></li> -->
+          </ul>
+        </div>
     </div>
   </div>
   <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12 kategori-container">
@@ -101,7 +101,7 @@ image: cover2.png
       <div class="kategori-details">
         <ul>
           <li><a href="/ankimi-administrativ/">Ankimi Administrativ</a></li>
-          {% for post in site.categories.ankimi-administrativ %}
+          {% for post in site.categories.ankimi-administrativ reversed %}
             <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
           {% endfor %}
           <!-- <li><a href="#">Ankimi Administrativ</a></li>
@@ -119,7 +119,7 @@ image: cover2.png
       <div class="kategori-details">
         <ul>
           <li><a href="/informimi-publik/">Informimi publik</a></li>
-          {% for post in site.categories.informimi-publik %}
+          {% for post in site.categories.informimi-publik reversed %}
             <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
           {% endfor %}
           <!-- <li><a href="#">E drejta për informim</a></li>
@@ -128,7 +128,7 @@ image: cover2.png
       </div>
     </div>
   </div>
-  <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12 kategori-container">
+  <div class="col-lg-4 col-md-6 col-sm-8 col-xs-12 kategori-container">
     <div class="kategori-ligjore">
       <div class="kategori-ligjore-titull">
         <i class="fa fa-users"></i><br>
@@ -137,7 +137,7 @@ image: cover2.png
       <div class="kategori-details">
         <ul>
           <li><a href="/familja/">Familja</a></li>
-          {% for post in site.categories.familja %}
+          {% for post in site.categories.familja reversed %}
             <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
           {% endfor %}
           <!-- <li><a href="#">Martesa</a></li>
@@ -160,7 +160,7 @@ image: cover2.png
       <div class="kategori-details">
         <ul>
           <li><a href="/ndihma-juridike/">Ndihma juridike</a></li>
-          {% for post in site.categories.ndihma-juridike %}
+          {% for post in site.categories.ndihma-juridike reversed %}
             <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
           {% endfor %}
           <!-- <li><a href="#">Çfarë është ndihma juridike</a></li>
@@ -180,7 +180,7 @@ image: cover2.png
       <div class="kategori-details">
         <ul>
           <li><a href="/konsumatori/">Konsumatori</a></li>
-          {% for post in site.categories.konsumatori %}
+          {% for post in site.categories.konsumatori reversed %}
             <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
           {% endfor %}
           <!-- <li><a href="#">Konsumatori</a></li>
@@ -188,6 +188,26 @@ image: cover2.png
           <li><a href="#">Kontratat</a></li>
           <li><a href="#">Mallrat</a></li>
           <li><a href="#">Shkelja e të drejtave të konsumatorit</a></li> -->
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12 kategori-container">
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+        <i class="fa fa-gavel"></i><br>
+        PROÇESI GJYQËSOR CIVIL
+      </div>
+      <div class="kategori-details">
+        <ul>
+          <li><a href="/procesi-gjyqesor-civil/">Proçesi gjyqësor civil</a></li>
+          {% for post in site.categories.procesi-gjyqesor-civil reversed %}
+            <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+          <!-- <li><a href="#">Çfarë është ndihma juridike</a></li>
+          <li><a href="#">Ofrimi i ndihmës juridike</a></li>
+          <li><a href="#">Përfitimi i ndihmës juridike</a></li>
+          <li><a href="#">Kërkesa për ndihmë juridike</a></li> -->
         </ul>
       </div>
     </div>
@@ -201,7 +221,7 @@ image: cover2.png
       <div class="kategori-details">
           <ul>
             <li><a href="/pasuria-e-paluajtshme/">Pasuria e paluajtshme</a></li>
-            {% for post in site.categories.pasuria-e-paluajtshme %}
+            {% for post in site.categories.pasuria-e-paluajtshme reversed %}
               <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
             {% endfor %}
             <!-- <li><a href="#">Regjistri i pasurive të paluajtshme</a></li>
@@ -214,6 +234,46 @@ image: cover2.png
             <li><a href="#">Ankimi</a></li> -->
           </ul>
         <!-- </div> -->
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12 kategori-container">
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+        <i class="fa fa-money"></i><br>
+        TATIMET DHE TAKSAT
+      </div>
+      <div class="kategori-details">
+        <ul>
+          <li><a href="/tatimet-dhe-taksat/">Tatimet dhe taksat</a></li>
+          {% for post in site.categories.tatimet-dhe-taksat reversed %}
+            <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+          <!-- <li><a href="#">Çfarë është ndihma juridike</a></li>
+          <li><a href="#">Ofrimi i ndihmës juridike</a></li>
+          <li><a href="#">Përfitimi i ndihmës juridike</a></li>
+          <li><a href="#">Kërkesa për ndihmë juridike</a></li> -->
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-8 col-xs-12 kategori-container">
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+        <i class="fa fa-building"></i><br>
+        BASHKËPRONËSIA NË NDËRTESAT E BANIMIT
+      </div>
+      <div class="kategori-details">
+        <ul>
+          <li><a href="/bashkepronesia-ne-ndertesa/">Bashkëpronësia në ndërtesat e banimit</a></li>
+          {% for post in site.categories.bashkepronesia-ne-ndertesa reversed %}
+            <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+          <!-- <li><a href="#">Çfarë është ndihma juridike</a></li>
+          <li><a href="#">Ofrimi i ndihmës juridike</a></li>
+          <li><a href="#">Përfitimi i ndihmës juridike</a></li>
+          <li><a href="#">Kërkesa për ndihmë juridike</a></li> -->
+        </ul>
       </div>
     </div>
   </div>

@@ -1628,7 +1628,7 @@ body:not(.post-template) .post-title {
         box-sizing: border-box;
         height: auto;
         min-height: 240px;
-        height: 60vh;
+        /*height: 60vh;*/
         /*padding: 15% 0;*/
         padding: 0;
     }
@@ -1759,11 +1759,11 @@ body:not(.post-template) .post-title {
 
     .main-header {
         margin-bottom: 15px;
-        height: 40vh;
+        /*height: 40vh;*/
     }
 
     .no-cover.main-header {
-        height: 30vh;
+        /*height: 30vh;*/
     }
 
     .archive-template .main-header {

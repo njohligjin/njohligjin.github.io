@@ -30,112 +30,121 @@
         <p>
           Kontribuoni në përmirësimin kësaj faqeje duke i kushtuar pak kohë plotësimit të këtij pyetësori
         </p>
-        <form>
+        <form action="http://formspree.io/g.malo@commprog.com" method="post" id="pyetsori-form">
           <div class="form-group">
             <p>Mendoni se kjo faqe është e dobishme?</p>
-            <div class="radio"><label><input type="radio" name="dobishme" id="dobishme_po" value="">Po</label></div>
-            <div class="radio"><label><input type="radio" name="dobishme" id="dobishme_jo" value="">Jo</label></div>
+            <div class="radio"><label><input type="radio" name="Mendoni se kjo faqe është e dobishme?" value="Po" id="dobishme_po" value="">Po</label></div>
+            <div class="radio"><label><input type="radio" name="Mendoni se kjo faqe është e dobishme?" value="Jo" id="dobishme_jo" value="">Jo</label></div>
           </div>
           <div class="form-group">
             <p>
               Për çfarë e keni përdorur faqen?
             </p>
-            <div class="radio"><label><input type="radio" name="per_cfare" id="per_cfare1">Për të marrë informacion në përgjithësi</label></div>
-            <div class="radio"><label><input type="radio" name="per_cfare" id="per_cfare2">Për kuriozitet</label></div>
-            <div class="radio"><label><input type="radio" name="per_cfare" id="per_cfare3">Për të zgjidhur një rast konkret</label></div>
-            <div class="radio"><label><input type="radio" name="per_cfare" id="per_cfare4">Për të verifikuar një informacion të mëparshëm</label></div>
-            -	Tjeter (specifiko) 		(text box)
+            <div class="radio"><label><input type="radio" name="Për çfarë e keni përdorur faqen?" value="Për të marrë informacion në përgjithësi" id="per_cfare1">Për të marrë informacion në përgjithësi</label></div>
+            <div class="radio"><label><input type="radio" name="Për çfarë e keni përdorur faqen?" value="Për kuriozitet" id="per_cfare2">Për kuriozitet</label></div>
+            <div class="radio"><label><input type="radio" name="Për çfarë e keni përdorur faqen?" value="Për të zgjidhur një rast konkret" id="per_cfare3">Për të zgjidhur një rast konkret</label></div>
+            <div class="radio"><label><input type="radio" name="Për çfarë e keni përdorur faqen?" value="Për të verifikuar një informacion të mëparshëm" id="per_cfare4">Për të verifikuar një informacion të mëparshëm</label></div>
+            <label for="tjeter">Tjeter (specifiko)?</label><input type="text" class="form-control" name="Për çfarë e keni përdorur faqen (tjeter)" id="tjeter" value="">
           </div>
           <div class="form-group">
             <p>
               Sa i dobishëm ju duket informacioni që paraqitet në faqe?
             </p>
-            <div class="radio"><label><input type="radio" name="sa_i_dobishem" id="sa_i_dobishem1">Shume i dobishëm</label></div>
-            <div class="radio"><label><input type="radio" name="sa_i_dobishem" id="sa_i_dobishem2">I dobishëm</label></div>
-            <div class="radio"><label><input type="radio" name="sa_i_dobishem" id="sa_i_dobishem3">Mjaftueshmërisht i dobishëm</label></div>
-            <div class="radio"><label><input type="radio" name="sa_i_dobishem" id="sa_i_dobishem4">Pak i dobishëm</label></div>
-            <div class="radio"><label><input type="radio" name="sa_i_dobishem" id="sa_i_dobishem5">Aspak i dobishëm</label></div>
+            <div class="radio"><label><input type="radio" name="Sa i dobishëm ju duket informacioni që paraqitet në faqe?" value="Shume i dobishëm" id="sa_i_dobishem1">Shume i dobishëm</label></div>
+            <div class="radio"><label><input type="radio" name="Sa i dobishëm ju duket informacioni që paraqitet në faqe?" value="I dobishëm" id="sa_i_dobishem2">I dobishëm</label></div>
+            <div class="radio"><label><input type="radio" name="Sa i dobishëm ju duket informacioni që paraqitet në faqe?" value="Mjaftueshmërisht i dobishëm" id="sa_i_dobishem3">Mjaftueshmërisht i dobishëm</label></div>
+            <div class="radio"><label><input type="radio" name="Sa i dobishëm ju duket informacioni që paraqitet në faqe?" value="Pak i dobishëm" id="sa_i_dobishem4">Pak i dobishëm</label></div>
+            <div class="radio"><label><input type="radio" name="Sa i dobishëm ju duket informacioni që paraqitet në faqe?" value="Aspak i dobishëm" id="sa_i_dobishem5">Aspak i dobishëm</label></div>
           </div>
           <div class="form-group">
             <p>
               Sa i detajuar ju duket informacioni që paraqitet në faqe?
             </p>
-            <div class="radio"><label><input type="radio" name="sa_i_detajuar" id="sa_i_detajuar1">Shume i detajuar</label></div>
-            <div class="radio"><label><input type="radio" name="sa_i_detajuar" id="sa_i_detajuar2">I detajuar</label></div>
-            <div class="radio"><label><input type="radio" name="sa_i_detajuar" id="sa_i_detajuar3">Mjaftueshmërisht i detajuar</label></div>
-            <div class="radio"><label><input type="radio" name="sa_i_detajuar" id="sa_i_detajuar4">Pak i detajuar</label></div>
-            <div class="radio"><label><input type="radio" name="sa_i_detajuar" id="sa_i_detajuar5">Aspak i detajuar</label></div>
+            <div class="radio"><label><input type="radio" name="Sa i detajuar ju duket informacioni që paraqitet në faqe?" value="Shume i detajuar" id="sa_i_detajuar1">Shume i detajuar</label></div>
+            <div class="radio"><label><input type="radio" name="Sa i detajuar ju duket informacioni që paraqitet në faqe?" value="I detajuar" id="sa_i_detajuar2">I detajuar</label></div>
+            <div class="radio"><label><input type="radio" name="Sa i detajuar ju duket informacioni që paraqitet në faqe?" value="Mjaftueshmërisht i detajuar" id="sa_i_detajuar3">Mjaftueshmërisht i detajuar</label></div>
+            <div class="radio"><label><input type="radio" name="Sa i detajuar ju duket informacioni që paraqitet në faqe?" value="Pak i detajuar" id="sa_i_detajuar4">Pak i detajuar</label></div>
+            <div class="radio"><label><input type="radio" name="Sa i detajuar ju duket informacioni që paraqitet në faqe?" value="Aspak i detajuar" id="sa_i_detajuar5">Aspak i detajuar</label></div>
           </div>
           <div class="form-group">
             <p>
               E keni përdorur faqen për të zgjidhur një rast konkret?
             </p>
-            <div class="radio"><label><input type="radio" name="rast_konkret" id="rast_konkret_po">Po</label></div>
-            <div class="radio"><label><input type="radio" name="rast_konkret" id="rast_konkret_jo">Jo</label></div>
-            <label for="specifiko_rast_konkret">Në çfarë fushe (specifiko)?</label><input type="text" class="form-control" name="specifiko_rast_konkret" id="specifiko_rast_konkret" value="">
+            <div class="radio"><label><input type="radio" name="E keni përdorur faqen për të zgjidhur një rast konkret?" value="Po" id="rast_konkret_po">Po</label></div>
+            <div class="radio"><label><input type="radio" name="E keni përdorur faqen për të zgjidhur një rast konkret?" value="Jo" id="rast_konkret_jo">Jo</label></div>
+            <label for="specifiko_rast_konkret">Në çfarë fushe (specifiko)?</label><input type="text" class="form-control" name="Në çfarë fushe (specifiko)" id="specifiko_rast_konkret" value="">
           </div>
           <div class="form-group">
             <p>
               A i përmbush faqja pritshmëritë tuaja për informacionin e marrë?
             </p>
-            <div class="radio"><label><input type="radio" name="pritshemrite" id="pritshmerite_po" value="">Po</label></div>
-            <div class="radio"><label><input type="radio" name="pritshemrite" id="pritshmerite_jo" value="">Jo</label></div>
+            <div class="radio"><label><input type="radio" name="A i përmbush faqja pritshmëritë tuaja për informacionin e marrë?" value="Po" id="pritshmerite_po" value="">Po</label></div>
+            <div class="radio"><label><input type="radio" name="A i përmbush faqja pritshmëritë tuaja për informacionin e marrë?" value="Jo" id="pritshmerite_jo" value="">Jo</label></div>
           </div>
           <div class="form-group">
             <p>
               Sa të thjeshtë e keni për të kuptuar informacionin që paraqitet në faqe?
             </p>
-            <div class="radio"><label><input type="radio" name="kuptoj_thjeshte" id="kuptoj_thjeshte1">Shume të thjeshtë</label></div>
-            <div class="radio"><label><input type="radio" name="kuptoj_thjeshte" id="kuptoj_thjeshte2">Të thjeshtë</label></div>
-            <div class="radio"><label><input type="radio" name="kuptoj_thjeshte" id="kuptoj_thjeshte3">Mjaftueshmërisht të thjeshtë</label></div>
-            <div class="radio"><label><input type="radio" name="kuptoj_thjeshte" id="kuptoj_thjeshte4">Pak të thjeshtë</label></div>
-            <div class="radio"><label><input type="radio" name="kuptoj_thjeshte" id="kuptoj_thjeshte5">Aspak të thjeshtë</label></div>
+            <div class="radio"><label><input type="radio" name="Sa të thjeshtë e keni për të kuptuar informacionin që paraqitet në faqe?" value="Shume të thjeshtë" id="kuptoj_thjeshte1">Shume të thjeshtë</label></div>
+            <div class="radio"><label><input type="radio" name="Sa të thjeshtë e keni për të kuptuar informacionin që paraqitet në faqe?" value="Të thjeshtë" id="kuptoj_thjeshte2">Të thjeshtë</label></div>
+            <div class="radio"><label><input type="radio" name="Sa të thjeshtë e keni për të kuptuar informacionin që paraqitet në faqe?" value="Mjaftueshmërisht të thjeshtë" id="kuptoj_thjeshte3">Mjaftueshmërisht të thjeshtë</label></div>
+            <div class="radio"><label><input type="radio" name="Sa të thjeshtë e keni për të kuptuar informacionin që paraqitet në faqe?" value="Pak të thjeshtë" id="kuptoj_thjeshte4">Pak të thjeshtë</label></div>
+            <div class="radio"><label><input type="radio" name="Sa të thjeshtë e keni për të kuptuar informacionin që paraqitet në faqe?" value="Aspak të thjeshtë" id="kuptoj_thjeshte5">Aspak të thjeshtë</label></div>
           </div>
           <div class="form-group">
             <p>
               Sa të thjeshtë e keni për të gjetur informacionin që kërkoni në faqe?
             </p>
-            <div class="radio"><label><input type="radio" name="gjej_thjeshte" id="gjej_thjeshte1">Shume të thjeshtë</label></div>
-            <div class="radio"><label><input type="radio" name="gjej_thjeshte" id="gjej_thjeshte2">Të thjeshtë</label></div>
-            <div class="radio"><label><input type="radio" name="gjej_thjeshte" id="gjej_thjeshte3">Mjaftueshmërisht të thjeshtë</label></div>
-            <div class="radio"><label><input type="radio" name="gjej_thjeshte" id="gjej_thjeshte4">Pak të thjeshtë</label></div>
-            <div class="radio"><label><input type="radio" name="gjej_thjeshte" id="gjej_thjeshte5">Aspak të thjeshtë</label></div>
+            <div class="radio"><label><input type="radio" name="Sa të thjeshtë e keni për të gjetur informacionin që kërkoni në faqe?" value="Shume të thjeshtë" id="gjej_thjeshte1">Shume të thjeshtë</label></div>
+            <div class="radio"><label><input type="radio" name="Sa të thjeshtë e keni për të gjetur informacionin që kërkoni në faqe?" value="Të thjeshtë" id="gjej_thjeshte2">Të thjeshtë</label></div>
+            <div class="radio"><label><input type="radio" name="Sa të thjeshtë e keni për të gjetur informacionin që kërkoni në faqe?" value="Mjaftueshmërisht të thjeshtë" id="gjej_thjeshte3">Mjaftueshmërisht të thjeshtë</label></div>
+            <div class="radio"><label><input type="radio" name="Sa të thjeshtë e keni për të gjetur informacionin që kërkoni në faqe?" value="Pak të thjeshtë" id="gjej_thjeshte4">Pak të thjeshtë</label></div>
+            <div class="radio"><label><input type="radio" name="Sa të thjeshtë e keni për të gjetur informacionin që kërkoni në faqe?" value="Aspak të thjeshtë" id="gjej_thjeshte5">Aspak të thjeshtë</label></div>
           </div>
           <div class="form-group">
             <p>
               Sa i besueshëm ju duket informacioni që paraqitet në këtë faqe?
             </p>
-            <div class="radio"><label><input type="radio" name="besueshmeria" id="besueshem1">Shume i besueshëm</label></div>
-            <div class="radio"><label><input type="radio" name="besueshmeria" id="besueshem2">I besueshëm</label></div>
-            <div class="radio"><label><input type="radio" name="besueshmeria" id="besueshem3">Mjaftueshmërisht i besueshëm</label></div>
-            <div class="radio"><label><input type="radio" name="besueshmeria" id="besueshem4">Pak i besueshëm</label></div>
-            <div class="radio"><label><input type="radio" name="besueshmeria" id="besueshem5">Aspak i besueshëm</label></div>
+            <div class="radio"><label><input type="radio" name="Sa i besueshëm ju duket informacioni që paraqitet në këtë faqe?" value="Shume i besueshëm" id="besueshem1">Shume i besueshëm</label></div>
+            <div class="radio"><label><input type="radio" name="Sa i besueshëm ju duket informacioni që paraqitet në këtë faqe?" value="I besueshëm" id="besueshem2">I besueshëm</label></div>
+            <div class="radio"><label><input type="radio" name="Sa i besueshëm ju duket informacioni që paraqitet në këtë faqe?" value="Mjaftueshmërisht i besueshëm" id="besueshem3">Mjaftueshmërisht i besueshëm</label></div>
+            <div class="radio"><label><input type="radio" name="Sa i besueshëm ju duket informacioni që paraqitet në këtë faqe?" value="Pak i besueshëm" id="besueshem4">Pak i besueshëm</label></div>
+            <div class="radio"><label><input type="radio" name="Sa i besueshëm ju duket informacioni që paraqitet në këtë faqe?" value="Aspak i besueshëm" id="besueshem5">Aspak i besueshëm</label></div>
           </div>
           <div class="form-group">
             <label for="fusha-te-tjera">
               Çfarë fushash të tjera do të dëshironit që të përfshiheshin në këtë faqe?
             </label>
-            <textarea class="form-control" name="fusha-te-tjera" id="fusha-te-tjera" rows="8" cols="40"></textarea>
+            <textarea class="form-control" name="Çfarë fushash të tjera do të dëshironit që të përfshiheshin në këtë faqe?" id="fusha-te-tjera" rows="8" cols="40"></textarea>
           </div>
           <div class="form-group">
             <label for="rekomandim">
               Do ia rekomandonit dikujt tjetër përdorimin e kësaj faqeje?
             </label><br/>
             <span style="float: left;">Kurrsesi</span><span style="float: right;">Patjetër</span>
-            <input class="form-control" type="range" name="rekomandim" id="rekomandim" min=0 max=10 step=1 value="">
+            <input class="form-control" type="range" name="Do ia rekomandonit dikujt tjetër përdorimin e kësaj faqeje?" id="rekomandim" min=0 max=10 step=1 value="">
           </div>
           <div class="form-group">
             <label for="sugjerime">
               Sugjerime
             </label>
-            <textarea class="form-control" name="sugjerime" id="sugjerime" rows="8" cols="40"></textarea>
+            <textarea class="form-control" name="Sugjerime" id="sugjerime" rows="8" cols="40"></textarea>
           </div>
+          <!-- <button type="submit">Submit</button> -->
         </form>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> -->
+        <button type="button" id="submit-pyetsor" class="btn btn-primary">Dërgo</button>
       </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade bs-example-modal-sm" id="success-modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      Pyetsori u dergua me sukses. Faleminderit.
     </div>
   </div>
 </div>

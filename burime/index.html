@@ -4,33 +4,122 @@ title: Burime
 ---
 <main id="content" class="content container" role="main">
     <h2 class="kat-title"><i class="fa fa-folder-open"></i> {{page.title}}</h2>
-    <a href="Ankim administrativ.docx">Ankim administrativ</a>
-    <a href="Apel kundërshtues.docx">Apel kundërshtues</a>
-    <a href="Apel.docx">Apel</a>
-    <a href="Autorizim përfaqësimi.docx">Autorizim përfaqësimi</a>
-    <a href="Kërkesë caktim kujdestari.docx">Kërkesë caktim kujdestari</a>
-    <a href="Kërkesë ndryshim i përgjegjësisë prindërore.docx">Kërkesë ndryshim i përgjegjësisë prindërore</a>
-    <a href="Kërkesë padi pavlefshmëri titulli ekzekutiv.docx">Kërkesë padi pavlefshmëri titulli ekzekutiv</a>
-    <a href="Kërkesë për heqje dorë nga ankimi.docx">Kërkesë për heqje dorë nga ankimi</a>
-    <a href="Kërkesë për lëshimin e urdhrit të ekzekutimit.docx">Kërkesë për lëshimin e urdhrit të ekzekutimit</a>
-    <a href="Kërkesë për ndreqje gabimi.docx">Kërkesë për ndreqje gabimi</a>
-    <a href="Kërkesë për pezullimin e vendimit.docx">Kërkesë për pezullimin e vendimit</a>
-    <a href="Kërkesë për rivendosje në afat.docx">Kërkesë për rivendosje në afat</a>
-    <a href="Kërkesë për vënien në ekzekutim.docx">Kërkesë për vënien në ekzekutim</a>
-    <a href="Kërkesëpadi kundërshtim veprimesh përmbarimore.doc">Kërkesëpadi kundërshtim veprimesh përmbarimore</a>
-    <a href="Kundërpadi.doc">Kundërpadi</a>
-    <a href="Padi kundërshtim atësie.docx">Padi kundërshtim atësie</a>
-    <a href="Padi njohje atësie.docx">Padi njohje atësie</a>
-    <a href="Padi pavlefshmëri martese.docx">Padi pavlefshmëri martese</a>
-    <a href="Padi zgjidhje martese me miratim.docx">Padi zgjidhje martese me miratim</a>
-    <a href="Padi zgjidhje martese.docx">Padi zgjidhje martese</a>
-    <a href="Rekurs gjykata e lartë.docx">Rekurs gjykata e lartë</a>
-    <a href="Ankim ne keshillin e larte te drejtesise.pdf">Ankim ne keshillin e larte te drejtesise</a>
-    <a href="Mos hesht.pdf">Mos hesht</a>
-    <a href="Si te kerkojme ndihme nga dhuna ne familje.pdf">Si te kerkojme ndihme nga dhuna ne familje</a>
 
+    <script>
+    var data = { burimet: [
+      {
+        title: "Ankim administrativ",
+        url: "/burime/Ankim administrativ.docx"
+      },
+      {
+        title: "Apel kundërshtues",
+        url: "/burime/"
+      },
+      {
+        title: "Apel",
+        url: "/burime/"
+      },
+      {
+        title: "Autorizim përfaqësimi",
+        url: "/burime/"
+      },
+      {
+        title: "Kërkesë caktim kujdestari",
+        url: "/burime/"
+      },
+      {
+        title: "Kërkesë ndryshim i përgjegjësisë prindërore",
+        url: "/burime/"
+      },
+      {
+        title: "Kërkesë padi pavlefshmëri titulli ekzekutiv",
+        url: "/burime/"
+      },
+      {
+        title: "Kërkesë për heqje dorë nga ankimi",
+        url: "/burime/"
+      },
+      {
+        title: "Kërkesë për lëshimin e urdhrit të ekzekutimit",
+        url: "/burime/"
+      },
+      {
+        title: "Kërkesë për ndreqje gabimi",
+        url: "/burime/"
+      },
+      {
+        title: "Kërkesë për pezullimin e vendimit",
+        url: "/burime/"
+      },
+      {
+        title: "Kërkesë për rivendosje në afat",
+        url: "/burime/"
+      },
+      {
+        title: "Kërkesë për vënien në ekzekutim",
+        url: "/burime/"
+      },
+      {
+        title: "Kërkesëpadi kundërshtim veprimesh përmbarimore",
+        url: "/burime/"
+      },
+      {
+        title: "Kundërpadi",
+        url: "/burime/"
+      },
+      {
+        title: "Padi kundërshtim atësie",
+        url: "/burime/"
+      },
+      {
+        title: "Padi njohje atësie",
+        url: "/burime/"
+      },
+      {
+        title: "Padi pavlefshmëri martese",
+        url: "/burime/"
+      },
+      {
+        title: "Padi zgjidhje martese me miratim",
+        url: "/burime/"
+      },
+      {
+        title: "Padi zgjidhje martese",
+        url: "/burime/"
+      },
+      {
+        title: "Rekurs gjykata e lartë",
+        url: "/burime/"
+      },
+      {
+        title: "Ankim ne keshillin e larte te drejtesise",
+        url: "/burime/Ankim ne keshillin e larte te drejtesise.pdf"
+      },
+      {
+        title: "Mos hesht",
+        url: "/burime/Mos hesht.pdf"
+      },
+      {
+        title: "Si te kerkojme ndihme nga dhuna ne familje",
+        url: "/burime/Si te kerkojme ndihme nga dhuna ne familje.pdf"
+      }
+    ]};
+    </script>
 
-    <br/>
-    <i class="fa fa-file-word-o"></i>
+    <script id="burime-template" type="text/x-handlebars-template">
+      {% raw %}
+      {{#burimet}}
+      <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+        <div class="note" > <!--style="border: 1px double #3c75ab;"-->
+          <a href="{{url}}">{{title}}</a>
+        </div>
+      </div>
+      <!-- <li role="presentation">
+        <a href="#{{@index}}" aria-controls="settings" role="tab" data-toggle="tab">{{title}}</a>
+      </li> -->
+      {{/burimet}}
+      {% endraw %}
+    </script>
+    <div class="burimet"></div>
 
 </main>

@@ -313,17 +313,22 @@ hr.underline{
 
 #search-input{
   height:40px;
+  border-radius: 0;
 }
 .buton-kerkimi {
   position: relative;
   margin-top: -37px;
   float: right;
   margin-right:  3px;
+  border-radius: 0;
 }
 
 #search-results{
   position: absolute;
   z-index: 999;
+}
+.search-result {
+  margin-top: 20px;
 }
 
 #results-container{
@@ -355,8 +360,8 @@ hr.underline{
   z-index: 11;
   width: 300px;
   height: auto;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  border: 2px solid #4594EA;
+  border-radius: 0;
   padding: 20px;
   background-color: #fff;
 }
@@ -374,6 +379,9 @@ hr.underline{
   z-index: 10;
   border: 1px solid #337AB7;
   padding:5px 10px;
+  color: #fff;
+  background-color: #337AB7;
+  cursor: pointer;
 }
 
 .controls {
@@ -413,4 +421,55 @@ hr.underline{
 .kat-title{
   color: #003376;
   text-align: left;
+}
+
+.note {
+  position: relative;
+  /*width: 10%;*/
+  height: 200px;
+  padding: 1em 1.5em;
+  margin: 1em 0;
+  color: #3C75AB;
+  background: #eee;
+
+
+  /* Firefox */
+  display:-moz-box;
+  -moz-box-pack:start;
+  -moz-box-align:center;
+
+  /* Safari, Opera, and Chrome */
+  display:-webkit-box;
+  -webkit-box-pack:start;
+  -webkit-box-align:center;
+
+  /* Internet Explorer 10 */
+  display:-ms-flexbox;
+  -ms-flex-pack:start;
+  -ms-flex-align:center;
+
+  /* W3C */
+  display:box;
+  box-pack:start;
+  box-align:center;
+}
+.note:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  /*border-width: 0 16px 16px 0;*/
+  border-width: 0 0 21px 21px;
+  border-style: solid;
+  border-color: #3C75AB #fff;
+}
+.note a{
+  color: #3C75AB;
+  text-decoration: underline;
+  line-height: 23px;
+  font-size: 17px;
+}
+
+.post-title {
+  padding-left: 15px;
 }

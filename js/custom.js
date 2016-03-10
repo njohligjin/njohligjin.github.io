@@ -132,15 +132,37 @@ $(document).ready(function(){
       data: $("#contact-form").serialize(),
       dataType: 'json',
       beforeSend: function() {
-        $("body").append('<div class="alert alert--loading">Sending message…</div>');
+        // $("body").append('<div class="alert alert--loading">Sending message…</div>');
       },
       success: function(data) {
-        $("body").find('.alert--loading').hide();
-        $("body").append('<div class="alert alert--success">Message sent!</div>');
+        // $("body").find('.alert--loading').hide();
+        // $("body").append('<div class="alert alert--success">Message sent!</div>');
+        $("input").each(function(){ $(this).val(""); });
+        $("textarea").val("");
+        $("#submit-form").remove();
+        $("main").append('<div class="alert alert-success" role="alert">Mesazhi juaj u dergua me sukses.</div>');
       },
       error: function(err) {
-        $("body").find('.alert--loading').hide();
-        $("body").append('<div class="alert alert--error">Ops, there was an error.</div>');
+        // $("body").find('.alert--loading').hide();
+        $("body").append('<div class="alert alert-error" role="alert">Oops, një gabim i vogël. Ringarko faqen dhe provo përsëri.</div>');
+      }
+    });
+  });
+
+  //submit i formes se kontaktit
+  $("#submit-pyetsor").click(function() {
+    $.ajax({
+      url: 'http://formspree.io/g.malo@commprog.com',
+      method: 'POST',
+      data: $("#pyetsori-form").serialize(),
+      dataType: 'json',
+      beforeSend: function() {
+      },
+      success: function(data) {
+        $("#myModal").modal("hide");
+        $('#success-modal').modal('show');
+      },
+      error: function(err) {
       }
     });
   });
@@ -153,10 +175,17 @@ $(document).ready(function(){
     $("#search-input").val(q);
     setTimeout(function(){
       var matches = repository.search(q);
-      for(var i=0; i<matches.length; i++){
-        $("#results").append("<p>"+matches[i].title+"</p>");
-          console.log(matches[i]);
+      if(matches.length>0){
+        for(var i=0; i<matches.length; i++){
+          $("#results").append("<div class='search-result'><a href='"+matches[i].url+"' ><h4>"
+          +matches[i].title+"</h4></a>Kategoria: <a href='/"+matches[i].category+"'> "+matches[i].category+"</a><p>"+matches[i].content.substring(0, 77)+"...</p></div>");
+            console.log(matches[i]);
+        }
+      } else {
+        $("#results").append("<p>Nuk u gjet asnje rezultat per kërkimin tuaj. Provoni me nje tjeter fjalë kyçe.</p>");
+        console.log(matches);
       }
+
     }, 200);
   }
 

@@ -23,4 +23,10 @@
     var template = Handlebars.compile(source);
     $(".post-content").html(template(data));
   }
+
+  if(window.location.href.indexOf("burime")!=-1){
+    var source   = $("#burime-template").html();
+    var template = Handlebars.compile(source);
+    $(".burimet").html(template(data));
+  }
 </script>
