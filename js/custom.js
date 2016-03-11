@@ -18,25 +18,60 @@ $(document).ready(function(){
 
   //merr second child sepse i pari eshte col-md-6
   // var tile = $(".kategori-container:nth-child(2)").width();
-  var tile = $("#ref").width();
-  $(".kategori-container").height(tile);
-  $(".kategori-ligjore").height(tile);
-  $(".double-height").height(2*tile);
-  $(".double-height .kategori-ligjore").height(2*tile);
 
-  $(".kategori-details").each(function(){
-    $(this).width($(this).parent().width()-20);
-    $(this).height($(this).parent().height()-20);
-  });
-  $(".double-height .kategori-details").each(function(){
-    $(this).height($(this).parent().height()-20);
-  });
+  if($(window).width()>767){
+
+    var tile = $("#ref").width();
+    $(".kategori-container").height(tile);
+    $(".kategori-ligjore").height(tile);
+    $(".double-height").height(2*tile);
+    $(".double-height .kategori-ligjore").height(2*tile);
+
+    $(".kategori-details").each(function(){
+      $(this).width($(this).parent().width()-20);
+      $(this).height($(this).parent().height()-20);
+    });
+    $(".double-height .kategori-details").each(function(){
+      $(this).height($(this).parent().height()-20);
+    });
+
+    $(".kategori-container").hover(
+      function () {
+         $(this).find(".kategori-details").animate({
+           left: '0',
+           opacity: 1
+         }, 200);
+         $(this).find(".kategori-ligjore").animate({
+           'color': '#273D73',
+         }, 200);
+      },
+      function () {
+        $(this).find(".kategori-details").animate({
+          left: '-100%',
+          opacity: 0
+        }, 100);
+        $(this).find(".kategori-ligjore").animate({
+          'color': '#fff',
+        }, 100);
+      }
+    );
+  } else {
+    $(".kategori-container").height(100);
+    $(".kategori-ligjore").height(100);
+  }
 
   $(".kategori-ligjore").each(function(){
       var nuance = pallete[Math.floor(Math.random()*5)];
       // alert(nuance);
       $(this).css("background-color", nuance);
       $(this).find(".kategori-details").css("background-color", nuance);
+      // $(this).parent(".kategori-container").css("background-color", nuance);
+  });
+
+  $(".kategori-container").click(function(){
+    $(this).css("transform", "rotateX( 0deg ) rotateY( 0deg ) translateZ( -30px );");
+    var loc = $(this).find(".kategori-details ul li:first a").attr("href");
+    window.location.href=loc;
   });
 
   // if($(document).width()>1200 && path=="http://localhost:4000/"){
@@ -57,27 +92,6 @@ $(document).ready(function(){
   // }
 
   $(".page-parts-images").height($(".page-parts-images").width());
-
-  $(".kategori-container").hover(
-    function () {
-       $(this).find(".kategori-details").animate({
-         left: '0',
-         opacity: 1
-       }, 200);
-       $(this).find(".kategori-ligjore").animate({
-         'color': '#273D73',
-       }, 200);
-    },
-    function () {
-      $(this).find(".kategori-details").animate({
-        left: '-100%',
-        opacity: 0
-      }, 100);
-      $(this).find(".kategori-ligjore").animate({
-        'color': '#fff',
-      }, 100);
-    }
-  );
   //
   // window.addEventListener("orientationchange", function() {
   //   // Announce the new orientation number
@@ -269,5 +283,10 @@ $(document).ready(function(){
       $("#0").addClass("active in");
     }
   }
+
+  $(".note").click(function(){
+    var $a = $(this).find("a");
+    window.location.href = $a.attr("href");
+  });
 
 });

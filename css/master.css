@@ -117,6 +117,7 @@ footer {
     margin-top: 5px;*/
     z-index: 0;
     padding: 3px;
+    cursor: pointer;
 }
 
 .kategori-ligjore {
@@ -149,6 +150,8 @@ footer {
   box-pack:center;
   box-align:center;
   background-color: #337AB7; /* #273D73 */
+
+  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12), 0px 2px 4px -1px rgba(0, 0, 0, 0.2);
 }
 .kategori-ligjore .fa {
   font-size: 27pt;
@@ -225,12 +228,12 @@ hr.underline{
   margin-top: 10px;
   /* Firefox */
   display:-moz-box;
-  -moz-box-pack:start;
+  -moz-box-pack:center;
   -moz-box-align:center;
 
   /* Safari, Opera, and Chrome */
   display:-webkit-box;
-  -webkit-box-pack:start;
+  -webkit-box-pack:center;
   -webkit-box-align:center;
 
   /* Internet Explorer 10 */
@@ -421,6 +424,7 @@ hr.underline{
 .kat-title{
   color: #003376;
   text-align: left;
+  padding-left: 15px;
 }
 
 .note {
@@ -430,7 +434,7 @@ hr.underline{
   padding: 1em 1.5em;
   margin: 1em 0;
   color: #3C75AB;
-  background: #eee;
+  background-color: #eee;
 
 
   /* Firefox */
@@ -452,7 +456,15 @@ hr.underline{
   display:box;
   box-pack:start;
   box-align:center;
+
+  box-shadow: 3px 3px 1px #3c75ab;
+  transition: background-color 0.3s;
+  cursor: pointer;
 }
+.note:hover{
+  background-color: #97f3f6;
+}
+
 .note:before {
   content: "";
   position: absolute;
@@ -472,4 +484,8 @@ hr.underline{
 
 .post-title {
   padding-left: 15px;
+}
+
+.fjalorth-entry h4{
+  margin-top: 25px;
 }

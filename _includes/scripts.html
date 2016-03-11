@@ -29,4 +29,10 @@
     var template = Handlebars.compile(source);
     $(".burimet").html(template(data));
   }
+
+  if(window.location.href.indexOf("fjalorth")!=-1){
+    var source   = $("#fjalorth-template").html();
+    var template = Handlebars.compile(source);
+    $("#fjalorthi").html(template(data));
+  }
 </script>

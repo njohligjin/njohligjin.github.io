@@ -31,6 +31,26 @@ image: cover2.png
   </div>
   <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12 kategori-container">
     <div class="kategori-ligjore">
+        <div class="kategori-ligjore-titull">
+          <i class="fa fa-shield"></i><br>
+          SIGURIMET SHOQËRORE
+        </div>
+        <div class="kategori-details">
+          <ul>
+            <li><a href="/sigurimet-shoqerore/">Sigurimet shoqërore</a></li>
+            {% for post in site.categories.sigurimet-shoqerore reversed %}
+              <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+            <!-- <li><a href="/sigurimet-shoqerore/sigurimi-shoqeror-i-detyrueshem">Sigurimi shoqëror i detyrueshëm</a></li>
+            <li><a href="/sigurimet-shoqerore/kontributi">Kontributi</a></li>
+            <li><a href="/sigurimet-shoqerore/te-ardhurat-nga-sigurimet-shoqerore">Të ardhurat nga sigurimet shoqërore</a></li>
+            <li><a href="/sigurimet-shoqerore/pensionet">Pensionet</a></li> -->
+          </ul>
+        </div>
+    </div>
+  </div>
+  <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12 kategori-container">
+    <div class="kategori-ligjore">
       <div class="kategori-ligjore-titull">
         <i class="fa fa-car"></i><br>
         KODI RRUGOR
@@ -70,26 +90,6 @@ image: cover2.png
           <li><a href="/mjedisi/">Menaxhimi i mbetjeve</a></li> -->
         </ul>
       </div>
-    </div>
-  </div>
-  <div class="col-lg-4 col-md-6 col-sm-8 col-xs-12 kategori-container">
-    <div class="kategori-ligjore">
-        <div class="kategori-ligjore-titull">
-          <i class="fa fa-shield"></i><br>
-          SIGURIMET SHOQËRORE
-        </div>
-        <div class="kategori-details">
-          <ul>
-            <li><a href="/sigurimet-shoqerore/">Sigurimet shoqërore</a></li>
-            {% for post in site.categories.sigurimet-shoqerore reversed %}
-              <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-            {% endfor %}
-            <!-- <li><a href="/sigurimet-shoqerore/sigurimi-shoqeror-i-detyrueshem">Sigurimi shoqëror i detyrueshëm</a></li>
-            <li><a href="/sigurimet-shoqerore/kontributi">Kontributi</a></li>
-            <li><a href="/sigurimet-shoqerore/te-ardhurat-nga-sigurimet-shoqerore">Të ardhurat nga sigurimet shoqërore</a></li>
-            <li><a href="/sigurimet-shoqerore/pensionet">Pensionet</a></li> -->
-          </ul>
-        </div>
     </div>
   </div>
   <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12 kategori-container">
@@ -275,6 +275,26 @@ image: cover2.png
           <li><a href="#">Kërkesa për ndihmë juridike</a></li> -->
         </ul>
       </div>
+    </div>
+  </div>
+  <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12 kategori-container">
+    <div class="kategori-ligjore">
+        <div class="kategori-ligjore-titull">
+          <i class="fa fa-exclamation"></i><br>
+          SHKAKTIMI I DËMIT
+        </div>
+        <div class="kategori-details">
+          <ul>
+            <li><a href="/sigurimet-shoqerore/">Shkaktimi i dëmit</a></li>
+            {% for post in site.categories.shkaktimi-i-demit reversed %}
+              <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+            <!-- <li><a href="/sigurimet-shoqerore/sigurimi-shoqeror-i-detyrueshem">Sigurimi shoqëror i detyrueshëm</a></li>
+            <li><a href="/sigurimet-shoqerore/kontributi">Kontributi</a></li>
+            <li><a href="/sigurimet-shoqerore/te-ardhurat-nga-sigurimet-shoqerore">Të ardhurat nga sigurimet shoqërore</a></li>
+            <li><a href="/sigurimet-shoqerore/pensionet">Pensionet</a></li> -->
+          </ul>
+        </div>
     </div>
   </div>
 </div>
