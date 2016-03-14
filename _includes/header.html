@@ -10,9 +10,10 @@
             <input type="search" name="search" value="" class="form-control">
             <input type="button" name="submit" value="Kërko" class="form-control">
           </form> -->
-          <form class="site-search" action="/search" method="GET">
+          <form class="site-search form-inline text-right" action="/search" method="GET">
+              <button type="submit" class="buton-kerkimi btn btn-primary"><i class="fa fa-search"></i></button>
               <input id="search-input" name="kerkimi" type="search" class="search-box form-control" placeholder="Kërko informacion" autocomplete="off">
-              <button type="submit" class="buton-kerkimi btn btn-primary">Kërko</button>
+
           </form>
           <!-- <div id="search-results">
             <ul id="results-container"></ul>
@@ -50,24 +51,26 @@
                     <li><a href="/burime/">Burime dhe dokumente</a></li>
                     <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                       Informacion ligjor <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                          <li><a href="/puna">Puna</a></li>
-                          <li><a href="/sigurimet-shoqerore">Sigurimet shoqërore</a></li>
-                          <li><a href="/kodi-rrugor">Kodi rrugor</a></li>
-                          <li><a href="/mjedisi">Mjedisi</a></li>
-                          <li><a href="/ankimi-administrativ">Ankimi administrativ</a></li>
-                          <li><a href="/informimi-publik">Informimi publik</a></li>
-                          <li><a href="/familja">Familja</a></li>
-                          <li><a href="/ndihma-juridike">Ndihma juridike</a></li>
-                          <li><a href="/konsumatori">Konsumatori</a></li>
-                          <li><a href="/pasuria-e-paluajtshme">Pasuria e paluajtshme</a></li>
-                          <li><a href="/bashkepronesia-ne-ndertesa" style="white-space: unset;">Bashkëpronësia në ndërtesat e banimit</a></li>
-                          <li><a href="/tatimet-dhe-taksat">Tatimet dhe taksat</a></li>
-                          <li><a href="/procesi-gjyqesor-civil">Procesi gjyqësor civil</a></li>
-                        </ul>
+
                     </li>
                     <li><a href="/kontakt/">Kontakt</a></li>
                     <li><a href="/fjalorth/">Fjalorth</a></li>
+              </ul>
+              <ul class="nav navbar-nav" style="display:none;" id="dropdown-menu">
+                <li><a href="/puna">Puna</a></li>
+                <li><a href="/sigurimet-shoqerore">Sigurimet shoqërore</a></li>
+                <li><a href="/kodi-rrugor">Kodi rrugor</a></li>
+                <li><a href="/mjedisi">Mjedisi</a></li>
+                <li><a href="/ankimi-administrativ">Ankimi administrativ</a></li>
+                <li><a href="/informimi-publik">Informimi publik</a></li>
+                <li><a href="/familja">Familja</a></li>
+                <li><a href="/ndihma-juridike">Ndihma juridike</a></li>
+                <li><a href="/konsumatori">Konsumatori</a></li>
+                <li><a href="/pasuria-e-paluajtshme">Pasuria e paluajtshme</a></li>
+                <li><a href="/bashkepronesia-ne-ndertesa" style="white-space: unset;">Bashkëpronësia në ndërtesat e banimit</a></li>
+                <li><a href="/tatimet-dhe-taksat">Tatimet dhe taksat</a></li>
+                <li><a href="/procesi-gjyqesor-civil">Procesi gjyqësor civil</a></li>
+                <li><a href="/shkaktimi-i-demit">Shkaktimi i dëmit</a></li>
               </ul>
             </div>
           </nav>

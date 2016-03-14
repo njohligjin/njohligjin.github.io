@@ -178,7 +178,7 @@ footer {
   -webkit-box-align:center;
 
   /* Internet Explorer 10 */
-  display:-ms-flexbox;
+  display:-ms-box;
   -ms-flex-pack:center;
   -ms-flex-align:center;
 
@@ -187,6 +187,9 @@ footer {
   box-pack:start;
   box-align:center;
   color: #fff;
+
+  /*display: -ms-inline-table;*/
+  vertical-align: middle;
 }
 .kategori-container:hover .kategori-details {
   -webkit-transition: margin-left 0.2s;
@@ -194,11 +197,15 @@ footer {
 }
 .kategori-ligjore-titull {
   padding: 5px;
+  display: inline-table;
+  /*white-space: pre-wrap;  */
 }
 .kategori-details ul{
   list-style-type: none;
   padding-left: 0;
   margin: auto;
+  /*display: table-cell;*/
+  /*vertical-align: middle;*/
 }
 .kategori-details ul li a{
   color: #fff;
@@ -223,6 +230,9 @@ hr.underline{
   width: 33%;
   margin: 0px 33%;
   border: 1px solid #B0C9D8;
+  position: absolute;
+  bottom: 15px;
+  left: 0;
 }
 .page-parts-images{
   margin-top: 10px;
@@ -257,6 +267,25 @@ hr.underline{
   background-color: #337AB7;
   color: #fff;
   cursor: pointer;
+}
+
+.page-parts{
+  background-color: #fff;
+  min-height:250px;
+  padding: 15px;
+  margin-top: 25px;
+  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12), 0px 2px 4px -1px rgba(0, 0, 0, 0.2);
+}
+.page-parts img {
+  width: 100px;
+  float: left;
+  margin: 0 7px 0 0;
+}
+.page-parts h4 {
+  text-transform: uppercase;
+}
+.page-parts a{
+  color: #0076BD;;
 }
 
 .homepage-info {
@@ -305,9 +334,19 @@ hr.underline{
   background-color: #5588BA;
   color: #fff;
 }
+li.dropdown{
+  position: unset;
+}
 .dropdown-menu {
   background-color: #337AB7;
-  width:100%;
+  padding: 0;
+  border-radius: 0;
+  position: absolute;
+  left: 0!important;
+}
+
+.dropdown-menu li {
+  display: inline-block;
 }
 
 #logo {
@@ -315,14 +354,14 @@ hr.underline{
 }
 
 #search-input{
-  height:40px;
   border-radius: 0;
 }
 .buton-kerkimi {
-  position: relative;
+  /*position: relative;
   margin-top: -37px;
   float: right;
-  margin-right:  3px;
+  margin-right:  3px;*/
+  margin-right: -5px;
   border-radius: 0;
 }
 
@@ -448,7 +487,7 @@ hr.underline{
   -webkit-box-align:center;
 
   /* Internet Explorer 10 */
-  display:-ms-flexbox;
+  /*display:-ms-flexbox;*/
   -ms-flex-pack:start;
   -ms-flex-align:center;
 
@@ -488,4 +527,10 @@ hr.underline{
 
 .fjalorth-entry h4{
   margin-top: 25px;
+}
+
+.te-tjera{
+  background-color: #E8ECEC;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
 }

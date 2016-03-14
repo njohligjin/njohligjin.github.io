@@ -283,10 +283,15 @@ $(document).ready(function(){
       $("#0").addClass("active in");
     }
   }
+  $("li.dropdown").click(function(){
+    //alert();
+    $("#dropdown-menu").toggle();
+  })
 
   $(".note").click(function(){
     var $a = $(this).find("a");
     window.location.href = $a.attr("href");
   });
 
+  $(".dropdown-menu").width($("#menu ul").width());
 });

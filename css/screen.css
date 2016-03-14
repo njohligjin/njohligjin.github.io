@@ -512,6 +512,7 @@ body.nav-opened .site-wrapper {
     background: #222 no-repeat center center;
     background-size: cover;
     /*overflow: hidden;*/
+    box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12), 0px 2px 4px -1px rgba(0, 0, 0, 0.2);
 }
 
 .main-header .inner {
@@ -522,7 +523,12 @@ body.nav-opened .site-wrapper {
     position: relative;
     padding: 15px 40px;
     margin: 0;
-    border-top: 7px solid #0A4C8A;
+    border-top: 7px solid #834AA5;
+    background: -webkit-gradient(linear, left top, right top, from(#d7d7d7), to(#cbcbcb));
+    background: -webkit-linear-gradient(left, #cbcbcb, #d7d7d7);
+    background: transparent -moz-linear-gradient(left center , #cbcbcb, #d7d7d7) repeat scroll 0% 0%;
+    background: -ms-linear-gradient(left, #cbcbcb, #d7d7d7);
+    background: -o-linear-gradient(left,#cbcbcb, #d7d7d7);
 }
 
 .main-nav a {
@@ -1586,6 +1592,8 @@ body:not(.post-template) .post-title {
     font-size: 1rem;
     line-height: 1.75em;
     color: #BBC7CC;
+    background-color: #fff;
+    border-top: 7px solid #0D457C;
 }
 
 .site-footer a {
@@ -1774,7 +1782,7 @@ body:not(.post-template) .post-title {
 
     .main-nav {
         padding: 5px;
-        margin-bottom: 2rem;
+        /*margin-bottom: 2rem;*/
     }
 
     .blog-logo {
