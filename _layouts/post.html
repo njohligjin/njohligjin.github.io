@@ -12,10 +12,21 @@
             <button type="button" name="dec" class="btn btn-default">-A</button><!--
             --><button type="button" name="inc" class="btn btn-default">A+</button>
         </div>
-        <div class="post-title">
+        <div class="post-title col-md-offset-3">
           {{ page.title }}
         </div>
+        <!-- <div class="col-md-9 col-md-offset-3">
+
+        </div> -->
         {{ content }}
+        <div class="clearfix"></div>
+        <div class="disclaimer col-md-offset-3 col-md-9">
+          <em>Kujdes! <br/>
+            Informacioni i paraqitur në këtë faqe përshkruan situatën sipas legjislacionit në fuqi në Republikën e Shqipërisë.
+            Ky legjislacion mund të jetë objekt ndryshimi apo shfuqizimi. Informacioni ka vetëm qëllim informimi dhe nuk duhet të konsiderohet si këshillim apo opinion ligjor.
+            Për zgjidhjen e një rasti specifik kërkoni ndihmë profesionale.
+          </em>
+        </div>
       </main>
       {% include post_template.html %}
       {% include footer.html %}

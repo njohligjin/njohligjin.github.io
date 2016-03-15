@@ -534,3 +534,130 @@ li.dropdown{
   margin-bottom: 50px;
   padding-bottom: 50px;
 }
+
+.disclaimer {
+  margin-top: 25px;
+}
+.legal-reference {
+  font-style: italic;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #efefef;
+  padding: 10px;
+}
+.tab-content {
+  text-align: justify;
+}
+
+/* imazhet e tileve ne home page */
+.kategori-container:nth-of-type(1) > .kategori-ligjore{
+  background: url("/img/front-1.png") center no-repeat;
+  background-size: 100% 100%;
+}
+.kategori-container:nth-of-type(1) .kategori-details{
+  background-color: #014b67;
+}
+
+.kategori-container:nth-of-type(2) > .kategori-ligjore{
+  background: url("/img/front-2.png") center no-repeat;
+  background-size: 100% 100%;
+}
+.kategori-container:nth-of-type(2) .kategori-details{
+  background-color: #7D93B4;
+}
+
+.kategori-container:nth-of-type(3) > .kategori-ligjore{
+  background: url("/img/front-3.png") center no-repeat;
+  background-size: 100% 100%;
+}
+.kategori-container:nth-of-type(3) .kategori-details{
+  background-color: #4879a9;
+}
+
+.kategori-container:nth-of-type(4) > .kategori-ligjore{
+  background: url("/img/front-4.png") center no-repeat;
+  background-size: 100% 100%;
+}
+.kategori-container:nth-of-type(4) .kategori-details{
+  background-color: #63ab45;
+}
+
+.kategori-container:nth-of-type(5) > .kategori-ligjore{
+  background: url("/img/front-5.png") center no-repeat;
+  background-size: 100% 100%;
+}
+.kategori-container:nth-of-type(5) .kategori-details{
+  background-color: #2c3c4d;
+}
+
+.kategori-container:nth-of-type(6) > .kategori-ligjore{
+  background: url("/img/front-6.png") center no-repeat;
+  background-size: 100% 100%;
+}
+.kategori-container:nth-of-type(6) .kategori-details{
+  background-color: #006696;
+}
+
+.kategori-container:nth-of-type(7) > .kategori-ligjore{
+  background: url("/img/front-7.png") center no-repeat;
+  background-size: 100% 100%;
+}
+.kategori-container:nth-of-type(7) .kategori-details{
+  background-color: #6783b3;
+}
+
+.kategori-container:nth-of-type(8) > .kategori-ligjore{
+  background: url("/img/front-8.png") center no-repeat;
+  background-size: 100% 100%;
+}
+.kategori-container:nth-of-type(8) .kategori-details{
+  background-color: #6783B3;
+}
+
+.kategori-container:nth-of-type(9) > .kategori-ligjore{
+  background: url("/img/front-9.png") center no-repeat;
+  background-size: 100% 100%;
+}
+.kategori-container:nth-of-type(9) .kategori-details{
+  background-color: #5a97cc;
+}
+
+.kategori-container:nth-of-type(10) > .kategori-ligjore{
+  background: url("/img/front-10.png") center no-repeat;
+  background-size: 100% 100%;
+}
+.kategori-container:nth-of-type(10) .kategori-details{
+  background-color: #e59638;
+}
+
+.kategori-container:nth-of-type(11) > .kategori-ligjore{
+  background: url("/img/front-11.png") center no-repeat;
+  background-size: 100% 100%;
+}
+.kategori-container:nth-of-type(11) .kategori-details{
+  background-color: #014b67;
+}
+
+.kategori-container:nth-of-type(12) > .kategori-ligjore{
+  background: url("/img/front-12.png") center no-repeat;
+  background-size: 100% 100%;
+}
+.kategori-container:nth-of-type(12) .kategori-details{
+  background-color: #a81313;
+}
+
+.kategori-container:nth-of-type(13) > .kategori-ligjore{
+  background: url("/img/front-13.png") center no-repeat;
+  background-size: 100% 100%;
+}
+.kategori-container:nth-of-type(13) .kategori-details{
+  background-color: #e59638;
+}
+
+.kategori-container:nth-of-type(14) > .kategori-ligjore{
+  background: url("/img/front-14.png") center no-repeat;
+  background-size: 100% 100%;
+}
+.kategori-container:nth-of-type(14) .kategori-details{
+  background-color: #2c3c4d;
+}

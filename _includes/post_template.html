@@ -1,6 +1,6 @@
 <script id="post-template" type="text/x-handlebars-template">
   {% raw %}
-  <div class="col-lg-3">
+  <div class="col-md-3">
     <ul class="nav nav-tabs custom-nav-tabs" role="tablist">
       {{#topics}}
       <li role="presentation">
@@ -10,6 +10,8 @@
     </ul>
   </div>
   <div class="tab-content col-lg-9">
+    <div class="legal-reference">
+    </div>
     {{#topics}}
       <div role="tabpanel" class="tab-pane fade" id="{{@index}}">
         {{{text}}}
