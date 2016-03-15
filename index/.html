@@ -1,0 +1,443 @@
+---
+layout: default
+title: Njoh ligjin
+image: cover2.png
+---
+<main id="content" class="content container" role="main" style="margin-bottom: 40px;">
+<div class="row home">
+  <div class="col-lg-4 col-md-6 col-sm-8 col-xs-12 kategori-container">
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+        <i class="fa fa-cogs"></i><br>
+        PUNA
+      </div>
+      <div class="kategori-details" id="puna">
+        <ul>
+          <li><a href="/puna/">Puna</a></li>
+          {% for post in site.categories.puna reversed %}
+            <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+          <!-- <li><a href="/puna/kontrata-e-punes">Kontrata e punës</a></li>
+          <li><a href="/puna/kohezgjatja-e-punes">Kohëzgjatja e punës</a></li>
+          <li><a href="/puna/paga">Paga</a></li>
+          <li><a href="/puna/leja-vjetore">Leja vjetore</a></li>
+          <li><a href="/puna/kushtet-e-punes">Kushtet e punës</a></li>
+          <li><a href="/puna/grate-dhe-te-miturit-ne-pune">Gratë dhe të miturit në punë</a></li>
+          <li><a href="/puna/greva">Greva</a></li>
+          <li><a href="/puna/perfundimi-i-marredhenies-se-punes">Përfundimi i marrëdhënies së punës</a></li> -->
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12 kategori-container">
+    <div class="kategori-ligjore">
+        <div class="kategori-ligjore-titull">
+          <i class="fa fa-shield"></i><br>
+          SIGURIMET SHOQËRORE
+        </div>
+        <div class="kategori-details">
+          <ul>
+            <li><a href="/sigurimet-shoqerore/">Sigurimet shoqërore</a></li>
+            {% for post in site.categories.sigurimet-shoqerore reversed %}
+              <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+            <!-- <li><a href="/sigurimet-shoqerore/sigurimi-shoqeror-i-detyrueshem">Sigurimi shoqëror i detyrueshëm</a></li>
+            <li><a href="/sigurimet-shoqerore/kontributi">Kontributi</a></li>
+            <li><a href="/sigurimet-shoqerore/te-ardhurat-nga-sigurimet-shoqerore">Të ardhurat nga sigurimet shoqërore</a></li>
+            <li><a href="/sigurimet-shoqerore/pensionet">Pensionet</a></li> -->
+          </ul>
+        </div>
+    </div>
+  </div>
+  <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12 kategori-container">
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+        <i class="fa fa-car"></i><br>
+        KODI RRUGOR
+      </div>
+      <div class="kategori-details">
+        <ul>
+          <li><a href="/kodi-rrugor/">Kodi rrugor</li>
+            {% for post in site.categories.kodi-rrugor reversed %}
+              <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+          <!-- <li><a href="/kodi-rrugor/si-veprohet-ne-rruge">Si veprohet në rrugë</a></li>
+          <li><a href="/kodi-rrugor/mjetet-rrugore">Mjetet rrugore</a></li>
+          <li><a href="/kodi-rrugor/drejtimi-i-mjeteve">Drejtimi i mjeteve</a></li>
+          <li><a href="/kodi-rrugor/lejedrejtimi">Lejedrejtimi</a></li>
+          <li><a href="/kodi-rrugor/shpejtesia">Shpejtësia</a></li>
+          <li><a href="/kodi-rrugor/kembesoret">Këmbësorët</a></li>
+          <li><a href="/kodi-rrugor/shkeljet">Shkeljet</a></li> -->
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12 kategori-container" id="ref">
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+        <i class="fa fa-tree"></i><br>
+        MJEDISI
+      </div>
+      <div class="kategori-details">
+        <ul>
+          <li><a href="/mjedisi/">Mjedisi</a></li>
+          {% for post in site.categories.mjedisi reversed %}
+            <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+          <!-- <li><a href="/mjedisi/shqetesimi-dhe-demtimi-nga-zhurmat">Shqetësimi dhe dëmtimi nga zhurmat</a></li>
+          <li><a href="/mjedisi/ajri">Ajri</a></li>
+          <li><a href="/mjedisi/">Menaxhimi i burimeve ujore</a></li>
+          <li><a href="/mjedisi/">Menaxhimi i mbetjeve</a></li> -->
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12 kategori-container">
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+        <i class="fa fa-university"></i></i><br>
+        ANKIMI ADMINISTRATIV
+      </div>
+      <div class="kategori-details">
+        <ul>
+          <li><a href="/ankimi-administrativ/">Ankimi Administrativ</a></li>
+          {% for post in site.categories.ankimi-administrativ reversed %}
+            <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+          <!-- <li><a href="#">Ankimi Administrativ</a></li>
+          <li><a href="#">Ankimi në gjykatë</a></li> -->
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12 kategori-container">
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+        <i class="fa fa-info-circle"></i><br>
+        INFORMIMI PUBLIK
+      </div>
+      <div class="kategori-details">
+        <ul>
+          <li><a href="/informimi-publik/">Informimi publik</a></li>
+          {% for post in site.categories.informimi-publik reversed %}
+            <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+          <!-- <li><a href="#">E drejta për informim</a></li>
+          <li><a href="#">Kërkesa për informim</a></li> -->
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-8 col-xs-12 kategori-container">
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+        <i class="fa fa-users"></i><br>
+        FAMILJA
+      </div>
+      <div class="kategori-details">
+        <ul>
+          <li><a href="/familja/">Familja</a></li>
+          {% for post in site.categories.familja reversed %}
+            <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+          <!-- <li><a href="#">Martesa</a></li>
+          <li><a href="#">Bashkëjetesa</a></li>
+          <li><a href="#">Amësia dhe Atësia</a></li>
+          <li><a href="#">Deklarimi dhe regjistrimi i fëmijës</a></li>
+          <li><a href="#">Birësimi</a></li>
+          <li><a href="#">Kujdestaria</a></li>
+          <li><a href="#">Dhuna në familje</a></li> -->
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12 kategori-container">
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+        <i class="fa fa-balance-scale"></i><br>
+        NDIHMA JURIDIKE
+      </div>
+      <div class="kategori-details">
+        <ul>
+          <li><a href="/ndihma-juridike/">Ndihma juridike</a></li>
+          {% for post in site.categories.ndihma-juridike reversed %}
+            <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+          <!-- <li><a href="#">Çfarë është ndihma juridike</a></li>
+          <li><a href="#">Ofrimi i ndihmës juridike</a></li>
+          <li><a href="#">Përfitimi i ndihmës juridike</a></li>
+          <li><a href="#">Kërkesa për ndihmë juridike</a></li> -->
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12 kategori-container">
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+        <i class="fa fa-shopping-cart"></i><br>
+        KONSUMATORI
+      </div>
+      <div class="kategori-details">
+        <ul>
+          <li><a href="/konsumatori/">Konsumatori</a></li>
+          {% for post in site.categories.konsumatori reversed %}
+            <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+          <!-- <li><a href="#">Konsumatori</a></li>
+          <li><a href="#">Tregtari</a></li>
+          <li><a href="#">Kontratat</a></li>
+          <li><a href="#">Mallrat</a></li>
+          <li><a href="#">Shkelja e të drejtave të konsumatorit</a></li> -->
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12 kategori-container">
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+        <i class="fa fa-gavel"></i><br>
+        PROCESI GJYQËSOR CIVIL
+      </div>
+      <div class="kategori-details">
+        <ul>
+          <li><a href="/procesi-gjyqesor-civil/">Procesi gjyqësor civil</a></li>
+          {% for post in site.categories.procesi-gjyqesor-civil reversed %}
+            <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+          <!-- <li><a href="#">Çfarë është ndihma juridike</a></li>
+          <li><a href="#">Ofrimi i ndihmës juridike</a></li>
+          <li><a href="#">Përfitimi i ndihmës juridike</a></li>
+          <li><a href="#">Kërkesa për ndihmë juridike</a></li> -->
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-8 col-xs-12 kategori-container">
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+        <i class="fa fa-home"></i><br>
+        PASURIA E PALUAJTSHME
+      </div>
+      <div class="kategori-details">
+          <ul>
+            <li><a href="/pasuria-e-paluajtshme/">Pasuria e paluajtshme</a></li>
+            {% for post in site.categories.pasuria-e-paluajtshme reversed %}
+              <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+            <!-- <li><a href="#">Regjistri i pasurive të paluajtshme</a></li>
+            <li><a href="#">Çertifikata e pronësisë dhe çertifikatat e përdorimit të pronësisë</a></li>
+            <li><a href="#">Procesi i regjistrimit të pasurive të paluajtshme</a></li>
+            <li><a href="#">Korrigjimi i gabimeve</a></li>
+            <li><a href="#">E drejta për informim</a></li>
+            <li><a href="#">Tarifat</a></li>
+            <li><a href="#">Shkeljet</a></li>
+            <li><a href="#">Ankimi</a></li> -->
+          </ul>
+        <!-- </div> -->
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12 kategori-container">
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+        <i class="fa fa-money"></i><br>
+        TATIMET DHE TAKSAT
+      </div>
+      <div class="kategori-details">
+        <ul>
+          <li><a href="/tatimet-dhe-taksat/">Tatimet dhe taksat</a></li>
+          {% for post in site.categories.tatimet-dhe-taksat reversed %}
+            <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+          <!-- <li><a href="#">Çfarë është ndihma juridike</a></li>
+          <li><a href="#">Ofrimi i ndihmës juridike</a></li>
+          <li><a href="#">Përfitimi i ndihmës juridike</a></li>
+          <li><a href="#">Kërkesa për ndihmë juridike</a></li> -->
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-8 col-xs-12 kategori-container">
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+        <i class="fa fa-building"></i><br>
+        BASHKËPRONËSIA NË NDËRTESAT E BANIMIT
+      </div>
+      <div class="kategori-details">
+        <ul>
+          <li><a href="/bashkepronesia-ne-ndertesa/">Bashkëpronësia në ndërtesat e banimit</a></li>
+          {% for post in site.categories.bashkepronesia-ne-ndertesa reversed %}
+            <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+          <!-- <li><a href="#">Çfarë është ndihma juridike</a></li>
+          <li><a href="#">Ofrimi i ndihmës juridike</a></li>
+          <li><a href="#">Përfitimi i ndihmës juridike</a></li>
+          <li><a href="#">Kërkesa për ndihmë juridike</a></li> -->
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12 kategori-container">
+    <div class="kategori-ligjore">
+        <div class="kategori-ligjore-titull">
+          <i class="fa fa-exclamation"></i><br>
+          SHKAKTIMI I DËMIT
+        </div>
+        <div class="kategori-details">
+          <ul>
+            <li><a href="/shkaktimi-i-demit/">Shkaktimi i dëmit</a></li>
+            {% for post in site.categories.shkaktimi-i-demit reversed %}
+              <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+            <!-- <li><a href="/sigurimet-shoqerore/sigurimi-shoqeror-i-detyrueshem">Sigurimi shoqëror i detyrueshëm</a></li>
+            <li><a href="/sigurimet-shoqerore/kontributi">Kontributi</a></li>
+            <li><a href="/sigurimet-shoqerore/te-ardhurat-nga-sigurimet-shoqerore">Të ardhurat nga sigurimet shoqërore</a></li>
+            <li><a href="/sigurimet-shoqerore/pensionet">Pensionet</a></li> -->
+          </ul>
+        </div>
+    </div>
+  </div>
+</div>
+
+    <!-- {{! The tag below includes the post loop - partials/loop.hbs }}
+    {{!> "loop"}} -->
+</main>
+<div class="clearfix"></div>
+<div class="row te-tjera hidden">
+  <div class="container">
+  <div class="col-md-3 col-sm-6 col-xs-12">
+    <div class="text-center">
+      <h3>Rreth projektit</h3>
+
+    </div>
+    <div class="page-parts-images" style="background: transparent url('/img/1.png') no-repeat scroll center center">
+      <!-- <img src="/img/1.png"/> -->
+      <a style="margin:auto;" href="/about">
+        <div class="round"><i class="fa fa-angle-right"></i></div>
+      </a>
+
+      <hr class="underline">
+
+
+    </div>
+  </div>
+  <div class="col-md-3 col-sm-6 col-xs-12">
+    <div class="text-center">
+      <h3>Burime dhe dokumenta</h3>
+
+    </div>
+    <div class="page-parts-images" style="background: transparent url('/img/2.png') no-repeat scroll center center">
+      <!-- <img src="/img/2.png"/> -->
+      <a style="margin:auto;" href="/burime">
+        <div class="round"><i class="fa fa-angle-right"></i></div>
+      </a>
+
+      <hr class="underline">
+    </div>
+
+  </div>
+  <div class="col-md-3 col-sm-6 col-xs-12">
+    <div class="text-center">
+      <h3>Fjalorth</h3>
+
+    </div>
+    <div class="page-parts-images" style="background: transparent url('/img/3.png') no-repeat scroll center center">
+      <!-- <img src="/img/3.png"/> -->
+      <a style="margin:auto;" href="/fjalorth">
+        <div class="round"><i class="fa fa-angle-right"></i></div>
+      </a>
+
+      <hr class="underline">
+    </div>
+
+  </div>
+  <div class="col-md-3 col-sm-6 col-xs-12">
+    <div class="text-center">
+      <h3>Lidhje</h3>
+
+    </div>
+    <div class="page-parts-images" style="background: transparent url('/img/4.png') no-repeat scroll center center">
+      <!-- <img src="/img/4.png"/> -->
+      <a style="margin:auto;" href="/links">
+        <div class="round"><i class="fa fa-angle-right"></i></div>
+      </a>
+
+      <hr class="underline">
+    </div>
+
+  </div>
+  </div>
+  <!-- <div class="clearfix"></div> -->
+</div>
+
+
+<div class="te-tjera">
+  <div class="container">
+  <div class="col-md-3 col-sm-6 col-xs-12">
+    <div class="page-parts">
+
+
+    <div class="text-left">
+      <img src="/img/1.png" />
+      <h4><a href="/about">Rreth projektit</a></h4>
+      Ligjet shërbejnë për të rregullar marrëdhëniet brenda një shoqërie të caktuar dhe përbëjnë bazën për mënyrën se si ...
+    </div>
+    <hr class="underline">
+    <!-- <a href="/about" class="btn btn-default">Më shumë</a> -->
+    </div>
+
+  </div>
+  <div class="col-md-3 col-sm-6 col-xs-12">
+    <div class="page-parts">
+
+
+    <div class="text-left">
+      <img src="/img/2.png" />
+      <h4><a href="/burime">Burime dhe dokumente</a></h4>
+      Këtu mund të gjeni burime të tjera informacioni, nëpërmjet publikimeve në fusha të ndryshme si të drejtat e të paraburgosurve, mbrojtja kundër diskriminimit...
+    </div>
+    <hr class="underline">
+    <!-- <a href="/burime" class="btn btn-default">Më shumë</a> -->
+    </div>      <!-- <img src="/img/2.png"/> -->
+
+
+
+
+
+  </div>
+  <div class="col-md-3 col-sm-6 col-xs-12">
+    <div class="page-parts">
+
+
+    <div class="text-left">
+      <img src="/img/3.png" />
+      <h4><a href="/fjalorth">Fjalorth</a></h4>
+      Fjalor i shkurtër me terma ligjorë
+    </div>
+    <hr class="underline">
+    <!-- <a href="/fjalorth" class="btn btn-default">Më shumë</a> -->
+    </div>
+
+
+
+  </div>
+  <div class="col-md-3 col-sm-6 col-xs-12">
+    <div class="page-parts">
+
+
+    <div class="text-left">
+      <img src="/img/4.png" />
+      <h4><a href="/links">Lidhje</a></h4>
+      Lidhuni me faqe te tjera të dobishme si ato të legjislacionit në fuqi, institucioneve shtetërore që janë në funksion të qytetarit, dhe organizatave të ndryshme.
+    </div>
+    <hr class="underline">
+    <!-- <a href="/links" class="btn btn-default">Më shumë</a> -->
+    </div>
+
+  </div>
+  </div>
+  <!-- <div class="clearfix"></div> -->
+  <p></p>
+  <p></p>
+  <p></p>
+</div>

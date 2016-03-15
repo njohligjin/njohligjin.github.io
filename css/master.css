@@ -573,6 +573,9 @@ li.dropdown{
   margin: auto;
   display: block;
 }
+.docx a {
+  display: inline-table;
+}
 .doc-icon {
   background: url("/img/icon-word.png") center no-repeat;
   height:100px;
@@ -601,6 +604,7 @@ li.dropdown{
   border-radius: 4px;
   background-color: #efefef;
   padding: 10px;
+  margin-top: 30px;
 }
 .tab-content {
   text-align: justify;
@@ -758,4 +762,543 @@ li.dropdown{
 }
 .home .kategori-container:nth-of-type(14) .kategori-details{
   background-color: #2c3c4d;
+}
+
+/* fotot e punës */
+.puna .kategori-container:nth-of-type(1) > .kategori-ligjore{
+  background: url("/img/puna-1.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.puna .kategori-container:nth-of-type(1) .kategori-details{
+  background-color: #004B68;
+}
+.puna .kategori-container:nth-of-type(2) > .kategori-ligjore{
+  background: url("/img/puna-2.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.puna .kategori-container:nth-of-type(2) .kategori-details{
+  background-color: #004B68;
+}
+.puna .kategori-container:nth-of-type(3) > .kategori-ligjore{
+  background: url("/img/puna-3.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.puna .kategori-container:nth-of-type(3) .kategori-details{
+  background-color: #004B68;
+}
+.puna .kategori-container:nth-of-type(4) > .kategori-ligjore{
+  background: url("/img/puna-4.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.puna .kategori-container:nth-of-type(4) .kategori-details{
+  background-color: #004B68;
+}
+.puna .kategori-container:nth-of-type(5) > .kategori-ligjore{
+  background: url("/img/puna-5.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.puna .kategori-container:nth-of-type(5) .kategori-details{
+  background-color: #004B68;
+}
+.puna .kategori-container:nth-of-type(6) > .kategori-ligjore{
+  background: url("/img/puna-6.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.puna .kategori-container:nth-of-type(6) .kategori-details{
+  background-color: #004B68;
+}
+.puna .kategori-container:nth-of-type(7) > .kategori-ligjore{
+  background: url("/img/puna-7.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.puna .kategori-container:nth-of-type(7) .kategori-details{
+  background-color: #004B68;
+}
+.puna .kategori-container:nth-of-type(8) > .kategori-ligjore{
+  background: url("/img/puna-8.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.puna .kategori-container:nth-of-type(8) .kategori-details{
+  background-color: #004B68;
+}
+
+/* fotot e sigurimeve */
+.sigurimet .kategori-container:nth-of-type(1) > .kategori-ligjore{
+  background: url("/img/sigurimet-1.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.sigurimet .kategori-container:nth-of-type(1) .kategori-details{
+  background-color: #4A78A9;
+}
+.sigurimet .kategori-container:nth-of-type(2) > .kategori-ligjore{
+  background: url("/img/sigurimet-2.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.sigurimet .kategori-container:nth-of-type(2) .kategori-details{
+  background-color: #4A78A9;
+}
+.sigurimet .kategori-container:nth-of-type(3) > .kategori-ligjore{
+  background: url("/img/sigurimet-3.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.sigurimet .kategori-container:nth-of-type(3) .kategori-details{
+  background-color: #4A78A9;
+}
+.sigurimet .kategori-container:nth-of-type(4) > .kategori-ligjore{
+  background: url("/img/sigurimet-4.png") center no-repeat;
+  background-size: 100% 100%;
+}
+.sigurimet .kategori-container:nth-of-type(4) .kategori-details{
+  background-color: #4A78A9;
+}
+
+/* fotot e kodit rrugor */
+.kodi-rrugor .kategori-container:nth-of-type(1) > .kategori-ligjore{
+  background: url("/img/kodi-1.png") center no-repeat;
+  background-size: 100% 100%;
+}
+.kodi-rrugor .kategori-container:nth-of-type(1) .kategori-details{
+  background-color: #004B67;
+}
+.kodi-rrugor .kategori-container:nth-of-type(2) > .kategori-ligjore{
+  background: url("/img/kodi-2.png") center no-repeat;
+  background-size: 100% 100%;
+}
+.kodi-rrugor .kategori-container:nth-of-type(2) .kategori-details{
+  background-color: #4A78A9;
+}
+.kodi-rrugor .kategori-container:nth-of-type(3) > .kategori-ligjore{
+  background: url("/img/kodi-3.png") center no-repeat;
+  background-size: 100% 100%;
+}
+.kodi-rrugor .kategori-container:nth-of-type(3) .kategori-details{
+  background-color: #4A78A9;
+}
+.kodi-rrugor .kategori-container:nth-of-type(4) > .kategori-ligjore{
+  background: url("/img/kodi-4.png") center no-repeat;
+  background-size: 100% 100%;
+}
+.kodi-rrugor .kategori-container:nth-of-type(4) .kategori-details{
+  background-color: #4978A9;
+}
+.kodi-rrugor .kategori-container:nth-of-type(5) > .kategori-ligjore{
+  background: url("/img/kodi-5.png") center no-repeat;
+  background-size: 100% 100%;
+}
+.kodi-rrugor .kategori-container:nth-of-type(5) .kategori-details{
+  background-color: #4A78A9;
+}
+.kodi-rrugor .kategori-container:nth-of-type(6) > .kategori-ligjore{
+  background: url("/img/kodi-6.png") center no-repeat;
+  background-size: 100% 100%;
+}
+.kodi-rrugor .kategori-container:nth-of-type(6) .kategori-details{
+  background-color: #6784B3;
+}
+.kodi-rrugor .kategori-container:nth-of-type(7) > .kategori-ligjore{
+  background: url("/img/kodi-7.png") center no-repeat;
+  background-size: 100% 100%;
+}
+.kodi-rrugor .kategori-container:nth-of-type(7) .kategori-details{
+  background-color: #4A78A9;
+}
+
+/* fotot e mjedisit */
+.mjedisi .kategori-container:nth-of-type(1) > .kategori-ligjore{
+  background: url("/img/mjedisi-1.png") center no-repeat;
+  background-size: 100% 100%;
+}
+.mjedisi .kategori-container:nth-of-type(1) .kategori-details{
+  background-color: #004B67;
+}
+.mjedisi .kategori-container:nth-of-type(2) > .kategori-ligjore{
+  background: url("/img/mjedisi-2.png") center no-repeat;
+  background-size: 100% 100%;
+}
+.mjedisi .kategori-container:nth-of-type(2) .kategori-details{
+  background-color: #004B67;
+}
+.mjedisi .kategori-container:nth-of-type(3) > .kategori-ligjore{
+  background: url("/img/mjedisi-3.png") center no-repeat;
+  background-size: 100% 100%;
+}
+.mjedisi .kategori-container:nth-of-type(3) .kategori-details{
+  background-color: #004B67;
+}
+.mjedisi .kategori-container:nth-of-type(4) > .kategori-ligjore{
+  background: url("/img/mjedisi-4.png") center no-repeat;
+  background-size: 100% 100%;
+}
+.mjedisi .kategori-container:nth-of-type(4) .kategori-details{
+  background-color: #004B67;
+}
+
+/* fotot e ankimit */
+.ankimi .kategori-container:nth-of-type(1) > .kategori-ligjore{
+  background: url("/img/ankimi-1.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.ankimi .kategori-container:nth-of-type(1) .kategori-details{
+  background-color: #004B67;
+}
+.ankimi .kategori-container:nth-of-type(2) > .kategori-ligjore{
+  background: url("/img/ankimi-2.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.ankimi .kategori-container:nth-of-type(2) .kategori-details{
+  background-color: #A81313;
+}
+.ankimi .kategori-container:nth-of-type(3) > .kategori-ligjore{
+  background: url("/img/ankimi-3.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.ankimi .kategori-container:nth-of-type(3) .kategori-details{
+  background-color: #E59638;
+}
+.ankimi .kategori-container:nth-of-type(4) > .kategori-ligjore{
+  background: url("/img/ankimi-4.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.ankimi .kategori-container:nth-of-type(4) .kategori-details{
+  background-color: #2C3C4C;
+}
+
+/* fotot e informimit */
+.informimi .kategori-container:nth-of-type(1) > .kategori-ligjore{
+  background: url("/img/ankimi-1.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.informimi .kategori-container:nth-of-type(1) .kategori-details{
+  background-color: #004B67;
+}
+.informimi .kategori-container:nth-of-type(1) > .kategori-ligjore{
+  background: url("/img/ankimi-2.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.informimi .kategori-container:nth-of-type(1) .kategori-details{
+  background-color: #004B67;
+}
+
+/* fotot e familja */
+.familja .kategori-container:nth-of-type(1) > .kategori-ligjore{
+  background: url("/img/familja-1.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.familja .kategori-container:nth-of-type(1) .kategori-details{
+  background-color: #004B67;
+}
+.familja .kategori-container:nth-of-type(2) > .kategori-ligjore{
+  background: url("/img/familja-2.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.familja .kategori-container:nth-of-type(2) .kategori-details{
+  background-color: #4979A9;
+}
+.familja .kategori-container:nth-of-type(3) > .kategori-ligjore{
+  background: url("/img/familja-3.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.familja .kategori-container:nth-of-type(3) .kategori-details{
+  background-color: #E59638;
+}
+.familja .kategori-container:nth-of-type(4) > .kategori-ligjore{
+  background: url("/img/familja-4.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.familja .kategori-container:nth-of-type(4) .kategori-details{
+  background-color: #2C3C4C;
+}
+.familja .kategori-container:nth-of-type(5) > .kategori-ligjore{
+  background: url("/img/familja-5.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.familja .kategori-container:nth-of-type(5) .kategori-details{
+  background-color: #004B67;
+}
+.familja .kategori-container:nth-of-type(6) > .kategori-ligjore{
+  background: url("/img/familja-6.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.familja .kategori-container:nth-of-type(6) .kategori-details{
+  background-color: #70A4D4;
+}
+.familja .kategori-container:nth-of-type(7) > .kategori-ligjore{
+  background: url("/img/familja-7.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.familja .kategori-container:nth-of-type(7) .kategori-details{
+  background-color: #004B67;
+}
+
+/* fotot e ndihmes juridike */
+.ndihma .kategori-container:nth-of-type(1) > .kategori-ligjore{
+  background: url("/img/ndihma-1.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.ndihma .kategori-container:nth-of-type(1) .kategori-details{
+  background-color: #22627B;
+}
+.ndihma .kategori-container:nth-of-type(2) > .kategori-ligjore{
+  background: url("/img/ndihma-2.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.ndihma .kategori-container:nth-of-type(2) .kategori-details{
+  background-color: #4D5E70;
+}
+.ndihma .kategori-container:nth-of-type(3) > .kategori-ligjore{
+  background: url("/img/ndihma-3.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.ndihma .kategori-container:nth-of-type(3) .kategori-details{
+  background-color: #2AAEB0;
+}
+.ndihma .kategori-container:nth-of-type(4) > .kategori-ligjore{
+  background: url("/img/ndihma-4.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.ndihma .kategori-container:nth-of-type(4) .kategori-details{
+  background-color: #5F9756;
+}
+
+/* fotot e konsumatorit */
+.konsumatori .kategori-container:nth-of-type(1) > .kategori-ligjore{
+  background: url("/img/konsumatori-1.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.konsumatori .kategori-container:nth-of-type(1) .kategori-details{
+  background-color: #004B67;
+}
+.konsumatori .kategori-container:nth-of-type(2) > .kategori-ligjore{
+  background: url("/img/konsumatori-2.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.konsumatori .kategori-container:nth-of-type(2) .kategori-details{
+  background-color: #70A4D4;
+}
+.konsumatori .kategori-container:nth-of-type(3) > .kategori-ligjore{
+  background: url("/img/konsumatori-3.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.konsumatori .kategori-container:nth-of-type(3) .kategori-details{
+  background-color: #E59638;
+}
+.konsumatori .kategori-container:nth-of-type(4) > .kategori-ligjore{
+  background: url("/img/konsumatori-4.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.konsumatori .kategori-container:nth-of-type(4) .kategori-details{
+  background-color: #70A4D4;
+}
+.konsumatori .kategori-container:nth-of-type(5) > .kategori-ligjore{
+  background: url("/img/konsumatori-5.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.konsumatori .kategori-container:nth-of-type(5) .kategori-details{
+  background-color: #2C3C4C;
+}
+
+/* fotot e pasurise */
+.pasuria .kategori-container:nth-of-type(1) > .kategori-ligjore{
+  background: url("/img/pasuria-1.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.pasuria .kategori-container:nth-of-type(1) .kategori-details{
+  background-color: #004B67;
+}
+.pasuria .kategori-container:nth-of-type(2) > .kategori-ligjore{
+  background: url("/img/pasuria-2.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.pasuria .kategori-container:nth-of-type(2) .kategori-details{
+  background-color: #63ab45;
+}
+.pasuria .kategori-container:nth-of-type(3) > .kategori-ligjore{
+  background: url("/img/pasuria-3.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.pasuria .kategori-container:nth-of-type(3) .kategori-details{
+  background-color: #2C3C4C;
+}
+.pasuria .kategori-container:nth-of-type(4) > .kategori-ligjore{
+  background: url("/img/pasuria-4.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.pasuria .kategori-container:nth-of-type(4) .kategori-details{
+  background-color: #5a97cc;
+}
+.pasuria .kategori-container:nth-of-type(5) > .kategori-ligjore{
+  background: url("/img/pasuria-5.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.pasuria .kategori-container:nth-of-type(5) .kategori-details{
+  background-color: #70A4D4;
+}
+.pasuria .kategori-container:nth-of-type(6) > .kategori-ligjore{
+  background: url("/img/pasuria-6.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.pasuria .kategori-container:nth-of-type(6) .kategori-details{
+  background-color: #e59638;
+}
+.pasuria .kategori-container:nth-of-type(7) > .kategori-ligjore{
+  background: url("/img/pasuria-7.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.pasuria .kategori-container:nth-of-type(7) .kategori-details{
+  background-color: #004B67;
+}
+.pasuria .kategori-container:nth-of-type(8) > .kategori-ligjore{
+  background: url("/img/pasuria-8.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.pasuria .kategori-container:nth-of-type(8) .kategori-details{
+  background-color: #6783B3;
+}
+
+/* fotot e bashkepronesise */
+.bashkepronesia .kategori-container:nth-of-type(1) > .kategori-ligjore{
+  background: url("/img/bashkepronesia-1.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.bashkepronesia .kategori-container:nth-of-type(1) .kategori-details{
+  background-color: #014B68;
+}
+.bashkepronesia .kategori-container:nth-of-type(2) > .kategori-ligjore{
+  background: url("/img/bashkepronesia-2.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.bashkepronesia .kategori-container:nth-of-type(2) .kategori-details{
+  background-color: #6783B3;
+}
+.bashkepronesia .kategori-container:nth-of-type(3) > .kategori-ligjore{
+  background: url("/img/bashkepronesia-3.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.bashkepronesia .kategori-container:nth-of-type(3) .kategori-details{
+  background-color: #A04847;
+}
+.bashkepronesia .kategori-container:nth-of-type(4) > .kategori-ligjore{
+  background: url("/img/bashkepronesia-4.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.bashkepronesia .kategori-container:nth-of-type(4) .kategori-details{
+  background-color: #004B67;
+}
+.bashkepronesia .kategori-container:nth-of-type(5) > .kategori-ligjore{
+  background: url("/img/bashkepronesia-5.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.bashkepronesia .kategori-container:nth-of-type(5) .kategori-details{
+  background-color: #22627B;
+}
+.bashkepronesia .kategori-container:nth-of-type(6) > .kategori-ligjore{
+  background: url("/img/bashkepronesia-6.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.bashkepronesia .kategori-container:nth-of-type(6) .kategori-details{
+  background-color: #6783B3;
+}
+
+/* fotot e tatimet */
+.tatimet .kategori-container:nth-of-type(1) > .kategori-ligjore{
+  background: url("/img/tatimet-1.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.tatimet .kategori-container:nth-of-type(1) .kategori-details{
+  background-color: #5375A5;
+}
+.tatimet .kategori-container:nth-of-type(2) > .kategori-ligjore{
+  background: url("/img/tatimet-2.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.tatimet .kategori-container:nth-of-type(2) .kategori-details{
+  background-color: #6783B3;
+}
+.tatimet .kategori-container:nth-of-type(3) > .kategori-ligjore{
+  background: url("/img/tatimet-3.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.tatimet .kategori-container:nth-of-type(3) .kategori-details{
+  background-color: #44A7A4;
+}
+.tatimet .kategori-container:nth-of-type(4) > .kategori-ligjore{
+  background: url("/img/tatimet-4.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.tatimet .kategori-container:nth-of-type(4) .kategori-details{
+  background-color: #7689A9;
+}
+.tatimet .kategori-container:nth-of-type(5) > .kategori-ligjore{
+  background: url("/img/tatimet-5.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.tatimet .kategori-container:nth-of-type(5) .kategori-details{
+  background-color: #004B67;
+}
+.tatimet .kategori-container:nth-of-type(6) > .kategori-ligjore{
+  background: url("/img/tatimet-6.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.tatimet .kategori-container:nth-of-type(6) .kategori-details{
+  background-color: #004B67;
+}
+
+/* fotot e procesi */
+.procesi .kategori-container:nth-of-type(1) > .kategori-ligjore{
+  background: url("/img/procesi-1.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.procesi .kategori-container:nth-of-type(1) .kategori-details{
+  background-color: #43562C;
+}
+.procesi .kategori-container:nth-of-type(2) > .kategori-ligjore{
+  background: url("/img/procesi-2.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.procesi .kategori-container:nth-of-type(2) .kategori-details{
+  background-color: #B93F3E;
+}
+.procesi .kategori-container:nth-of-type(3) > .kategori-ligjore{
+  background: url("/img/procesi-3.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.procesi .kategori-container:nth-of-type(3) .kategori-details{
+  background-color: #6783B3;
+}
+.procesi .kategori-container:nth-of-type(4) > .kategori-ligjore{
+  background: url("/img/procesi-4.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.procesi .kategori-container:nth-of-type(4) .kategori-details{
+  background-color: #4979A9;
+}
+
+/* fotot e demi */
+.demi .kategori-container:nth-of-type(1) > .kategori-ligjore{
+  background: url("/img/demi-1.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.demi .kategori-container:nth-of-type(1) .kategori-details{
+  background-color: #4979A9;
+}
+.demi .kategori-container:nth-of-type(2) > .kategori-ligjore{
+  background: url("/img/demi-2.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.demi .kategori-container:nth-of-type(2) .kategori-details{
+  background-color: #6783B3;
+}
+.demi .kategori-container:nth-of-type(3) > .kategori-ligjore{
+  background: url("/img/demi-3.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.demi .kategori-container:nth-of-type(3) .kategori-details{
+  background-color: #2E899B;
+}
+.demi .kategori-container:nth-of-type(4) > .kategori-ligjore{
+  background: url("/img/demi-4.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.demi .kategori-container:nth-of-type(4) .kategori-details{
+  background-color: #24647D;
 }

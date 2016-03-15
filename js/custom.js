@@ -323,7 +323,17 @@ $(document).ready(function(){
     } else if(window.location.href.indexOf("/informimi-publik/")!=-1){
       $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 8417, datë 21.10.1998, “Kushtetuta e Republikës së Shqipërisë”, i ndryshuar.</li><li>Ligjin Nr.119/2014, datë 18.09.2014, “Për të Drejtën e Informimit”.</li></ul>")
     } else if(window.location.href.indexOf("/familja/")!=-1){
-      $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 9062, datë 08.05.2003, “Kodi i Familjes dhe legjislacioni për birësimet i Republikës së Shqipërisë”, i ndryshuar.</li><li>Ligjin Nr. 10129, datë 11.05.2009, “Për Gjendjen Civile”, i ndryshuar.</li></ul>")
+      if(window.location.href.indexOf("bashkejetesa")!=-1){
+        $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 9062, datë 08.05.2003, “Kodi i Familjes dhe legjislacioni për birësimet i Republikës së Shqipërisë”, i ndryshuar.</li><li>Ligjin Nr. 7850, datë 29.07.1994, “Kodi Civil i Republikës së Shqipërisë”, i ndryshuar.</li></ul>")
+      } else if(window.location.href.indexOf("amesia")!=-1){
+        $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 9062, datë 08.05.2003, “Kodi i Familjes dhe legjislacioni për birësimet i Republikës së Shqipërisë”, i ndryshuar.</li><li>Ligjin Nr. 10129, datë 11.05.2009, “ Për Gjendjen Civile”, i ndryshuar.</li></ul>")
+      }else if(window.location.href.indexOf("biresimi")!=-1){
+        $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 9062, datë 08.05.2003, “Kodi i Familjes dhe legjislacioni për birësimet i Republikës së Shqipërisë”, i ndryshuar.</li><li>Ligjin Nr. 9695, datë 19.03.2007, “Për procedurat e birësimit dhe Komitetin Shqiptar të Birësimit”, i ndryshuar.</li></ul>")
+      }else if(window.location.href.indexOf("dhuna")!=-1){
+        $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 9669, datë 18.12.2006, “Për masa ndaj dhunës në marrëdhëniet familjare”, i ndryshuar.</li></ul>")  
+      } else {
+        $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 9062, datë 08.05.2003, “Kodi i Familjes dhe legjislacioni për birësimet i Republikës së Shqipërisë”, i ndryshuar.</li><li>Ligjin Nr. 10129, datë 11.05.2009, “Për Gjendjen Civile”, i ndryshuar.</li></ul>")
+      }
     } else if(window.location.href.indexOf("/ndihma-juridike/")!=-1){
       $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 10039, datë 22.12.2008, “ Për Ndihmën Juridike”, i ndryshuar.</li></ul>")
     } else if(window.location.href.indexOf("/konsumatori/")!=-1){
