@@ -14,7 +14,7 @@ image: burime.png
       },
       {
         title: "Apel kundërshtues",
-        url: "/burime/"
+        url: "/burime/Apel kundershtues.docx"
       },
       {
         title: "Apel",
@@ -22,96 +22,96 @@ image: burime.png
       },
       {
         title: "Autorizim përfaqësimi",
-        url: "/burime/"
+        url: "/burime/Autorizim perfaqesimi.docx"
       },
       {
         title: "Kërkesë caktim kujdestari",
-        url: "/burime/"
+        url: "/burime/Kerkese caktim kujdestari.docx"
       },
       {
         title: "Kërkesë ndryshim i përgjegjësisë prindërore",
-        url: "/burime/"
+        url: "/burime/Kerkese ndryshim i pergjegjesise prinderore.docx"
       },
       {
         title: "Kërkesë padi pavlefshmëri titulli ekzekutiv",
-        url: "/burime/"
+        url: "/burime/Kerkese padi pavlefshmeri titulli ekzekutiv.doc"
       },
       {
         title: "Kërkesë për heqje dorë nga ankimi",
-        url: "/burime/"
+        url: "/burime/Kerkese per heqje dore nga ankimi.docx"
       },
       {
         title: "Kërkesë për lëshimin e urdhrit të ekzekutimit",
-        url: "/burime/"
+        url: "/burime/Kerkese per leshimin e urdhrit te ekzekutimit.docx"
       },
       {
         title: "Kërkesë për ndreqje gabimi",
-        url: "/burime/"
+        url: "/burime/Kerkese per ndreqje gabimi.docx"
       },
       {
         title: "Kërkesë për pezullimin e vendimit",
-        url: "/burime/"
+        url: "/burime/Kerkese per pezullimin e vendimit.docx"
       },
       {
         title: "Kërkesë për rivendosje në afat",
-        url: "/burime/"
+        url: "/burime/Kerkese per rivendosje ne afat.docx"
       },
       {
         title: "Kërkesë për vënien në ekzekutim",
-        url: "/burime/"
+        url: "/burime/Kerkese per venien ne ekzekutim.docx"
       },
       {
         title: "Kërkesëpadi kundërshtim veprimesh përmbarimore",
-        url: "/burime/"
+        url: "/burime/Kerkesepadi kundershtim veprimesh permbarimore.doc"
       },
       {
         title: "Kundërpadi",
-        url: "/burime/"
+        url: "/burime/Kunderpadi.doc"
       },
       {
         title: "Padi kundërshtim atësie",
-        url: "/burime/"
+        url: "/burime/Padi kundershtim atesie.docx"
       },
       {
         title: "Padi njohje atësie",
-        url: "/burime/"
+        url: "/burime/Padi njohje atesie.docx"
       },
       {
         title: "Padi pavlefshmëri martese",
-        url: "/burime/"
+        url: "/burime/Padi pavlefshmeri martese.docx"
       },
       {
         title: "Padi zgjidhje martese me miratim",
-        url: "/burime/"
+        url: "/burime/Padi zgjidhje martese me miratim.docx"
       },
       {
         title: "Padi zgjidhje martese",
-        url: "/burime/"
+        url: "/burime/Padi zgjidhje martese.docx"
       },
       {
         title: "Rekurs gjykata e lartë",
-        url: "/burime/"
+        url: "/burime/Rekurs gjykata e larte.doc"
       },
-      {
-        title: "Ankim ne keshillin e larte te drejtesise",
-        url: "/burime/Ankim ne keshillin e larte te drejtesise.pdf"
-      },
-      {
-        title: "Mos hesht",
-        url: "/burime/Mos hesht.pdf"
-      },
-      {
-        title: "Si te kerkojme ndihme nga dhuna ne familje",
-        url: "/burime/Si te kerkojme ndihme nga dhuna ne familje.pdf"
-      },
-      {
-        title: "Kushtetuta e Republikës së Shqipërisë",
-        url: "/burime/Kushtetuta e Republikës së Shqipërisë.pdf"
-      }
+      // {
+      //   title: "Ankim ne keshillin e larte te drejtesise",
+      //   url: "/burime/Ankim ne keshillin e larte te drejtesise.pdf"
+      // },
+      // {
+      //   title: "Mos hesht",
+      //   url: "/burime/Mos hesht.pdf"
+      // },
+      // {
+      //   title: "Si te kerkojme ndihme nga dhuna ne familje",
+      //   url: "/burime/Si te kerkojme ndihme nga dhuna ne familje.pdf"
+      // },
+      // {
+      //   title: "Kushtetuta e Republikës së Shqipërisë",
+      //   url: "/burime/Kushtetuta e Republikës së Shqipërisë.pdf"
+      // }
     ]};
     </script>
 
-    <script id="burime-template" type="text/x-handlebars-template">
+    <script id="burime-template1" type="text/x-handlebars-template">
       {% raw %}
       {{#burimet}}
       <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
@@ -122,59 +122,25 @@ image: burime.png
       {{/burimet}}
       {% endraw %}
     </script>
+    <script id="burime-template" type="text/x-handlebars-template">
+      {% raw %}
+      {{#burimet}}
+      <div class="col-md-3 col-sm-4 col-xs-6 docx">
+        <a href="{{url}}">
+          <img src="/img/icon-word.png" alt="Dokument per gjykatë" />
+          {{title}}
+        </a>
+      </div>
+      {{/burimet}}
+      {% endraw %}
+    </script>
 
 
-    <div class="burimet" style="display: none;"></div>
+
     <div class="col-md-8">
       <h4>Dokumente për gjykatë</h4>
-      <div class="col-md-3 col-sm-4 col-xs-6 docx">
+      <div class="burimet"></div>
 
-      </div>
-      <div class="col-md-3 col-sm-4 col-xs-6 docx">
-
-      </div>
-      <div class="col-md-3 col-sm-4 col-xs-6 docx">
-
-      </div>
-      <div class="col-md-3 col-sm-4 col-xs-6 docx">
-
-      </div>
-      <div class="col-md-3 col-sm-4 col-xs-6 docx">
-
-      </div>
-      <div class="col-md-3 col-sm-4 col-xs-6 docx">
-
-      </div>
-      <div class="col-md-3 col-sm-4 col-xs-6 docx">
-
-      </div>
-      <div class="col-md-3 col-sm-4 col-xs-6 docx">
-
-      </div>
-      <div class="col-md-3 col-sm-4 col-xs-6 docx">
-
-      </div>
-      <div class="col-md-3 col-sm-4 col-xs-6 docx">
-
-      </div>
-      <div class="col-md-3 col-sm-4 col-xs-6 docx">
-
-      </div>
-      <div class="col-md-3 col-sm-4 col-xs-6 docx">
-
-      </div>
-      <div class="col-md-3 col-sm-4 col-xs-6 docx">
-
-      </div>
-      <div class="col-md-3 col-sm-4 col-xs-6 docx">
-
-      </div>
-      <div class="col-md-3 col-sm-4 col-xs-6 docx">
-
-      </div>
-      <div class="col-md-3 col-sm-4 col-xs-6 docx">
-
-      </div>
     </div>
     <div class="col-md-4">
       <h4>Fletëpalosje</h4>

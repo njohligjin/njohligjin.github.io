@@ -1,7 +1,7 @@
 ---
 category: shkaktimi-i-demit
 description: ""
-img: phones.png
+image: demi.png
 layout: post
 title: "Shkaktimi i dëmit"
 excerpt: ""

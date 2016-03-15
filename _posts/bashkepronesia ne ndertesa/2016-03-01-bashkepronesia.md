@@ -1,7 +1,7 @@
 ---
 category: bashkepronesia-ne-ndertesa
 description: ""
-img: phones.png
+image: bashkepronesia.png
 layout: post
 title: "Bashkëpronësia në ndërtesa"
 excerpt: ""

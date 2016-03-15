@@ -298,7 +298,7 @@ $(document).ready(function(){
   });
   $("li.dropdown").click(function(){
     //alert();
-    $("#dropdown-menu").toggle();
+    $("#dropdown-menu").toggle("slow");
   })
 
   $(".note").click(function(){

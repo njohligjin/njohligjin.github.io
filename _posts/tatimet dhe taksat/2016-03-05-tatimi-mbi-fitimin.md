@@ -1,7 +1,7 @@
 ---
 category: tatimet-dhe-taksat
 description: ""
-img: phones.png
+image: taksa.png
 layout: post
 title: "Tatimi mbi fitimin"
 excerpt: ""
