@@ -971,12 +971,12 @@ li.dropdown{
 .informimi .kategori-container:nth-of-type(1) .kategori-details{
   background-color: #004B67;
 }
-.informimi .kategori-container:nth-of-type(1) > .kategori-ligjore{
+.informimi .kategori-container:nth-of-type(2) > .kategori-ligjore{
   background: url("/img/ankimi-2.jpg") center no-repeat;
   background-size: 100% 100%;
 }
-.informimi .kategori-container:nth-of-type(1) .kategori-details{
-  background-color: #004B67;
+.informimi .kategori-container:nth-of-type(2) .kategori-details{
+  background-color: #AC1011;
 }
 
 /* fotot e familja */
