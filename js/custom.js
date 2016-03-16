@@ -150,7 +150,7 @@ $(document).ready(function(){
   //submit i formes se kontaktit
   $("#submit-form").click(function() {
     $.ajax({
-      url: 'http://formspree.io/g.malo@commprog.com',
+      url: 'http://formspree.io/njohligjin@gmail.com',
       method: 'POST',
       data: $("#contact-form").serialize(),
       dataType: 'json',
@@ -175,7 +175,7 @@ $(document).ready(function(){
   //submit i formes se kontaktit
   $("#submit-pyetsor").click(function() {
     $.ajax({
-      url: 'http://formspree.io/g.malo@commprog.com',
+      url: 'http://formspree.io/njohligjin@gmail.com',
       method: 'POST',
       data: $("#pyetsori-form").serialize(),
       dataType: 'json',
@@ -330,7 +330,7 @@ $(document).ready(function(){
       }else if(window.location.href.indexOf("biresimi")!=-1){
         $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 9062, datë 08.05.2003, “Kodi i Familjes dhe legjislacioni për birësimet i Republikës së Shqipërisë”, i ndryshuar.</li><li>Ligjin Nr. 9695, datë 19.03.2007, “Për procedurat e birësimit dhe Komitetin Shqiptar të Birësimit”, i ndryshuar.</li></ul>")
       }else if(window.location.href.indexOf("dhuna")!=-1){
-        $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 9669, datë 18.12.2006, “Për masa ndaj dhunës në marrëdhëniet familjare”, i ndryshuar.</li></ul>")  
+        $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 9669, datë 18.12.2006, “Për masa ndaj dhunës në marrëdhëniet familjare”, i ndryshuar.</li></ul>")
       } else {
         $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 9062, datë 08.05.2003, “Kodi i Familjes dhe legjislacioni për birësimet i Republikës së Shqipërisë”, i ndryshuar.</li><li>Ligjin Nr. 10129, datë 11.05.2009, “Për Gjendjen Civile”, i ndryshuar.</li></ul>")
       }
