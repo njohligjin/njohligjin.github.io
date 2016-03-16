@@ -897,7 +897,7 @@ li.dropdown{
   background-color: #6784B3;
 }
 .kodi-rrugor .kategori-container:nth-of-type(7) > .kategori-ligjore{
-  background: url("/img/kodi-7.png") center no-repeat;
+  background: url("/img/kodi-7.jpg") center no-repeat;
   background-size: 100% 100%;
 }
 .kodi-rrugor .kategori-container:nth-of-type(7) .kategori-details{
@@ -917,7 +917,7 @@ li.dropdown{
   background-size: 100% 100%;
 }
 .mjedisi .kategori-container:nth-of-type(2) .kategori-details{
-  background-color: #004B67;
+  background-color: #4978A9;
 }
 .mjedisi .kategori-container:nth-of-type(3) > .kategori-ligjore{
   background: url("/img/mjedisi-3.png") center no-repeat;
