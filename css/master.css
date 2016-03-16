@@ -1027,7 +1027,7 @@ li.dropdown{
   background-size: 100% 100%;
 }
 .familja .kategori-container:nth-of-type(7) .kategori-details{
-  background-color: #004B67;
+  background-color: #E3B786;
 }
 
 /* fotot e ndihmes juridike */
@@ -1080,14 +1080,14 @@ li.dropdown{
   background-size: 100% 100%;
 }
 .konsumatori .kategori-container:nth-of-type(3) .kategori-details{
-  background-color: #E59638;
+  background-color: #70A4D4;
 }
 .konsumatori .kategori-container:nth-of-type(4) > .kategori-ligjore{
   background: url("/img/konsumatori-4.jpg") center no-repeat;
   background-size: 100% 100%;
 }
 .konsumatori .kategori-container:nth-of-type(4) .kategori-details{
-  background-color: #70A4D4;
+  background-color: #E59638;
 }
 .konsumatori .kategori-container:nth-of-type(5) > .kategori-ligjore{
   background: url("/img/konsumatori-5.jpg") center no-repeat;
@@ -1301,4 +1301,10 @@ li.dropdown{
 }
 .demi .kategori-container:nth-of-type(4) .kategori-details{
   background-color: #24647D;
+}
+
+@media all and (max-width: 699px){
+  .te-tjera {
+    margin-bottom: 140px;
+  }
 }
