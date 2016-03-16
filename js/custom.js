@@ -184,6 +184,7 @@ $(document).ready(function(){
       success: function(data) {
         $("#myModal").modal("hide");
         $('#success-modal').modal('show');
+        document.cookie="pyetsori=plotesuar";
       },
       error: function(err) {
       }
