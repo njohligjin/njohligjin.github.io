@@ -597,6 +597,7 @@ li.dropdown{
 
 .disclaimer {
   margin-top: 25px;
+  margin-bottom: 100px;
 }
 .legal-reference {
   font-style: italic;
@@ -1306,5 +1307,8 @@ li.dropdown{
 @media all and (max-width: 699px){
   .te-tjera {
     margin-bottom: 140px;
+  }
+  div#logodiv{
+    margin: 10px auto;
   }
 }

@@ -134,7 +134,10 @@ $(document).ready(function(){
       return $("#search-input").offset().top + +$("#search-input").css("height").substring(0, 2);
     },
     "right": ($(window).width() - ($("#search-input").offset().left + $("#search-input").outerWidth())),
-    "width": 526
+    "width": function(){
+      if($(window).width()>700) { return 526; }
+      else return $("#search-input").width();
+    }
   });
   $("#search-input").focus(function(){
     if($(window).width()>767){
@@ -145,7 +148,11 @@ $(document).ready(function(){
     if($(window).width()>767){
       $(this).animate({'width': '200px'}, 500);
     }
-  })
+  });
+
+  $("span.buton-kerkimi").click(function(){
+    $(".site-search").submit();
+  });
 
   //submit i formes se kontaktit
   $("#submit-form").click(function() {
