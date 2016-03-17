@@ -381,6 +381,7 @@ li.dropdown{
   border-radius: 0;*/
   background-color: #005696;
   color: #fff;
+  cursor: pointer;
 }
 
 #search-results{

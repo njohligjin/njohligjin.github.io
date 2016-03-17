@@ -358,4 +358,10 @@ $(document).ready(function(){
       $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 7850, datë 29.07.1994, “Kodi Civil i Republikës së Shqipërisë”, i ndryshuar.</li><li>Ligjin Nr. 9109, datë 17.07.2003, “Për profesionin e avokatit në Republikën e Shqipërisë”, i ndryshuar.</li></ul>")
     }
   // }, 200);
+    if($(window).width()<767){
+      $("#page-header").css({
+        "background-image": "",
+        "min-height": 0,
+      });
+    }
 });
