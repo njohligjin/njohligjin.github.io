@@ -840,14 +840,14 @@ li.dropdown{
   background-color: #4A78A9;
 }
 .sigurimet .kategori-container:nth-of-type(3) > .kategori-ligjore{
-  background: url("/img/sigurimet-3.jpg") center no-repeat;
+  background: url("/img/sigurimet-3.png") center no-repeat;
   background-size: 100% 100%;
 }
 .sigurimet .kategori-container:nth-of-type(3) .kategori-details{
   background-color: #4A78A9;
 }
 .sigurimet .kategori-container:nth-of-type(4) > .kategori-ligjore{
-  background: url("/img/sigurimet-4.png") center no-repeat;
+  background: url("/img/sigurimet-4.jpg") center no-repeat;
   background-size: 100% 100%;
 }
 .sigurimet .kategori-container:nth-of-type(4) .kategori-details{
