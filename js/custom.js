@@ -363,5 +363,8 @@ $(document).ready(function(){
         "background-image": "",
         "min-height": 0,
       });
+      $(".kategori-container .kategori-ligjore").css({
+        "background-size": "100%"
+      });
     }
 });
