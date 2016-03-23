@@ -183,7 +183,7 @@ footer {
   -webkit-box-align:center;
 
   /* Internet Explorer 10 */
-  display:-ms-flexbox;
+  /*display:-ms-flexbox;*/
   -ms-flex-pack:start; /* Start sepse me center del jo ne qender, cuditerisht */
   -ms-flex-align:center;
 
