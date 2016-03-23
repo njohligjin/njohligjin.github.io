@@ -3,7 +3,7 @@ category: puna
 description: ""
 image: puna.png
 layout: post
-title: "Përfundimi i marrëdhënis së punës"
+title: "Përfundimi i marrëdhënies së punës"
 excerpt: ""
 lang: sq
 ---
@@ -69,7 +69,7 @@ Zgjidhja e kontratës nga punëdhënësi, konsiderohet pa shkaqe të arsyeshme, 
 </div>
 
 <div id="part2" class="hidden">
-<h3>Zgjidhja e kontratës së punës pa shkaqe të arsyeshme</h3>
+<h3>Zgjidhja e kontratës së punës me afat të caktuar</h3>
 <p>Kontrata me afat të caktuar përfundon në fund të kohës së parashikuar, pa zgjidhje paraprake. </p>
 <p>Kur kontrata lidhet për më shumë se 3 deri në 5 vjet, ajo mund të zgjidhet nga punëmarrësi pas 3 vjetësh, në fund të një njoftimi prej 2 muajsh. Kur kontrata lidhet për më shumë se 5 vjet, ajo mund të zgjidhet nga punëmarrësi pas 5 vjetësh, në fund të një njoftimi prej 3 muajsh.</p>
 <p>Në rastin kur punëdhënësi ka si qëllim të zgjidhë kontratën e punës me afat të caktuar, përpara përfundimit të afatit, është i detyruar të zbatojë procedurën e shpjeguar më sipër sikurse për zgjidhjen e kontratës së punës me afat të pacaktuar.</p>

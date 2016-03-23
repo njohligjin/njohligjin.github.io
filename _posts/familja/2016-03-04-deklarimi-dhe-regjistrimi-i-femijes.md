@@ -71,10 +71,10 @@ Në këtë rast, nëna vetë mund të bëjë njohjen e fëmijës. Amësia mund t
 <div id="part4" class="hidden">
 <h3>Si përcaktohet atësia e fëmijës së lindur nga martesa?</h3>
 <p>Çdo fëmije që lind gjatë martesës prezumohet se ka për atë bashkëshortin e nënës së tij. Prezumimi i atësisë në këtë rast bëhet pasi hamendësohet se është ai që ka shkaktuar shtatzëninë. Regjistrimi në këtë rast në regjistrat e gjendjes civile bëhet duke u shënuar atësia e bashkëshortit.</p>
-<p>Ky rregull është i vlefshëm dhe për fëmijët që kanë lindur nga martesa të cilat janë shpallur të pavlefshme.
-Fëmija që ka  lindur brenda 300 ditëve nga zgjidhja e martesës ose nga shpallja e pavlefshmërisë së martesës prezumohet se ka për baba ish bashkëshortin e nënës.</p>
-<p>Dhe në këtë rast fëmija do të quhet i lindur nga martesa, por ky prezumim nuk qëndron nëse fëmija ka lindur qoftë edhe një ditë pas afatit 300 ditësh. Ky afat është konsideruar një afat maksimal pasi shtatzënia normale zgjat 270 ditë (9 muaj).
-Kur fëmija ka lindur gjatë vazhdimit të martesës së dytë, edhe brenda 300 ditëve nga zgjidhja e martesës së parë ose nga shpallja e pavlefshmërisë së saj prezumohet se ka për baba bashkëshortin e nënës nga martesa e dytë.</p>
+<p>Ky rregull është i vlefshëm dhe për fëmijët që kanë lindur nga martesa të cilat janë shpallur të pavlefshme.</p>
+<p>Fëmija që ka  lindur brenda 300 ditëve nga zgjidhja e martesës ose nga shpallja e pavlefshmërisë së martesës prezumohet se ka për baba ish bashkëshortin e nënës.</p>
+<p>Dhe në këtë rast fëmija do të quhet i lindur nga martesa, por ky prezumim nuk qëndron nëse fëmija ka lindur qoftë edhe një ditë pas afatit 300 ditësh. Ky afat është konsideruar një afat maksimal pasi shtatzënia normale zgjat 270 ditë (9 muaj).</p>
+<p>Kur fëmija ka lindur gjatë vazhdimit të martesës së dytë, edhe brenda 300 ditëve nga zgjidhja e martesës së parë ose nga shpallja e pavlefshmërisë së saj prezumohet se ka për baba bashkëshortin e nënës nga martesa e dytë.</p>
 <p>Në këtë rast ligjvënësi, duke pasur gjithmonë prioritet mbrojtjen e interesave të fëmijës, edhe pse fëmija ka lindur brenda afatit 300 ditor, i jep përparësi prezumimit se fëmija ka për baba bashkëshortin e nënës.</p>
 <h3>Kush mund të kundërshtojë atësinë e prezumuar dhe si?</h3>
 Atësia e prezumuar mund të kundërshtohet nga:

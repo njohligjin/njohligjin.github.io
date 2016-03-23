@@ -38,7 +38,7 @@ Ndërtesat e banimit administrohen nga “Administratori” (person fizik) ose �
 </div>
 
 <div id="part2" class="hidden">
-<h3>Cilat janë disa nga përgjegjësitë e administratorit apo shoqërisë administruese të bashkëpronësisë?</h3>
+<h3 style="text-align: left;">Cilat janë disa nga përgjegjësitë e administratorit apo shoqërisë administruese të bashkëpronësisë?</h3>
 Disa nga përgjegjësitë e administratorit apo shoqërisë administruese të bashkëpronësisë përfshijnë:
 <ul>
 <li>zbatimin e vendimeve të marra nga Asambleja e Bashkëpronarëve;</li>
@@ -68,7 +68,7 @@ Në të duhet të përfshihen në mënyrë të detyrueshme pagesat për:
 </div>
 
 <div id="part5" class="hidden">
-<h3>Si veprohet nëse një nga bashkëpronarët nuk e paguan tarifën e administrimit në kohën e caktuar?</h3>
+<h3 style="text-align: left;">Si veprohet nëse një nga bashkëpronarët nuk e paguan tarifën e administrimit në kohën e caktuar?</h3>
 <p>Nëse një bashkëpronar nuk e paguan tarifën e administrimit në kohën e caktuar, për çdo muaj vonesë, ai paguan një kamatë të barabartë me 10 për qind të tarifës.</p>
 <p>Nëse bashkëpronari nuk i ka paguar tarifat mujore të prapambetura as në muajin e tretë, bashkë me kamatat përkatëse, kryesia ose shoqëria e administrimit, e autorizuar nga kryesia, i drejtohet gjykatës për detyrimin e kryerjes së pagesës  dhe zyrës së përmbarimit për vënien në ekzekutim të vendimit të Asamblesë së Bashkëpronarëve, për detyrimin e pagimit të tarifave të prapambetura dhe të kamatave përkatëse.</p>
 </div>

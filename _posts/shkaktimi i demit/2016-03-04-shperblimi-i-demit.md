@@ -37,7 +37,7 @@ var data = { topics: [
 </script>
 
 <div id="part1" class="hidden">
-<h3>Cilat janë pjesët përbërëse të shpërblimit të dëmit pasuror dhe dëmit jopasuror?</h3>
+<h3 style="text-align: left;">Cilat janë pjesët përbërëse të shpërblimit të dëmit pasuror dhe dëmit jopasuror?</h3>
 <p>Shpërblimi i dëmit pasuror përbëhet nga humbja e pësuar nga dëmi dhe të ardhurat që do të përfitoheshin në rast se dëmi nuk do të kishte ndodhur.</p>
 <p>Shpërblehen gjithashtu shpenzimet e kryera në mënyrë të arsyeshme për të shmangur ose pakësuar dëmin, për të përcaktuar përgjegjësinë dhe masën e dëmit, si dhe për të siguruar shpërblimin në rrugë jashtëgjyqësore.</p>
 <p>Dëmi jo pasuror përfshin dëmin biologjik, dëmin moral dhe dëmin ekzistencial. </p>
@@ -58,13 +58,13 @@ Kjo e drejtë është e pa trashëgueshme.
 </div>
 
 <div id="part3" class="hidden">
-<h3>Çfarë shpërblimi duhet të jepet në rast se është shkaktuar vdekja e një personi?</h3>
+<h3 style="text-align: left;">Çfarë shpërblimi duhet të jepet në rast se është shkaktuar vdekja e një personi?</h3>
 Kur është shkaktuar vdekja e një personi, dëmi që duhet të shpërblehet përbëhet nga:
 <ul>
 <li>shpenzimet për ushqim e jetesë të fëmijëve të tij të mitur, të bashkëshortes dhe prindërve të paaftë për punë që kanë qenë në ngarkim të të vdekurit, plotësisht ose pjesërisht, si dhe të personave që banonin në familjen e të vdekurit dhe që gëzonin prej tij të drejtën e ushqimit;</li>
 <li>shpenzimet e duhura për varrimin e të vdekurit.</li>
 </ul>
-Personi që ka shkaktuar dëmin mund të mbrohet me të njëjtat mjete me të cilat do të mbrohej nëse personi do të ishte gjallë.
+<p>Personi që ka shkaktuar dëmin mund të mbrohet me të njëjtat mjete me të cilat do të mbrohej nëse personi do të ishte gjallë.</p>
 <p>Gjykata, duke marrë parasysh të gjitha rrethanat e çështjes, mund të vendosë që shpërblimi të jepet në natyrë, ose në para, njëherësh ose me këste.</p>
 <h3>Sa është masa e shpërblimit në rast vdekjeje apo dëmtimi të shëndetit?</h3>
 <p>Kur shkaktohet vdekja ose dëmtimi i shëndetit të një personi që fiton nga sigurimet shoqërore, dëmi shpërblehet në mënyrën e caktuar me ligj.</p>

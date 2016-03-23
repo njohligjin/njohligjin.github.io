@@ -88,25 +88,6 @@ Vendosja e të miturve në kujdestari parashikohet në ato raste kur:
 <li>prindërve iu është hequr përgjegjësia prindërore ose iu është hequr zotësia për të vepruar;</li>
 <li>si dhe për çdo shkak tjetër të pranuar nga gjykata. </li>
 </ul>
-<h3>Kush ka të drejtë të kërkojë vendosjen e kujdestarisë mbi të miturin?</h3>
-Të drejtën për paraqitjen e kërkesës në gjykatë për vendosjen e kujdestarisë mbi të miturin e kanë:
-<ul>
-<li>të afërmit e fëmijës së mitur; </li>
-<li>cilido që merr njoftim për mbetjen e fëmijës pa prindër ose për lindjen e një fëmije me prindër të panjohur; </li>
-<li>vetë i mituri që ka mbushur moshën katërmbëdhjetë vjeç; </li>
-<li>prokurori;</li>
-<li>noteri, i cili në çeljen e një testamenti vihet në dijeni për caktimin e një kujdestari.</li>
-</ul>
-<h3>Çfarë duhet të vendosë gjykata në lidhje me kujdestarinë e të miturit?</h3>
-<p>Gjykata vendos si kujdestar personin e caktuar nga prindi, që ka ushtruar i fundit përgjegjësinë prindërore, me testament ose deklaratë noteriale. Kujdestari i caktuar në këtë mënyrë, nuk është i detyruar të pranojë kujdestarinë.</p>
-<p>Gjykata i jep prioritet zgjedhjes së kujdestarit midis paraardhësve (gjyshi, gjyshja, etj), personave të afërt të të miturit, një familjeje kujdestare dhe, si alternativë të fundit, institucionit publik ose privat. Para se gjyqtari të caktojë kujdestarin, duhet të dëgjojë personin e zgjedhur si të tillë dhe të marrë mendimin e të miturit nëse ai ka mbushur moshën dhjetë vjeç.</p>
-<p>Caktimi i kujdestarit nga gjykata bëhet duke parë cilësitë e personit kujdestar, të familjes kujdestare të zgjedhur ose të institucionit të përkujdesjes, si dhe pasi ka dëgjuar mendimin e një psikologu, që duhet të jetë i pranishëm gjatë gjykimit.</p>
-<p>Në regjistrin e kujdestarisë, që ndodhet pranë gjykatës, regjistrohen vendosja dhe mbarimi i kujdestarisë, përjashtimi ose shkarkimi nga detyra i kujdestarit ose kujdestarit të posaçëm, rezultatet e inventarëve të llogarive të të miturit nën kujdestari dhe të gjitha masat që sjellin ndryshime në statusin vetjak ose pasuror të të miturit.</p>
-<h3>Si veprohet me të miturit të cilët nuk kanë të afërm të njohur ose të aftë për të ushtruar detyrën e kujdestarit?</h3>
-<p>Të miturit të cilët nuk kanë të afërm të njohur ose të aftë për të ushtruar detyrën e kujdestarit, gjykata mund t’i dërgojë në një institucion publik ose privat të licencuar për përkujdesjen e fëmijëve.</p>
-</div>
-
-<div id="part5" class="hidden">
 <h3>Çfarë cilësish duhet të zotërojë kujdestari?</h3>
 <ul>
 <li>prindërit e tyre janë në pamundësi për të ushtruar përgjegjësinë prindërore; </li>
@@ -133,11 +114,16 @@ Të drejtën për paraqitjen e kërkesës në gjykatë për vendosjen e kujdesta
 <p>Të miturit të cilët nuk kanë të afërm të njohur ose të aftë për të ushtruar detyrën e kujdestarit, gjykata mund t’i dërgojë në një institucion publik ose privat të licencuar për përkujdesjen e fëmijëve.</p>
 </div>
 
-<div id="part6" class="hidden">
+<div id="part5" class="hidden">
 <h3>Çfarë kuptojmë me “familje kujdestare”?</h3>
 Familja kujdestare është një familje alternative, e vendosur nga gjykata, për t’i ofruar fëmijës një mjedis familjar, kushte për mirërritje, përkujdesje fizike dhe mbështetje emocionale. Evidentimi i familjeve kujdestare është përgjegjësi e sektorit të ndihmës dhe shërbimit social pranë bashkisë ku banon i mituri, e cila realizohet me firmosjen e një deklarate gatishmërie nga familja për të marrë fëmijë në kujdestari.
 <h3>Cilat janë funksionet e kujdestarit të të miturit?</h3>
 Kujdestari kujdeset për të miturin, e përfaqëson atë në të gjitha veprimet juridike dhe administron pasurinë e tij në përputhje me ligjin.
+</div>
+
+<div id="part6" class="hidden">
+<h3>Kur zëvendësohet kujdestari i të miturit dhe kush mund ta kërkojë këtë gjë?</h3>
+Detyra e kujdestarit nuk përfundon vetëm kur shkaqe që lidhen me personin e vënë në kujdestari. Gjatë ushtrimit të kujdestarisë gjykata mund ta zëvendësojë me një tjetër kur vëren se kujdestari shpërdoron të drejtat e tij, tregohet i pakujdesshëm në kryerjen e detyrës ose vë në rrezik interesat e të miturit, si dhe kur vetë kujdestari kërkon largimin e tij. Kërkesa për zëvendësimin e kujdestarit mund të bëhet nga personat e interesuar (p.sh. të afërmit) ose prokurori.
 </div>
 
 <div id="part7" class="hidden">
@@ -154,11 +140,6 @@ Kujdestaria e posaçme mbaron kur pushojnë shkaqet për të cilat është vendo
 </div>
 
 <div id="part8" class="hidden">
-<h3>Kur zëvendësohet kujdestari i të miturit dhe kush mund ta kërkojë këtë gjë?</h3>
-Detyra e kujdestarit nuk përfundon vetëm kur shkaqe që lidhen me personin e vënë në kujdestari. Gjatë ushtrimit të kujdestarisë gjykata mund ta zëvendësojë me një tjetër kur vëren se kujdestari shpërdoron të drejtat e tij, tregohet i pakujdesshëm në kryerjen e detyrës ose vë në rrezik interesat e të miturit, si dhe kur vetë kujdestari kërkon largimin e tij. Kërkesa për zëvendësimin e kujdestarit mund të bëhet nga personat e interesuar (p.sh. të afërmit) ose prokurori.
-</div>
-
-<div id="part9" class="hidden">
 <h3>Kur mbaron kujdestaria e të miturit?</h3>
 Kujdestaria mbaron kur fëmija:
 <ul>
@@ -166,6 +147,9 @@ Kujdestaria mbaron kur fëmija:
 <li>vdes; </li>
 <li>fiton zotësinë për të vepruar me martesë.</li>
 </ul>
+</div>
+
+<div id="part9" class="hidden">
 <h3>Kur vendosen në kujdestari personat madhorë?</h3>
 Vendosja e personave madhorë në kujdestari bëhet në rastin kur atyre u është hequr apo kufizuar zotësia për të vepruar me vendim gjykate të formës së prerë. Gjykata, në vendimin për heqjen ose kufizimin e zotësisë për të vepruar, cakton dhe kujdestarin për personin që i hiqet ose i kufizohet zotësia për të vepruar.
 <h3>Cilat rregulla zbatohen për kujdestarinë e personave madhorë?</h3>

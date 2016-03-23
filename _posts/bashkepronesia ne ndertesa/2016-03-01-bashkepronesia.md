@@ -10,7 +10,7 @@ lang: sq
 <script>
 var data = { topics: [
   {
-    title: "Rregullat per administrimin e bashkëpronësisë në ndërtesa",
+    title: "Rregullat për administrimin e bashkëpronësisë në ndërtesa",
     text: function(){ return $("#part1").html(); }
   },
   {
@@ -35,9 +35,6 @@ var data = { topics: [
 <div id="part1" class="hidden">
   <h3>A ka rregulla të posaçme për administrimin e bashkëpronësisë në ndërtesat e banimit?</h3>
   Për një administrim sa më të mirë të pjesëve në bashkëpronësi të ndërtesave të banimit, janë vendosur me ligj të posaçëm disa rregulla. Ato kanë të bëjnë me të drejtat dhe detyrimet e secilit prej bashkëpronarëve të pjesëve në bashkëpronësi, si dhe me masat ndëshkuese në rast se ata nuk i përmbushin këto detyrime.
-  <h3>Kush duhet të kontrollojë zbatimin e rregullave mbi bashkëpronësinë në ndërtesat e banimit?</h3>
-  <p>Zbatimi i rregullave mbi bashkëpronësinë në ndërtesat e banimit kontrollohet nga inspektorati vendor (inspektorati ndërtimor dhe urbanistik i bashkisë/komunës). Pas çdo kontrolli (si p.sh. për mbrojtjen kundër zjarrit, ruajtjen e higjienës apo kontrollin e ashensorëve), inspektori përkatës shprehet me një akt, të cilin e shpall në një vend të dukshëm në godinën e inspektuar dhe njëkohësisht ia njofton kryesisë dhe administratorit apo shoqërisë administruese përkatëse, për gjendjen e përgjithshme të ndërtesës, si dhe për masat që duhet të merren në rast se ka nevojë për të tilla.</p>
-  <p>Asambleja e Bashkëpronarëve merr vendim brenda afatit të përcaktuar në akt dhe autorizon administratorin/shoqërinë administruese për ndreqjen e të metave, duke siguruar financimin e nevojshëm nga bashkëpronarët.</p>
 </div>
 
 <div id="part2" class="hidden">
@@ -46,8 +43,8 @@ var data = { topics: [
 </div>
 
 <div id="part3" class="hidden">
-<h3>Nga kush duhet të administrohen ndërtesat e banimit?</h3>
-Ndërtesat e banimit administrohen nga “Administratori” (person fizik) ose “Shoqëria e administrimit” (person juridik privat) që janë të regjistruar në librin përkatës në bashki apo komunë për të ushtruar veprimtarinë në fushën e administrimit të ndërtesave. Lista e tyre shpallet në vendin e njoftimeve të institucionit. Këta persona kontraktohen për administrimin e bashkëpronësisë nga kryesia e Asamblesë së Bashkëpronarëve.
+<h3>Cilat janë objektet në bashkëpronësi në një ndërtesë banimi?</h3>
+Objektet që janë në bashkëpronësi në një ndërtesë banimi përcaktohen shprehimisht në aktin e pronësisë mbi banesën të secilit bashkëpronar, si p.sh. shkallët, tarraca, oxhaqet, parkimet, bodrumi, ashensori, instalimet e ujit, instalimet elektrike, instalimet e telefonisë, etj. Pronarët e banesave nuk mund të kërkojnë ndarjen e këtyre objekteve në bashkëpronësi.
 </div>
 
 <div id="part4" class="hidden">
@@ -56,6 +53,9 @@ Akti i bashkëpronësisë përmban të dhënat dhe karakteristikat e objekteve n
 </div>
 
 <div id="part5" class="hidden">
+<h3>Kush duhet të kontrollojë zbatimin e rregullave mbi bashkëpronësinë në ndërtesat e banimit?</h3>
+<p>Zbatimi i rregullave mbi bashkëpronësinë në ndërtesat e banimit kontrollohet nga inspektorati vendor (inspektorati ndërtimor dhe urbanistik i bashkisë/komunës). Pas çdo kontrolli (si p.sh. për mbrojtjen kundër zjarrit, ruajtjen e higjienës apo kontrollin e ashensorëve), inspektori përkatës shprehet me një akt, të cilin e shpall në një vend të dukshëm në godinën e inspektuar dhe njëkohësisht ia njofton kryesisë dhe administratorit apo shoqërisë administruese përkatëse, për gjendjen e përgjithshme të ndërtesës, si dhe për masat që duhet të merren në rast se ka nevojë për të tilla.</p>
+<p>Asambleja e Bashkëpronarëve merr vendim brenda afatit të përcaktuar në akt dhe autorizon administratorin/shoqërinë administruese për ndreqjen e të metave, duke siguruar financimin e nevojshëm nga bashkëpronarët.</p>
 </div>
 
 <div class="post-content"></div>

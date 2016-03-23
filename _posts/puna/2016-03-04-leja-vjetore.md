@@ -23,7 +23,7 @@ var data = { topics: [
   },
   {
     title: "Leja për përkujdesje ndaj fëmijës",
-    text: function(){ return $("#part3").html(); }
+    text: function(){ return $("#part4").html(); }
   }
 ]};
 </script>
@@ -37,7 +37,7 @@ var data = { topics: [
 </div>
 
 <div id="part2" class="hidden">
-<h3>Çfarë zbritet nga paga e punëmarrësit?</h3>
+<h3>Cilat janë lejet e tjera që mund të përfitojë punëmarrësi?</h3>
 <p>Kur punëmarrësi nuk mund të punojë për shkak të sëmundjes, punëdhënësi i jep atij jo më pak se 80% të pagës për një periudhë prej 14 ditësh të pambuluara nga sigurimet shoqërore.</p>
 <p>Në rast martese të punëmarrësit ose në rast vdekjeje të bashkëshortit/bashkëjetuesit, paraardhësve ose pasardhësve të tij të drejtpërdrejtë, si p.sh.: të fëmijëve apo prindërve, punëmarrësi përfiton 5 ditë leje ditore të paguar.</p>
 <p>Në rast sëmundjeje të rëndë të anëtarëve të familjes, bashkëjetuesit, të paraardhësve ose pasardhësve të tij të drejtpërdrejtë, e vërtetuar me raport mjekësor, punëmarrësi përfiton jo më shumë se 30 ditë leje të papaguar. Në rast lindjeje fëmije, personi që është bashkëshort/bashkëjetues përfiton 3 ditë pushimi të paguar.</p>

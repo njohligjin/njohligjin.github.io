@@ -46,7 +46,7 @@ var data = { topics: [
 </div>
 
 <div id="part3" class="hidden">
-<h3>Si thirret Asambleja e Bashkëpronarëve</h3>
+<h3>Si thirret Asambleja e Bashkëpronarëve?</h3>
 <p>Njoftimi për mbledhjen e radhës së asamblesë afishohet nga kryesia në një vend të dukshëm në ndërtesë, të paktën 10 ditë para mbledhjes, ku shënohen: vendi, ora dhe rendi i ditës.</p>
 <p>Në rast se me njoftimin e parë nuk arrihet pjesëmarrja e 2/3 të bashkëpronarëve, atëherë përsëritet njoftimi për një mbledhje tjetër pas 3 ditësh. Këtë herë mbledhja zhvillohet me bashkëpronarët e pranishëm.</p>
 <p>Procesverbali i mbledhjeve dhe i vendimeve mbahet nga kryesia dhe mund të konsultohet nga secili prej bashkëpronarëve.</p>

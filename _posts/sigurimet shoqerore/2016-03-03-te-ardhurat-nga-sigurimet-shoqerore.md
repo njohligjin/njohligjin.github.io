@@ -22,7 +22,7 @@ var data = { topics: [
     text: function(){ return $("#part3").html(); }
   },
   {
-    title: "Të ardhurat nga paaftësia e zakonshme",
+    title: "Të ardhurat nga paaftësia e përkohshme",
     text: function(){ return $("#part4").html(); }
   },
   {

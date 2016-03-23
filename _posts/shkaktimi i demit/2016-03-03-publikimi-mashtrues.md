@@ -14,7 +14,7 @@ var data = { topics: [
     text: function(){ return $("#part1").html(); }
   },
   {
-    title: "Përgjegjësia nga publikimi mashtrues",
+    title: "Shpërblimi për dëmin jopasuror",
     text: function(){ return $("#part2").html(); }
   },
   {
@@ -39,7 +39,7 @@ Personi që publikon një njoftim që lidhet me produktet ose shërbimet e një 
 <li>identiteti, cilësitë ose kompetencat e atij që fabrikon ose ka fabrikuar produktet, që ofron ato ose të atij që kryen shërbim, që drejton, mbikëqyr ose ndihmon në këto veprimtari;</li>
 <li>krahason me produkte dhe shërbime të tjera.</li>
 </ul>
-Personi që ka bërë një publikim të tillë, është përgjegjës për dëmin e shkaktuar, me përjashtim të rastit kur provon se nuk ka faj për ardhjen e tij.
+<p>Personi që ka bërë një publikim të tillë, është përgjegjës për dëmin e shkaktuar, me përjashtim të rastit kur provon se nuk ka faj për ardhjen e tij.</p>
 <p>Kur publikimi mashtrues, i ka shkaktuar ose rrezikon t’i shkaktojë dëm një tjetri, me kërkesën e tij, gjykata urdhëron ndalimin e menjëhershëm të publikimit dhe detyrimin e personit përgjegjës për të kryer një përgënjeshtrim publik, në mënyrën që gjykata do ta gjejë të përshtatshme.</p>
 </div>
 

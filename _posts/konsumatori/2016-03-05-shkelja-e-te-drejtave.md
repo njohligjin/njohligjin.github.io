@@ -46,24 +46,24 @@ Kur i shkelen të drejtat, konsumatori ka të drejtë të  paraqesë një ankes�
 <h3>Si bëhet ankimi në Komisionin e Mbrojtjes së Konsumatorëve?</h3>
 <p>Konsumatorët mund ta ushtrojnë të drejtën e ankimit në mënyrë individuale ose nëpërmjet çdo, organizate jofitimprurëse në mbrojtje të të drejtave të tyre.</p>
 <p>Ankesa plotësohet në mënyrë elektronike në faqen zyrtare (online), si dhe sipas formularit standard të ankesës. Formulari standard mund të shkarkohet, plotësohet dhe të depozitohet pranë Sektorit të Mbrojtjes së Konsumatorëve, drejtpërdrejtë ose në rrugë postare.</p>
-Web: http://www.ekonomia.gov.al/al/dokumente/open-government/mbrojtja-e-konsumatorit<br/>
+Web: <a href="http://www.ekonomia.gov.al/al/dokumente/open-government/mbrojtja-e-konsumatorit" target="_blank" dummy="_a_" > http://www.ekonomia.gov.al/al/dokumente/open-government/mbrojtja-e-konsumatorit</a><br/>
 Adresa: Ministria e Zhvillimit Ekonomik, Turizmit, Tregtisë dhe Sipërmarrjes<br/>
 Blv. “Dëshmorët e Kombit”, Tiranë.<br/>
 Numri i telefonit: 042 278 109<br/>
-E-mail: kmk@ekonomia.gov.al
+E-mail: <a href="mailto:kmk@ekonomia.gov.al"> kmk@ekonomia.gov.al</a>
 <h3>Ku tjetër mund të bëhet ankesë në lidhje me shkeljen e të drejtave të konsumatorit?</h3>
 Ankesë mund të bëhet edhe pranë:
 <ul>
 <li>Institucionit të Avokatit të Popullit<br/>
-Web: http://www.avokatipopullit.gov.al/ankese <br/>
+Web: <a href="http://www.avokatipopullit.gov.al/ankese" target="_blank" dummy="_a_">http://www.avokatipopullit.gov.al/ankese </a> <br/>
 Adresa: Blv. “Zhan D’Ark”, Nr. 2, Tiranë.<br/>
 Numri i telefonit: 04 2 380 300,  04 2380 333<br/>
-E-mail: ap@avokatipopullit.gov.al</li>
+E-mail: <a href="mailto:ap@avokatipopullit.gov.al">ap@avokatipopullit.gov.al</a></li>
 
 <li>Agjensisë së Mbrojtjes së Konsumatorit<br/>
 Adresa: Bashkia Tiranë.<br/>
 Numri i telefonit: 04 2274774<br/>
-E-mail: konsumatori@tirana.gov.al</li>
+E-mail: <a href="mailto:konsumatori@tirana.gov.al">konsumatori@tirana.gov.al</a></li>
 </ul>
 </div>
 
