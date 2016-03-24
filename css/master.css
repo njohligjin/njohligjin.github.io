@@ -846,7 +846,7 @@ li.dropdown{
   background-size: 100% 100%;
 }
 .sigurimet .kategori-container:nth-of-type(1) .kategori-details{
-  background-color: #4A78A9;
+  background-color: #04445D;
 }
 .sigurimet .kategori-container:nth-of-type(2) > .kategori-ligjore{
   background: url("/img/sigurimet-2.jpg") center no-repeat;
@@ -867,7 +867,7 @@ li.dropdown{
   background-size: 100% 100%;
 }
 .sigurimet .kategori-container:nth-of-type(4) .kategori-details{
-  background-color: #4A78A9;
+  background-color: #267BA4;
 }
 
 /* fotot e kodit rrugor */
@@ -1003,7 +1003,7 @@ li.dropdown{
   background-size: 100% 100%;
 }
 .familja .kategori-container:nth-of-type(1) .kategori-details{
-  background-color: #004B67;
+  background-color: #768DAF;
 }
 .familja .kategori-container:nth-of-type(2) > .kategori-ligjore{
   background: url("/img/familja-2.jpg") center no-repeat;
@@ -1142,35 +1142,35 @@ li.dropdown{
   background-size: 100% 100%;
 }
 .pasuria .kategori-container:nth-of-type(4) .kategori-details{
-  background-color: #5a97cc;
+  background-color: #6783B3;
 }
 .pasuria .kategori-container:nth-of-type(5) > .kategori-ligjore{
   background: url("/img/pasuria-5.jpg") center no-repeat;
   background-size: 100% 100%;
 }
 .pasuria .kategori-container:nth-of-type(5) .kategori-details{
-  background-color: #70A4D4;
+  background-color: #004B67;
 }
 .pasuria .kategori-container:nth-of-type(6) > .kategori-ligjore{
   background: url("/img/pasuria-6.jpg") center no-repeat;
   background-size: 100% 100%;
 }
 .pasuria .kategori-container:nth-of-type(6) .kategori-details{
-  background-color: #e59638;
+  background-color: #6783B3;
 }
 .pasuria .kategori-container:nth-of-type(7) > .kategori-ligjore{
   background: url("/img/pasuria-7.jpg") center no-repeat;
   background-size: 100% 100%;
 }
 .pasuria .kategori-container:nth-of-type(7) .kategori-details{
-  background-color: #004B67;
+  background-color: #70A4D4;
 }
 .pasuria .kategori-container:nth-of-type(8) > .kategori-ligjore{
   background: url("/img/pasuria-8.jpg") center no-repeat;
   background-size: 100% 100%;
 }
 .pasuria .kategori-container:nth-of-type(8) .kategori-details{
-  background-color: #6783B3;
+  background-color: #e59638;
 }
 
 /* fotot e bashkepronesise */
@@ -1200,14 +1200,14 @@ li.dropdown{
   background-size: 100% 100%;
 }
 .bashkepronesia .kategori-container:nth-of-type(4) .kategori-details{
-  background-color: #004B67;
+  background-color: #7E91B2;
 }
 .bashkepronesia .kategori-container:nth-of-type(5) > .kategori-ligjore{
   background: url("/img/bashkepronesia-5.jpg") center no-repeat;
   background-size: 100% 100%;
 }
 .bashkepronesia .kategori-container:nth-of-type(5) .kategori-details{
-  background-color: #22627B;
+  background-color: #014B68;
 }
 .bashkepronesia .kategori-container:nth-of-type(6) > .kategori-ligjore{
   background: url("/img/bashkepronesia-6.jpg") center no-repeat;

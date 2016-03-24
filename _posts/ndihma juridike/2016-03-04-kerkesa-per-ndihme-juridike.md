@@ -44,6 +44,10 @@ Formularit, për çdo rast, duhet t’i bashkëngjiten këto dokumente:
 </ol>
 </li>
 </ol>
+<p><b>Komisioni Shtetëror Për Ndihmën Juridike</b></p>
+<p>Ministria e Drejtësisë </p>
+<p>Blv. “Zogu i I-rë”</p>
+<p>Tiranë</p>
 </div>
 
 <div class="post-content"></div>

@@ -325,7 +325,7 @@ $(document).ready(function(){
     } else if(window.location.href.indexOf("/kodi-rrugor/")!=-1){
       $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 8378, datë 22.07.1998, “Kodi Rrugor i Republikës së Shqipërisë”, i ndyshuar.</li></ul>")
     } else if(window.location.href.indexOf("/mjedisi/")!=-1){
-      $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 9774, datë 12.07.2007, “Për vlerësimin dhe administrimin e zhurmës në mjedis”, i ndryshuar.</li><li>Ligjin Nr. 111/2012, datë 15.11.2012, “Për menaxhimin e integruar të burimeve ujore”.</li><li>Ligjin Nr. 10 463, datë 22.09.2011, “Për menaxhimin e integruar të mbetjeve”, i ndryshuar.</li></ul>")
+      $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 9774, datë 12.07.2007, “Për vlerësimin dhe administrimin e zhurmës në mjedis”, i ndryshuar.</li><li>Ligjin Nr. 111/2012, datë 15.11.2012, “Për menaxhimin e integruar të burimeve ujore”.</li><li>Ligjin Nr. 10 463, datë 22.09.2011, “Për menaxhimin e integruar të mbetjeve”, i ndryshuar.</li><li>Ligjin Nr. 162/2014, datë 04.12.2014, 'Për mbrojtjen e cilësisë së ajrit në mjedis'</li></ul>")
     } else if(window.location.href.indexOf("/ankimi-administrativ/")!=-1){
       $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 44/2015, datë 30.04.2015, “Kodi i Procedurave Administrative”, i cili hyn në fuqi në maj 2016.</li><li>Ligjin Nr. 49/2012, datë 03.05.2012, “Për organizimin dhe funksionimin e gjykatave administrative dhe gjykimin e mosmarrëveshjeve administrative”, i ndryshuar.</li></ul>")
     } else if(window.location.href.indexOf("/informimi-publik/")!=-1){
