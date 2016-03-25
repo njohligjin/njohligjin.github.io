@@ -14,10 +14,6 @@ $(document).ready(function(){
     $("div.cat-details").hide();
     $("div[data-id='"+data+"']").fadeIn();
   });
-  // var tile = $(".kategori-ligjore").width();
-
-  //merr second child sepse i pari eshte col-md-6
-  // var tile = $(".kategori-container:nth-child(2)").width();
 
   if($(window).width()>767){
 
@@ -60,43 +56,15 @@ $(document).ready(function(){
     $(".kategori-ligjore").height(100);
   }
 
-  // $(".kategori-ligjore").each(function(){
-  //     var nuance = pallete[Math.floor(Math.random()*5)];
-  //     // alert(nuance);
-  //     $(this).css("background-color", nuance);
-  //     $(this).find(".kategori-details").css("background-color", nuance);
-  //     // $(this).parent(".kategori-container").css("background-color", nuance);
-  // });
-
   $(".kategori-container").click(function(){
     $(this).css("transform", "rotateX( 0deg ) rotateY( 0deg ) translateZ( -30px );");
     var loc = $(this).find(".kategori-details ul li:first a").attr("href");
     window.location.href=loc;
   });
 
-  // if($(document).width()>1200 && path=="http://localhost:4000/"){
-  //   $(".kategori-details#puna").append("<div class='col-lg-6' id='col1'></div><div class='col-lg-6' id='col2'></div>");
-  //   $("#lista-punes").children("li").each(function(i){
-  //      if(i<5){
-  //
-  //     } else {
-  //       $("#kolona2").append("<li>"+$(this).html()+"</li>");
-  //       $(this).remove();
-  //     }
-  //   });
-  //   $("#col1").append("<ul></ul>");
-  //   $("#col2").append("<ul></ul>");
-  //   $("#col1 ul").append($("#lista-punes").html());
-  //   $("#col2 ul").append($("#kolona2").html());
-  //   $(".kategori-details#puna>ul").remove();
-  // }
 
   $(".page-parts-images").height($(".page-parts-images").width());
-  //
-  // window.addEventListener("orientationchange", function() {
-  //   // Announce the new orientation number
-  //   // alert(window.orientation);
-  // }, false);
+
   window.addEventListener("resize", function() {
   	// Get screen size (inner/outerWidth, inner/outerHeight)
     tile = $("#ref").width();
@@ -165,8 +133,6 @@ $(document).ready(function(){
         // $("body").append('<div class="alert alert--loading">Sending message…</div>');
       },
       success: function(data) {
-        // $("body").find('.alert--loading').hide();
-        // $("body").append('<div class="alert alert--success">Message sent!</div>');
         $("input").each(function(){ $(this).val(""); });
         $("textarea").val("");
         $("#submit-form").remove();
@@ -217,7 +183,7 @@ $(document).ready(function(){
         console.log(matches);
       }
 
-    }, 200);
+    }, 10);
   }
 
   // font-size controls
@@ -317,54 +283,64 @@ $(document).ready(function(){
   $(".dropdown-menu").width($("#menu ul").width());
 
   //popullimi dinamik i referencave ligjore
-  // setTimeout(function(){
-    if(window.location.href.indexOf("puna/")!=-1){
-      $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 7961, datë 12.07.1995, “Kodi i Punës i Republikës së Shqipërisë”, i ndryshuar.</li></ul>")
-    } else if(window.location.href.indexOf("/sigurimet-shoqerore/")!=-1){
-      $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 7703, datë 11.05.1993, “Për sigurimet shoqërore në Republikën e Shqipërisë”, i ndryshuar.</li></ul>")
-    } else if(window.location.href.indexOf("/kodi-rrugor/")!=-1){
-      $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 8378, datë 22.07.1998, “Kodi Rrugor i Republikës së Shqipërisë”, i ndyshuar.</li></ul>")
-    } else if(window.location.href.indexOf("/mjedisi/")!=-1){
-      $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 9774, datë 12.07.2007, “Për vlerësimin dhe administrimin e zhurmës në mjedis”, i ndryshuar.</li><li>Ligjin Nr. 111/2012, datë 15.11.2012, “Për menaxhimin e integruar të burimeve ujore”.</li><li>Ligjin Nr. 10 463, datë 22.09.2011, “Për menaxhimin e integruar të mbetjeve”, i ndryshuar.</li><li>Ligjin Nr. 162/2014, datë 04.12.2014, 'Për mbrojtjen e cilësisë së ajrit në mjedis'</li></ul>")
-    } else if(window.location.href.indexOf("/ankimi-administrativ/")!=-1){
-      $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 44/2015, datë 30.04.2015, “Kodi i Procedurave Administrative”, i cili hyn në fuqi në maj 2016.</li><li>Ligjin Nr. 49/2012, datë 03.05.2012, “Për organizimin dhe funksionimin e gjykatave administrative dhe gjykimin e mosmarrëveshjeve administrative”, i ndryshuar.</li></ul>")
-    } else if(window.location.href.indexOf("/informimi-publik/")!=-1){
-      $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 8417, datë 21.10.1998, “Kushtetuta e Republikës së Shqipërisë”, i ndryshuar.</li><li>Ligjin Nr.119/2014, datë 18.09.2014, “Për të Drejtën e Informimit”.</li></ul>")
-    } else if(window.location.href.indexOf("/familja/")!=-1){
-      if(window.location.href.indexOf("bashkejetesa")!=-1){
-        $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 9062, datë 08.05.2003, “Kodi i Familjes dhe legjislacioni për birësimet i Republikës së Shqipërisë”, i ndryshuar.</li><li>Ligjin Nr. 7850, datë 29.07.1994, “Kodi Civil i Republikës së Shqipërisë”, i ndryshuar.</li></ul>")
-      } else if(window.location.href.indexOf("amesia")!=-1){
-        $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 9062, datë 08.05.2003, “Kodi i Familjes dhe legjislacioni për birësimet i Republikës së Shqipërisë”, i ndryshuar.</li><li>Ligjin Nr. 10129, datë 11.05.2009, “ Për Gjendjen Civile”, i ndryshuar.</li></ul>")
-      }else if(window.location.href.indexOf("biresimi")!=-1){
-        $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 9062, datë 08.05.2003, “Kodi i Familjes dhe legjislacioni për birësimet i Republikës së Shqipërisë”, i ndryshuar.</li><li>Ligjin Nr. 9695, datë 19.03.2007, “Për procedurat e birësimit dhe Komitetin Shqiptar të Birësimit”, i ndryshuar.</li></ul>")
-      }else if(window.location.href.indexOf("dhuna")!=-1){
-        $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 9669, datë 18.12.2006, “Për masa ndaj dhunës në marrëdhëniet familjare”, i ndryshuar.</li></ul>")
-      } else {
-        $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 9062, datë 08.05.2003, “Kodi i Familjes dhe legjislacioni për birësimet i Republikës së Shqipërisë”, i ndryshuar.</li><li>Ligjin Nr. 10129, datë 11.05.2009, “Për Gjendjen Civile”, i ndryshuar.</li></ul>")
-      }
-    } else if(window.location.href.indexOf("/ndihma-juridike/")!=-1){
-      $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 10039, datë 22.12.2008, “ Për Ndihmën Juridike”, i ndryshuar.</li></ul>")
-    } else if(window.location.href.indexOf("/konsumatori/")!=-1){
-      $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 9902, datë 17.4.2008, “Për mbrojtjen e konsumatorëve”, i ndryshuar.</li><li>Ligjin Nr. 9779, datë 16.7.2007, ”Për sigurinë e përgjithshme, kërkesat thelbësore dhe vlerësimin e konformitetit të produkteve joushqimore”, i ndryshuar.</li></ul>")
-    } else if(window.location.href.indexOf("/pasuria-e-paluajtshme/")!=-1){
-      $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 33/2012, datë 21.31.2012, “Për regjistrimin e pasurive të paluajtshme”.</li></ul>")
-    } else if(window.location.href.indexOf("/bashkepronesia-ne-ndertesa/")!=-1){
-      $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 10112, datë 09.04.2009, “Për administrimin e bashkëpronësisë në ndërtesat e banimit”.</li></ul>")
-    } else if(window.location.href.indexOf("/tatimet-dhe-taksat/")!=-1){
-      $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 9920, datë 19.05.2008, “Për procedurat tatimore në Republikën e Shqipërisë”, i ndryshuar.</li><li>Ligjin Nr. 9975, datë 28.07.2008, “Për taksat kombëtare”, i ndryshuar.</li><li>Ligjin Nr. 8438, datë 28.12.1998, “Për tatimin mbi të ardhurat”, i ndryshuar.</li><li>Ligjin Nr. 9632, datë 30.10.2006, “Për sistemin e taksave vendore”, i ndryshuar.</li></ul>")
-    } else if(window.location.href.indexOf("/procesi-gjyqesor-civil/")!=-1){
-      $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 8116, datë 29.03.1996, “Kodi i Procedurës Civile i Republikës së Shqipërisë”, i ndryshuar.</li></ul>")
-    } else if(window.location.href.indexOf("/shkaktimi-i-demit/")!=-1){
-      $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 7850, datë 29.07.1994, “Kodi Civil i Republikës së Shqipërisë”, i ndryshuar.</li><li>Ligjin Nr. 9109, datë 17.07.2003, “Për profesionin e avokatit në Republikën e Shqipërisë”, i ndryshuar.</li></ul>")
+  if(window.location.href.indexOf("puna/")!=-1){
+    $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 7961, datë 12.07.1995, “Kodi i Punës i Republikës së Shqipërisë”, i ndryshuar.</li></ul>")
+  } else if(window.location.href.indexOf("/sigurimet-shoqerore/")!=-1){
+    $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 7703, datë 11.05.1993, “Për sigurimet shoqërore në Republikën e Shqipërisë”, i ndryshuar.</li></ul>")
+  } else if(window.location.href.indexOf("/kodi-rrugor/")!=-1){
+    $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 8378, datë 22.07.1998, “Kodi Rrugor i Republikës së Shqipërisë”, i ndyshuar.</li></ul>")
+  } else if(window.location.href.indexOf("/mjedisi/")!=-1){
+    $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 9774, datë 12.07.2007, “Për vlerësimin dhe administrimin e zhurmës në mjedis”, i ndryshuar.</li><li>Ligjin Nr. 111/2012, datë 15.11.2012, “Për menaxhimin e integruar të burimeve ujore”.</li><li>Ligjin Nr. 10 463, datë 22.09.2011, “Për menaxhimin e integruar të mbetjeve”, i ndryshuar.</li><li>Ligjin Nr. 162/2014, datë 04.12.2014, 'Për mbrojtjen e cilësisë së ajrit në mjedis'</li></ul>")
+  } else if(window.location.href.indexOf("/ankimi-administrativ/")!=-1){
+    $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 44/2015, datë 30.04.2015, “Kodi i Procedurave Administrative”, i cili hyn në fuqi në maj 2016.</li><li>Ligjin Nr. 49/2012, datë 03.05.2012, “Për organizimin dhe funksionimin e gjykatave administrative dhe gjykimin e mosmarrëveshjeve administrative”, i ndryshuar.</li></ul>")
+  } else if(window.location.href.indexOf("/informimi-publik/")!=-1){
+    $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 8417, datë 21.10.1998, “Kushtetuta e Republikës së Shqipërisë”, i ndryshuar.</li><li>Ligjin Nr.119/2014, datë 18.09.2014, “Për të Drejtën e Informimit”.</li></ul>")
+  } else if(window.location.href.indexOf("/familja/")!=-1){
+    if(window.location.href.indexOf("bashkejetesa")!=-1){
+      $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 9062, datë 08.05.2003, “Kodi i Familjes dhe legjislacioni për birësimet i Republikës së Shqipërisë”, i ndryshuar.</li><li>Ligjin Nr. 7850, datë 29.07.1994, “Kodi Civil i Republikës së Shqipërisë”, i ndryshuar.</li></ul>")
+    } else if(window.location.href.indexOf("amesia")!=-1){
+      $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 9062, datë 08.05.2003, “Kodi i Familjes dhe legjislacioni për birësimet i Republikës së Shqipërisë”, i ndryshuar.</li><li>Ligjin Nr. 10129, datë 11.05.2009, “ Për Gjendjen Civile”, i ndryshuar.</li></ul>")
+    }else if(window.location.href.indexOf("biresimi")!=-1){
+      $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 9062, datë 08.05.2003, “Kodi i Familjes dhe legjislacioni për birësimet i Republikës së Shqipërisë”, i ndryshuar.</li><li>Ligjin Nr. 9695, datë 19.03.2007, “Për procedurat e birësimit dhe Komitetin Shqiptar të Birësimit”, i ndryshuar.</li></ul>")
+    }else if(window.location.href.indexOf("dhuna")!=-1){
+      $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 9669, datë 18.12.2006, “Për masa ndaj dhunës në marrëdhëniet familjare”, i ndryshuar.</li></ul>")
+    } else {
+      $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 9062, datë 08.05.2003, “Kodi i Familjes dhe legjislacioni për birësimet i Republikës së Shqipërisë”, i ndryshuar.</li><li>Ligjin Nr. 10129, datë 11.05.2009, “Për Gjendjen Civile”, i ndryshuar.</li></ul>")
     }
-  // }, 200);
-    if($(window).width()<767){
-      $("#page-header").css({
-        "background-image": "",
-        "min-height": 0,
-      });
-      $(".kategori-container .kategori-ligjore").css({
-        "background-size": "100%"
-      });
+  } else if(window.location.href.indexOf("/ndihma-juridike/")!=-1){
+    $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 10039, datë 22.12.2008, “ Për Ndihmën Juridike”, i ndryshuar.</li></ul>")
+  } else if(window.location.href.indexOf("/konsumatori/")!=-1){
+    $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 9902, datë 17.4.2008, “Për mbrojtjen e konsumatorëve”, i ndryshuar.</li><li>Ligjin Nr. 9779, datë 16.7.2007, ”Për sigurinë e përgjithshme, kërkesat thelbësore dhe vlerësimin e konformitetit të produkteve joushqimore”, i ndryshuar.</li></ul>")
+  } else if(window.location.href.indexOf("/pasuria-e-paluajtshme/")!=-1){
+    $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 33/2012, datë 21.31.2012, “Për regjistrimin e pasurive të paluajtshme”.</li></ul>")
+  } else if(window.location.href.indexOf("/bashkepronesia-ne-ndertesa/")!=-1){
+    $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 10112, datë 09.04.2009, “Për administrimin e bashkëpronësisë në ndërtesat e banimit”.</li></ul>")
+  } else if(window.location.href.indexOf("/tatimet-dhe-taksat/")!=-1){
+    $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 9920, datë 19.05.2008, “Për procedurat tatimore në Republikën e Shqipërisë”, i ndryshuar.</li><li>Ligjin Nr. 9975, datë 28.07.2008, “Për taksat kombëtare”, i ndryshuar.</li><li>Ligjin Nr. 8438, datë 28.12.1998, “Për tatimin mbi të ardhurat”, i ndryshuar.</li><li>Ligjin Nr. 9632, datë 30.10.2006, “Për sistemin e taksave vendore”, i ndryshuar.</li></ul>")
+  } else if(window.location.href.indexOf("/procesi-gjyqesor-civil/")!=-1){
+    $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 8116, datë 29.03.1996, “Kodi i Procedurës Civile i Republikës së Shqipërisë”, i ndryshuar.</li></ul>")
+  } else if(window.location.href.indexOf("/shkaktimi-i-demit/")!=-1){
+    $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 7850, datë 29.07.1994, “Kodi Civil i Republikës së Shqipërisë”, i ndryshuar.</li><li>Ligjin Nr. 9109, datë 17.07.2003, “Për profesionin e avokatit në Republikën e Shqipërisë”, i ndryshuar.</li></ul>")
+  }
+
+  //korrigjimi i emrit te kategorive duke shtuar ë
+  if($("span.kat a").length > 0){
+    if($("span.kat a").text()=="Sigurimet shoqerore"){
+      $("span.kat a").text("Sigurimet shoqërore");
+    } else if($("span.kat a").text()=="Bashkepronesia ne ndertesa"){
+       $("span.kat a").text("Bashkëpronësia në ndërtesa");
+    } else if($("span.kat a").text()=="Procesi gjyqesor civil"){
+       $("span.kat a").text("Procesi gjyqësor civil");
     }
+  }
+
+  if($(window).width()<767){
+    $("#page-header").css({
+      "background-image": "",
+      "min-height": 0,
+    });
+    $(".kategori-container .kategori-ligjore").css({
+      "background-size": "100%"
+    });
+  }
 });
