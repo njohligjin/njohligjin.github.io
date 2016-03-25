@@ -18,7 +18,7 @@ var data = { topics: [
 
 <div id="part1" class="hidden">
 <h3>Cilët janë dokumentet që duhet t’i bashkëngjiten formularit për marrjen e ndihmës juridike?</h3>
-Formularit, për çdo rast, duhet t’i bashkëngjiten këto dokumente:
+<a href="/burime/Formulari i aplikimit per ndihmen ligjore.docx" target="_blank" dummy="_a_">Formularit</a>, për çdo rast, duhet t’i bashkëngjiten këto dokumente:
 <ol>
 <li>Fotokopje e dokumentit identifikues të kërkuesit;</li>
 <li>Certifikata familjare e kërkuesit;</li>
@@ -48,6 +48,8 @@ Formularit, për çdo rast, duhet t’i bashkëngjiten këto dokumente:
 <p>Ministria e Drejtësisë </p>
 <p>Blv. “Zogu i I-rë”</p>
 <p>Tiranë</p>
+<br/>
+Formularin e aplikimit për ndihmën ligjore mund ta shkarkoni <a href="/burime/Formulari i aplikimit per ndihmen ligjore.docx" target="_blank" dummy="_a_">këtu</a>.
 </div>
 
 <div class="post-content"></div>
