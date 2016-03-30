@@ -117,7 +117,6 @@ footer {
     margin-top: 5px;*/
     z-index: 0;
     padding: 3px;
-    cursor: pointer;
 }
 
 .kategori-ligjore {
@@ -154,6 +153,7 @@ footer {
   background-color: #337AB7; /* #273D73 */
 
   box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12), 0px 2px 4px -1px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
 }
 .kategori-ligjore .fa {
   font-size: 27pt;
@@ -313,6 +313,9 @@ hr.underline{
   background-color: #005696;
   color: #fff;
   border: 1px solid #005696;
+}
+.page-parts>div{
+  margin-bottom: 15px;
 }
 
 
@@ -1327,5 +1330,12 @@ li.dropdown{
   }
   div#logodiv{
     margin: 10px auto;
+  }
+  .kategori-ligjore{
+    width: 85%;
+    margin: auto;
+  }
+  .page-parts {
+    min-height: auto;
   }
 }

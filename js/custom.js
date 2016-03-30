@@ -56,7 +56,7 @@ $(document).ready(function(){
     $(".kategori-ligjore").height(100);
   }
 
-  $(".kategori-container").click(function(){
+  $(".kategori-ligjore").click(function(){
     $(this).css("transform", "rotateX( 0deg ) rotateY( 0deg ) translateZ( -30px );");
     var loc = $(this).find(".kategori-details ul li:first a").attr("href");
     window.location.href=loc;
@@ -80,6 +80,10 @@ $(document).ready(function(){
     $(".double-height .kategori-details").each(function(){
       $(this).height($(this).parent().height()-20);
     });
+    if($(window).width()<767){
+      $(".kategori-container").height(100);
+      $(".kategori-ligjore").height(100);
+    }
   }, false);
 
   $("#search-input").keyup(function() {
