@@ -51,7 +51,7 @@ Burim zhurme është çdo makinë, mjet pune, mjet transporti, proces teknologji
 </div>
 
 <div id="part2" class="hidden">
-<h3>Kush janë organet kryesore shtetërore përgjegjëse për mbrojtjen e mjedisit nga zhurmat?</h3>
+<h3>Cilët janë organet kryesore shtetërore përgjegjëse për mbrojtjen e mjedisit nga zhurmat?</h3>
 <ul>
 <li>Ministria e Mjedisit dhe Ministria e Shëndetësisë;</li>
 <li>Këshilli Teknik për Zhurmat, pranë Ministrisë së Mjedisit;</li>

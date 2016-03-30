@@ -122,11 +122,6 @@ Kujdestari kujdeset për të miturin, e përfaqëson atë në të gjitha veprime
 </div>
 
 <div id="part6" class="hidden">
-<h3>Kur zëvendësohet kujdestari i të miturit dhe kush mund ta kërkojë këtë gjë?</h3>
-Detyra e kujdestarit nuk përfundon vetëm kur shkaqe që lidhen me personin e vënë në kujdestari. Gjatë ushtrimit të kujdestarisë gjykata mund ta zëvendësojë me një tjetër kur vëren se kujdestari shpërdoron të drejtat e tij, tregohet i pakujdesshëm në kryerjen e detyrës ose vë në rrezik interesat e të miturit, si dhe kur vetë kujdestari kërkon largimin e tij. Kërkesa për zëvendësimin e kujdestarit mund të bëhet nga personat e interesuar (p.sh. të afërmit) ose prokurori.
-</div>
-
-<div id="part7" class="hidden">
 <h3>Kur vendoset kujdestaria e posaçme për të miturin dhe cilat janë funksionet e saj?</h3>
 <p>"Kujdestaria e posaçme" sikundër nënkuptohet edhe nga vetë emërtimi, është një kujdestari jo e zakonshme, pa shtrirje të gjatë kohore dhe që vendoset për të garantuar interesa të veçanta të personave nën kujdestari. Për shkak të natyrës së saj të veçantë kjo kujdestari, ndryshe nga kujdestaritë e tjera, mund të vendoset nga gjykata edhe në kushtet kur i mituri apo personi pa zotësi të plotë për të vepruar është nën kujdesin e prindërve të tij. Kujdestaria e posaçme vendoset në ato raste kur ka konflikt interesash midis të miturit ose personit pa zotësi të plotë ose të kufizuar për të vepruar dhe prindërve, motrave dhe vëllezërve të tij, apo kujdestarit, ose kur këta të fundit për shkaqe nga të ndryshme pengohen a janë të paaftë të ushtrojnë funksionet e tyre të kujdestarisë.</p>
 <p>Pra, kujdestaria e posaçme ka funksione më të kufizuara se kujdestaritë e tjera, por jo më pak të rëndësishme. Funksionet e kujdestarit të posaçëm janë të lidhura me përfaqësimin në veprime juridike të personave të vënë nën kujdestarinë e tij të posaçme. Sidoqoftë është gjykata ajo që do të caktojë funksionet konkrete të çdo kujdestari të posaçëm.</p>
@@ -137,6 +132,11 @@ Detyra e kujdestarit nuk përfundon vetëm kur shkaqe që lidhen me personin e v
 </ul>
 Kujdestaria e posaçme mbaron kur pushojnë shkaqet për të cilat është vendosur, me të njëjtën procedurë me të cilën ajo është vendosur.
 </p>
+</div>
+
+<div id="part7" class="hidden">
+<h3>Kur zëvendësohet kujdestari i të miturit dhe kush mund ta kërkojë këtë gjë?</h3>
+Detyra e kujdestarit nuk përfundon vetëm kur shkaqe që lidhen me personin e vënë në kujdestari. Gjatë ushtrimit të kujdestarisë gjykata mund ta zëvendësojë me një tjetër kur vëren se kujdestari shpërdoron të drejtat e tij, tregohet i pakujdesshëm në kryerjen e detyrës ose vë në rrezik interesat e të miturit, si dhe kur vetë kujdestari kërkon largimin e tij. Kërkesa për zëvendësimin e kujdestarit mund të bëhet nga personat e interesuar (p.sh. të afërmit) ose prokurori.
 </div>
 
 <div id="part8" class="hidden">
