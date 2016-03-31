@@ -1359,4 +1359,7 @@ li.dropdown{
   .page-parts {
     min-height: auto;
   }
+  #dropdown-menu {
+    border-bottom: 1px solid rgb(255, 255, 255);
+  }
 }

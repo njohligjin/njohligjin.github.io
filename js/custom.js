@@ -84,6 +84,7 @@ $(document).ready(function(){
       $(".kategori-container").height(100);
       $(".kategori-ligjore").height(100);
     }
+    searchResultsDimensions();
   }, false);
 
   $("#search-input").keyup(function() {
@@ -101,25 +102,29 @@ $(document).ready(function(){
   });
   $("#results-container").hide();
 
-  $("#search-results").css({
-    "top": function(){
-      return $("#search-input").offset().top + +$("#search-input").css("height").substring(0, 2);
-    },
-    "right": ($(window).width() - ($("#search-input").offset().left + $("#search-input").outerWidth())),
-    "width": function(){
-      return $(".site-search div.input-group").width();
-      // if($(window).width()>700) { return 526; }
-      // else return $(".site-search div.input-group").width();
-    }
-  });
+  function searchResultsDimensions(){
+    $("#search-results").css({
+      "top": function(){
+        // return $("#search-input").offset().top + +$("#search-input").css("height").substring(0, 2);
+        return $(".site-search div.input-group").offset().top + +$(".site-search div.input-group").css("height").substring(0, 2);
+      },
+      "right": ($(window).width() - ($(".site-search div.input-group").offset().left + $(".site-search div.input-group").outerWidth())),
+      "width": function(){
+        return $(".site-search div.input-group").width();
+        // if($(window).width()>700) { return 526; }
+        // else return $(".site-search div.input-group").width();
+      }
+    });
+  }
+  searchResultsDimensions();
   $("#search-input").focus(function(){
     if($(window).width()>767){
-      $(this).animate({'width': '500px'}, 500);
+      $(this).animate({'width': '500px'}, 500, function() { searchResultsDimensions(); });
     }
   });
   $("#search-input").blur(function(){
     if($(window).width()>767){
-      $(this).animate({'width': '200px'}, 500);
+      $(this).animate({'width': '200px'}, 500, function() { searchResultsDimensions(); });
     }
   });
 
@@ -337,6 +342,14 @@ $(document).ready(function(){
     } else if($("span.kat a").text()=="Procesi gjyqesor civil"){
        $("span.kat a").text("Procesi gjyqësor civil");
     }
+  }
+
+  if($(window).width()<767){
+    var submenu = $("#dropdown-menu").clone();
+    submenu.wrap("<div></div>");
+    console.log(submenu.html());
+    $("#dropdown-menu").remove();
+    $("li.dropdown").append(submenu);
   }
 
 });
