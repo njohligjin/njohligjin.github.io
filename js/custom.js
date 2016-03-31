@@ -52,8 +52,8 @@ $(document).ready(function(){
       }
     );
   } else {
-    $(".kategori-container").height(100);
-    $(".kategori-ligjore").height(100);
+    // $(".kategori-container").height(100);
+    // $(".kategori-ligjore").height(100);
   }
 
   $(".kategori-ligjore").click(function(){
@@ -80,10 +80,10 @@ $(document).ready(function(){
     $(".double-height .kategori-details").each(function(){
       $(this).height($(this).parent().height()-20);
     });
-    if($(window).width()<767){
-      $(".kategori-container").height(100);
-      $(".kategori-ligjore").height(100);
-    }
+    // if($(window).width()<767){
+    //   $(".kategori-container").height(100);
+    //   $(".kategori-ligjore").height(100);
+    // }
   }, false);
 
   $("#search-input").keyup(function() {
@@ -338,13 +338,4 @@ $(document).ready(function(){
     }
   }
 
-  if($(window).width()<767){
-    $("#page-header").css({
-      "background-image": "",
-      "min-height": 0,
-    });
-    $(".kategori-container .kategori-ligjore").css({
-      "background-size": "100%"
-    });
-  }
 });

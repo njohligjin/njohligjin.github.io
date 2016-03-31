@@ -1324,15 +1324,35 @@ li.dropdown{
   background-color: #24647D;
 }
 
-@media all and (max-width: 699px){
+@media all and (max-width: 1580px){
+  #page-header{
+    background-size: auto 100% !important;
+  }
+}
+
+@media all and (max-width: 992px){
+  form.site-search {
+    text-align: center;
+  }
+}
+
+@media all and (max-width: 767px){
   .te-tjera {
     margin-bottom: 140px;
   }
   div#logodiv{
     margin: 10px auto;
   }
+  #page-header{
+    background-image: none !important;
+    min-height: 0 !important;
+  }
+  .kategori-container{
+    height: 100px;
+  }
   .kategori-ligjore{
     width: 85%;
+    height:100px;
     margin: auto;
   }
   .page-parts {
