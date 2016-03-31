@@ -1354,6 +1354,7 @@ li.dropdown{
     width: 85%;
     height:100px;
     margin: auto;
+    background-size: 100%!important;
   }
   .page-parts {
     min-height: auto;
