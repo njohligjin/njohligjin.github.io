@@ -349,7 +349,7 @@ $(document).ready(function(){
     submenu.wrap("<div></div>");
     console.log(submenu.html());
     $("#dropdown-menu").remove();
-    $("li.dropdown").append(submenu);
+    $("li.dropdown").after(submenu);
   }
 
 });

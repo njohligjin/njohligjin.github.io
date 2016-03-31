@@ -1361,5 +1361,6 @@ li.dropdown{
   }
   #dropdown-menu {
     border-bottom: 1px solid rgb(255, 255, 255);
+    padding-top: 0;
   }
 }
