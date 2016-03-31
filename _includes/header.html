@@ -2,14 +2,10 @@
     <nav class="main-nav  clearfix"> <!-- overlay -->
         <div class="main-header-content container"> <!-- inner -->
          <div class="col-md-4 col-lg-4" id="logodiv">
-          <!-- {{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>{{/if}} -->
           <a href="/"><img src="/img/logo.PNG" alt="Njoh ligjin logo"></a> <!--id="logo" -->
         </div>
         <div class="col-md-8 col-lg-8" id="search-container">
-          <!-- <form class="forma-kerkimit form-inline" action="index.html" method="post">
-            <input type="search" name="search" value="" class="form-control">
-            <input type="button" name="submit" value="Kërko" class="form-control">
-          </form> -->
+
           <form class="site-search form-inline text-right" action="/search" method="GET">
               <!-- <button type="submit" class="buton-kerkimi btn btn-primary"><i class="fa fa-search"></i></button> -->
               <div class="input-group">
@@ -17,23 +13,9 @@
                 <input id="search-input" name="kerkimi" type="search" class="search-box form-control" placeholder="Kërko" autocomplete="off">
               </div>
 
-
           </form>
-          <!-- <div id="search-results">
-            <ul id="results-container"></ul>
-          </div> -->
-
-          <!-- <div id="search-results" class="search-results"></div> -->
         </div>
-        <!-- <div class="col-md-3 col-lg-3 social">
-          <a href="#"><i class="fa fa-facebook"></i></a>
-          <a href="#"><i class="fa fa-twitter"></i></a>
-          <a href="#"><i class="fa fa-google-plus"></i></a>
-        </div> -->
 
-
-           <!-- <h1 class="page-title">{{@blog.title}}</h1>
-           <h2 class="page-description">{{@blog.description}}</h2> -->
        </div>
     </nav>
     <div id="page-header"
@@ -81,19 +63,6 @@
         </div>
       </div>
     </div>
-    {% if page.image %}
-    <!-- <div ><!-- class="vertical" -->
-      <!-- <img width="100%" src="/img/cover1.png" alt="Njoh ligjin"> -->
-      <!-- <div class="" style="background: url(/img/{{ page.image }}); height: 200px;">
 
-      </div> -->
-      <!-- <img width="100%" src="/img/{{ page.image }}" alt="Njoh ligjin"> -->
-    <!-- </div> -->
-    {% endif %}
-    <!-- {% if page.image %}
-    <div >
-      <img width="100%" src="/img/{{ page.image }}" alt="Njoh ligjin">
-    </div>
-    {% endif %} -->
     <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
 </header>
