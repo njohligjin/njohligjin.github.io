@@ -3,173 +3,114 @@ layout: page
 title: Lidhje
 image: lidhje-te-tjera.png
 ---
+
+<script>
+  var data = { lidhje: [
+      {
+        title: "Alo116",
+        link: "http://www.alo116.al/",
+        image: "alo.jpg"
+      },
+      {
+        title: "ADRF",
+        link: "http://www.adrf.org.al/index.php?lang=sq",
+        image: "adrf.jpg"
+      },
+      {
+        title: "Fakulteti i Drejtësisë",
+        link: "http://fdut.edu.al/?page_id=465",
+        image: "universiteti.jpg"
+      },
+      {
+        title: "Kryeministria",
+        link: "http://www.kryeministria.al/",
+        image: "kryeministria.jpg"
+      },
+      {
+        title: "Shteti web",
+        link: "http://shtetiweb.org/",
+        image: "shteti web.jpg"
+      },
+      {
+        title: "Shërbimi social",
+        link: "http://www.sherbimisocial.gov.al/",
+        image: "sherbimi social.jpg"
+      },
+      {
+        title: "QAG",
+        link: "http://www.qag-al.org/",
+        image: "qag.jpg"
+      },
+      {
+        title: "Bashkia Tiranë",
+        link: "http://www.tirana.gov.al/",
+        image: "bashkia tirane.jpg"
+      },
+      {
+        title: "Portali TLAS",
+        link: "http://portal.tlas.org.al/sq",
+        image: "portal tlas.jpg"
+      },
+      {
+        title: "Ministria e Drejtësisë",
+        link: "http://www.drejtesia.gov.al/",
+        image: "ministria drejtesise.jpg"
+      },
+      {
+        title: "Libraria ligjore",
+        link: "http://www.ligjet.org/",
+        image: "libraria ligjore.jpg"
+      },
+      {
+        title: "Respublica",
+        link: "http://www.respublica.org.al/",
+        image: "republica.jpg"
+      },
+      {
+        title: "Parlamenti",
+        link: "http://www.parlament.al/",
+        image: "parlamenti.jpg"
+      },
+      {
+        title: "TLAS",
+        link: "http://www.tlas.org.al/en",
+        image: "tlas.jpg"
+      },
+      {
+        title: "Komiteti Shqiptar i Helsinkit",
+        link: "http://ahc.org.al/web/index.php/sq",
+        image: "kshh.jpg"
+      },
+      {
+        title: "Drejtoria e Përgjithshme e Tatimeve",
+        link: "https://www.tatime.gov.al/sq-al/Pages/default.aspx",
+        image: "tatimet.png"
+      },
+      {
+        title: "Qendra e Botimeve Zyrtare",
+        link: "http://www.qbz.gov.al/",
+        image: "botime.png"
+      }
+  ]
+  }
+</script>
+
+<script id="lidhje-template" type="text/x-handlebars-template">
+  {% raw %}
+  {{#lidhje}}
+  <div class="col-md-3 col-sm-4 lidhje">
+    <a href="{{link}}" target="_blank">
+      <h4>{{title}}</h4>
+      <div class="pa-lidhje" style="background: url('/img/lidhje/{{image}}') no-repeat center / 100%">
+        <div class="round">
+          <i class="fa fa-link"></i>
+        </div>
+      </div>
+    </a>
+  </div>
+  {{/lidhje}}
+  {% endraw %}
+</script>
+
 <h3 class="kat-title">Lidhje</h3>
-
-<div class="col-md-3 col-sm-4 lidhje">
-
-  <a href="http://www.alo116.al/" target="_blank">
-    <h4>Alo116</h4>
-    <div class="pa-lidhje" style="background: url('/img/lidhje/alo.jpg') no-repeat center / 100% 100%;">
-      <div class="round">
-        <i class="fa fa-link"></i>
-      </div>
-    </div>
-  </a>
-</div>
-<div class="col-md-3 col-sm-4 lidhje">
-  <a href="http://www.adrf.org.al/index.php?lang=sq" target="_blank">
-    <h4>ADRF</h4>
-    <div class="pa-lidhje" style="background: url('/img/lidhje/adrf.jpg') no-repeat center / 100% 100%;">
-      <div class="round">
-        <i class="fa fa-link"></i>
-      </div>
-    </div>
-  </a>
-</div>
-<div class="col-md-3 col-sm-4 lidhje">
-  <a href="http://fdut.edu.al/?page_id=465" target="_blank">
-    <h4>Fakulteti i drejtësisë</h4>
-    <div class="pa-lidhje" style="background: url('/img/lidhje/universiteti.jpg') no-repeat center / 100% 100%;">
-      <div class="round">
-        <i class="fa fa-link"></i>
-      </div>
-    </div>
-  </a>
-</div>
-<div class="col-md-3 col-sm-4 lidhje">
-  <a href="http://www.kryeministria.al/" target="_blank">
-    <h4>Kryeministria</h4>
-    <div class="pa-lidhje" style="background: url('/img/lidhje/kryeministria.jpg') no-repeat center / 100% 100%;">
-      <div class="round">
-        <i class="fa fa-link"></i>
-      </div>
-    </div>
-  </a>
-</div>
-<div class="col-md-3 col-sm-4 lidhje">
-  <a href="http://shtetiweb.org/" target="_blank">
-    <h4>Shteti web</h4>
-    <div class="pa-lidhje" style="background: url('/img/lidhje/shteti web.jpg') no-repeat center / 100% 100%;">
-      <div class="round">
-        <i class="fa fa-link"></i>
-      </div>
-    </div>
-  </a>
-</div>
-<div class="col-md-3 col-sm-4 lidhje">
-  <a href="http://www.sherbimisocial.gov.al/" target="_blank">
-    <h4>Shërbimi social</h4>
-    <div class="pa-lidhje" style="background: url('/img/lidhje/sherbimi social.jpg') no-repeat center / 100% 100%;">
-      <div class="round">
-        <i class="fa fa-link"></i>
-      </div>
-    </div>
-  </a>
-</div>
-<div class="col-md-3 col-sm-4 lidhje">
-  <a href="http://www.qag-al.org/" target="_blank">
-    <h4>QAG</h4>
-    <div class="pa-lidhje" style="background: url('/img/lidhje/qag.jpg') no-repeat center / 100% 100%;">
-      <div class="round">
-        <i class="fa fa-link"></i>
-      </div>
-    </div>
-  </a>
-</div>
-<div class="col-md-3 col-sm-4 lidhje">
-  <a href="http://www.tirana.gov.al/" target="_blank">
-    <h4>Bashkia Tiranë</h4>
-    <div class="pa-lidhje" style="background: url('/img/lidhje/bashkia tirane.jpg') no-repeat center / 100% 100%;">
-      <div class="round">
-        <i class="fa fa-link"></i>
-      </div>
-    </div>
-  </a>
-</div>
-<div class="col-md-3 col-sm-4 lidhje">
-  <a href="http://portal.tlas.org.al/sq" target="_blank">
-    <h4>Portali TLAS</h4>
-    <div class="pa-lidhje" style="background: url('/img/lidhje/portal tlas.jpg') no-repeat center / 100% 100%;">
-      <div class="round">
-        <i class="fa fa-link"></i>
-      </div>
-    </div>
-  </a>
-</div>
-<div class="col-md-3 col-sm-4 lidhje">
-  <a href="http://www.alo116.al/" target="_blank">
-    <h4>Ministria e drejtësisë</h4>
-    <div class="pa-lidhje" style="background: url('/img/lidhje/ministria drejtesise.jpg') no-repeat center / 100% 100%;">
-      <div class="round">
-        <i class="fa fa-link"></i>
-      </div>
-    </div>
-  </a>
-</div>
-<div class="col-md-3 col-sm-4 lidhje">
-  <a href="http://www.ligjet.org/" target="_blank">
-    <h4>Libraria ligjore</h4>
-    <div class="pa-lidhje" style="background: url('/img/lidhje/libraria ligjore.jpg') no-repeat center / 100% 100%;">
-      <div class="round">
-        <i class="fa fa-link"></i>
-      </div>
-    </div>
-  </a>
-</div>
-<div class="col-md-3 col-sm-4 lidhje">
-  <a href="http://www.respublica.org.al/" target="_blank">
-    <h4>Respublica</h4>
-    <div class="pa-lidhje" style="background: url('/img/lidhje/republica.jpg') no-repeat center / 100% 100%;">
-      <div class="round">
-        <i class="fa fa-link"></i>
-      </div>
-    </div>
-  </a>
-</div>
-<div class="col-md-3 col-sm-4 lidhje">
-  <a href="http://www.parlament.al/" target="_blank">
-    <h4>Parlamenti</h4>
-    <div class="pa-lidhje" style="background: url('/img/lidhje/parlamenti.jpg') no-repeat center / 100% 100%;">
-      <div class="round">
-        <i class="fa fa-link"></i>
-      </div>
-    </div>
-  </a>
-</div>
-<div class="col-md-3 col-sm-4 lidhje">
-  <a href="http://www.tlas.org.al/en" target="_blank">
-    <h4>TLAS</h4>
-    <div class="pa-lidhje" style="background: url('/img/lidhje/tlas.jpg') no-repeat center / 100% 100%;">
-      <div class="round">
-        <i class="fa fa-link"></i>
-      </div>
-    </div>
-  </a>
-</div>
-<div class="col-md-3 col-sm-4 lidhje">
-  <a href="http://ahc.org.al/web/index.php/sq" target="_blank">
-    <h4>Komiteti Shqiptar i Helsinkit</h4>
-    <div class="pa-lidhje" style="background: url('/img/lidhje/kshh.jpg') no-repeat center / 100% 100%;">
-      <div class="round">
-        <i class="fa fa-link"></i>
-      </div>
-    </div>
-  </a>
-</div>
-
-<ul style="display: none;">
-  <li><a href="http://www.respublica.org.al/" target="_blank">http://www.respublica.org.al/</a></li>
-  <li><a href="http://www.tlas.org.al/en" target="_blank">http://www.tlas.org.al/en</a></li>
-  <li><a href="http://www.qag-al.org/" target="_blank">http://www.qag-al.org/</a></li>
-  <li><a href="http://www.adrf.org.al/index.php?lang=sq" target="_blank">http://www.adrf.org.al/index.php?lang=sq</a></li>
-  <li><a href="http://shtetiweb.org/" target="_blank">http://shtetiweb.org/</a></li>
-  <li><a href="http://www.parlament.al/" target="_blank">http://www.parlament.al/</a></li>
-  <li><a href="http://www.kryeministria.al/" target="_blank">http://www.kryeministria.al/</a></li>
-  <li><a href="http://www.ligjet.org/" target="_blank">http://www.ligjet.org/</a></li>
-  <li><a href="http://www.qbz.gov.al/" target="_blank">http://www.qbz.gov.al/</a></li>
-  <li><a href="http://fdut.edu.al/?page_id=465" target="_blank">http://fdut.edu.al/?page_id=465</a></li>
-  <li><a href="http://portal.tlas.org.al/sq" target="_blank">http://portal.tlas.org.al/sq</a></li>
-  <li><a href="http://www.alo116.al/" target="_blank">http://www.alo116.al/</a></li>
-  <li><a href="http://www.sherbimisocial.gov.al/" target="_blank">http://www.sherbimisocial.gov.al/</a></li>
-  <li><a href="http://www.tirana.gov.al/" target="_blank">http://www.tirana.gov.al/</a></li>
-</ul>
+<div id="lidhje"></div>

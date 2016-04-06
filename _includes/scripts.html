@@ -46,4 +46,9 @@
     var template = Handlebars.compile(source);
     $("#fjalorthi").html(template(data));
   }
+  if(window.location.href.indexOf("links")!=-1){
+    var source   = $("#lidhje-template").html();
+    var template = Handlebars.compile(source);
+    $("#lidhje").html(template(data));
+  }
 </script>
