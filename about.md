@@ -2,8 +2,10 @@
 layout: page
 title: Rreth faqes
 image: cover2.png
-permalink: /rreth-faqes/
+permalink: "/rreth-faqes/"
+published: true
 ---
+
 ## Rreth faqes
 
 Ligjet shërbejnë për të rregullar marrëdhëniet brenda një shoqërie të caktuar dhe përbëjnë bazën për mënyrën se si ne ndërveprojmë në jetën tonë të përditshme. Ato luajnë një rol kryesor në drejtimin e veprimeve tona dhe përcaktojnë  ndjeshëm mënyrën si jetojmë. Megjithatë, edhe pse të gjithë ne i nënshtrohemi sundimit të ligjit dhe i ndjejmë çdo ditë efektet e tij, vetëm pak njerëz e njohin vërtetë ligjin apo kanë informacionin e nevojshëm për të marrë vendime të mirëinformuara se si duhet vepruar në situata të caktuara. Edhe pse ligji është thelbësor për jetën e tyre, pjesa më e madhe e njerëzve nuk dinë shumë rreth tij. Por përse ndodh diçka e tillë? Zakonisht shumica e qytetarëve nuk dinë ku të gjejnë burime  për informacion ligjor. Edhe në ato raste kur arrijnë t’i gjejnë këto burime, lind pyetja e besueshmërisë së tyre. Në rastet kur gjenden burime të tilla të  besueshme, shtrohet çështja e vështirësisë për të kuptuar atë që thotë ligji dhe mënyrën si duhet zbatuar ai. Duke marrë parasysh që shumë prej veprimtarive tona diktohen nga ligjet, është e domosdoshme që qytetarët të pajisen me njohuritë e nevojshme për t’u orientuar në botën ligjore.
@@ -11,8 +13,8 @@ Ligjet shërbejnë për të rregullar marrëdhëniet brenda një shoqërie të c
 Edukimi ligjor i publikut mund t’i ndihmojë qytetarët të ndërveprojnë në mënyrë aktive dhe të suksesshme me ligjin. Zhvillimi i kësaj platforme online është një formë e edukimit ligjor të publikut, duke i ofruar qytetarëve informacion të dobishëm për jetën e tyre të përditshme. Kjo platformë synon ta sjellë ligjin më afër njerëzve duke e paraqitur atë në një mënyrë më të qartë, në një gjuhë të thjeshtë për t’u kuptuar, me qëllim që qytetarët t’i gëzojnë të drejtat e tyre në mënyrë efikase. Informacioni ligjior i paraqitur në këtë faqe nuk mund të jetë kurrsesi gjithëpërfshirës apo të përfaqësojë plotësisht legjislacionin në fuqi, nëse marrim parasysh shpeshtësinë dhe larminë e fushave në të cilat shteti miraton ligje të reja. Megjithatë, kjo faqe synon të mbulojë fushat më thelbësore me të cilat çdo qytetar ballafaqohet në një moment të caktuar, të tilla si familja,  puna, sigurimet shoqërore, pasuria e paluajtshme, etj. Informacioni paraqitet në formën e pyetjeve dhe përgjigjeve për ta drejtuar lehtësisht lexuesin drejt informacionit të dëshiruar.
 
 Kjo platformë është një nismë e Prezencës së OSBE-së në Shqipëri, e mbështetur me fonde nga qeveria e Kanadasë. Ajo synon fuqizimin dhe informimin ligjor të qytetarëve dhe nxitjen e qytetarisë aktive. Njohja dhe mundësia për të  kuptuar ligjin i bën qytetarët të ndihen më të sigurt në kërkesat që kanë për përmbushjen e të drejtave të tyre nga institucionet publike dhe nga njëri-tjetri. Një njohuri e tillë shërben gjithashtu për të rikthyer besimin e qytetarëve te ligji. Kjo faqe duhet të shërbejë si një vegël dhe instrument në duart e qytetarëve – në duart tuaja – për të përmirësuar dhe lehtësuar jetën tuaj të përditshme. Mirëpresim çdo koment dhe sugjerim, dhe ju inkurajojmë të kontribuoni aktivisht, për të na ndihmuar të përmirësojmë shërbimin e kësaj faqeje.
-<hr>
 
+<hr>
 
 ## About this platform
 
