@@ -4,7 +4,7 @@ title: Rreth faqes
 image: cover2.png
 permalink: /rreth-faqes/
 ---
-##Rreth faqes
+## Rreth faqes
 
 Ligjet shërbejnë për të rregullar marrëdhëniet brenda një shoqërie të caktuar dhe përbëjnë bazën për mënyrën se si ne ndërveprojmë në jetën tonë të përditshme. Ato luajnë një rol kryesor në drejtimin e veprimeve tona dhe përcaktojnë  ndjeshëm mënyrën si jetojmë. Megjithatë, edhe pse të gjithë ne i nënshtrohemi sundimit të ligjit dhe i ndjejmë çdo ditë efektet e tij, vetëm pak njerëz e njohin vërtetë ligjin apo kanë informacionin e nevojshëm për të marrë vendime të mirëinformuara se si duhet vepruar në situata të caktuara. Edhe pse ligji është thelbësor për jetën e tyre, pjesa më e madhe e njerëzve nuk dinë shumë rreth tij. Por përse ndodh diçka e tillë? Zakonisht shumica e qytetarëve nuk dinë ku të gjejnë burime  për informacion ligjor. Edhe në ato raste kur arrijnë t’i gjejnë këto burime, lind pyetja e besueshmërisë së tyre. Në rastet kur gjenden burime të tilla të  besueshme, shtrohet çështja e vështirësisë për të kuptuar atë që thotë ligji dhe mënyrën si duhet zbatuar ai. Duke marrë parasysh që shumë prej veprimtarive tona diktohen nga ligjet, është e domosdoshme që qytetarët të pajisen me njohuritë e nevojshme për t’u orientuar në botën ligjore.
 
@@ -14,7 +14,7 @@ Kjo platformë është një nismë e Prezencës së OSBE-së në Shqipëri, e mb
 <hr>
 
 
-##About this platform
+## About this platform
 
 Laws regulate relations in society and provide the basis for how we operate in our daily lives. They play a fundamental role in guiding our actions, and determining how we live. However, even though we are all subject to the rule of law and feel its effects on a daily basis, few people really understand the law or have the necessary information to make informed decisions on how to act in certain situations. Although the law is so essential to their lives, most people do not know much about it. Why is this? Typically, most citizens do not know where to find legal resources. Even when they do find them, there is the question of whether the resources are reliable or not. Once they have found reliable resources, it is often difficult to understand what the law actually says and how it should be applied. Considering that so much of what we do is dictated by laws, it is indispensable for citizens to be equipped with the knowledge necessary to navigate the legal world.
 

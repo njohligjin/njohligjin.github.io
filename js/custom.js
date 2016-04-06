@@ -282,7 +282,7 @@ $(document).ready(function(){
   });
   $("li.dropdown").click(function(){
     //alert();
-    $("#dropdown-menu").toggle("slow");
+    $("#dropdown-menu").toggle();
   })
 
   $(".note").click(function(){
@@ -345,11 +345,11 @@ $(document).ready(function(){
   }
 
   if($(window).width()<767){
-    var submenu = $("#dropdown-menu").clone();
-    submenu.wrap("<div></div>");
-    console.log(submenu.html());
-    $("#dropdown-menu").remove();
-    $("li.dropdown").after(submenu);
+    // var submenu = $("#dropdown-menu").clone();
+    // submenu.wrap("<div></div>");
+    // console.log(submenu.html());
+    // $("#dropdown-menu").remove();
+    // $("li.dropdown").after(submenu);
   }
 
 });

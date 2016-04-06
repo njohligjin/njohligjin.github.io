@@ -380,6 +380,10 @@ li.dropdown{
   display: inline-block;
 }
 
+#dropdown-menu {
+  border-top: 1px solid #fff;
+}
+
 #logo {
   float: left;
 }
@@ -622,8 +626,7 @@ li.dropdown{
 .legal-reference {
   font-style: italic;
   border: 1px solid #ccc;
-  border-radius: 4px;
-  background-color: #efefef;
+  background-color: #f8f8f8;
   padding: 10px;
   margin-top: 30px;
 }
@@ -1359,8 +1362,31 @@ li.dropdown{
   .page-parts {
     min-height: auto;
   }
+  ul.nav-justified {
+    width: 50%;
+    float: left;
+  }
+  ul.nav-justified li>a{
+    text-align: left;
+    white-space: normal!important;
+  }
+
+  .menu-container .container {
+    padding: 0;
+  }
+
   #dropdown-menu {
-    border-bottom: 1px solid rgb(255, 255, 255);
+    /*border-bottom: 1px solid rgb(255, 255, 255);*/
+    border-top: none;
+    width: 50%;
+    float: right;
     padding-top: 0;
+    margin-top: 0;
+    text-align: left;
+    border-left: 1px solid #fff;
+  }
+
+  #dropdown-menu a{
+    white-space: unset;
   }
 }
