@@ -1,5 +1,5 @@
 ---
-title: "Kur ngrihet padia?"
+title: Kur ngrihet padia?
 tag: padia
 ---
 
