@@ -1,0 +1,31 @@
+---
+title: "Dhuna në familje"
+role: main
+layout: post
+category: familja
+image: familja.png
+lang: sq
+permalink: /familja/dhuna-ne-familje/
+---
+<div class="col-md-3">
+  <ul class="nav nav-tabs custom-nav-tabs" role="tablist">
+    {% for file in site.familja-collection %}
+    {% if file.tag == "dhuna-ne-familje" %}
+    {% assign counter=counter | plus:1 %}
+    <li role="presentation">
+      <a href="#{{ counter }}" aria-controls="settings" role="tab" data-toggle="tab">{{file.title}}</a>
+    </li>
+    {% endif %}
+    {% endfor %}
+  </ul>
+</div>
+<div class="tab-content col-md-9">
+  {% for file in site.familja-collection %}
+  {% if file.tag == "dhuna-ne-familje" %}
+  {% assign counter1=counter1 | plus:1 %}
+    <div role="tabpanel" class="tab-pane fade {% if counter1 == 1 %} active in {% endif %} " id="{{ counter1 }}">
+      {{ file.content }}
+    </div>
+  {% endif %}
+  {% endfor %}
+</div>

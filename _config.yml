@@ -3,8 +3,39 @@ author: "Communication Progress"
 description: "Website informativ mbi legjislacionin e Republikës së Shqipërisë"
 email:
 markdown: kramdown
-permalink: /:categories/:title/
+permalink: /:categories-1/:title/
+collections:
+  puna-collection:
+    output: true
+  sigurimet-shoqerore-collection:
+    output: true
+  kodi-rrugor-collection:
+    output: true
+  mjedisi-collection:
+    output: true
+  ankimi-administrativ-collection:
+    output: true
+  informimi-publik-collection:
+    output: true
+  familja-collection:
+    output: true
+  ndihma-juridike-collection:
+    output: true
+  konsumatori-collection:
+    output: true
+  procesi-gjyqesor-civil-collection:
+    output: true
+  pasuria-e-paluajtshme-collection:
+    output: true
+  tatimet-dhe-taksat-collection:
+    output: true
+  bashkepronesia-ne-ndertesa-collection:
+    output: true
+  shkaktimi-i-demit-collection:
+    output: true
+
 encoding: UTF-8
 social:
 title: Njoh ligjin
-url: http://njohligjin.al
+# url: http://njohligjin.al
+url: http://localhost:4000

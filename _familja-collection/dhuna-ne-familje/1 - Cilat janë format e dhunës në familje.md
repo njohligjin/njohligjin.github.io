@@ -1,0 +1,22 @@
+---
+title: "Cilat janë format e dhunës në familje?"
+tag: dhuna-ne-familje
+---
+
+### Çfarë është dhuna në familje?
+
+Ligji e përcakton dhunën në familje në formën e çdo veprimi apo mosveprimi të një personi ndaj një personi tjetër, që është apo ka qenë në marrëdhënie familjare, e që sjell si pasojë cenim të integritetit fizik, moral, psikologjik, seksual, social, ekonomik.
+
+### Cilat janë format e dhunës në familje?
+
+Ka disa forma të ndryshme dhune në familje, dhe një person mund të jetë subjekt i më shumë se një forme. Ato janë:
+
+**Abuzimi fizik.** Përfshin përdorimin e forcës fizike në mënyrë të atillë që lëndon dikë ose e vë atë person në rrezik lëndimi, duke përfshirë: rrahje, goditje, shkundje, shtyrje, mbytje, kafshime, djegie, shkelmime, ose sulme me armë. Forma të tjera të abuzimit fizik mund të përfshijnë izolim ose çdo përdorim tjetër të rrezikshëm apo të dëmshëm force ose shtrëngimi.
+
+**Abuzimi dhe shfrytëzimi seksual.** Të detyrosh dikë që të marrë pjesë në veprimtari seksuale të padëshiruar, të pasigurtë ose degraduese, ose përdorimi i taktikave poshtëruese ose të tjera për të ulur, kontrolluar ose kufizuar seksualitetin e personave ose zgjedhjet e riprodhimit.
+
+**Abuzimi emocional**. Nënvlerësimi në mënyrë të rregullt dhe të vazhdueshme i vlerave dhe cilësive njerëzore të viktimës, kriticizmi dhe poshtërimi i veprimeve të kryera prej saj.
+
+**Abuzimi psikologjik.** Trëmbja, kërcënimi dhe krijimi i një situate frikësuese për viktimën, nëpërmjet veprimeve që e ndalojnë të kryejë takime pa leje apo moslejimi i daljes jashtë vendbanimit pa lejen e personit që ushtron këtë abuzim.
+
+**Abuzimi ekonomik ose financiar.** Mosdhënia e parave që janë të domosdoshme për të siguruar ushqim apo trajtim mjekësor, shfrytëzimi i një personi për përfitim financiar, mohimi i aksesit për burime financiare, ose pengimi i një partneri që të punojë.
