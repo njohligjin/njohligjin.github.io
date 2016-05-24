@@ -7,8 +7,8 @@ tag: amesia-dhe-atesia
 
 Amësia dhe atësia e fëmijës së lindur jashtë martese mund të bëhet në dy mënyra:
 
-* Me anë të njohjes vullnetare;
-* Me anë të një vendimi gjykate.
+* Me anë të njohjes vullnetare
+* Me anë të një vendimi gjykate
 
 Njohja e amësisë dhe atësisë sipas mënyrave të sipërpërmendura krijon të drejta dhe detyrime të njëjta sikur të ketë lindur nga martesa, që nga momenti i lindjes së fëmijës.
 
