@@ -56,10 +56,12 @@ $(document).ready(function(){
     // $(".kategori-ligjore").height(100);
   }
 
-  $(".kategori-ligjore").click(function(){
-    $(this).css("transform", "rotateX( 0deg ) rotateY( 0deg ) translateZ( -30px );");
-    var loc = $(this).find(".kategori-details ul li:first a").attr("href");
-    window.location.href=loc;
+  $(".kategori-ligjore").mouseup(function(e){
+    if(e.which == 1){
+      $(this).css("transform", "rotateX( 0deg ) rotateY( 0deg ) translateZ( -30px );");
+      var loc = $(this).find(".kategori-details ul li:first a").attr("href");
+      window.location.href=loc;
+    }
   });
 
 
@@ -269,11 +271,15 @@ $(document).ready(function(){
   if($(".custom-nav-tabs li").html()!=undefined){
     if(window.location.href.indexOf("#")!=-1){
       var index = window.location.href.substring(window.location.href.indexOf("#")+1, window.location.href.length);
-      $(".custom-nav-tabs li:eq("+index+")").addClass("active");
-      $("#"+index+"").addClass("active in");
+      $(".custom-nav-tabs li:eq("+(index-1)+")").addClass("active");
+      console.log(index);
+      // setTimeout(function(){
+        $(".tab-pane").removeClass("active in");
+        $("#"+index+"").addClass("active in");
+      // }, 1000);
     } else {
       $(".custom-nav-tabs li:first-child").addClass("active");
-      $("#0").addClass("active in");
+      $("#1").addClass("active in");
     }
   }
   $("#link-kategorite").on("click", function(){

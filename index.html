@@ -15,8 +15,9 @@ image: cover2.png
         <a href="/puna/" class="kat-link"></a>
           <ul>
             <li><a href="/puna/">Puna</a></li>
-            {% for post in site.categories.puna reversed %}
-              <li><a href="{{ BASE_PATH }}{{ post.url | replace: '-1',''}}">{{ post.title }}</a></li>
+            {% assign posts = site.puna-collection | where: "role","main" | sort: "order" %}
+            {% for file in posts | sort: order %}
+              <li><a href="{{ BASE_PATH }}{{ file.permalink }}">{{ file.title }}</a></li>
             {% endfor %}
           </ul>
       </div>
@@ -32,10 +33,10 @@ image: cover2.png
           <a href="/sigurimet-shoqerore/" class="kat-link"></a>
           <ul>
             <li><a href="/sigurimet-shoqerore/">Sigurimet shoqërore</a></li>
-            {% for post in site.categories.sigurimet-shoqerore reversed %}
-              <li><a href="{{ BASE_PATH }}{{ post.url | replace: '-1','' }}">{{ post.title }}</a></li>
+            {% assign posts = site.sigurimet-shoqerore-collection | where: "role","main" | sort: "order" %}
+            {% for file in posts | sort: order %}
+              <li><a href="{{ BASE_PATH }}{{ file.permalink }}">{{ file.title }}</a></li>
             {% endfor %}
-
           </ul>
         </div>
     </div>
@@ -50,10 +51,10 @@ image: cover2.png
         <a href="/kodi-rrugor/" class="kat-link"></a>
         <ul>
           <li><a href="/kodi-rrugor/">Kodi rrugor</a></li>
-            {% for post in site.categories.kodi-rrugor reversed %}
-              <li><a href="{{ BASE_PATH }}{{ post.url | replace: '-1','' }}">{{ post.title }}</a></li>
-            {% endfor %}
-
+          {% assign posts = site.kodi-rrugor-collection | where: "role","main" | sort: "order" %}
+          {% for file in posts | sort: order %}
+            <li><a href="{{ BASE_PATH }}{{ file.permalink }}">{{ file.title }}</a></li>
+          {% endfor %}
         </ul>
       </div>
     </div>
@@ -68,8 +69,9 @@ image: cover2.png
         <a href="/mjedisi/" class="kat-link"></a>
         <ul>
           <li><a href="/mjedisi/">Mjedisi</a></li>
-          {% for post in site.categories.mjedisi reversed %}
-            <li><a href="{{ BASE_PATH }}{{ post.url | replace: '-1','' }}">{{ post.title }}</a></li>
+          {% assign posts = site.mjedisi-collection | where: "role","main" | sort: "order" %}
+          {% for file in posts | sort: order %}
+            <li><a href="{{ BASE_PATH }}{{ file.permalink }}">{{ file.title }}</a></li>
           {% endfor %}
         </ul>
       </div>
@@ -85,8 +87,9 @@ image: cover2.png
         <a href="/ankimi-administrativ/" class="kat-link"></a>
         <ul>
           <li><a href="/ankimi-administrativ/">Ankimi Administrativ</a></li>
-          {% for post in site.categories.ankimi-administrativ reversed %}
-            <li><a href="{{ BASE_PATH }}{{ post.url | replace: '-1','' }}">{{ post.title }}</a></li>
+          {% assign posts = site.ankimi-administrativ-collection | where: "role","main" | sort: "order" %}
+          {% for file in posts | sort: order %}
+            <li><a href="{{ BASE_PATH }}{{ file.permalink }}">{{ file.title }}</a></li>
           {% endfor %}
         </ul>
       </div>
@@ -102,10 +105,10 @@ image: cover2.png
         <a href="/informimi-publik/" class="kat-link"></a>
         <ul>
           <li><a href="/informimi-publik/">Informimi publik</a></li>
-          {% for post in site.categories.informimi-publik reversed %}
-            <li><a href="{{ BASE_PATH }}{{ post.url | replace: '-1','' }}">{{ post.title }}</a></li>
+          {% assign posts = site.informimi-publik-collection | where: "role","main" | sort: "order" %}
+          {% for file in posts | sort: order %}
+            <li><a href="{{ BASE_PATH }}{{ file.permalink }}">{{ file.title }}</a></li>
           {% endfor %}
-
         </ul>
       </div>
     </div>
@@ -120,8 +123,9 @@ image: cover2.png
         <a href="/familja/" class="kat-link"></a>
         <ul>
           <li><a href="/familja/">Familja</a></li>
-          {% for post in site.categories.familja reversed %}
-            <li><a href="{{ BASE_PATH }}{{ post.url | replace: '-1','' }}">{{ post.title }}</a></li>
+          {% assign posts = site.familja-collection | where: "role","main" | sort: "order" %}
+          {% for file in posts | sort: order %}
+            <li><a href="{{ BASE_PATH }}{{ file.permalink }}">{{ file.title }}</a></li>
           {% endfor %}
         </ul>
       </div>
@@ -137,8 +141,9 @@ image: cover2.png
         <a href="/ndihma-juridike/" class="kat-link"></a>
         <ul>
           <li><a href="/ndihma-juridike/">Ndihma juridike</a></li>
-          {% for post in site.categories.ndihma-juridike reversed %}
-            <li><a href="{{ BASE_PATH }}{{ post.url | replace: '-1','' }}">{{ post.title }}</a></li>
+          {% assign posts = site.ndihma-juridike-collection | where: "role","main" | sort: "order" %}
+          {% for file in posts | sort: order %}
+            <li><a href="{{ BASE_PATH }}{{ file.permalink }}">{{ file.title }}</a></li>
           {% endfor %}
         </ul>
       </div>
@@ -154,8 +159,9 @@ image: cover2.png
         <a href="/konsumatori/" class="kat-link"></a>
         <ul>
           <li><a href="/konsumatori/">Konsumatori</a></li>
-          {% for post in site.categories.konsumatori reversed %}
-            <li><a href="{{ BASE_PATH }}{{ post.url | replace: '-1','' }}">{{ post.title }}</a></li>
+          {% assign posts = site.konsumatori-collection | where: "role","main" | sort: "order" %}
+          {% for file in posts | sort: order %}
+            <li><a href="{{ BASE_PATH }}{{ file.permalink }}">{{ file.title }}</a></li>
           {% endfor %}
         </ul>
       </div>
@@ -171,8 +177,9 @@ image: cover2.png
         <a href="/procesi-gjyqesor-civil/" class="kat-link"></a>
         <ul>
           <li><a href="/procesi-gjyqesor-civil/">Procesi gjyqësor civil</a></li>
-          {% for post in site.categories.procesi-gjyqesor-civil reversed %}
-            <li><a href="{{ BASE_PATH }}{{ post.url | replace: '-1','' }}">{{ post.title }}</a></li>
+          {% assign posts = site.procesi-gjyqesor-civil-collection | where: "role","main" | sort: "order" %}
+          {% for file in posts | sort: order %}
+            <li><a href="{{ BASE_PATH }}{{ file.permalink }}">{{ file.title }}</a></li>
           {% endfor %}
         </ul>
       </div>
@@ -188,8 +195,9 @@ image: cover2.png
         <a href="/pasuria-e-paluajtshme/" class="kat-link"></a>
           <ul>
             <li><a href="/pasuria-e-paluajtshme/">Pasuria e paluajtshme</a></li>
-            {% for post in site.categories.pasuria-e-paluajtshme reversed %}
-              <li><a href="{{ BASE_PATH }}{{ post.url | replace: '-1','' }}">{{ post.title }}</a></li>
+            {% assign posts = site.pasuria-e-paluajtshme-collection | where: "role","main" | sort: "order" %}
+            {% for file in posts | sort: order %}
+              <li><a href="{{ BASE_PATH }}{{ file.permalink }}">{{ file.title }}</a></li>
             {% endfor %}
           </ul>
       </div>
@@ -205,8 +213,9 @@ image: cover2.png
         <a href="/tatimet-dhe-taksat/" class="kat-link"></a>
         <ul>
           <li><a href="/tatimet-dhe-taksat/">Tatimet dhe taksat</a></li>
-          {% for post in site.categories.tatimet-dhe-taksat reversed %}
-            <li><a href="{{ BASE_PATH }}{{ post.url | replace: '-1','' }}">{{ post.title }}</a></li>
+          {% assign posts = site.tatimet-dhe-taksat-collection | where: "role","main" | sort: "order" %}
+          {% for file in posts | sort: order %}
+            <li><a href="{{ BASE_PATH }}{{ file.permalink }}">{{ file.title }}</a></li>
           {% endfor %}
         </ul>
       </div>
@@ -222,8 +231,9 @@ image: cover2.png
         <a href="/bashkepronesia-ne-ndertesa/" class="kat-link"></a>
         <ul>
           <li><a href="/bashkepronesia-ne-ndertesa/">Bashkëpronësia në ndërtesat e banimit</a></li>
-          {% for post in site.categories.bashkepronesia-ne-ndertesa reversed %}
-            <li><a href="{{ BASE_PATH }}{{ post.url | replace: '-1','' }}">{{ post.title }}</a></li>
+          {% assign posts = site.bashkepronesia-ne-ndertesa-collection | where: "role","main" | sort: "order" %}
+          {% for file in posts | sort: order %}
+            <li><a href="{{ BASE_PATH }}{{ file.permalink }}">{{ file.title }}</a></li>
           {% endfor %}
         </ul>
       </div>
@@ -239,8 +249,9 @@ image: cover2.png
           <a href="/shkaktimi-i-demit/" class="kat-link"></a>
           <ul>
             <li><a href="/shkaktimi-i-demit/">Shkaktimi i dëmit</a></li>
-            {% for post in site.categories.shkaktimi-i-demit reversed %}
-              <li><a href="{{ BASE_PATH }}{{ post.url | replace: '-1','' }}">{{ post.title }}</a></li>
+            {% assign posts = site.shkaktimi-i-demit-collection | where: "role","main" | sort: "order" %}
+            {% for file in posts | sort: order %}
+              <li><a href="{{ BASE_PATH }}{{ file.permalink }}">{{ file.title }}</a></li>
             {% endfor %}
           </ul>
         </div>

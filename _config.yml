@@ -3,7 +3,7 @@ author: "Communication Progress"
 description: "Website informativ mbi legjislacionin e Republikës së Shqipërisë"
 email:
 markdown: kramdown
-permalink: /:categories-1/:title/
+permalink: /:categories/:title/
 collections:
   puna-collection:
     output: true
@@ -37,5 +37,5 @@ collections:
 encoding: UTF-8
 social:
 title: Njoh ligjin
-url: http://njohligjin.al
-# url: http://localhost:4000
+# url: http://njohligjin.al
+url: http://localhost:4000

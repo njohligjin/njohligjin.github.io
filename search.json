@@ -2,14 +2,157 @@
 layout: null
 ---
 [
-  {% for post in site.posts %}
+  {% assign posts = site.puna-collection | where: "role", "main" %}
+  {% for post in posts %}
     {
       "title"    : "{{ post.title | escape }}",
       "category" : "{{ post.category }}",
       "tags"     : "{{ post.tags | join: ', ' }}",
       "url"      : "{{ site.baseurl }}{{ post.url }}",
-      "date"     : "{{ post.date }}",
       "content"  : "{{ post.content | strip_html | strip_newlines | remove_chars | escape }}"
-    } {% unless forloop.last %},{% endunless %}
+    },
+  {% endfor %}
+
+  {% assign posts = site.sigurimet-shoqerore-collection | where: "role", "main" %}
+  {% for post in posts %}
+    {
+      "title"    : "{{ post.title | escape }}",
+      "category" : "{{ post.category }}",
+      "tags"     : "{{ post.tags | join: ', ' }}",
+      "url"      : "{{ site.baseurl }}{{ post.url }}",
+      "content"  : "{{ post.content | strip_html | strip_newlines | remove_chars | escape }}"
+    },
+  {% endfor %}
+
+  {% assign posts = site.mjedisi-collection | where: "role", "main" %}
+  {% for post in posts %}
+    {
+      "title"    : "{{ post.title | escape }}",
+      "category" : "{{ post.category }}",
+      "tags"     : "{{ post.tags | join: ', ' }}",
+      "url"      : "{{ site.baseurl }}{{ post.url }}",
+      "content"  : "{{ post.content | strip_html | strip_newlines | remove_chars | escape }}"
+    },
+  {% endfor %}
+
+  {% assign posts = site.kodi-rrugor-collection | where: "role", "main" %}
+  {% for post in posts %}
+    {
+      "title"    : "{{ post.title | escape }}",
+      "category" : "{{ post.category }}",
+      "tags"     : "{{ post.tags | join: ', ' }}",
+      "url"      : "{{ site.baseurl }}{{ post.url }}",
+      "content"  : "{{ post.content | strip_html | strip_newlines | remove_chars | escape }}"
+    },
+  {% endfor %}
+
+  {% assign posts = site.ankimi-administrativ-collection | where: "role", "main" %}
+  {% for post in posts %}
+    {
+      "title"    : "{{ post.title | escape }}",
+      "category" : "{{ post.category }}",
+      "tags"     : "{{ post.tags | join: ', ' }}",
+      "url"      : "{{ site.baseurl }}{{ post.url }}",
+      "content"  : "{{ post.content | strip_html | strip_newlines | remove_chars | escape }}"
+    },
+  {% endfor %}
+
+  {% assign posts = site.informimi-publik-collection | where: "role", "main" %}
+  {% for post in posts %}
+    {
+      "title"    : "{{ post.title | escape }}",
+      "category" : "{{ post.category }}",
+      "tags"     : "{{ post.tags | join: ', ' }}",
+      "url"      : "{{ site.baseurl }}{{ post.url }}",
+      "content"  : "{{ post.content | strip_html | strip_newlines | remove_chars | escape }}"
+    },
+  {% endfor %}
+
+  {% assign posts = site.familja-collection | where: "role", "main" %}
+  {% for post in posts %}
+    {
+      "title"    : "{{ post.title | escape }}",
+      "category" : "{{ post.category }}",
+      "tags"     : "{{ post.tags | join: ', ' }}",
+      "url"      : "{{ site.baseurl }}{{ post.url }}",
+      "content"  : "{{ post.content | strip_html | strip_newlines | remove_chars | escape }}"
+    },
+  {% endfor %}
+
+  {% assign posts = site.ndihma-juridike-collection | where: "role", "main" %}
+  {% for post in posts %}
+    {
+      "title"    : "{{ post.title | escape }}",
+      "category" : "{{ post.category }}",
+      "tags"     : "{{ post.tags | join: ', ' }}",
+      "url"      : "{{ site.baseurl }}{{ post.url }}",
+      "content"  : "{{ post.content | strip_html | strip_newlines | remove_chars | escape }}"
+    },
+  {% endfor %}
+
+  {% assign posts = site.konsumatori-collection | where: "role", "main" %}
+  {% for post in posts %}
+    {
+      "title"    : "{{ post.title | escape }}",
+      "category" : "{{ post.category }}",
+      "tags"     : "{{ post.tags | join: ', ' }}",
+      "url"      : "{{ site.baseurl }}{{ post.url }}",
+      "content"  : "{{ post.content | strip_html | strip_newlines | remove_chars | escape }}"
+    },
+  {% endfor %}
+
+  {% assign posts = site.pasuria-e-paluajtshme-collection | where: "role", "main" %}
+  {% for post in posts %}
+    {
+      "title"    : "{{ post.title | escape }}",
+      "category" : "{{ post.category }}",
+      "tags"     : "{{ post.tags | join: ', ' }}",
+      "url"      : "{{ site.baseurl }}{{ post.url }}",
+      "content"  : "{{ post.content | strip_html | strip_newlines | remove_chars | escape }}"
+    },
+  {% endfor %}
+
+  {% assign posts = site.procesi-gjyqesor-civil-collection | where: "role", "main" %}
+  {% for post in posts %}
+    {
+      "title"    : "{{ post.title | escape }}",
+      "category" : "{{ post.category }}",
+      "tags"     : "{{ post.tags | join: ', ' }}",
+      "url"      : "{{ site.baseurl }}{{ post.url }}",
+      "content"  : "{{ post.content | strip_html | strip_newlines | remove_chars | escape }}"
+    },
+  {% endfor %}
+
+  {% assign posts = site.tatimet-dhe-taksat-collection | where: "role", "main" %}
+  {% for post in posts %}
+    {
+      "title"    : "{{ post.title | escape }}",
+      "category" : "{{ post.category }}",
+      "tags"     : "{{ post.tags | join: ', ' }}",
+      "url"      : "{{ site.baseurl }}{{ post.url }}",
+      "content"  : "{{ post.content | strip_html | strip_newlines | remove_chars | escape }}"
+    },
+  {% endfor %}
+
+  {% assign posts = site.bashkepronesia-ne-ndertesa-collection | where: "role", "main" %}
+  {% for post in posts %}
+    {
+      "title"    : "{{ post.title | escape }}",
+      "category" : "{{ post.category }}",
+      "tags"     : "{{ post.tags | join: ', ' }}",
+      "url"      : "{{ site.baseurl }}{{ post.url }}",
+      "content"  : "{{ post.content | strip_html | strip_newlines | remove_chars | escape }}"
+    },
+  {% endfor %}
+
+  {% assign posts = site.shkaktimi-i-demit-collection | where: "role", "main" %}
+  {% for post in posts %}
+    {
+      "title"    : "{{ post.title | escape }}",
+      "category" : "{{ post.category }}",
+      "tags"     : "{{ post.tags | join: ', ' }}",
+      "url"      : "{{ site.baseurl }}{{ post.url }}",
+      "content"  : "{{ post.content | strip_html | strip_newlines | remove_chars | escape }}"
+    }{% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]
