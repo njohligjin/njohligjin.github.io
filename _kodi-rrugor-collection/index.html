@@ -20,7 +20,12 @@ permalink: /kodi-rrugor/
       <div class="kategori-details">
         <ul>
           <li><a href="/kodi-rrugor/si-veprohet-ne-rruge">Si veprohet në rrugë </a></li>
-          <li><a href="/kodi-rrugor/si-veprohet-ne-rruge#0">Çfarë veprimesh ndalohen në rrugë?</a></li>
+          {% for file in site.kodi-rrugor-collection %}
+          {% if file.tag == "si-veprohet-ne-rruge" %}
+          {% assign counter=counter | plus:1 %}
+            <li><a href="/kodi-rrugor/si-veprohet-ne-rruge#{{counter}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
         </ul>
       </div>
     </div>
@@ -33,7 +38,12 @@ permalink: /kodi-rrugor/
       <div class="kategori-details">
         <ul>
           <li><a href="/kodi-rrugor/mjetet-rrugore">Mjetet rrugore </a></li>
-          <li><a href="/kodi-rrugor/mjetet-rrugore#0">Kushtet për qarkullimin e mjeteve rrugore në rrugë</a></li>
+          {% for file in site.kodi-rrugor-collection %}
+          {% if file.tag == "mjetet-rrugore" %}
+          {% assign counter1=counter1 | plus:1 %}
+            <li><a href="/kodi-rrugor/mjetet-rrugore#{{counter1}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
         </ul>
       </div>
     </div>
@@ -46,11 +56,12 @@ permalink: /kodi-rrugor/
       <div class="kategori-details">
         <ul>
           <li><a href="/kodi-rrugor/drejtimi-i-mjeteve">Drejtimi i mjeteve </a></li>
-          <li><a href="/kodi-rrugor/drejtimi-i-mjeteve#0">Cilat janë kërkesat për drejtimin e mjeteve?</a></li>
-          <li><a href="/kodi-rrugor/drejtimi-i-mjeteve#1">Dokumentet për drejtimin e automjeti</a></li>
-          <li><a href="/kodi-rrugor/drejtimi-i-mjeteve#2">Pasoja e drejtimit të mjetit në gjendje të dehur</a></li>
-          <li><a href="/kodi-rrugor/drejtimi-i-mjeteve#3">Pasoja e përfshirjes në aksident nën efektin e lëndëve narkotike</a></li>
-          <li><a href="/kodi-rrugor/drejtimi-i-mjeteve#4">Si te sillemi ne rast aksidenti</a></li>
+          {% for file in site.kodi-rrugor-collection %}
+          {% if file.tag == "drejtimi-i-mjeteve" %}
+          {% assign counter2=counter2 | plus:1 %}
+            <li><a href="/kodi-rrugor/drejtimi-i-mjeteve#{{counter2}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
         </ul>
       </div>
     </div>
@@ -63,11 +74,12 @@ permalink: /kodi-rrugor/
       <div class="kategori-details">
         <ul>
           <li><a href="/kodi-rrugor/lejedrejtimi">Lejedrejtimi </a></li>
-          <li><a href="/kodi-rrugor/lejedrejtimi#0">Provimi i marrjes së leje drejtimit</a></li>
-          <li><a href="/kodi-rrugor/lejedrejtimi#1">Kategoritë e leje drejtimit</a></li>
-          <li><a href="/kodi-rrugor/lejedrejtimi#2">Lejedrejtimi per personat me aftësi të kufizuara</a></li>
-          <li><a href="/kodi-rrugor/lejedrejtimi#3">Afati i vlefshmërisë së leje drejtimit</a></li>
-          <li><a href="/kodi-rrugor/lejedrejtimi#4">Humbja e lejedrejtimit</a></li>
+          {% for file in site.kodi-rrugor-collection %}
+          {% if file.tag == "lejedrejtimi" %}
+          {% assign counter3=counter3 | plus:1 %}
+            <li><a href="/kodi-rrugor/lejedrejtimi#{{counter3}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
         </ul>
       </div>
     </div>
@@ -80,6 +92,12 @@ permalink: /kodi-rrugor/
       <div class="kategori-details">
         <ul>
           <li><a href="/kodi-rrugor/shpejtesia">Shpejtësia </a></li>
+          {% for file in site.kodi-rrugor-collection %}
+          {% if file.tag == "shpejtesia" %}
+          {% assign counter4=counter4 | plus:1 %}
+            <li><a href="/kodi-rrugor/shpejtesia#{{counter4}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
         </ul>
       </div>
     </div>
@@ -92,8 +110,12 @@ permalink: /kodi-rrugor/
       <div class="kategori-details">
         <ul>
           <li><a href="/kodi-rrugor/kembesoret">Këmbësorët </a></li>
-          <li><a href="/kodi-rrugor/kembesoret#0">Si duhet të sillen këmbësorët në rrugë?</a></li>
-          <li><a href="/kodi-rrugor/kembesoret#1">Si duhet të sillen drejtuesit e automjeteve ndaj këmbësorëve?</a></li>
+          {% for file in site.kodi-rrugor-collection %}
+          {% if file.tag == "kembesoret" %}
+          {% assign counter5=counter5 | plus:1 %}
+            <li><a href="/kodi-rrugor/kembesoret#{{counter5}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
         </ul>
       </div>
     </div>
@@ -106,12 +128,12 @@ permalink: /kodi-rrugor/
       <div class="kategori-details">
         <ul>
           <li><a href="/kodi-rrugor/shkeljet">Shkeljet</a></li>
-          <li><a href="/kodi-rrugor/shkeljet#0">Masa administrative dhe gjoba</a></li>
-          <li><a href="/kodi-rrugor/shkeljet#1">Detyrimi i përbashkët mes dy ose më shumë personave</a></li>
-          <li><a href="/kodi-rrugor/shkeljet#2">Njoftimi i shkeljeve</a></li>
-          <li><a href="/kodi-rrugor/shkeljet#3">Mbledhja e gjobave</a></li>
-          <li><a href="/kodi-rrugor/shkeljet#4">Masa administrative plotësuese</a></li>
-          <li><a href="/kodi-rrugor/shkeljet#5">Ankimimi i gjobës</a></li>
+          {% for file in site.kodi-rrugor-collection %}
+          {% if file.tag == "shkeljet" %}
+          {% assign counter6=counter6 | plus:1 %}
+            <li><a href="/kodi-rrugor/shkeljet#{{counter6}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
         </ul>
       </div>
     </div>

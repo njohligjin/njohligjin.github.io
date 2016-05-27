@@ -19,13 +19,12 @@ permalink: /mjedisi/
       <div class="kategori-details">
         <ul>
           <li><a href="/mjedisi/shqetesimi-dhe-demtimi-nga-zhurmat">Shqetësimi dhe dëmtimi nga zhurmat</a></li>
-          <li><a href="/mjedisi/shqetesimi-dhe-demtimi-nga-zhurmat#0">Cilat janë zhurmat shqetësuese dhe të dëmshme</a></li>
-          <li><a href="/mjedisi/shqetesimi-dhe-demtimi-nga-zhurmat#1">Organet kryesore përgjegjëse për mbrojtjen nga zhurmat </a></li>
-          <li><a href="/mjedisi/shqetesimi-dhe-demtimi-nga-zhurmat#2">Cilat zhurma janë të lejueshme</a></li>
-          <li><a href="/mjedisi/shqetesimi-dhe-demtimi-nga-zhurmat#3">Cilat janë masat mbrojtëse nga zhurma</a></li>
-          <li><a href="/mjedisi/shqetesimi-dhe-demtimi-nga-zhurmat#4">Veprimtaritë e ndaluara burim zhurme</a></li>
-          <li><a href="/mjedisi/shqetesimi-dhe-demtimi-nga-zhurmat#5">Pasoja për tejkalimin e nivelit të lejuar të zhurmave</a></li>
-          <li><a href="/mjedisi/shqetesimi-dhe-demtimi-nga-zhurmat#6">Ankimi për tejkalimin e nivelit të zhurmave</a></li>
+          {% for file in site.mjedisi-collection %}
+          {% if file.tag == "shqetesimi-dhe-demtimi-nga-zhurmat" %}
+          {% assign counter=counter | plus:1 %}
+            <li><a href="/mjedisi/shqetesimi-dhe-demtimi-nga-zhurmat#{{counter}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
         </ul>
       </div>
     </div>
@@ -38,6 +37,12 @@ permalink: /mjedisi/
       <div class="kategori-details">
         <ul>
           <li><a href="/mjedisi/ajri">Ajri </a></li>
+          {% for file in site.mjedisi-collection %}
+          {% if file.tag == "ajri" %}
+          {% assign counter1=counter1 | plus:1 %}
+            <li><a href="/mjedisi/ajri#{{counter1}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
         </ul>
       </div>
     </div>
@@ -50,6 +55,12 @@ permalink: /mjedisi/
       <div class="kategori-details">
         <ul>
           <li><a href="/mjedisi/menaxhimi-i-burimeve-ujore">Menaxhimi i burimeve ujore</a></li>
+          {% for file in site.mjedisi-collection %}
+          {% if file.tag == "menaxhimi-i-burimeve-ujore" %}
+          {% assign counter2=counter2 | plus:1 %}
+            <li><a href="/mjedisi/menaxhimi-i-burimeve-ujore#{{counter2}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
         </ul>
       </div>
     </div>
@@ -62,6 +73,12 @@ permalink: /mjedisi/
       <div class="kategori-details">
         <ul>
           <li><a href="/mjedisi/menaxhimi-i-mbetjeve">Menaxhimi i mbetjeve </a></li>
+          {% for file in site.mjedisi-collection %}
+          {% if file.tag == "menaxhimi-i-mbetjeve" %}
+          {% assign counter3=counter3 | plus:1 %}
+            <li><a href="/mjedisi/menaxhimi-i-mbetjeve#{{counter3}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
         </ul>
       </div>
     </div>

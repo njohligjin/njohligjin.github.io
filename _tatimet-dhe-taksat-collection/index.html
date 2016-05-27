@@ -1,4 +1,4 @@
----
+1---
 layout: default
 title: Tatimet dhe taksat
 image: taksa.png
@@ -16,13 +16,12 @@ permalink: /tatimet-dhe-taksat/
       <div class="kategori-details">
         <ul>
           <li><a href="/tatimet-dhe-taksat/llojet-e-tatimeve-dhe-taksave">Llojet e tatimeve the taksave</a></li>
-          <li><a href="/tatimet-dhe-taksat/llojet-e-tatimeve-dhe-taksave#0">Çfarë është tatimi?</a></li>
-          <li><a href="/tatimet-dhe-taksat/llojet-e-tatimeve-dhe-taksave#1">Çfarë është taksa?</a></li>
-          <li><a href="/tatimet-dhe-taksat/llojet-e-tatimeve-dhe-taksave#2">Kush është tatimpagues?</a></li>
-          <li><a href="/tatimet-dhe-taksat/llojet-e-tatimeve-dhe-taksave#3">Kush është taksapagues?</a></li>
-          <li><a href="/tatimet-dhe-taksat/llojet-e-tatimeve-dhe-taksave#4">Llojet e taksave dhe tatimeve në Shqipëri</a></li>
-          <li><a href="/tatimet-dhe-taksat/llojet-e-tatimeve-dhe-taksave#5">Taksat kombëtare në Shqipëri</a></li>
-          <li><a href="/tatimet-dhe-taksat/llojet-e-tatimeve-dhe-taksave#6">Informimi i publikut mbi legjislacionin tatimor</a></li>
+          {% for file in site.tatimet-dhe-taksat-collection %}
+          {% if file.tag == "llojet-e-tatimeve-dhe-taksave" %}
+          {% assign counter=counter | plus:1 %}
+            <li><a href="/tatimet-dhe-taksat/llojet-e-tatimeve-dhe-taksave#{{counter}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
         </ul>
       </div>
     </div>
@@ -35,9 +34,12 @@ permalink: /tatimet-dhe-taksat/
       <div class="kategori-details">
         <ul>
           <li><a href="/tatimet-dhe-taksat/detyrimi-tatimor">Detyrimi tatimor</a></li>
-          <li><a href="/tatimet-dhe-taksat/detyrimi-tatimor#0">Kur lind detyrimi tatimor?</a></li>
-          <li><a href="/tatimet-dhe-taksat/detyrimi-tatimor#1">Çfarë përfshin detyrimi tatimor?</a></li>
-          <li><a href="/tatimet-dhe-taksat/detyrimi-tatimor#2">Në çfarë monedhe paguhet detyrimi tatimor</a></li>
+          {% for file in site.tatimet-dhe-taksat-collection %}
+          {% if file.tag == "detyrimi-tatimor" %} 
+          {% assign counter1=counter1 | plus:1 %}
+            <li><a href="/tatimet-dhe-taksat/detyrimi-tatimor#{{counter1}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
         </ul>
       </div>
     </div>
@@ -50,8 +52,12 @@ permalink: /tatimet-dhe-taksat/
       <div class="kategori-details">
         <ul>
           <li><a href="/tatimet-dhe-taksat/tatimpaguesi">Tatimpaguesi</a></li>
-          <li><a href="/tatimet-dhe-taksat/tatimpaguesi#0">Si identifikohet secili tatimpagues?</a></li>
-          <li><a href="/tatimet-dhe-taksat/tatimpaguesi#1">Të drejtat e tatimpaguesit</a></li>
+          {% for file in site.tatimet-dhe-taksat-collection %}
+          {% if file.tag == "tatimpaguesi" %}
+          {% assign counter2=counter2 | plus:1 %}
+            <li><a href="/tatimet-dhe-taksat/tatimpaguesi#{{counter2}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
         </ul>
       </div>
     </div>
@@ -64,10 +70,12 @@ permalink: /tatimet-dhe-taksat/
       <div class="kategori-details">
         <ul>
           <li><a href="/tatimet-dhe-taksat/tatimi-mbi-te-ardhurat">Tatimi mbi të ardhurat</a></li>
-          <li><a href="/tatimet-dhe-taksat/tatimi-mbi-te-ardhurat#0">Cilat konsiderohen të ardhura personale?</a></li>
-          <li><a href="/tatimet-dhe-taksat/tatimi-mbi-te-ardhurat#1">Të ardhurat personale që përjashtohen nga tatimi</a></li>
-          <li><a href="/tatimet-dhe-taksat/tatimi-mbi-te-ardhurat#2">Tatimi mbi pagën dhe shpërblimin</a></li>
-          <li><a href="/tatimet-dhe-taksat/tatimi-mbi-te-ardhurat#3">Tatimi i kalimit të pronësisë</a></li>
+          {% for file in site.tatimet-dhe-taksat-collection %}
+          {% if file.tag == "tatimi-mbi-te-ardhurat" %}
+          {% assign counter3=counter3 | plus:1 %}
+            <li><a href="/tatimet-dhe-taksat/tatimi-mbi-te-ardhurat#{{counter3}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
         </ul>
       </div>
     </div>
@@ -80,9 +88,12 @@ permalink: /tatimet-dhe-taksat/
       <div class="kategori-details">
         <ul>
           <li><a href="/tatimet-dhe-taksat/tatimi-mbi-fitimin">Tatimi mbi fitimin</a></li>
-          <li><a href="/tatimet-dhe-taksat/tatimi-mbi-fitimin#0">Mbi kë zbatohet tatimi mbi fitimin?</a></li>
-          <li><a href="/tatimet-dhe-taksat/tatimi-mbi-fitimin#1">Sa është tatimi mbi fitimin?</a></li>
-          <li><a href="/tatimet-dhe-taksat/tatimi-mbi-fitimin#2">Kush duhet të mbajë tatim në burim?</a></li>
+          {% for file in site.tatimet-dhe-taksat-collection %}
+          {% if file.tag == "tatimi-mbi-fitimin" %}
+          {% assign counter4=counter4 | plus:1 %}
+            <li><a href="/tatimet-dhe-taksat/tatimi-mbi-fitimin#{{counter4}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
         </ul>
       </div>
     </div>
@@ -95,13 +106,12 @@ permalink: /tatimet-dhe-taksat/
       <div class="kategori-details">
         <ul>
           <li><a href="/tatimet-dhe-taksat/taksat-vendore">Taksat vendore</a></li>
-          <li><a href="/tatimet-dhe-taksat/taksat-vendore#0">Funksionet e Këshillit Bashkiak</a></li>
-          <li><a href="/tatimet-dhe-taksat/taksat-vendore#1">Taskat dhe tatimet vendore</a></li>
-          <li><a href="/tatimet-dhe-taksat/taksat-vendore#2">Tatimi i thjeshtuar mbi biznesin e vogel</a></li>
-          <li><a href="/tatimet-dhe-taksat/taksat-vendore#3">Taska mbi pasurinë e paluajtshme</a></li>
-          <li><a href="/tatimet-dhe-taksat/taksat-vendore#4">Taksa mbi ndërtesat</a></li>
-          <li><a href="/tatimet-dhe-taksat/taksat-vendore#5">Taksa mbi tokën bujqësore</a></li>
-          <li><a href="/tatimet-dhe-taksat/taksat-vendore#6">Taksa mbi truallin</a></li>
+          {% for file in site.tatimet-dhe-taksat-collection %}
+          {% if file.tag == "taksat-vendore" %}
+          {% assign counter5=counter5 | plus:1 %}
+            <li><a href="/tatimet-dhe-taksat/taksat-vendore#{{counter5}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
         </ul>
       </div>
     </div>

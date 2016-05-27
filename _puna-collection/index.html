@@ -19,11 +19,12 @@ permalink: /puna/
       <div class="kategori-details">
         <ul>
           <li><a href="/puna/kontrata-e-punes">Kontrata e punës</a></li>
-          <li><a href="/puna/kontrata-e-punes#0">Çfarë kuptojmë me kontratë pune</a></li>
-          <li><a href="/puna/kontrata-e-punes#1">Kontrata kolektive e punës</a></li>
-          <li><a href="/puna/kontrata-e-punes#2">Si të lidhim një kontrate pune</a></li>
-          <li><a href="/puna/kontrata-e-punes#3">Çfarë duhet të përmbajë një kontratë pune</a></li>
-          <li><a href="/puna/kontrata-e-punes#4">Si mund të ndryshohet një kontratë pune</a></li>
+          {% for file in site.puna-collection %}
+          {% if file.tag == "kontrata-e-punes" %}
+          {% assign counter=counter | plus:1 %}
+            <li><a href="/puna/kontrata-e-punes#{{counter}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
         </ul>
       </div>
     </div>
@@ -36,10 +37,12 @@ permalink: /puna/
       <div class="kategori-details">
         <ul>
           <li><a href="/puna/kohezgjatja-e-punes">Kohezgjatja e punës</a></li>
-          <li><a href="/puna/kohezgjatja-e-punes#0">Cila është kohëzgjatja e punës?</a></li>
-          <li><a href="/puna/kohezgjatja-e-punes#1">Kohëzgjatja ditore e punës</a></li>
-          <li><a href="/puna/kohezgjatja-e-punes#2">Kohëzgjatja javore e punës</a></li>
-          <li><a href="/puna/kohezgjatja-e-punes#3">Puna përtej orarit (orët shtesë)</a></li>
+          {% for file in site.puna-collection %}
+          {% if file.tag == "kohezgjatja-e-punes" %}
+          {% assign counter1=counter1 | plus:1 %}
+            <li><a href="/puna/kohezgjatja-e-punes#{{counter1}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
         </ul>
       </div>
     </div>
@@ -52,9 +55,12 @@ permalink: /puna/
       <div class="kategori-details">
         <ul>
           <li><a href="/puna/paga/">Paga</a></li>
-          <li><a href="/puna/paga#0">Çfarë përfshin paga e punëmarrësit?</a></li>
-          <li><a href="/puna/paga#1">Kur i bëhët pagesa punëmarrësit?</a></li>
-          <li><a href="/puna/paga#2">Çfarë zbritet nga paga e punëmarrësit?</a></li>
+          {% for file in site.puna-collection %}
+          {% if file.tag == "paga" %}
+          {% assign counter2=counter2 | plus:1 %}
+            <li><a href="/puna/paga#{{counter2}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
         </ul>
       </div>
     </div>
@@ -67,10 +73,12 @@ permalink: /puna/
       <div class="kategori-details">
         <ul>
           <li><a href="/puna/leja-vjetore/">Leja vjetore</a></li>
-          <li><a href="/puna/leja-vjetore#0">Sa është leja vjetore që përfiton punëmarrësi</a></li>
-          <li><a href="/puna/leja-vjetore#1">Lejet e tjera që përfiton punëmarrësi</a></li>
-          <li><a href="/puna/leja-vjetore#2">Leja që jepet në rast lindjeje apo birësimi</a></li>
-          <li><a href="/puna/leja-vjetore#3">Leja për përkujdesje ndaj fëmijës</a></li>
+          {% for file in site.puna-collection %}
+          {% if file.tag == "leja-vjetore" %}
+          {% assign counter3=counter3 | plus:1 %}
+            <li><a href="/puna/leja-vjetore#{{counter3}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
         </ul>
       </div>
     </div>
@@ -83,7 +91,12 @@ permalink: /puna/
       <div class="kategori-details">
         <ul>
           <li><a href="/puna/kushtet-e-punes/">Kushtet e punës</a></li>
-          <li><a href="/puna/kushtet-e-punes#0">Kushtet minimale të vendit të punës</a></li>
+          {% for file in site.puna-collection %}
+          {% if file.tag == "kushtet-e-punes" %}
+          {% assign counter4=counter4 | plus:1 %}
+            <li><a href="/puna/kushtet-e-punes#{{counter4}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
         </ul>
       </div>
     </div>
@@ -96,8 +109,12 @@ permalink: /puna/
       <div class="kategori-details">
         <ul>
           <li><a href="/puna/grate-dhe-te-miturit-ne-pune/">Gratë dhe të miturit në punë</a></li>
-          <li><a href="/puna/grate-dhe-te-miturit-ne-pune/#0">Mbrojtja që ligji i siguron të miturit</a></li>
-          <li><a href="/puna/grate-dhe-te-miturit-ne-pune/#1">Mbrojtja që ligji i siguron grave</a></li>
+          {% for file in site.puna-collection %}
+          {% if file.tag == "grate-dhe-te-miturit-ne-pune" %}
+          {% assign counter4=counter4 | plus:1 %}
+            <li><a href="/puna/grate-dhe-te-miturit-ne-pune#{{counter4}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
         </ul>
       </div>
     </div>
@@ -110,6 +127,12 @@ permalink: /puna/
       <div class="kategori-details">
         <ul>
           <li><a href="/puna/greva/">Greva</a></li>
+          {% for file in site.puna-collection %}
+          {% if file.tag == "greva" %}
+          {% assign counter5=counter5 | plus:1 %}
+            <li><a href="/puna/greva#{{counter5}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
         </ul>
       </div>
     </div>
@@ -122,9 +145,12 @@ permalink: /puna/
       <div class="kategori-details">
         <ul>
           <li><a href="/puna/perfundimi-i-marredhenies-se-punes/">Përfundimi i marrëdhënies së punës</a></li>
-          <li><a href="/puna/perfundimi-i-marredhenies-se-punes#0">Zgjidhja e kontratës së punës me afat të pacaktuar</a></li>
-          <li><a href="/puna/perfundimi-i-marredhenies-se-punes#1">Zgjidhja e kontratës së punës me afat të caktuar</a></li>
-          <li><a href="/puna/perfundimi-i-marredhenies-se-punes#2">Pushimi kolektiv nga puna </a></li>
+          {% for file in site.puna-collection %}
+          {% if file.tag == "perfundimi-i-marredhenies-se-punes" %}
+          {% assign counter6=counter6 | plus:1 %}
+            <li><a href="/puna/perfundimi-i-marredhenies-se-punes#{{counter6}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
         </ul>
       </div>
     </div>

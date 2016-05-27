@@ -15,11 +15,12 @@ permalink: /bashkepronesia-ne-ndertesa/
       <div class="kategori-details">
         <ul>
           <li><a href="/bashkepronesia-ne-ndertesa/bashkepronesia">Bashkëpronësia në ndërtesa</a></li>
-          <li><a href="/bashkepronesia-ne-ndertesa/bashkepronesia#0">Rregullat per administrimin e bashkëpronësisë në ndërtesa</a></li>
-          <li><a href="/bashkepronesia-ne-ndertesa/bashkepronesia#1">Kuota e pjesëmarrjes në ndërtesa</a></li>
-          <li><a href="/bashkepronesia-ne-ndertesa/bashkepronesia#2">Objektet e bashkëpronësisë në ndërtesa</a></li>
-          <li><a href="/bashkepronesia-ne-ndertesa/bashkepronesia#3">Akti i bashkëpronësisë</a></li>
-          <li><a href="/bashkepronesia-ne-ndertesa/bashkepronesia#4">Kush kontrollon zbatimin e rregullave të bashkëpronësisë?</a></li>
+          {% for file in site.bashkepronesia-ne-ndertesa-collection %}
+          {% if file.tag == "bashkepronesia" %}
+          {% assign counter=counter | plus:1 %}
+            <li><a href="/bashkepronesia-ne-ndertesa/bashkepronesia#{{counter}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
         </ul>
       </div>
     </div>
@@ -32,11 +33,12 @@ permalink: /bashkepronesia-ne-ndertesa/
       <div class="kategori-details">
         <ul>
           <li><a href="/bashkepronesia-ne-ndertesa/asambleja">Asambleja e Bashkëpronarëve</a></li>
-          <li><a href="/bashkepronesia-ne-ndertesa/asambleja#0">Asambleja e Bashkëpronarëve</a></li>
-          <li><a href="/bashkepronesia-ne-ndertesa/asambleja#1">Mbledhja Asamblese së Bashkëpronarëve</a></li>
-          <li><a href="/bashkepronesia-ne-ndertesa/asambleja#2">Thirrja e Asamblesë së Bashkëpronarëve</a></li>
-          <li><a href="/bashkepronesia-ne-ndertesa/asambleja#3">Kompetencat e Asamblesë së Bashkëpronarëve</a></li>
-          <li><a href="/bashkepronesia-ne-ndertesa/asambleja#4">Vendimet e Asamblesë së Bashkëpronarëve</a></li>
+          {% for file in site.bashkepronesia-ne-ndertesa-collection %}
+          {% if file.tag == "asambleja" %}
+          {% assign counter1=counter1 | plus:1 %}
+            <li><a href="/bashkepronesia-ne-ndertesa/asambleja#{{counter1}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
         </ul>
       </div>
     </div>
@@ -49,11 +51,12 @@ permalink: /bashkepronesia-ne-ndertesa/
       <div class="kategori-details">
         <ul>
           <li><a href="/bashkepronesia-ne-ndertesa/te-drejtat-dhe-detyrimet">Të drejtat dhe detyrimet</a></li>
-          <li><a href="/bashkepronesia-ne-ndertesa/te-drejtat-dhe-detyrimet#0">Të drejtat e pronarit të banesë</a></li>
-          <li><a href="/bashkepronesia-ne-ndertesa/te-drejtat-dhe-detyrimet#1">Detyrimet e pronarit të banesës</a></li>
-          <li><a href="/bashkepronesia-ne-ndertesa/te-drejtat-dhe-detyrimet#2">Të drejtat dhe detyrimet e krijuesit të ndërtesës</a></li>
-          <li><a href="/bashkepronesia-ne-ndertesa/te-drejtat-dhe-detyrimet#3">Të drejtat dhe detyrimet e qiramarrësve</a></li>
-          <li><a href="/bashkepronesia-ne-ndertesa/te-drejtat-dhe-detyrimet#4">Detyrimet e pronarëve për banesat jo në përdorim</a></li>
+          {% for file in site.bashkepronesia-ne-ndertesa-collection %}
+          {% if file.tag == "te-drejtat-dhe-detyrimet" %}
+          {% assign counter2=counter2 | plus:1 %}
+            <li><a href="/bashkepronesia-ne-ndertesa/te-drejtat-dhe-detyrimet#{{counter2}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
         </ul>
       </div>
     </div>
@@ -66,11 +69,12 @@ permalink: /bashkepronesia-ne-ndertesa/
       <div class="kategori-details">
         <ul>
           <li><a href="/bashkepronesia-ne-ndertesa/administrimi">Administrimi i ndërtesave</a></li>
-          <li><a href="/bashkepronesia-ne-ndertesa/administrimi#0">Kush administron ndërtesat e banimit?</a></li>
-          <li><a href="/bashkepronesia-ne-ndertesa/administrimi#1">Përgjegjësitë e administratorit ose shoqërisë së administrimit</a></li>
-          <li><a href="/bashkepronesia-ne-ndertesa/administrimi#2">Funksionet e kujdestarit</a></li>
-          <li><a href="/bashkepronesia-ne-ndertesa/administrimi#3">Paketa e administrimit</a></li>
-          <li><a href="/bashkepronesia-ne-ndertesa/administrimi#3">Tarifat e administrimit</a></li>
+          {% for file in site.bashkepronesia-ne-ndertesa-collection %}
+          {% if file.tag == "administrimi" %}
+          {% assign counter3=counter3 | plus:1 %}
+            <li><a href="/bashkepronesia-ne-ndertesa/administrimi#{{counter3}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
         </ul>
       </div>
     </div>
@@ -83,8 +87,12 @@ permalink: /bashkepronesia-ne-ndertesa/
       <div class="kategori-details">
         <ul>
           <li><a href="/bashkepronesia-ne-ndertesa/pronari-i-baneses">Pronari i banesës</a></li>
-          <li><a href="/bashkepronesia-ne-ndertesa/pronari-i-baneses#0">Ndryshimet mund të bëj pronari në banesë</a></li>
-          <li><a href="/bashkepronesia-ne-ndertesa/pronari-i-baneses#1">Dëmtimi i pronës së përbashkët</a></li>
+          {% for file in site.bashkepronesia-ne-ndertesa-collection %}
+          {% if file.tag == "pronari-i-baneses" %}
+          {% assign counter4=counter4 | plus:1 %}
+            <li><a href="/bashkepronesia-ne-ndertesa/pronari-i-baneses#{{counter4}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
         </ul>
       </div>
     </div>
@@ -97,8 +105,12 @@ permalink: /bashkepronesia-ne-ndertesa/
       <div class="kategori-details">
         <ul>
           <li><a href="/bashkepronesia-ne-ndertesa/restaurimi-dhe-shembja">Restaurimi dhe shembja</a></li>
-          <li><a href="/bashkepronesia-ne-ndertesa/restaurimi-dhe-shembja#0">Programet e restaurimit</a></li>
-          <li><a href="/bashkepronesia-ne-ndertesa/restaurimi-dhe-shembja#1">Ndihma financiare për një ndërtesë të re</a></li>
+          {% for file in site.bashkepronesia-ne-ndertesa-collection %}
+          {% if file.tag == "restaurimi-dhe-shembja" %}
+          {% assign counter5=counter5 | plus:1 %}
+            <li><a href="/bashkepronesia-ne-ndertesa/restaurimi-dhe-shembja#{{counter5}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
         </ul>
       </div>
     </div>

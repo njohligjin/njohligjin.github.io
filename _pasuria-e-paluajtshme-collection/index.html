@@ -18,8 +18,12 @@ permalink: /pasuria-e-paluajtshme/
       <div class="kategori-details">
         <ul>
           <li><a href="/pasuria-e-paluajtshme/regjistri">Regjistri i pasurive të paluajtshme</a></li>
-          <li><a href="/pasuria-e-paluajtshme/regjistri#0">Regjistrimi fillestar i një pasurie të paluajtshme</a></li>
-          <li><a href="/pasuria-e-paluajtshme/regjistri#1">Si kryhet regjistrimi fillestar i një pasurie të paluajtshme</a></li>
+          {% for file in site.pasuria-e-paluajtshme-collection %}
+          {% if file.tag == "regjistri" %}
+          {% assign counter=counter | plus:1 %}
+            <li><a href="/pasuria-e-paluajtshme/regjistri#{{counter}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
         </ul>
       </div>
     </div>
@@ -32,8 +36,12 @@ permalink: /pasuria-e-paluajtshme/
       <div class="kategori-details">
         <ul>
           <li><a href="/pasuria-e-paluajtshme/certifikata">Çertifikata e pronësisë dhe çertifikatat e përdorimit të pronësisë </a></li>
-          <li><a href="/pasuria-e-paluajtshme/certifikata#0">Lëshimi i certifikatave të pronësisë</a></li>
-          <li><a href="/pasuria-e-paluajtshme/certifikata#1">Bashkimet dhe ndarjet e pasurive të paluajtshme</a></li>
+          {% for file in site.pasuria-e-paluajtshme-collection %}
+          {% if file.tag == "certifikata" %}
+          {% assign counter1=counter1 | plus:1 %}
+            <li><a href="/pasuria-e-paluajtshme/certifikata#{{counter1}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
         </ul>
       </div>
     </div>
@@ -46,9 +54,12 @@ permalink: /pasuria-e-paluajtshme/
       <div class="kategori-details">
         <ul>
           <li><a href="/pasuria-e-paluajtshme/procesi-i-regjistrimit">Procesi i regjistrimit të pasurive të paluajtshme</a></li>
-          <li><a href="/pasuria-e-paluajtshme/procesi-i-regjistrimit#0">Regjistrimi i detyruar</a></li>
-          <li><a href="/pasuria-e-paluajtshme/procesi-i-regjistrimit#1">Regjistrimi i pasurive të paluajtshme</a></li>
-          <li><a href="/pasuria-e-paluajtshme/procesi-i-regjistrimit#2">Pezullimi i veprimeve të regjistrimit</a></li>
+          {% for file in site.pasuria-e-paluajtshme-collection %}
+          {% if file.tag == "procesi-i-regjistrimit" %}
+          {% assign counter2=counter2 | plus:1 %}
+            <li><a href="/pasuria-e-paluajtshme/procesi-i-regjistrimit#{{counter2}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
         </ul>
       </div>
     </div>
@@ -61,6 +72,12 @@ permalink: /pasuria-e-paluajtshme/
       <div class="kategori-details">
         <ul>
           <li><a href="/pasuria-e-paluajtshme/korrigjimi-i-gabimeve/">Korrigjimi i gabimeve</a></li>
+          {% for file in site.pasuria-e-paluajtshme-collection %}
+          {% if file.tag == "korrigjimi-i-gabimeve" %}
+          {% assign counter3=counter3 | plus:1 %}
+            <li><a href="/pasuria-e-paluajtshme/korrigjimi-i-gabimeve#{{counter3}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
         </ul>
       </div>
     </div>
@@ -73,6 +90,12 @@ permalink: /pasuria-e-paluajtshme/
       <div class="kategori-details">
         <ul>
           <li><a href="/pasuria-e-paluajtshme/tarifat/">Tarifat</a></li>
+          {% for file in site.pasuria-e-paluajtshme-collection %}
+          {% if file.tag == "tarifat" %}
+          {% assign counter3=counter3 | plus:1 %}
+            <li><a href="/pasuria-e-paluajtshme/tarifat#{{counter3}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
         </ul>
       </div>
     </div>
@@ -85,6 +108,12 @@ permalink: /pasuria-e-paluajtshme/
       <div class="kategori-details">
         <ul>
           <li><a href="/pasuria-e-paluajtshme/shkeljet/">Shkeljet</a></li>
+          {% for file in site.pasuria-e-paluajtshme-collection %}
+          {% if file.tag == "shkeljet" %}
+          {% assign counter4=counter4 | plus:1 %}
+            <li><a href="/pasuria-e-paluajtshme/shkeljet#{{counter4}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
         </ul>
       </div>
     </div>
@@ -97,6 +126,12 @@ permalink: /pasuria-e-paluajtshme/
       <div class="kategori-details">
         <ul>
           <li><a href="/pasuria-e-paluajtshme/ankimi/">Ankimi</a></li>
+          {% for file in site.pasuria-e-paluajtshme-collection %}
+          {% if file.tag == "ankimi" %}
+          {% assign counter5=counter5 | plus:1 %}
+            <li><a href="/pasuria-e-paluajtshme/ankimi#{{counter5}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
         </ul>
       </div>
     </div>
@@ -109,8 +144,12 @@ permalink: /pasuria-e-paluajtshme/
       <div class="kategori-details">
         <ul>
           <li><a href="/pasuria-e-paluajtshme/e-drejta-per-informim/">E drejta për informim</a></li>
-          <li><a href="/pasuria-e-paluajtshme/e-drejta-per-informim#0">Garantimi dhe aksesi i informacionit</a></li>
-          <li><a href="/pasuria-e-paluajtshme/e-drejta-per-informim#1">E drejta për informim</a></li>
+          {% for file in site.pasuria-e-paluajtshme-collection %}
+          {% if file.tag == "e-drejta-per-informim" %}
+          {% assign counter6=counter6 | plus:1 %}
+            <li><a href="/pasuria-e-paluajtshme/e-drejta-per-informim#{{counter6}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
         </ul>
       </div>
     </div>

@@ -18,10 +18,12 @@ permalink: /informimi-publik/
       <div class="kategori-details">
         <ul>
           <li><a href="/informimi-publik/e-drejta-per-informim/">E drejta për informim</li>
-          <li><a href="/informimi-publik/e-drejta-per-informim/#0">Ku mund të marrim informacion?</a></li>
-          <li><a href="/informimi-publik/e-drejta-per-informim/#1">Rregullat për marrjen informacion nga individët</a></li>
-          <li><a href="/informimi-publik/e-drejta-per-informim/#2">Informacioni që duhet bërë publik edhe pa kërkesë nga individi</a></li>
-          <li><a href="/informimi-publik/e-drejta-per-informim/#3">Kur mund të kufizohet e drejta për informim?</a></li>
+            {% for file in site.informimi-publik-collection %}
+            {% if file.tag == "e-drejta-per-informim" %}
+            {% assign counter=counter | plus:1 %}
+              <li><a href="/informimi-publik/e-drejta-per-informim#{{counter}}">{{file.title}}</a></li>
+            {% endif %}
+            {% endfor %}
         </ul>
       </div>
     </div>
@@ -34,13 +36,12 @@ permalink: /informimi-publik/
       <div class="kategori-details">
         <ul>
           <li><a href="/informimi-publik/kerkesa-per-informim/">Kërkesa për informim </li>
-          <li><a href="/informimi-publik/kerkesa-per-informim/#0">Çfarë duhet të përmbajë kërkesa?</a></li>
-          <li><a href="/informimi-publik/kerkesa-per-informim/#1">Si mund të dërgohet kërkesa?</a></li>
-          <li><a href="/informimi-publik/kerkesa-per-informim/#2">Si duhet të veprojë autoriteti publik?</a></li>
-          <li><a href="/informimi-publik/kerkesa-per-informim/#3">Pagesat</a></li>
-          <li><a href="/informimi-publik/kerkesa-per-informim/#4">Afati për marrjen e informacionit</a></li>
-          <li><a href="/informimi-publik/kerkesa-per-informim/#5">Mosdhënia e informacionit</a></li>
-          <li><a href="/informimi-publik/kerkesa-per-informim/#6">Shkelja e të drejtës për të marrë informacion</a></li>
+            {% for file in site.informimi-publik-collection %}
+            {% if file.tag == "kerkesa-per-informim" %}
+            {% assign counter1=counter1 | plus:1 %}
+              <li><a href="/informimi-publik/kerkesa-per-informim#{{counter1}}">{{file.title}}</a></li>
+            {% endif %}
+            {% endfor %}
         </ul>
       </div>
     </div>
