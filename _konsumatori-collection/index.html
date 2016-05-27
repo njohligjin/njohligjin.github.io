@@ -19,7 +19,12 @@ permalink: /konsumatori/
       <div class="kategori-details">
         <ul>
           <li><a href="/konsumatori/konsumatori">Konsumatori </a></li>
-          <li><a href="/konsumatori/konsumatori#0">Të drejtat bazë të konsumatorit</a></li>
+          {% for file in site.konsumatori-collection %}
+          {% if file.tag == "konsumatori" %}
+          {% assign counter=counter | plus:1 %}
+            <li><a href="/konsumatori/konsumatori#{{counter}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
         </ul>
       </div>
     </div>
@@ -32,7 +37,12 @@ permalink: /konsumatori/
       <div class="kategori-details">
         <ul>
           <li><a href="/konsumatori/tregtari">Tregtari</a></li>
-          <li><a href="/konsumatori/tregtari#0">Detyrimet e tregtarit për ofrimin e mallrave</a></li>
+          {% for file in site.konsumatori-collection %}
+          {% if file.tag == "tregtari" %}
+          {% assign counter1=counter1 | plus:1 %}
+            <li><a href="/konsumatori/tregtari#{{counter1}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
         </ul>
       </div>
     </div>
@@ -45,10 +55,12 @@ permalink: /konsumatori/
       <div class="kategori-details">
         <ul>
           <li><a href="/konsumatori/mallrat">Mallrat </a></li>
-          <li><a href="/konsumatori/mallrat#0">Publiciteti i mallrave</a></li>
-          <li><a href="/konsumatori/mallrat#1">Përputhja e mallrave me përshkrimin në kontratë</a></li>
-          <li><a href="/konsumatori/mallrat#2">Deklarat e garancisë për mallrat</a></li>
-          <li><a href="/konsumatori/mallrat#3">Shitja e energjisë, shërbimet e ujit dhe të telekomunikacionit</a></li>
+          {% for file in site.konsumatori-collection %}
+          {% if file.tag == "mallrat" %}
+          {% assign counter2=counter2 | plus:1 %}
+            <li><a href="/konsumatori/mallrat#{{counter2}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
         </ul>
       </div>
     </div>
@@ -61,11 +73,12 @@ permalink: /konsumatori/
       <div class="kategori-details">
         <ul>
           <li><a href="/konsumatori/kontratat">Kontratat</a></li>
-          <li><a href="/konsumatori/kontratat#0">Kontrata me konsumatorin</a></li>
-          <li><a href="/konsumatori/kontratat#1">Kontratat e lidhura jashtë qendrave të tregtimit</a></li>
-          <li><a href="/konsumatori/kontratat#2">Kontratat në largësi</a></li>
-          <li><a href="/konsumatori/kontratat#3">Kontrata e paketave të udhëtimit</a></li>
-          <li><a href="/konsumatori/kontratat#4">Kredia konsumatore</a></li>
+          {% for file in site.konsumatori-collection %}
+          {% if file.tag == "kontratat" %}
+          {% assign counter3=counter3 | plus:1 %}
+            <li><a href="/konsumatori/kontratat#{{counter3}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
         </ul>
       </div>
     </div>
@@ -78,9 +91,12 @@ permalink: /konsumatori/
       <div class="kategori-details">
         <ul>
           <li><a href="/konsumatori/shkelja-e-te-drejtave">Shkelja e të drejtave të konsumatorit </a></li>
-          <li><a href="/konsumatori/shkelja-e-te-drejtave#0">Ku drejtohet konsumatori për shkeljen e të drejtave të tij?</a></li>
-          <li><a href="/konsumatori/shkelja-e-te-drejtave#1">Ankimimi pranë institucioneve përgjegjëse</a></li>
-          <li><a href="/konsumatori/shkelja-e-te-drejtave#2">Pasojat në rast konstatimi të shkeljes së të drejtës së konsumatorit</a></li>
+          {% for file in site.konsumatori-collection %}
+          {% if file.tag == "shkelja-e-te-drejtave-te-konsumatorit" %}
+          {% assign counter4=counter4 | plus:1 %}
+            <li><a href="/konsumatori/shkelja-e-te-drejtave#{{counter4}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
         </ul>
       </div>
     </div>

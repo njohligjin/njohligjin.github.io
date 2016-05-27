@@ -16,15 +16,12 @@ permalink: /shkaktimi-i-demit/
       <div class="kategori-details">
         <ul>
           <li><a href="/shkaktimi-i-demit/shkaktimi-i-demit">Shkaktimi i dëmit</a></li>
-          <li><a href="/shkaktimi-i-demit/shkaktimi-i-demit#0">Llojet e dëmit</a></li>
-          <li><a href="/shkaktimi-i-demit/shkaktimi-i-demit#1">Dëmi nga të miturit nën 14 vjeç</a></li>
-          <li><a href="/shkaktimi-i-demit/shkaktimi-i-demit#2">Dëmi nga të miturit mbi 14 vjeç</a></li>
-          <li><a href="/shkaktimi-i-demit/shkaktimi-i-demit#3">Dëmi nga personat nënmbikëqyrje dhe përfaqësim</a></li>
-          <li><a href="/shkaktimi-i-demit/shkaktimi-i-demit#4">Përgjegjësia e punëdhënësit nga dëmi i punonjësit</a></li>
-          <li><a href="/shkaktimi-i-demit/shkaktimi-i-demit#5">Dëmi nga kafshët</a></li>
-          <li><a href="/shkaktimi-i-demit/shkaktimi-i-demit#6">Dëmi i shkaktuar nga avokati</a></li>
-          <li><a href="/shkaktimi-i-demit/shkaktimi-i-demit#7">Dëmi i shkaktuar nga të metat e një ndërtese</a></li>
-          <li><a href="/shkaktimi-i-demit/shkaktimi-i-demit#8">Përgjegjësia e dëmit të shkaktuar nga shumë persona</a></li>
+          {% for file in site.shkaktimi-i-demit-collection %}
+          {% if file.tag == "shkaktimi-i-demit" %}
+          {% assign counter=counter | plus:1 %}
+            <li><a href="/shkaktimi-i-demit/shkaktimi-i-demit#{{counter}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
         </ul>
       </div>
     </div>
@@ -37,9 +34,12 @@ permalink: /shkaktimi-i-demit/
       <div class="kategori-details">
         <ul>
           <li><a href="/shkaktimi-i-demit/pergjegjesia-nga-produktet">Përgjegjësia nga produktet</a></li>
-          <li><a href="/shkaktimi-i-demit/pergjegjesia-nga-produktet#0">Kur quhet me të meta një produkt</a></li>
-          <li><a href="/shkaktimi-i-demit/pergjegjesia-nga-produktet#1">Përjashtimi i prodhuesit nga përgjegjësia</a></li>
-          <li><a href="/shkaktimi-i-demit/pergjegjesia-nga-produktet#2">Kur kërkohet shpërblimi ndaj prodhuesit</a></li>
+          {% for file in site.shkaktimi-i-demit-collection %}
+          {% if file.tag == "pergjegjesia-nga-produktet" %}
+          {% assign counter1=counter1 | plus:1 %}
+            <li><a href="/shkaktimi-i-demit/pergjegjesia-nga-produktet#{{counter1}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
         </ul>
       </div>
     </div>
@@ -52,8 +52,12 @@ permalink: /shkaktimi-i-demit/
       <div class="kategori-details">
         <ul>
           <li><a href="/shkaktimi-i-demit/publikimi-mashtrues">Publikimi mashtrues</a></li>
-          <li><a href="/shkaktimi-i-demit/publikimi-mashtrues#0">Publikimi mashtrues në lidhje me produktet dhe shërbimet</a></li>
-          <li><a href="/shkaktimi-i-demit/publikimi-mashtrues#1">Përgjegjësia nga publikimi mashtrues</a></li>
+          {% for file in site.shkaktimi-i-demit-collection %}
+          {% if file.tag == "publikimi-mashtrues" %}
+          {% assign counter2=counter2 | plus:1 %}
+            <li><a href="/shkaktimi-i-demit/publikimi-mashtrues#{{counter2}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
         </ul>
       </div>
     </div>
@@ -66,12 +70,12 @@ permalink: /shkaktimi-i-demit/
       <div class="kategori-details">
         <ul>
           <li><a href="/shkaktimi-i-demit/shperblimi-i-demit">Shperblimi i dëmit</a></li>
-          <li><a href="/shkaktimi-i-demit/shperblimi-i-demit#0">Nga çfarë përbëhet shpërblimi i dëmit</a></li>
-          <li><a href="/shkaktimi-i-demit/shperblimi-i-demit#1">Kur kërkohet shpërblimi i demit jo pasuror</a></li>
-          <li><a href="/shkaktimi-i-demit/shperblimi-i-demit#2">Shpërblimi në rastin e shkaktimit të vdekjes së një personi</a></li>
-          <li><a href="/shkaktimi-i-demit/shperblimi-i-demit#3">Shpërblimi që përfiton i mituri i dëmtuar</a></li>
-          <li><a href="/shkaktimi-i-demit/shperblimi-i-demit#4">Shpërblimi në rast përfitimi nga dëmi i shkaktuar</a></li>
-          <li><a href="/shkaktimi-i-demit/shperblimi-i-demit#5">Shpëblimi në rast aksidentesh automobilistike</a></li>
+          {% for file in site.shkaktimi-i-demit-collection %}
+          {% if file.tag == "shperblimi-i-demit" %}
+          {% assign counter3=counter3 | plus:1 %}
+            <li><a href="/shkaktimi-i-demit/shperblimi-i-demit#{{counter3}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
         </ul>
       </div>
     </div>

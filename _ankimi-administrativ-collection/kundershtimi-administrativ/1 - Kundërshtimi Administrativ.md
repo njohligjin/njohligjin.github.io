@@ -1,6 +1,6 @@
 ---
 title: "Kundërshtimi Administrativ"
-tag: kundërshtimi-administrativ
+tag: kundershtimi-administrativ
 ---
 
 ### Çfarë mund të kërkohet me kundërshtimin administrativ të një veprimi të organit publik?

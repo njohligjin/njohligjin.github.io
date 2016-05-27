@@ -19,10 +19,12 @@ permalink: /ankimi-administrativ/
       <div class="kategori-details">
         <ul>
           <li><a href="/ankimi-administrativ/ankimi-administrativ/">Ankimi Administrativ</a></li>
-          <li><a href="/ankimi-administrativ/ankimi-administrativ#0">Kushtet për zhvillimin e procedures së ankimit</a></li>
-          <li><a href="/ankimi-administrativ/ankimi-administrativ#1">Afati kohor brenda të cilit duhet kryer ankimi</a></li>
-          <li><a href="/ankimi-administrativ/ankimi-administrativ#2">Procedura e ankimit dhe efektet e saj</a></li>
-          <li><a href="/ankimi-administrativ/ankimi-administrativ#3">Efektet e ankimit</a></li>
+          {% for file in site.ankimi-administrativ-collection %}
+          {% if file.tag == "ankimi-administrativ" %}
+          {% assign counter=counter | plus:1 %}
+            <li><a href="/ankimi-administrativ/ankimi-administrativ#{{counter}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
         </ul>
       </div>
     </div>
@@ -35,6 +37,12 @@ permalink: /ankimi-administrativ/
       <div class="kategori-details">
         <ul>
           <li><a href="/ankimi-administrativ/kundershtimi-administrativ">Kundërshtimi Administrativ</a></li>
+          {% for file in site.ankimi-administrativ-collection %}
+          {% if file.tag == "kundershtimi-administrativ" %}
+          {% assign counter1=counter1 | plus:1 %}
+            <li><a href="/ankimi-administrativ/kundershtimi-administrativ#{{counter1}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
         </ul>
       </div>
     </div>
@@ -47,6 +55,12 @@ permalink: /ankimi-administrativ/
       <div class="kategori-details">
         <ul>
           <li><a href="/ankimi-administrativ/rishikimi">Rishikimi</a></li>
+          {% for file in site.ankimi-administrativ-collection %}
+          {% if file.tag == "rishikimi" %}
+          {% assign counter2=counter2 | plus:1 %}
+            <li><a href="/ankimi-administrativ/rishikimi#{{counter2}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
         </ul>
       </div>
     </div>
@@ -59,8 +73,12 @@ permalink: /ankimi-administrativ/
       <div class="kategori-details">
         <ul>
           <li><a href="/ankimi-administrativ/ankimi-ne-gjykate">Ankimi në gjykatë</a></li>
-          <li><a href="/ankimi-administrativ/ankimi-ne-gjykate#0">Kur t’i drejtohemi gjykatës administrative</a></li>
-          <li><a href="/ankimi-administrativ/ankimi-ne-gjykate#1">Afati për ngritjen e padisë në gjykatë</a></li>
+          {% for file in site.ankimi-administrativ-collection %}
+          {% if file.tag == "ankimi-ne-gjykate" %}
+          {% assign counter3=counter3 | plus:1 %}
+            <li><a href="/ankimi-administrativ/ankimi-ne-gjykate#{{counter3}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
         </ul>
       </div>
     </div>
