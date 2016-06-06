@@ -1,6 +1,7 @@
 ---
-title: "Depozitimi i ankimit"
+title: 'Vendimi i formës së prerë '
 tag: ankimi
+published: true
 ---
 
 ### Kur merr formë të prerë një vendim gjykate?
