@@ -1,9 +1,13 @@
 ---
-title: "Gjykimet e posaçme"
+title: Gjykimet e posaçme
 tag: gjykata
+published: true
 ---
 
 ### Cilat janë gjykimet që kanë një rregullim të posaçëm ligjor?
+
+
+Gjykimet që kanë një rregullim të posaçëm ligjor janë:
 
 * Gjykimi i mosmarrëveshjeve tregtare;
 * Gjykimi i mosmarrëveshjeve administrative
@@ -12,4 +16,4 @@ tag: gjykata
 * Shpallja e zhdukjes ose e vdekjes së personit;
 * Heqja ose kufizimi i zotësisë për të vepruar;
 * Vërtetimi gjyqësor i fakteve;
-* Njohja e vendimeve të shteteve të huaja
+* Njohja e vendimeve të shteteve të huaja.
