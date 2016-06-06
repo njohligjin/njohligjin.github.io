@@ -1,6 +1,7 @@
 ---
-title: "Vendimet përfundimtare dhe jo përfundimtare posaçme"
+title: Vendimet përfundimtare dhe jo përfundimtare
 tag: gjykata
+published: true
 ---
 
 ### Çfarë janë vendimet përfundimtare dhe jo përfundimtare të gjykatës?
