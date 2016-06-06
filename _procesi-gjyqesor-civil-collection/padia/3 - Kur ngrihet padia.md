@@ -1,6 +1,7 @@
 ---
-title: Kur ngrihet padia?
+title: Ku ngrihet padia?
 tag: padia
+published: true
 ---
 
 ### Tek cila gjykatë duhet të ngrihet padia?
