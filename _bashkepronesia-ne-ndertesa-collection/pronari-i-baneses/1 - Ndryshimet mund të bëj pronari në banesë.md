@@ -1,6 +1,7 @@
 ---
-title: "Ndryshimet mund të bëj pronari në banesë"
+title: Ndryshimet që mund të bëj pronari në banesë
 tag: pronari-i-baneses
+published: true
 ---
 
 ### Çfarë ndryshimesh mund të bëjë pronari në banesën e tij?
