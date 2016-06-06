@@ -1,11 +1,12 @@
 ---
-title: "Çfarë cilësish duhet të ketë kujdestari?"
+title: Çfarë cilësish duhet të ketë kujdestari?
 tag: kujdestaria
+published: true
 ---
 
 ### Çfarë cilësish duhet të zotërojë kujdestari?
 
-Nisur nga rëndësia e marrëdhënies së kujdestarisë, subjekti i cili mund të caktohet kujdestar duhet të konsiderohet i aftë të kryejë përgjegjësinë e ngarkuar, në mungesë të një sërë kriteresh, ekzistenca e të cilave e përjashton atë kryerja e kësaj detyre.
+Nisur nga rëndësia e marrëdhënies së kujdestarisë, subjekti i cili mund të caktohet kujdestar duhet të konsiderohet i aftë të kryejë përgjegjësinë e ngarkuar, në mungesë të një sërë kriteresh, ekzistenca e të cilave e përjashton atë nga kryerja e kësaj detyre.
 
 Kështu, nuk mund të caktohet kujdestar personi që:
 
