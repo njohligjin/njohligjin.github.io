@@ -1,6 +1,7 @@
 ---
-title : "Lëshimi i certifikatave të pronësisë"
+title: Lëshimi i certifikatave të pronësisë
 tag: certifikata
+published: true
 ---
 
 ### Cila është procedura që ndiqet nga momenti i regjistrimit të pasurisë së paluajtshme deri në momentin e lëshimit të certifikatës së pronësisë?
@@ -9,7 +10,7 @@ Informacioni për regjistrimin e kryer pranë Zyrave Vendore të Regjistrimit t�
 
 Pas periudhës së afishimit publik, të gjitha pasuritë e paluajtshme, për të cilat nuk ka asnjë pretendim të pazgjidhur, regjistrohen siç janë në kartelat dhe hartat kadastrale të përkohshme dhe që nga ky çast lëshohen certifikatat e pronësisë, si dhe certifikata të tjera që mund të kërkohen për përmbajtjen e kartelave dhe të hartave kadastrale.
 
-### Cila është procedura që ndiqet nga momenti i regjistrimit të pasurisë së paluajtshme deri në momentin e lëshimit të certifikatës së pronësisë?
+### Si zgjidhen mosmarrëveshjet për një pasuri të paluajtshme dhe si pasqyrohen ato në kartelën e saj?
 
 Në rast se palët nuk bien dakord që t’i zgjidhin mosmarrëveshjet me mirëkuptim, ato do të zgjidhen nga organet gjyqësore. Ekzistenca e mosmarrëveshjeve pasqyrohet në kartelën e pasurisë së paluajtshme. Nëse palët në konflikt arrijnë të zgjidhin mosmarrëveshjen, pas paraqitjes së aktit noterial që provon marrëveshjen mes tyre, bëhen korrigjimet në hartën kadastrale dhe në kartela.
 

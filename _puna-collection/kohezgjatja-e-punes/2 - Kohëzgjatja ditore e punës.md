@@ -1,13 +1,14 @@
 ---
-title: "Kohëzgjatja ditore e punës"
+title: Kohëzgjatja ditore e punës
 tag: kohezgjatja-e-punes
+published: true
 ---
 
 ### Kohëzgjatja ditore e punës
 
 Kohëzgjatja ditore normale e punës është jo më shumë se 8 orë. Ajo përcaktohet në kontratën individuale të punës ose në atë kolektive, brenda limiteve të kohës javore të punës. Për punëmarrësit nën 18 vjeç kohëzgjatja ditore e punës është jo më shumë se 6 orë në ditë.
 
-Kohëzgjatja ditore e punës përllogaritet brenda 24 orëve (nga ora 0 deri në orën 24:00) të së njëjtës ditë, pa përfshirë pushimet. Nuk përfshihet në kohëzgjatjen ditore të punës koha që i duhet punëmarrësit për të ardhur në vendin individual të punës ose për t’u larguar prej saj.
+Kohëzgjatja ditore e punës përllogaritet brenda 24 orëve (nga ora 0:00 deri në orën 24:00) të së njëjtës ditë, pa përfshirë pushimet. Nuk përfshihet në kohëzgjatjen ditore të punës koha që i duhet punëmarrësit për të ardhur në vendin individual të punës ose për t’u larguar prej saj.
 
 Pushimi ditor është të paktën 11 orë pa ndërprerje brenda ditës ose në rast nevoje për dy ditë rresht. Momenti dhe kohëzgjatja e pushimeve të përditshme caktohen në kontratën kolektive të punës ose në kontratën individuale.
 

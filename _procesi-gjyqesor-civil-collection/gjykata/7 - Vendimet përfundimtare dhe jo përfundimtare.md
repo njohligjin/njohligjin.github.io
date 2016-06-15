@@ -1,6 +1,7 @@
 ---
-title: "Vendimet përfundimtare dhe jo përfundimtare"
+title: Shpenzimet e procesit gjyqësor
 tag: gjykata
+published: true
 ---
 
 ### Kujt i ngarkohen shpenzimet e një procesi gjyqësor?

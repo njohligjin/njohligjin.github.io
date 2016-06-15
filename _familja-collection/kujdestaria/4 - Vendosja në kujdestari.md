@@ -1,19 +1,12 @@
 ---
-title: "Vendosja në kujdestari"
+title: Vendosja në kujdestari
 tag: kujdestaria
+published: true
 ---
 
 ### Kur duhet të vendosen të miturit në kujdestari?
 
 Vendosja e të miturve në kujdestari parashikohet në ato raste kur:
-
-* prindërit e tyre janë në pamundësi për të ushtruar përgjegjësinë prindërore;
-* për shkak se të dy prindërit kanë vdekur ose nuk njihen;
-* prindërit janë shpallur si të pagjetur;
-* prindërve iu është hequr përgjegjësia prindërore ose iu është hequr zotësia për të vepruar;
-* si dhe për çdo shkak tjetër të pranuar nga gjykata.
-
-### Çfarë cilësish duhet të zotërojë kujdestari?
 
 * prindërit e tyre janë në pamundësi për të ushtruar përgjegjësinë prindërore;
 * për shkak se të dy prindërit kanë vdekur ose nuk njihen;
