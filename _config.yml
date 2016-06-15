@@ -37,5 +37,5 @@ collections:
 encoding: UTF-8
 social:
 title: Njoh ligjin
-# url: http://njohligjin.al
-url: http://localhost:4000
+url: http://njohligjin.al
+# url: http://localhost:4000
