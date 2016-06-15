@@ -1,4 +1,4 @@
-1---
+---
 layout: default
 title: Tatimet dhe taksat
 image: taksa.png
@@ -35,7 +35,7 @@ permalink: /tatimet-dhe-taksat/
         <ul>
           <li><a href="/tatimet-dhe-taksat/detyrimi-tatimor">Detyrimi tatimor</a></li>
           {% for file in site.tatimet-dhe-taksat-collection %}
-          {% if file.tag == "detyrimi-tatimor" %} 
+          {% if file.tag == "detyrimi-tatimor" %}
           {% assign counter1=counter1 | plus:1 %}
             <li><a href="/tatimet-dhe-taksat/detyrimi-tatimor#{{counter1}}">{{file.title}}</a></li>
           {% endif %}
