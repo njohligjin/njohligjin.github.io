@@ -11,91 +11,113 @@ image: burime.png
     var data = { burimet: [
       {
         title: "Ankim administrativ",
-        url: "/burime/Ankim administrativ.docx"
+        url: "/burime/Ankim administrativ.docx",
+        type: "word"
       },
       {
         title: "Apel kundërshtues",
-        url: "/burime/Apel kundershtues.docx"
+        url: "/burime/Apel kundershtues.docx",
+        type: "word"
       },
       {
         title: "Apel",
-        url: "/burime/"
+        url: "/burime/",
+        type: "word"
       },
       {
         title: "Autorizim përfaqësimi",
-        url: "/burime/Autorizim perfaqesimi.docx"
+        url: "/burime/Autorizim perfaqesimi.docx",
+        type: "word"
       },
       {
         title: "Kërkesë caktim kujdestari",
-        url: "/burime/Kerkese caktim kujdestari.docx"
+        url: "/burime/Kerkese caktim kujdestari.docx",
+        type: "word"
       },
       {
         title: "Kërkesë ndryshim i përgjegjësisë prindërore",
-        url: "/burime/Kerkese ndryshim i pergjegjesise prinderore.docx"
+        url: "/burime/Kerkese ndryshim i pergjegjesise prinderore.docx",
+        type: "word"
       },
       {
         title: "Kërkesëpadi pavlefshmëri titulli ekzekutiv",
-        url: "/burime/Kerkese padi pavlefshmeri titulli ekzekutiv.doc"
+        url: "/burime/Kerkese padi pavlefshmeri titulli ekzekutiv.doc",
+        type: "word"
       },
       {
         title: "Kërkesë për heqje dorë nga ankimi",
-        url: "/burime/Kerkese per heqje dore nga ankimi.docx"
+        url: "/burime/Kerkese per heqje dore nga ankimi.docx",
+        type: "word"
       },
       {
         title: "Kërkesë për lëshimin e urdhrit të ekzekutimit",
-        url: "/burime/Kerkese per leshimin e urdhrit te ekzekutimit.docx"
+        url: "/burime/Kerkese per leshimin e urdhrit te ekzekutimit.docx",
+        type: "word"
       },
       {
         title: "Kërkesë për ndreqje gabimi",
-        url: "/burime/Kerkese per ndreqje gabimi.docx"
+        url: "/burime/Kerkese per ndreqje gabimi.docx",
+        type: "word"
       },
       {
         title: "Kërkesë për pezullimin e vendimit",
-        url: "/burime/Kerkese per pezullimin e vendimit.docx"
+        url: "/burime/Kerkese per pezullimin e vendimit.docx",
+        type: "word"
       },
       {
         title: "Kërkesë për rivendosje në afat",
-        url: "/burime/Kerkese per rivendosje ne afat.docx"
+        url: "/burime/Kerkese per rivendosje ne afat.docx",
+        type: "word"
       },
       {
         title: "Kërkesë për vënien në ekzekutim",
-        url: "/burime/Kerkese per venien ne ekzekutim.docx"
+        url: "/burime/Kerkese per venien ne ekzekutim.docx",
+        type: "word"
       },
       {
         title: "Kërkesëpadi kundërshtim veprimesh përmbarimore",
-        url: "/burime/Kerkesepadi kundershtim veprimesh permbarimore.doc"
+        url: "/burime/Kerkesepadi kundershtim veprimesh permbarimore.doc",
+        type: "word"
       },
       {
         title: "Kundërpadi",
-        url: "/burime/Kunderpadi.doc"
+        url: "/burime/Kunderpadi.doc",
+        type: "word"
       },
       {
         title: "Padi kundërshtim atësie",
-        url: "/burime/Padi kundershtim atesie.docx"
+        url: "/burime/Padi kundershtim atesie.docx",
+        type: "word"
       },
       {
         title: "Padi njohje atësie",
-        url: "/burime/Padi njohje atesie.docx"
+        url: "/burime/Padi njohje atesie.docx",
+        type: "word"
       },
       {
         title: "Padi pavlefshmëri martese",
-        url: "/burime/Padi pavlefshmeri martese.docx"
+        url: "/burime/Padi pavlefshmeri martese.docx",
+        type: "word"
       },
       {
         title: "Padi zgjidhje martese me miratim",
-        url: "/burime/Padi zgjidhje martese me miratim.docx"
+        url: "/burime/Padi zgjidhje martese me miratim.docx",
+        type: "word"
       },
       {
         title: "Padi zgjidhje martese",
-        url: "/burime/Padi zgjidhje martese.docx"
+        url: "/burime/Padi zgjidhje martese.docx",
+        type: "word"
       },
       {
         title: "Rekurs gjykata e lartë",
-        url: "/burime/Rekurs gjykata e larte.doc"
+        url: "/burime/Rekurs gjykata e larte.doc",
+        type: "word"
       },
       {
         title: "Manual i Akteve Procedurale per Gjykimet Administrative",
-        url: "/burime/Manual i Akteve Procedurale per Gjykimet Administrative.pdf"
+        url: "/burime/Manual i Akteve Procedurale per Gjykimet Administrative.pdf",
+        type: "pdf"
       },
       // {
       //   title: "Ankim ne keshillin e larte te drejtesise",
@@ -133,7 +155,7 @@ image: burime.png
       {{#burimet}}
       <div class="col-md-3 col-sm-4 col-xs-6 docx">
         <a href="{{url}}">
-          <img src="/img/icon-word.png" alt="Dokument per gjykatë" />
+          <img src="/img/icon-{{type}}.png" alt="Dokument per gjykatë" />
           <br/>
           <span style="display: block;">{{title}}</span>
         </a>
