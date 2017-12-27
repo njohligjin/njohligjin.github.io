@@ -1,0 +1,12 @@
+---
+title: "Hyrje"
+tag: dy-fjale-per-strategjine
+---
+
+### Hyrje
+
+Kuvendi, me Vendimin nr.96/20141 vendosi ngritjen e Komisionit të Posaçëm Parlamentar për Reformën në Sistemin e Drejtësisë. Komisioni i Posaçëm ka patur, ndër të tjera, për objekt të veprimtarisë së tij edhe _&quot;Hartimin e një dokumenti strategjik për objektivat e reformës në sistemin e drejtësisë, bazuar në analizën e gjendjes aktuale të organizimit dhe funksionimit të sistemit të drejtësisë&quot;_.
+
+Për realizimin e detyrave të sipërpërmendura, pranë Komisionit të Posaçëm u ngrit Grupi i Ekspertëve të Nivelit të Lartë (GENL), i mbështetur nga një sekretariat teknik. Në përfundim të Analizës së sistemit të drejtësisë në Shqipëri dhe mbështetur mbi gjetjet e saj, u hartua nga GENL, me asistencën e Sekretariatit Teknik, Strategjia e Reformës në Sistemin e Drejtësisë dhe Plani i Veprimit për zhvillimin e strategjisë për reformimin e sistemit të drejtësisë në Shqipëri.  Në përfundim, me vendimin nr.14, dt.30.07.2015 &quot;Për miratimin e Dokumentit &#39;Analiza e Sistemit të Drejtësisë në Shqipëri&quot;2, Komisioni i Posaçëm miratoi, Dokumentin &quot;Analiza e Sistemit të Drejtësisë në  Shqipëri&quot; dhe me vendimin nr.15, datë 30.07.2015 &quot;Për miratimin në parim të Strategjisë dhe Planit të Veprimit për reformën e Sistemit të Drejtësisë në Shqipëri&quot;3, Komisioni i Posaçëm miratoi në parim dokumentin Strategjia e Reformës në Sistemin e Drejtësisë si dhe Planin e Veprimit për zhvillimin e strategjisë për reformimin e sistemit të drejtësisë në Shqipëri.  Këto dokumente shërbyen si bazë për hartimin e ndryshimeve kushtetuese si dhe paketës së projektligjeve që do të bëjë të mundur zbatimin e Reformës në Drejtësi. Në Strategjinë e Reformës në Sistemin e Drejtësisë4 parashikohet &quot;_Edukimin ligjor dhe arsimi juridik_&quot; si një nga 7 shtyllat bazë të reformës në sistemin e drejtësisë.  Në datë 16 dhjetor 2016, u prezantua në Komisionin e Posaçëm paketa prej 27 projektligjesh hartuar nga GENL së bashku më ekspertët ndërkombëtarë të EURALIUS, OPDAT dhe OSBE. Pjesë e paketës së akteve të Reformës në Drejtësi është edhe Strategjia për Edukimin Ligjor të Publikut në Republikën e Shqipërisë.
+
+Gjatë procesit të hartimit të Strategjisë për Edukimin Ligjor të Publikut (SELP), ekspertët e nivelit të lartë janë mbështetur nga stafi teknik i nëngrupit të punës si dhe nga grupi i punës i ngritur nga Koalicioni i shoqërisë civile &quot;Drejtësi për të gjithë&quot;, të mbështetur nga Save the Children me fondet e Bashkimit Europian dhe nga OSBE.

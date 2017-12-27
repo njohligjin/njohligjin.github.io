@@ -33,6 +33,8 @@ collections:
     output: true
   shkaktimi-i-demit-collection:
     output: true
+  strategjia-per-edukimin-ligjor-collection:
+    output: true
 
 encoding: UTF-8
 social:

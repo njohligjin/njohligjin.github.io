@@ -1,0 +1,32 @@
+---
+title: "Dokumenti i plotë: Strategjia për edukimin ligjor të publikut 2018-2022"
+role: main
+layout: post
+category: strategjia-per-edukimin-ligjor
+image: demi.png
+lang: sq
+permalink: /strategjia-per-edukimin-ligjor/dokumenti-plote/
+order: 2
+---
+<div class="col-md-3">
+  <ul class="nav nav-tabs custom-nav-tabs" role="tablist">
+    {% for file in site.strategjia-per-edukimin-ligjor-collection %}
+    {% if file.tag == "dokumenti-plote" %}
+    {% assign counter=counter | plus:1 %}
+    <li role="presentation">
+      <a href="#{{ counter }}" aria-controls="settings" role="tab" data-toggle="tab">{{file.title}}</a>
+    </li>
+    {% endif %}
+    {% endfor %}
+  </ul>
+</div>
+<div class="tab-content col-md-9">
+  {% for file in site.strategjia-per-edukimin-ligjor-collection %}
+  {% if file.tag == "dokumenti-plote" %}
+  {% assign counter1=counter1 | plus:1 %}
+    <div role="tabpanel" class="tab-pane fade {% if counter1 == 1 %} active in {% endif %} " id="{{ counter1 }}">
+      {{ file.content }}
+    </div>
+  {% endif %}
+  {% endfor %}
+</div>

@@ -1,0 +1,65 @@
+---
+layout: default
+title: Strategjia për edukimin ligjor të publikut 2018-2022
+image: demi.png
+category: strategjia-per-edukimin-ligjor
+permalink: /strategjia-per-edukimin-ligjor/
+---
+<main id="content" class="content container" role="main" style="margin-bottom: 200px;">
+
+  <h2 class="kat-title"><i class="fa fa-book"></i> {{page.title}}</h2>
+  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 kategori-container" id="ref">
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+        Dy fjalë për Strategjinë
+      </div>
+      <div class="kategori-details">
+        <ul>
+          <li><a href="/strategjia-per-edukimin-ligjor/dy-fjale-per-strategjine">Dy fjalë për Strategjinë</a></li>
+          {% for file in site.strategjia-per-edukimin-ligjor-collection %}
+          {% if file.tag == "dy-fjale-per-strategjine" %}
+          {% assign counter=counter | plus:1 %}
+          <li><a href="/strategjia-per-edukimin-ligjor/dy-fjale-per-strategjine#{{counter}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 kategori-container" id="ref">
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+        Dokumenti i plotë: Strategjia për edukimin ligjor të publikut 2018-2022
+      </div>
+      <div class="kategori-details">
+        <ul>
+          <li><a href="/strategjia-per-edukimin-ligjor/dokumenti-plote">Dokumenti i plotë: Strategjia për edukimin ligjor të publikut 2018-2022</a></li>
+          {% for file in site.strategjia-per-edukimin-ligjor-collection %}
+          {% if file.tag == "dokumenti-plote" %}
+          {% assign counter1=counter1 | plus:1 %}
+          <li><a href="/strategjia-per-edukimin-ligjor/dokumenti-plote#{{counter1}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 kategori-container" id="ref">
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+        Plani i Veprimit
+      </div>
+      <div class="kategori-details">
+        <ul>
+          <li><a href="/strategjia-per-edukimin-ligjor/plani-i-veprimit">Plani i Veprimit</a></li>
+          {% for file in site.strategjia-per-edukimin-ligjor-collection %}
+          {% if file.tag == "plani-i-veprimit" %}
+          {% assign counter2=counter2 | plus:1 %}
+          <li><a href="/strategjia-per-edukimin-ligjor/plani-i-veprimit#{{counter1}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</main>
