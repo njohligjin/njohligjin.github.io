@@ -8,4 +8,4 @@ Drafti i Strategjisë për Edukimin Ligjor të Publikut 2018-2022 është në pr
 Përgjegjësia për shkaktimin e dëmit mund të jetë: kontraktore ose jashtëkontraktore.
 
 
-Për çdo mendim, koment apo sugjerim mbi përmbajtjen e Draftit të Strategjisë për Edukimin Ligjor të Publikut mund t'i drejtoheni xxxx në adresën xxx
+Për çdo mendim, koment apo sugjerim mbi përmbajtjen e Draftit të Strategjisë për Edukimin Ligjor të Publikut mund të drejtoheni tek Komisioni i Ligjeve pranë [Kuvendit të Shqipërise](http://parlament.al).
