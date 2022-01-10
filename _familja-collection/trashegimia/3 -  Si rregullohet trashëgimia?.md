@@ -1,3 +1,8 @@
+---
+title: "Si rregullohet trashëgimia?"
+tag: trashegimia
+---
+
 ### Si rregullohet trashëgimia?
 
 Trashëgimia rregullohet sipas dispozitave të Kodit Civil duke filluar nga neni 316 deri në nenin 418. Ajo ndahet në trashëgiminë me ligj dhe trashëgiminë me testament.
