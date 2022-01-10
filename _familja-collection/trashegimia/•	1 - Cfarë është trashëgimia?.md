@@ -1,12 +1,12 @@
 ---
-title: "Cfarë është trashëgimia? "
+title: "Cfarë është trashëgimia?"
 tag: trashegimia
 ---
 
 ### Cfarë është trashëgimia?
 
 Trashëgimia është kalimi i pasurisë së personit të vdekur, trashëgimtarëve të tij. Ajo ndahet në trashëgimi me ligj ose me testament.
-Trashëgimia me ligj zbatohet kur trashëgimlënësi nuk ka bërë testament, ose kur e ka bërë testamentin vetëm për një pjesë të pasurisë së tij, ose kur testament është tërësisht ose pjesërisht I pavlefshëm.
+Trashëgimia me ligj zbatohet kur trashëgimlënësi nuk ka bërë testament, ose kur e ka bërë testamentin vetëm për një pjesë të pasurisë së tij, ose kur testament është tërësisht ose pjesërisht i pavlefshëm.
 
 ### Kur lind e drejta për të kërkuar trashëgiminë?
 
@@ -20,7 +20,7 @@ E drejta për të kërkuar trashëgiminë lind në vendin ku trashëgimlënësi 
 Zotësi për të trashëguar ka personi që në kohën kur I ka lindur e drejta për trashëgimi(kur trashëgimlënësi ka vdekur ose është shpallur I vdekur) është I gjallë, ose është zënë para vdekjes së trashëgimlënësit dhe është lindur I gjallë. 
 Prezumohet se ka qenë zënë në kohën që I ka lindur e drejta për trashëgim, ai që ka lindur brenda 300 ditëve nga vdekja e trashëgimlënësit.
 
-### Kush përjashtohet nga trashëgimi si I padenjë?
+### Kush përjashtohet nga trashëgimi si i padenjë?
 
 Përjashtohet nga trashëgimi si I padenjë:
 Ai që me dashje ka vrarë ose ka tentuar të vrasë trashëgimlënësin, bashkëshorten, fëmijët dhe prindërit e tij;
