@@ -1,3 +1,8 @@
+---
+title: "Cfarë është testamenti? Cilat janë llojet e testamentit?"
+tag: trashegimia
+---
+
 ### Cfarë është testamenti? Cilat janë llojet e testamentit?
 o	Testamenti është veprimi juridik i njëanshëm i kryer nga vetë trashëgimlënësi, me anë të cilit ai shpreh vullnetin e tij se kush do të disponojë pasurinë e tij pas vdekjes së tij. 
 o	Testamentet ndahen në: ollograf ose me akt notarial.
