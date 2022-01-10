@@ -1,3 +1,9 @@
+---
+title: "Kush janë trashëgimtarët ligjorë?"
+tag: trashegimia
+---
+
+
 ### Kush janë trashëgimtarët ligjorë?
 
 Trashëgimtarët ligjorë janë fëmijët, fëmijët e fëmijëve, bashkëshorti/bashkëshortja, prindërit, vëllezërit e motrat dhe fëmijët e vëllezërve e të motrave të vdekura para trashëgimlënësit, gjyshi e gjyshja dhe të paralindurit e tjerë, personat e paaftë për punë në ngarkim të trashëgimlënësit, të afërmit e tjerë deri në shkallën e gjashtë, si dhe shteti.
