@@ -1,4 +1,9 @@
-### 	A mund të përjashtojmë nga trashëgimia?
+---
+title: "A mund të përjashtojmë nga trashëgimia?"
+tag: trashegimia
+---
+
+### A mund të përjashtojmë nga trashëgimia?
 
 o	Testatori mund të përjashtojë nga trashëgimia trashëgimtarët duke e thënë këtë shprehimisht në testament, ose edhe pa I përmendur ata fare në testament.
 o	Trashëgimlënësi nuk mund të përjashtojë nga trashëgimia ligjore fëmijët e tij të mitur ose trashëgimtarë të tjerë të mitur që trashëgojnë me zëvendësim, si dhe trashëgimtarët e tij të tjerë të paaftë për punë nëse thiren në trashëgim, dhe as të cënojë me testament në cdo mënyrë oftë, pjesën që u takon këtyre trashëgimtarëve në bazë të trashëgimisë ligjore, përvec kur këta janë bërë të padenjë për të trashëguar.
