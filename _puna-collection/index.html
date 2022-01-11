@@ -155,5 +155,24 @@ permalink: /puna/
       </div>
     </div>
   </div>
+  
+   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 kategori-container">
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+        Siguria në punë
+      </div>
+      <div class="kategori-details">
+        <ul>
+          <li><a href="/puna/perfundimi-i-marredhenies-se-punes/">Siguria në punë</a></li>
+          {% for file in site.puna-collection %}
+          {% if file.tag == "siguria-ne-pune" %}
+          {% assign counter7=counter7 | plus:1 %}
+            <li><a href="/puna/siguria-ne-pune#{{counter7}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
 <!-- </div> -->
 </main>
