@@ -1,5 +1,5 @@
 ---
-title: "7- Si mund te ankohesh për mos respektimin e sigurisë në punë?"
+title: "Si mund te ankohesh për mos respektimin e sigurisë në punë?"
 tag: siguria-ne-pune
 ---
 ### Si mund te ankohesh për mos respektimin e sigurisë në punë?
