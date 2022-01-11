@@ -1,0 +1,32 @@
+---
+title: "Siguria ne pune"
+role: main
+layout: post
+category: puna
+image: puna.png
+lang: sq
+permalink: /puna/siguria-ne-pune/
+order: 8
+---
+<div class="col-md-3">
+  <ul class="nav nav-tabs custom-nav-tabs" role="tablist">
+    {% for file in site.puna-collection %}
+    {% if file.tag == "siguria-ne-pune" %}
+    {% assign counter=counter | plus:1 %}
+    <li role="presentation">
+      <a href="#{{ counter }}" aria-controls="settings" role="tab" data-toggle="tab">{{file.title}}</a>
+    </li>
+    {% endif %}
+    {% endfor %}
+  </ul>
+</div>
+<div class="tab-content col-md-9">
+  {% for file in site.puna-collection %}
+  {% if file.tag == "siguria-ne-pune" %}
+  {% assign counter1=counter1 | plus:1 %}
+    <div role="tabpanel" class="tab-pane fade {% if counter1 == 1 %} active in {% endif %} " id="{{ counter1 }}">
+      {{ file.content }}
+    </div>
+  {% endif %}
+  {% endfor %}
+</div>
