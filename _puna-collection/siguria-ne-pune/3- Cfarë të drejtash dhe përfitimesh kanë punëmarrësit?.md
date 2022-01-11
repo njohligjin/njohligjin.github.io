@@ -1,13 +1,13 @@
 ---
-title: "Cfarë të drejtash dhe përfitimesh kanë punëmarrësit?"
+title: "Çfarë të drejtash dhe përfitimesh kanë punëmarrësit?"
 tag: siguria-ne-pune
 ---
 
-### Cfarë të drejtash dhe përfitimesh kanë punëmarrësit?
+### Çfarë të drejtash dhe përfitimesh kanë punëmarrësit?
 
 Disa të drejta dhe përfitime që keni ju si punëmarrës janë:
 
-1. Informimin për cdo rrezik që ka vendi i punës;
+1. Informimin për ëdo rrezik që ka vendi i punës;
 
 2. Për mos kryerjen e punës së detyruar;
 
