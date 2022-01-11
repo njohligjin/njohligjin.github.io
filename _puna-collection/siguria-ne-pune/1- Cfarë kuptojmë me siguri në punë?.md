@@ -1,6 +1,6 @@
 ---
-title: "Siguria në punë?"
-tag: grate-dhe-te-miturit-ne-pune
+title: "Cfarë kuptojmë me siguri në punë?"
+tag: siguria-ne-pune
 ---
 
 ###  Cfarë kuptojmë me siguri në punë?
