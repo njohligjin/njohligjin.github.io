@@ -4,7 +4,7 @@ tag: trashegimia
 ---
 
 
-###Cfarë është trashëgimia? 
+### Cfarë është trashëgimia? 
 
 o	Trashëgimia është kalimi i pasurisë së personit të vdekur, trashëgimtarëve të tij. Ajo ndahet në trashëgimi me ligj ose me testament.
 o	Trashëgimia me ligj zbatohet kur trashëgimlënësi nuk ka bërë testament, ose kur e ka bërë testamentin vetëm për një pjesë të pasurisë së tij, ose kur testament është tërësisht ose pjesërisht I pavlefshëm.
