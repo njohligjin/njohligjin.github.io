@@ -3,8 +3,7 @@ title: "6- Çfarë organesh kontrollojnë janë përgjegjës për garantimin e r
 tag: siguria-ne-pune
 ---
 
-### 
-6- Çfarë organesh kontrollojnë janë përgjegjës për garantimin e respektimit të sigurisë në punë?
+### Çfarë organesh kontrollojnë janë përgjegjës për garantimin e respektimit të sigurisë në punë?
 
 Organet që janë përgjegjëse për garantimin e sigurisë në punë janë: 
 
