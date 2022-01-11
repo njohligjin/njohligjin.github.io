@@ -1,5 +1,5 @@
 ---
-title: "6- Çfarë organesh kontrollojnë janë përgjegjës për garantimin e respektimit të sigurisë në punë?"
+title: "Çfarë organesh kontrollojnë janë përgjegjës për garantimin e respektimit të sigurisë në punë?"
 tag: siguria-ne-pune
 ---
 
