@@ -143,15 +143,15 @@ permalink: /familja/
   <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 kategori-container">
     <div class="kategori-ligjore">
       <div class="kategori-ligjore-titull">
-        Amësia dhe Atësia
+        Trashëgimia
       </div>
       <div class="kategori-details">
         <ul>
-          <li><a href="/familja/amesia-dhe-atesia/">Amësia dhe Atësia</a></li>
+          <li><a href="/familja/amesia-dhe-atesia/">Trashëgimia</a></li>
           {% for file in site.familja-collection %}
-          {% if file.tag == "amesia-dhe-atesia" %}
+          {% if file.tag == "trashegimia" %}
           {% assign counter7=counter7 | plus:1 %}
-            <li><a href="/familja/amesia-dhe-atesia#{{counter7}}">{{file.title}}</a></li>
+            <li><a href="/familja/trashegimia#{{counter7}}">{{file.title}}</a></li>
           {% endif %}
           {% endfor %}
         </ul>
