@@ -1,0 +1,65 @@
+---
+layout: default
+title: Procese gjyqësore 
+image: procesi-gjyqesor-civil.png
+category: procese-gjyqesore
+permalink: /procese-gjyqesore/
+---
+<main id="content" class="content container procesi" role="main" style="margin-bottom: 200px;">
+  <h2 class="kat-title"><i class="fa fa-gavel"></i> {{page.title}}</h2>
+  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 kategori-container" id="ref">
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+        Procese Gjyqësore
+      </div>
+      <div class="kategori-details">
+        <ul>
+          <li><a href="/procese-gjyqesore/procesi-gjyqesor-civil">Procesi Gjyqësor Civil</a></li>
+          {% for file in site.procesi-gjyqesor-civil-collection %}
+          {% if file.tag == "procesi-gjyqesor-civil" %}
+          {% assign counter=counter | plus:1 %}
+            <li><a href="/procese-gjyqesore/procesi-gjyqesor-civil#{{counter}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 kategori-container">
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+        Procedsi Gjyqësor Penal
+      </div>
+      <div class="kategori-details">
+        <ul>
+          <li><a href="/procesi-gjyqesor-civil/ankimi">Procesi Gjyqesor Penal</a></li>
+          {% for file in site.procesi-gjyqesor-civil-collection %}
+          {% if file.tag == "procesi-gjyqesor-penal" %}
+          {% assign counter1=counter1 | plus:1 %}
+            <li><a href="/procesei-gjyqesore/procesi-gjyqesor-penal#{{counter1}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 kategori-container">
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+        Procesi Gjyqësor Administrativ
+      </div>
+      <div class="kategori-details">
+        <ul>
+          <li><a href="/procesi-gjyqesor-civil/padia">Procesi Gjyqësor Administrativ</a></li>
+          {% for file in site.procesi-gjyqesor-civil-collection %}
+          {% if file.tag == "procesi-gjyqesor-administrativ" %}
+          {% assign counter2=counter2 | plus:1 %}
+            <li><a href="/procese-gjyqesore/procesi-gjyqesor-administrativ#{{counter2}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+ 
+</main>
