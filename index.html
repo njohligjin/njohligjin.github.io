@@ -176,7 +176,7 @@ image: cover2.png
       <div class="kategori-details">
         <a href="/procese-gjyqesore/" class="kat-link"></a>
         <ul>
-          <li><a href="/procesi-gjyqesor-civil/">Procese gjyqësore</a></li>
+          <li><a href="/procese-gjyqesore/">Procese gjyqësore</a></li>
           {% assign posts = site.procese-gjyqesore-collection | where: "role","main" | sort: "order" %}
           {% for file in posts | sort: order %}
             <li><a href="{{ BASE_PATH }}{{ file.permalink }}">{{ file.title }}</a></li>
