@@ -2,8 +2,8 @@
 layout: default
 title: Procesi gjyqësor 
 image: procesi-gjyqesor-civil.png
-category: procesi-gjyqesor-civil
-permalink: /procesi-gjyqesor-civil/
+category: procese-gjyqesore
+permalink: /procese-gjyqesore/
 ---
 <main id="content" class="content container procesi" role="main" style="margin-bottom: 200px;">
   <h2 class="kat-title"><i class="fa fa-gavel"></i> {{page.title}}</h2>
@@ -16,7 +16,7 @@ permalink: /procesi-gjyqesor-civil/
         <ul>
           <li><a href="/procesi-gjyqesor-civil/gjykata">Procesi Gjyqësor Civil</a></li>
           {% for file in site.procesi-gjyqesor-civil-collection %}
-          {% if file.tag == "gjykata" %}
+          {% if file.tag == "procesi-gjyqesor-civil" %}
           {% assign counter=counter | plus:1 %}
             <li><a href="/procese-gjyqesore/procesi-gjyqesor-civil#{{counter}}">{{file.title}}</a></li>
           {% endif %}
