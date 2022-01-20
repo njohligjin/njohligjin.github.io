@@ -15,8 +15,8 @@ permalink: /procese-gjyqesore/
       <div class="kategori-details">
         <ul>
           <li><a href="/procese-gjyqesore/procesi-gjyqesor-civil">Procesi Gjyqësor Civil</a></li>
-          {% for file in site.procesi-gjyqesor-civil-collection %}
-          {% if file.tag == "procesi-gjyqesor-civil" %}
+          {% for file in site.procese-gjyqesore-collection %}
+          {% if file.tag == "procese-gjyqesore" %}
           {% assign counter=counter | plus:1 %}
             <li><a href="/procese-gjyqesore/procesi-gjyqesor-civil#{{counter}}">{{file.title}}</a></li>
           {% endif %}
