@@ -297,6 +297,33 @@ image: cover2.png
         </div>
     </div>
   </div>
+  
+   <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12 kategori-container">
+    <div class="kategori-ligjore">
+        <div class="kategori-ligjore-titull">
+          <i class="fa fa-exclamation"></i><br>
+          SHKAKTIMI I DËMIT
+        </div>
+        <div class="kategori-details">
+          <ul>
+            <li><a href="/shkaktimi-i-demit/">Shkaktimi i dëmit</a></li>
+            {% for post in site.categories.shkaktimi-i-demit reversed %}
+              <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+            <!-- <li><a href="/sigurimet-shoqerore/sigurimi-shoqeror-i-detyrueshem">Sigurimi shoqëror i detyrueshëm</a></li>
+            <li><a href="/sigurimet-shoqerore/kontributi">Kontributi</a></li>
+            <li><a href="/sigurimet-shoqerore/te-ardhurat-nga-sigurimet-shoqerore">Të ardhurat nga sigurimet shoqërore</a></li>
+            <li><a href="/sigurimet-shoqerore/pensionet">Pensionet</a></li> -->
+          </ul>
+        </div>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  
 </div>
 
     <!-- {{! The tag below includes the post loop - partials/loop.hbs }}
