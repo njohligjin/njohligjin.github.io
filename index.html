@@ -24,10 +24,10 @@ image: cover2.png
     </div>
   </div>
   
-     <div class="kategori-details" id="puna">
-        <a href="/puna/" class="kat-link"></a>
+     <div class="kategori-details" id="puna1">
+        <a href="/puna1/" class="kat-link"></a>
           <ul>
-            <li><a href="/puna/">Puna</a></li>
+            <li><a href="/puna1/">Puna</a></li>
             {% assign posts = site.puna-collection | where: "role","main" | sort: "order" %}
             {% for file in posts | sort: order %}
               <li><a href="{{ BASE_PATH }}{{ file.permalink }}">{{ file.title }}</a></li>
