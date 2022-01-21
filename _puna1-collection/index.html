@@ -1,1 +1,179 @@
 
+---
+layout: default
+title: 
+image: puna.png
+category: puna
+permalink: /puna/
+---
+<main id="content" class="content container puna" role="main" style="margin-bottom: 200px;">
+  <!-- {% for post in site.categories.puna %}
+        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %} -->
+  <h2 class="kat-title"><i class="fa fa-cogs"></i> </h2>
+
+  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 kategori-container">
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+        Kontrata e punës
+      </div>
+      <div class="kategori-details">
+        <ul>
+          <li><a href="/puna/kontrata-e-punes">Kontrata e punës</a></li>
+          {% for file in site.puna-collection %}
+          {% if file.tag == "kontrata-e-punes" %}
+          {% assign counter=counter | plus:1 %}
+            <li><a href="/puna/kontrata-e-punes#{{counter}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 kategori-container" id="ref">
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+        Kohezgjatja e punës
+      </div>
+      <div class="kategori-details">
+        <ul>
+          <li><a href="/puna/kohezgjatja-e-punes">Kohezgjatja e punës</a></li>
+          {% for file in site.puna-collection %}
+          {% if file.tag == "kohezgjatja-e-punes" %}
+          {% assign counter1=counter1 | plus:1 %}
+            <li><a href="/puna/kohezgjatja-e-punes#{{counter1}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 kategori-container" > <!--double-height" style="float: right;" -->
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+        Paga
+      </div>
+      <div class="kategori-details">
+        <ul>
+          <li><a href="/puna/paga/">Paga</a></li>
+          {% for file in site.puna-collection %}
+          {% if file.tag == "paga" %}
+          {% assign counter2=counter2 | plus:1 %}
+            <li><a href="/puna/paga#{{counter2}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 kategori-container">
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+        Leja vjetore
+      </div>
+      <div class="kategori-details">
+        <ul>
+          <li><a href="/puna/leja-vjetore/">Leja vjetore</a></li>
+          {% for file in site.puna-collection %}
+          {% if file.tag == "leja-vjetore" %}
+          {% assign counter3=counter3 | plus:1 %}
+            <li><a href="/puna/leja-vjetore#{{counter3}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 kategori-container">
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+        Kushtet e punës
+      </div>
+      <div class="kategori-details">
+        <ul>
+          <li><a href="/puna/kushtet-e-punes/">Kushtet e punës</a></li>
+          {% for file in site.puna-collection %}
+          {% if file.tag == "kushtet-e-punes" %}
+          {% assign counter4=counter4 | plus:1 %}
+            <li><a href="/puna/kushtet-e-punes#{{counter4}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 kategori-container">
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+        Gratë dhe të miturit në punë
+      </div>
+      <div class="kategori-details">
+        <ul>
+          <li><a href="/puna/grate-dhe-te-miturit-ne-pune/">Gratë dhe të miturit në punë</a></li>
+          {% for file in site.puna-collection %}
+          {% if file.tag == "grate-dhe-te-miturit-ne-pune" %}
+          {% assign counter4=counter4 | plus:1 %}
+            <li><a href="/puna/grate-dhe-te-miturit-ne-pune#{{counter4}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 kategori-container">
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+        Greva
+      </div>
+      <div class="kategori-details">
+        <ul>
+          <li><a href="/puna/greva/">Greva</a></li>
+          {% for file in site.puna-collection %}
+          {% if file.tag == "greva" %}
+          {% assign counter5=counter5 | plus:1 %}
+            <li><a href="/puna/greva#{{counter5}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 kategori-container">
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+        Përfundimi i marrëdhënies së punës
+      </div>
+      <div class="kategori-details">
+        <ul>
+          <li><a href="/puna/perfundimi-i-marredhenies-se-punes/">Përfundimi i marrëdhënies së punës</a></li>
+          {% for file in site.puna-collection %}
+          {% if file.tag == "perfundimi-i-marredhenies-se-punes" %}
+          {% assign counter6=counter6 | plus:1 %}
+            <li><a href="/puna/perfundimi-i-marredhenies-se-punes#{{counter6}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 kategori-container">
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+        Siguria në punë
+      </div>
+      <div class="kategori-details">
+        <ul>
+          <li><a href="/puna/perfundimi-i-marredhenies-se-punes/">Siguria në punë</a></li>
+          {% for file in site.puna-collection %}
+          {% if file.tag == "siguria-ne-pune" %}
+          {% assign counter7=counter7 | plus:1 %}
+            <li><a href="/puna/siguria-ne-pune#{{counter7}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+<!-- </div> -->
+</main>
