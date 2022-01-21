@@ -24,7 +24,7 @@ collections:
   konsumatori-collection:
     output: true
   procesi-gjyqesor-civil-collection:
-    output: false
+    output: true
   pasuria-e-paluajtshme-collection:
     output: true
   tatimet-dhe-taksat-collection:
