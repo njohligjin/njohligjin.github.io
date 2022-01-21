@@ -298,44 +298,8 @@ image: cover2.png
                                                            
                                                            
                                                            
-                                                           
-                                                            <div class="col-lg-2 col-md-6 col-sm-4 col-xs-12 kategori-container">
-    <div class="kategori-ligjore">
-        <div class="kategori-ligjore-titull">
-          <i class="fa fa-exclamation"></i><br>
-          SHKAKTIMI I DËMIT
-        </div>
-        <div class="kategori-details">
-          <a href="/shkaktimi-i-demit/" class="kat-link"></a>
-          <ul>
-            <li><a href="/shkaktimi-i-demit/">Shkaktimi i dëmit</a></li>
-            {% assign posts = site.shkaktimi-i-demit-collection | where: "role","main" | sort: "order" %}
-            {% for file in posts | sort: order %}
-              <li><a href="{{ BASE_PATH }}{{ file.permalink }}">{{ file.title }}</a></li>
-            {% endfor %}
-          </ul>
-        </div>
-    </div>
-  </div>
-                                                             <div class="col-lg-2 col-md-6 col-sm-4 col-xs-12 kategori-container">
-    <div class="kategori-ligjore">
-      <div class="kategori-ligjore-titull">
-        <i class="fa fa-book""></i><br>
-        STRATEGJIA PËR EDUKIMIN LIGJOR TË PUBLIKUT 2018-2022
-      </div>
-      <div class="kategori-details">
-        <a href="/strategjia-per-edukimin-ligjor/" class="kat-link"></a>
-        <ul>
-          <li><a href="/strategjia-per-edukimin-ligjor/">Strategjia për edukimin ligjor të publikut 2018-2022</a></li>
-          {% assign posts = site.strategjia-per-edukimin-ligjor-collection | where: "role","main" | sort: "order" %}
-          {% for file in posts | sort: order %}
-          <li><a href="{{ BASE_PATH }}{{ file.permalink }}">{{ file.title }}</a></li>
-          {% endfor %}
-        </ul>
-      </div>
-    </div>
-  </div>
-  
+                                                       
+    
   
   
   
