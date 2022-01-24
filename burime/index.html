@@ -53,35 +53,26 @@ image: burime.png
     </script>
 
 
-    <script id="burime-template1" type="text/x-handlebars-template">
-      {% raw %}
-      {{#burimet}}
-      <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
-        <div class="note" > <!--style="border: 1px double #3c75ab;"-->
-          <a href="{{url}}">{{title}}</a>
-        </div>
-      </div>
-      {{/burimet}}
-      {% endraw %}
-    </script>
-    <script id="burime-template" type="text/x-handlebars-template">
-      {% raw %}
-      <h4 class="text-center">Dokumente për gjykatë</h4>
-      {{#burimet}}
+
+    <div class="col-md-8">
+      <div class="burimet"></div>
+      <div class="clearfix"></div>
+      <br/>
       <div class="col-md-3 col-sm-4 col-xs-6 docx">
-        <a href="{{url}}">
-          <img src="/img/icon-{{type}}.png" alt="Dokument per gjykatë" />
+        <a href="/burime/Kushtetuta e Republikes se Shqiperise.pdf">
+          <img src="/img/icon-pdf.png" alt="Kushtetuta e Republikes se Shqiperise" />
           <br/>
-          <span style="display: block;">{{title}}</span>
+          <span style="display: block;">Kushtetuta e Republikës së Shqipërisë</span>
         </a>
       </div>
-      {{/burimet}}
-      {% endraw %}
-    </script>
-
-
-
-    
+      <div class="col-md-3 col-sm-4 col-xs-6 docx">
+        <a href="/burime/Formulari i aplikimit per ndihmen ligjore.docx">
+          <img src="/img/icon-word.png" alt="Formulari i aplikimit per ndihmen ligjore" />
+          <br/>
+          <span style="display: block;">Formulari i aplikimit për ndihmën ligjore</span>
+        </a>
+      </div>
+    </div>
     <div class="col-md-4">
       <div class="col-sm-6">
         <a href="/burime/Mos hesht.pdf">
@@ -111,16 +102,6 @@ image: burime.png
       </div>
     </div>
 
-    
-     <div class="clearfix"></div>
-    <div class="col-sm-12">
-      <h2 style="margin-top:30px;"><i class="fa fa-video-camera"></i> Video</h2>
-         <a href="/burime/Dokumente-Gjyqesore">
-          <img src="/img/dap.png" alt="Brochure on rights and obligations of detainees" width="100%"/>
-        </a>
-    </div>
-    
-    
     <div class="clearfix"></div>
     <div class="col-sm-12">
       <h2 style="margin-top:30px;"><i class="fa fa-video-camera"></i> Video</h2>
