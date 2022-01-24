@@ -1,0 +1,253 @@
+---
+layout: default
+title: Burime
+image: burime.png
+---
+<main id="content" class="content container" role="main">
+    <h2 class="kat-title">{{page.title}}</h2>
+    <p class="container">Më poshtë mund të gjeni shembuj dokumentesh për t’ju drejtuar gjykatës, të cilët duhen përshtatur sipas rastit tuaj individual.</p>
+
+    <script>
+    var data = { burimet: [
+      {
+        title: "Ankim administrativ",
+        url: "/burime/Dokumente Gjyqesore/Ankim administrativ.docx",
+        type: "word"
+      },
+      {
+        title: "Apel kundërshtues",
+        url: "/burime/Apel kundershtues.docx",
+        type: "word"
+      },
+      {
+        title: "Apel",
+        url: "/burime/",
+        type: "word"
+      },
+      {
+        title: "Autorizim përfaqësimi",
+        url: "/burime/Autorizim perfaqesimi.docx",
+        type: "word"
+      },
+      {
+        title: "Kërkesë caktim kujdestari",
+        url: "/burime/Kerkese caktim kujdestari.docx",
+        type: "word"
+      },
+      {
+        title: "Kërkesë ndryshim i përgjegjësisë prindërore",
+        url: "/burime/Kerkese ndryshim i pergjegjesise prinderore.docx",
+        type: "word"
+      },
+      {
+        title: "Kërkesëpadi pavlefshmëri titulli ekzekutiv",
+        url: "/burime/Kerkese padi pavlefshmeri titulli ekzekutiv.doc",
+        type: "word"
+      },
+      {
+        title: "Kërkesë për heqje dorë nga ankimi",
+        url: "/burime/Kerkese per heqje dore nga ankimi.docx",
+        type: "word"
+      },
+      {
+        title: "Kërkesë për lëshimin e urdhrit të ekzekutimit",
+        url: "/burime/Kerkese per leshimin e urdhrit te ekzekutimit.docx",
+        type: "word"
+      },
+      {
+        title: "Kërkesë për ndreqje gabimi",
+        url: "/burime/Kerkese per ndreqje gabimi.docx",
+        type: "word"
+      },
+      {
+        title: "Kërkesë për pezullimin e vendimit",
+        url: "/burime/Kerkese per pezullimin e vendimit.docx",
+        type: "word"
+      },
+      {
+        title: "Kërkesë për rivendosje në afat",
+        url: "/burime/Kerkese per rivendosje ne afat.docx",
+        type: "word"
+      },
+      {
+        title: "Kërkesë për vënien në ekzekutim",
+        url: "/burime/Kerkese per venien ne ekzekutim.docx",
+        type: "word"
+      },
+      {
+        title: "Kërkesëpadi kundërshtim veprimesh përmbarimore",
+        url: "/burime/Kerkesepadi kundershtim veprimesh permbarimore.doc",
+        type: "word"
+      },
+      {
+        title: "Kundërpadi",
+        url: "/burime/Kunderpadi.doc",
+        type: "word"
+      },
+      {
+        title: "Padi kundërshtim atësie",
+        url: "/burime/Padi kundershtim atesie.docx",
+        type: "word"
+      },
+      {
+        title: "Padi njohje atësie",
+        url: "/burime/Padi njohje atesie.docx",
+        type: "word"
+      },
+      {
+        title: "Padi pavlefshmëri martese",
+        url: "/burime/Padi pavlefshmeri martese.docx",
+        type: "word"
+      },
+      {
+        title: "Padi zgjidhje martese me miratim",
+        url: "/burime/Padi zgjidhje martese me miratim.docx",
+        type: "word"
+      },
+      {
+        title: "Padi zgjidhje martese",
+        url: "/burime/Padi zgjidhje martese.docx",
+        type: "word"
+      },
+      {
+        title: "Rekurs gjykata e lartë",
+        url: "/burime/Rekurs gjykata e larte.doc",
+        type: "word"
+      },
+      {
+        title: "Manual i Akteve Procedurale per Gjykimet Administrative",
+        url: "/burime/Manual i Akteve Procedurale per Gjykimet Administrative.pdf",
+        type: "pdf"
+      },
+      {
+        title: "Monitorimi i gjykimeve administrative 2015",
+        url: "/burime/Monitorimi i gjykimeve administrative 2015.pdf",
+        type: "pdf"
+      },
+      {
+        title: "Rekomandime te raport monitorimit te gjykatave adminstrative",
+        url: "/burime/Rekomandime te raport monitorimit te gjykatave adminstrative.pdf",
+        type: "pdf"
+      },
+      {
+        title: "Materiali per palet e paperfaqesuara",
+        url: "/burime/Materiali per palet e paperfaqesuara.ALBdoc.doc",
+        type: "word"
+      },
+      {
+        title: "Strategjia për Edukimin Ligjor të Publikut 2018-2022",
+        url: "/burime/SELP_27.12.2017.doc",
+        type: "word"
+      }
+
+
+      // {
+      //   title: "Ankim ne keshillin e larte te drejtesise",
+      //   url: "/burime/Ankim ne keshillin e larte te drejtesise.pdf"
+      // },
+      // {
+      //   title: "Mos hesht",
+      //   url: "/burime/Mos hesht.pdf"
+      // },
+      // {
+      //   title: "Si te kerkojme ndihme nga dhuna ne familje",
+      //   url: "/burime/Si te kerkojme ndihme nga dhuna ne familje.pdf"
+      // },
+      // {
+      //   title: "Kushtetuta e Republikës së Shqipërisë",
+      //   url: "/burime/Kushtetuta e Republikës së Shqipërisë.pdf"
+      // }
+    ]};
+    </script>
+
+    <script id="burime-template1" type="text/x-handlebars-template">
+      {% raw %}
+      {{#burimet}}
+      <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+        <div class="note" > <!--style="border: 1px double #3c75ab;"-->
+          <a href="{{url}}">{{title}}</a>
+        </div>
+      </div>
+      {{/burimet}}
+      {% endraw %}
+    </script>
+    <script id="burime-template" type="text/x-handlebars-template">
+      {% raw %}
+      <h4 class="text-center">Dokumente për gjykatë</h4>
+      {{#burimet}}
+      <div class="col-md-3 col-sm-4 col-xs-6 docx">
+        <a href="{{url}}">
+          <img src="/img/icon-{{type}}.png" alt="Dokument per gjykatë" />
+          <br/>
+          <span style="display: block;">{{title}}</span>
+        </a>
+      </div>
+      {{/burimet}}
+      {% endraw %}
+    </script>
+
+
+
+    <div class="col-md-8">
+      <div class="burimet"></div>
+      <div class="clearfix"></div>
+      <br/>
+      <div class="col-md-3 col-sm-4 col-xs-6 docx">
+        <a href="/burime/Kushtetuta e Republikes se Shqiperise.pdf">
+          <img src="/img/icon-pdf.png" alt="Kushtetuta e Republikes se Shqiperise" />
+          <br/>
+          <span style="display: block;">Kushtetuta e Republikës së Shqipërisë</span>
+        </a>
+      </div>
+      <div class="col-md-3 col-sm-4 col-xs-6 docx">
+        <a href="/burime/Formulari i aplikimit per ndihmen ligjore.docx">
+          <img src="/img/icon-word.png" alt="Formulari i aplikimit per ndihmen ligjore" />
+          <br/>
+          <span style="display: block;">Formulari i aplikimit për ndihmën ligjore</span>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="col-sm-6">
+        <a href="/burime/Mos hesht.pdf">
+          <img src="/img/mos-hesht.png" alt="" />
+        </a>
+      </div>
+      <div class="col-sm-6">
+        <a href="/burime/Ankim ne keshillin e larte te drejtesise.pdf">
+          <img src="/img/ankese.png" alt="Ankim në këshillin e lartë të drejtësisë" />
+        </a>
+      </div>
+      <div class="col-sm-12">
+        <a href="/burime/Si te kerkojme ndihme nga dhuna ne familje.pdf">
+          <img src="/img/burime3.jpg" alt="Si të kerkojmë ndihmë nga dhuna në familje" />
+        </a>
+      </div>
+
+      <div class="col-sm-6">
+        <a href="/burime/leaflet for protection against discrimination_ ALB.pdf">
+          <img src="/img/protection-against-discrimination.jpg" alt="Leaflet for protection against discrimination" width="100%" />
+        </a>
+      </div>
+      <div class="col-sm-6">
+        <a href="/burime/Brochure on rights and obligations of detainees_ ALB.pdf">
+          <img src="/img/rights-and-obligations-of-detainees.jpg" alt="Brochure on rights and obligations of detainees" width="100%"/>
+        </a>
+      </div>
+    </div>
+
+    <div class="clearfix"></div>
+    <div class="col-sm-12">
+      <h2 style="margin-top:30px;"><i class="fa fa-video-camera"></i> Video</h2>
+    </div>
+    <div class="col-md-6">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/uYHGcI4qOpo" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="col-md-6">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/fpGZAidNlqg" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="col-md-6">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/IbFXdOnu5Ko" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+</main>
