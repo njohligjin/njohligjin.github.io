@@ -659,7 +659,7 @@ li.dropdown{
   cursor: pointer;
 }
 .pa-lidhje {
-  height: 80px;
+  height: 100px;
   position:relative;
   /* Firefox */
   display:-moz-box;
