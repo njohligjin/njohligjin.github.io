@@ -35,6 +35,9 @@ collections:
     output: true
   strategjia-per-edukimin-ligjor-collection:
     output: true
+    
+    diskriminimi-collection:
+    output: true
 
 encoding: UTF-8
 social:
