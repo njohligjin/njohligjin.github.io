@@ -141,13 +141,13 @@ permalink: /kodi-rrugor/
    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 kategori-container">
     <div class="kategori-ligjore">
       <div class="kategori-ligjore-titull">
-        Shkeljet
+        Sigurimi i detyrueshëm në sektorin e transportit 
       </div>
       <div class="kategori-details">
         <ul>
           <li><a href="/kodi-rrugor/shkeljet">Sigurimi i detyrueshëm në sektorin e transportit </a></li>
           {% for file in site.kodi-rrugor-collection %}
-          {% if file.tag == "shkeljet" %}
+          {% if file.tag == "Sigurimi-i-detyrueshëm-në-sektorin-e-transportit" %}
           {% assign counter7=counter7 | plus:1 %}
             <li><a href="/kodi-rrugor/Sigurimi-i-detyrueshëm-në-sektorin-e-transportit#{{counter7}}">{{file.title}}</a></li>
           {% endif %}
