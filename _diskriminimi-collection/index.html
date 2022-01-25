@@ -18,11 +18,11 @@ permalink: /diskriminimi/
       </div>
       <div class="kategori-details">
         <ul>
-          <li><a href="/diskriminimi/martesa">Martesa</a></li>
+          <li><a href="/diskriminimi/"></a></li>
           {% for file in site.diskriminimi-collection %}
           {% if file.tag == "martesa" %}
           {% assign counter=counter | plus:1 %}
-            <li><a href="/diskriminimi/martesa#{{counter}}">{{file.title}}</a></li>
+            <li><a href="/diskriminimi/#{{counter}}">{{file.title}}</a></li>
           {% endif %}
           {% endfor %}
         </ul>
