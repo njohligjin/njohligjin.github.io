@@ -20,3 +20,14 @@ Punëmarrësit kanë të drejtë si më poshtë:
 9. Të informohen për mënyrën e dhënies së ndihmës së parë;
 10. T’i kërkojnë punëdhënësit marrjen e masave të nevojshme për shmangien e rrezikut;
 11. Të kërkojnë informacion nga punëdhënësi dhe të marrin pjesë në hartimin e dokumentit të vlerësimit dhe parandalimit të rrezikut, si edhe në dokumente të tjera, që lidhen me sigurinë dhe shëndetin në punë.
+
+
+### Si munden punëmarrësit të kërkojnë zbatimin e të drejtave të tyre?
+
+Punëmarrësit mund të kërkojnë zbatimin e të drejtave të tyre me anë të përfaqësuesve të tyre. Ku këto të fundit  përfaqësojnë punëmarrësit tek punedhënësi i tyre duke kërkuar që të zbatohen të drejtat e punëmarrsëve. Gjithashtu këto përfaqësues mund t’i drejtohen Inspektoratit Shtetëror të Punës në qoftëse punëdhënësi i tyre nuk i respekton të drejtat për sigurinë në punë.
+
+
+### Si mund të ankohesh për mos respektimin e sigurisë në punë?
+
+Punëmarrësit mund të ankohen për mos respektimin e sigurisë në punë me anë të përfaqësuesve të tyre tek Inspektorati Shtetëror i Punës. 
+
