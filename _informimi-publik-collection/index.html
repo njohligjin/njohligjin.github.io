@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Informimi publik
+title: Informimi dhe konsultimi publik
 image: informimi.png
 category: informimi-publik
 permalink: /informimi-publik/
@@ -46,4 +46,24 @@ permalink: /informimi-publik/
       </div>
     </div>
   </div>
+   <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 kategori-container">
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+        Konsultimi Publik
+      </div>
+      <div class="kategori-details">
+        <ul>
+          <li><a href="/informimi-publik/kerkesa-per-informim/">Kërkesa për informim </li>
+            {% for file in site.informimi-publik-collection %}
+            {% if file.tag == "konsultimi-publik" %}
+            {% assign counter1=counter1 | plus:1 %}
+              <li><a href="/informimi-publik/konsultimi-publik#{{counter1}}">{{file.title}}</a></li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  
 </main>
