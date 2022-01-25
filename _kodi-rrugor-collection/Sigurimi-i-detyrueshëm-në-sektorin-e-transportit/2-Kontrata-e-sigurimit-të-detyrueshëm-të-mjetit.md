@@ -1,6 +1,6 @@
 ---
 title: "Kontrata e sigurimit të detyrueshëm të mjetit "
-tag: Kontrata-e-sigurimit-të-detyrueshëm-të-mjetit
+tag: Sigurimi-i-detyrueshëm-në-sektorin-e-transportit
 
 ---
 
