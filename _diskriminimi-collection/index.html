@@ -20,9 +20,9 @@ permalink: /diskriminimi/
         <ul>
           <li><a href="/diskriminimi/"></a></li>
           {% for file in site.diskriminimi-collection %}
-          {% if file.tag == "martesa" %}
+          {% if file.tag == "diskriminimi" %}
           {% assign counter=counter | plus:1 %}
-            <li><a href="/diskriminimi/#{{counter}}">{{file.title}}</a></li>
+            <li><a href="/diskriminimi/Çfarë-është-diskriminimi#{{counter}}">{{file.title}}</a></li>
           {% endif %}
           {% endfor %}
         </ul>
