@@ -6,7 +6,7 @@ permalink: "/rreth-faqes/"
 published: true
 ---
 
-## Rreth faqes.
+## Rreth faqes
 
 Ligjet shërbejnë për të rregullar marrëdhëniet brenda një shoqërie të caktuar dhe përbëjnë bazën për mënyrën se si ne ndërveprojmë në jetën tonë të përditshme. Ato luajnë një rol kryesor në drejtimin e veprimeve tona dhe përcaktojnë  ndjeshëm mënyrën si jetojmë. Megjithatë, edhe pse të gjithë ne i nënshtrohemi sundimit të ligjit dhe i ndjejmë çdo ditë efektet e tij, vetëm pak njerëz e njohin vërtetë ligjin apo kanë informacionin e nevojshëm për të marrë vendime të mirëinformuara se si duhet vepruar në situata të caktuara. Edhe pse ligji është thelbësor për jetën e tyre, pjesa më e madhe e njerëzve nuk dinë shumë rreth tij. Por përse ndodh diçka e tillë? Zakonisht shumica e qytetarëve nuk dinë ku të gjejnë burime  për informacion ligjor. Edhe në ato raste kur arrijnë t’i gjejnë këto burime, lind pyetja e besueshmërisë së tyre. Në rastet kur gjenden burime të tilla të  besueshme, shtrohet çështja e vështirësisë për të kuptuar atë që thotë ligji dhe mënyrën si duhet zbatuar ai. Duke marrë parasysh që shumë prej veprimtarive tona diktohen nga ligjet, është e domosdoshme që qytetarët të pajisen me njohuritë e nevojshme për t’u orientuar në botën ligjore.
 
