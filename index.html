@@ -106,12 +106,12 @@ image: cover2.png
     <div class="kategori-ligjore">
       <div class="kategori-ligjore-titull">
         <i class="fa fa-info-circle"></i><br>
-        INFORMIMI DHE KONSULTIMI PUBLIK
+        INFORMIMI PUBLIK
       </div>
       <div class="kategori-details">
         <a href="/informimi-publik/" class="kat-link"></a>
         <ul>
-          <li><a href="/informimi-publik/">Informimi dhe konsultimi publik</a></li>
+          <li><a href="/informimi-publik/">Informimi publik</a></li>
           {% assign posts = site.informimi-publik-collection | where: "role","main" | sort: "order" %}
           {% for file in posts | sort: order %}
             <li><a href="{{ BASE_PATH }}{{ file.permalink }}">{{ file.title }}</a></li>
