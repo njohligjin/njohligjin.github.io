@@ -181,6 +181,19 @@ image: cover2.png
         <i class="fa fa-shopping-cart"></i><br>
         DISKRIMINIMI
       </div>
+      <div class="kategori-details">
+        <a href="/diskriminimi/" class="kat-link"></a>
+        <ul>
+          <li><a href="/diskriminimi/">Diskriminimi</a></li>
+          {% assign posts = site.diskriminimi-collection | where: "role","main" | sort: "order" %}
+          {% for file in posts | sort: order %}
+            <li><a href="{{ BASE_PATH }}{{ file.permalink }}">{{ file.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      
+      
+      
       
     </div>
   </div>
