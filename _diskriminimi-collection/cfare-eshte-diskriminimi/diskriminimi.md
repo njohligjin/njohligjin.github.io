@@ -1,5 +1,0 @@
----
-title: "Diskriminimi"
-tag: diskriminimi
-
----
