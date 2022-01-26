@@ -180,7 +180,19 @@ image: cover2.png
       <div class="kategori-ligjore-titull">
         <i class="fa fa-home"></i><br>
         DISKRIMINIMI
-      </div></div></div>
+      </div>
+    <div class="kategori-details">
+        <a href="/diskriminimi/" class="kat-link"></a>
+        <ul>
+          <li><a href="/diskriminimi/">Diskriminimi</a></li>
+          {% assign posts = site.diskriminimi-collection | where: "role","main" | sort: "order" %}
+          {% for file in posts | sort: order %}
+            <li><a href="{{ BASE_PATH }}{{ file.permalink }}">{{ file.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
  
  
   <div class="col-lg-4 col-md-6 col-sm-8 col-xs-12 kategori-container">
