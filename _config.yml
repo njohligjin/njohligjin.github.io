@@ -23,6 +23,9 @@ collections:
     output: true
   konsumatori-collection:
     output: true
+       
+    diskriminimi-collection:
+    output: true
   procesi-gjyqesor-civil-collection:
     output: true
   pasuria-e-paluajtshme-collection:
@@ -35,6 +38,7 @@ collections:
     output: true
   strategjia-per-edukimin-ligjor-collection:
     output: true
+      
  
 
 encoding: UTF-8
