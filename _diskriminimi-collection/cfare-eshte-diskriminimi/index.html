@@ -1,17 +1,17 @@
 ---
-title: "Diskriminimi"
+title: "Cfare eshte diskriminimi"
 role: main
 layout: post
-category: cfare-eshte-diskriminimi
+category: diskriminimi
 image: konsumator.png
 lang: sq
 permalink: /diskriminimi/cfare-eshte-diskriminimi/
-order: 1
+order: 2
 ---
 <div class="col-md-3">
   <ul class="nav nav-tabs custom-nav-tabs" role="tablist">
     {% for file in site.diskriminimi-collection %}
-    {% if file.tag == "diskriminimi" %}
+    {% if file.tag == "cfare-eshte-diskriminimi" %}
     {% assign counter=counter | plus:1 %}
     <li role="presentation">
       <a href="#{{ counter }}" aria-controls="settings" role="tab" data-toggle="tab">{{file.title}}</a>
@@ -22,7 +22,7 @@ order: 1
 </div>
 <div class="tab-content col-md-9">
   {% for file in site.diskriminimi-collection %}
-  {% if file.tag == "diskriminimi" %}
+  {% if file.tag == "cfare-eshte-diskriminimi" %}
   {% assign counter1=counter1 | plus:1 %}
     <div role="tabpanel" class="tab-pane fade {% if counter1 == 1 %} active in {% endif %} " id="{{ counter1 }}">
       {{ file.content }}
