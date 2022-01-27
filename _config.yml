@@ -23,8 +23,7 @@ collections:
     output: true
   konsumatori-collection:
     output: true
-       
-    diskriminimi-collection:
+       diskriminimi-collection:
     output: true
   procesi-gjyqesor-civil-collection:
     output: true
