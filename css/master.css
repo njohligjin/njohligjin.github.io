@@ -1159,6 +1159,27 @@ li.dropdown{
   background-color: #2C3C4C;
 }
 
+
+/* fotot e diskriminimit */
+.diskriminimi .kategori-container:nth-of-type(1) > .kategori-ligjore{
+  background: url("/img/konsumatori-1.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.diskriminimi .kategori-container:nth-of-type(1) .kategori-details{
+  background-color: #004B67;
+}
+.diskriminimi .kategori-container:nth-of-type(2) > .kategori-ligjore{
+  background: url("/img/konsumatori-2.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.diskriminimi .kategori-container:nth-of-type(2) .kategori-details{
+  background-color: #70A4D4;
+}
+
+}
+
+
+
 /* fotot e pasurise */
 .pasuria .kategori-container:nth-of-type(1) > .kategori-ligjore{
   background: url("/img/pasuria-1.jpg") center no-repeat;
