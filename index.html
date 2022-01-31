@@ -261,13 +261,13 @@ image: cover2.png
     <div class="kategori-ligjore">
       <div class="kategori-ligjore-titull">
         <i class="fa fa-book""></i><br>
-        STRATEGJIA PËR EDUKIMIN LIGJOR TË PUBLIKUT 2018-2022
+        Diskriminimi
       </div>
       <div class="kategori-details">
-        <a href="/strategjia-per-edukimin-ligjor/" class="kat-link"></a>
+        <a href="/diskriminimi/" class="kat-link"></a>
         <ul>
-          <li><a href="/strategjia-per-edukimin-ligjor/">Strategjia për edukimin ligjor të publikut 2018-2022</a></li>
-          {% assign posts = site.strategjia-per-edukimin-ligjor-collection | where: "role","main" | sort: "order" %}
+          <li><a href="/diskriminimi/">diskriminimi</a></li>
+          {% assign posts = site.diskriminimi-collection | where: "role","main" | sort: "order" %}
           {% for file in posts | sort: order %}
           <li><a href="{{ BASE_PATH }}{{ file.permalink }}">{{ file.title }}</a></li>
           {% endfor %}
