@@ -6,19 +6,12 @@ tag: trashegimia
 ### Cfarë është testamenti? Cilat janë llojet e testamentit?
 
 Testamenti është veprimi juridik i njëanshëm i kryer nga vetë trashëgimlënësi, me anë të cilit ai shpreh vullnetin e tij se kush do të disponojë pasurinë e tij pas vdekjes së tij. 
-
 Testamentet ndahen në: ollograf ose me akt notarial.
-
 Testament ollograf shkruhet tërësisht me dorën e testatorit duke vënë datën(ditën,muajin,vitin) dhe nënshkrimin e vetë në fund të cdo disponimi.
-
 Testament me akt notarial redaktohet nga noteri dhe nënshkruhet nga trashëgimlënësi në prani të noterit.
-
 Ekzistojnë edhe disa lloje testamentesh të posacme:
-
 Në vendet ku nuk ka noter, testament mund të vërtetohet nga kryetari i bashkisë ose i komunës.
-
 Testament I një personi që ndodhet në shërbim ushtarak, mund të vërtetohet nga komandanti i njësisë ushtarake në të cilën ai bën pjesë dhe kur është shtruar në spital për mjekim nga drejtori i spitalit.
-
 Testament I një personi që ndodhet në një anije shqiptare në lundrim ose që ka qëndruar në një liman të huaj, mund të vërtetohet nga kapiteni i anijes.
 
 ### 	Kush ka zotësi për të bërë testament?
