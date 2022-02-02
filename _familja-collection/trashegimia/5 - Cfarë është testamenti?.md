@@ -24,7 +24,6 @@ Testament I një personi që ndodhet në një anije shqiptare në lundrim ose q�
 ### 	Kush ka zotësi për të bërë testament?
 
 Testament mund të bëjë cdo person që ka mbushur moshën 18 vjec, si dhe gruaja nën këtë moshë kur është e martuar.
-
 I mituri nga 14 deri në 18 vjec mund të bëjë testament vetëm për pasurinë që ka fituar me punën e tij.
 
 ###	Kujt ka të drejtë ti lër me testament pasurinë testatori?
