@@ -263,16 +263,6 @@ image: cover2.png
         <i class="fa fa-building"></i><br>
        diskriminimi
       </div>
-      <div class="kategori-details">
-        <a href="/diskriminimi/" class="kat-link"></a>
-        <ul>
-          <li><a href="/diskriminimi/">diskriminimi</a></li>
-          {% assign posts = site.diskriminimi | where: "role","main" | sort: "order" %}
-          {% for file in posts | sort: order %}
-            <li><a href="{{ BASE_PATH }}{{ file.permalink }}">{{ file.title }}</a></li>
-          {% endfor %}
-        </ul>
-      </div>
     </div>
   </div>
   </div>
