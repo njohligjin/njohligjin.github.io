@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Diskriminimi
-image: puna.png
+image: 4.png
 category: diskriminimi
 permalink: /diskriminimi/
 ---
@@ -23,24 +23,6 @@ permalink: /diskriminimi/
           {% if file.tag == "cfare-eshte-diskriminimi" %}
           {% assign counter=counter | plus:1 %}
             <li><a href="/diskriminimi/cfare-eshte-diskriminimi#{{counter}}">{{file.title}}</a></li>
-          {% endif %}
-          {% endfor %}
-        </ul>
-      </div>
-    </div>
-  </div>
-  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 kategori-container">
-    <div class="kategori-ligjore">
-      <div class="kategori-ligjore-titull">
-        Mbrojtja nga diskriminimi
-      </div>
-      <div class="kategori-details">
-        <ul>
-          <li><a href="/diskriminimi/mbrojtja-nga-diskriminimi">Mbrojtja nga diskriminimi</a></li>
-          {% for file in site.diskriminimi-collection %}
-          {% if file.tag == "mbrojtja-nga-diskriminimi" %}
-          {% assign counter1=counter1 | plus:1 %}
-            <li><a href="/diskriminimi/mbrojtja-nga-diskriminimi#{{counter1}}">{{file.title}}</a></li>
           {% endif %}
           {% endfor %}
         </ul>
