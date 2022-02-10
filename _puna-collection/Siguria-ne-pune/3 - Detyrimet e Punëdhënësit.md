@@ -1,5 +1,5 @@
 title: "Detyrimet e Punëdhënësit"
-tag: siguria-ne-pune
+tag: Siguria-ne-pune
 ---
 
 ### Çfarë detyrimesh ka punëdhënësi?
