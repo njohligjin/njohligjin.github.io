@@ -1,3 +1,4 @@
+---
 title: "Detyrimet e Punëdhënësit"
 tag: Siguria-ne-pune
 ---
