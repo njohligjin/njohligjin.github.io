@@ -300,7 +300,8 @@ $(document).ready(function(){
 
   //popullimi dinamik i referencave ligjore
   if(window.location.href.indexOf("puna/")!=-1){
-    $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 7961, datë 12.07.1995, “Kodi i Punës i Republikës së Shqipërisë”, i ndryshuar.</li></ul>")
+    $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 7961, datë 12.07.1995, “Kodi i Punës i Republikës së Shqipërisë”, i ndryshuar.</li></ul>
+                               <ul><li>Ligji Nr. 10237 “Për Sigurinë dhe Shëndetin në Punë“ datë 18.2.2010, i ndryshuar  .</li></ul>")
   } else if(window.location.href.indexOf("/sigurimet-shoqerore/")!=-1){
     $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 7703, datë 11.05.1993, “Për sigurimet shoqërore në Republikën e Shqipërisë”, i ndryshuar.</li></ul>")
   } else if(window.location.href.indexOf("/kodi-rrugor/")!=-1){
@@ -338,9 +339,7 @@ $(document).ready(function(){
   } else if(window.location.href.indexOf("/shkaktimi-i-demit/")!=-1){
     $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 7850, datë 29.07.1994, “Kodi Civil i Republikës së Shqipërisë”, i ndryshuar.</li><li>Ligjin Nr. 9109, datë 17.07.2003, “Për profesionin e avokatit në Republikën e Shqipërisë”, i ndryshuar.</li></ul>")
   }
-  else if(window.location.href.indexOf("/puna/siguria-ne-pune/")!=-1){
-    $(".legal-reference").html("Bazuar në: <ul><li>Ligji Nr. 10237 “Për Sigurinë dhe Shëndetin në Punë“ datë 18.2.2010, i ndryshuar.</li><li>Ligjin Nr. 9109, datë 17.07.2003, “Për profesionin e avokatit në Republikën e Shqipërisë”, i ndryshuar.</li></ul>")
-  }
+  
 
   //korrigjimi i emrit te kategorive duke shtuar ë
   if($("span.kat a").length > 0){
