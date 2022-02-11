@@ -17,11 +17,11 @@ permalink: /ndihma-juridike/
       </div>
       <div class="kategori-details">
         <ul>
-          <li><a href="/ndihma-juridike/Kuptimi-i-Shërbimit-të-Ndihmës-Juridike/">Kuptimi i Shërbimit të Ndihmës Juridike </a></li>
+          <li><a href="/ndihma-juridike/kuptimi-i-shërbimit-të-ndihmës-juridike/">Kuptimi i Shërbimit të Ndihmës Juridike </a></li>
           {% for file in site.ndihma-juridike-collection %}
           {% if file.tag == "Kuptimi-i-Shërbimit-të-Ndihmës-Juridike" %}
           {% assign counter=counter | plus:1 %}
-            <li><a href="/ndihma-juridike/Kuptimi-i-Shërbimit-të-Ndihmës-Juridike#{{counter}}">{{file.title}}</a></li>
+            <li><a href="/ndihma-juridike/kuptimi-i-shërbimit-të-ndihmës-juridike#{{counter}}">{{file.title}}</a></li>
           {% endif %}
           {% endfor %}
         </ul>
