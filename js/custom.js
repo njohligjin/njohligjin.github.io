@@ -301,7 +301,8 @@ $(document).ready(function(){
   //popullimi dinamik i referencave ligjore
   if(window.location.href.indexOf("puna/")!=-1){
     $(".legal-reference").html("Bazuar në: <ul><li>Ligji Nr. 10237 “Për Sigurinë dhe Shëndetin në Punë“ datë 18.2.2010, i ndryshuar.</li></ul>")
-  } else if(window.location.href.indexOf("/puna/siguria-ne-pune/")!=-1){
+  } 
+  else if(window.location.href.indexOf("/puna/siguria-ne-pune/")!=-1){
     $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 7703, datë 11.05.1993, “Për sigurimet shoqërore në Republikën e Shqipërisë”, i ndryshuar.</li></ul>")
   } else if(window.location.href.indexOf("/kodi-rrugor/")!=-1){
     $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 8378, datë 22.07.1998, “Kodi Rrugor i Republikës së Shqipërisë”, i ndyshuar.</li></ul>")
@@ -324,7 +325,7 @@ $(document).ready(function(){
       $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 9062, datë 08.05.2003, “Kodi i Familjes dhe legjislacioni për birësimet i Republikës së Shqipërisë”, i ndryshuar.</li><li>Ligjin Nr. 10129, datë 11.05.2009, “Për Gjendjen Civile”, i ndryshuar.</li></ul>")
     }
   } else if(window.location.href.indexOf("/ndihma-juridike/")!=-1){
-    $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 10039, datë 22.12.2008, “ Për Ndihmën Juridike”, i ndryshuar.</li></ul>")
+    $(".legal-reference").html("Bazuar në: <ul><li>Ligji Nr. 111/2017 “Për Ndihmën Juridike të Garantuar nga Shteti”.”, i ndryshuar.</li></ul>")
   } else if(window.location.href.indexOf("/konsumatori/")!=-1){
     $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 9902, datë 17.4.2008, “Për mbrojtjen e konsumatorëve”, i ndryshuar.</li><li>Ligjin Nr. 9779, datë 16.7.2007, ”Për sigurinë e përgjithshme, kërkesat thelbësore dhe vlerësimin e konformitetit të produkteve joushqimore”, i ndryshuar.</li></ul>")
   } else if(window.location.href.indexOf("/pasuria-e-paluajtshme/")!=-1){
