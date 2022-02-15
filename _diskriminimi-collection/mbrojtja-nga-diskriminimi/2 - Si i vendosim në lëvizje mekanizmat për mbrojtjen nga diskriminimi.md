@@ -4,15 +4,14 @@ tag: mbrojtja-nga-diskriminimi
 ---
 
 ### Kur i drejtohemi  Komisionerit për Mbrojtjen nga Diskriminimi:
+-Një person apo grup personash që pretendojnë se janë diskriminuar, ose nje organizatë me interesa legjitime që pretendon diskriminim në emër të një personi apo grupi personash, mund të paraqesë ankesë së bashku me provat që disponon para komisionerit, me shkrim ose, në raste perjashtuese, me gojë, në mënyrë që të mbahet procesverbal.
 
--	Një person apo grup personash që pretendojnë se janë diskriminuar, ose nje organizatë me interesa legjitime që pretendon diskriminim në emër të një personi apo grupi personash, mund të paraqesë ankesë së bashku me provat që disponon para komisionerit, me shkrim ose, në raste perjashtuese, me gojë, në mënyrë që të mbahet procesverbal.
-
--	Formulari i ankesës duhet të përmbajë: 
-o	emrin e ankuesit si dhe kontaktet e tij
-o	subjekti që pretendohet se ka kryer diskriminimin 
-o	shkakun për të cilin pretendohet diskriminimi 
-o	shpjegimin e diskriminimit të pretenduar
-o	masat që kërkohen të merren nga Komisioneri.
+-Formulari i ankesës duhet të përmbajë: 
+emrin e ankuesit si dhe kontaktet e tij
+subjekti që pretendohet se ka kryer diskriminimin 
+shkakun për të cilin pretendohet diskriminimi 
+shpjegimin e diskriminimit të pretenduar
+masat që kërkohen të merren nga Komisioneri.
 
 Ankesa nuk pranohet nëse paraqitet me vonë se tre vjet nga ndodhja e diskriminimit ose më vonë se dy vjet nga marrja dijeni për sjelljen diskriminuese. 
 Ankuesi nuk ngarkohet me ndonjë tarifë per shqyrtimin e ankesës.
