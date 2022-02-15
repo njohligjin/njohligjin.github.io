@@ -10,15 +10,15 @@ permalink: /diskriminimi/
   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 kategori-container" >
     <div class="kategori-ligjore">
       <div class="kategori-ligjore-titull">
-        Diskriminimi 1
+        Çfarë është diskriminimi
       </div>
       <div class="kategori-details">
         <ul>
           <li><a href="/bashkepronesia-ne-ndertesa/bashkepronesia">Çfarë është diskriminimi</a></li>
-          {% for file in site.bashkepronesia-ne-ndertesa-collection %}
-          {% if file.tag == "bashkepronesia" %}
+          {% for file in site.diskriminimi-collection %}
+          {% if file.tag == "cfare-eshte-diskriminimi" %}
           {% assign counter=counter | plus:1 %}
-            <li><a href="/bashkepronesia-ne-ndertesa/Çfarë është diskriminimi#{{counter}}">{{file.title}}</a></li>
+            <li><a href="/diskriminimi/Çfarë-është-diskriminimi#{{counter}}">{{file.title}}</a></li>
           {% endif %}
           {% endfor %}
         </ul>
@@ -34,7 +34,7 @@ permalink: /diskriminimi/
         <ul>
           <li><a href="/diskriminimi/mbrojtja-nga-diskriminimi/">Mbrojtja nga diskriminimi</a></li>
           {% for file in site.diskriminimi-collection %}
-          {% if file.tag == "asambleja" %}
+          {% if file.tag == "mbrojtja-nga-diskriminimi" %}
           {% assign counter1=counter1 | plus:1 %}
             <li><a href="diskriminimi/mbrojtja-nga-diskriminimi/"#{{counter1}}">{{file.title}}</a></li>
           {% endif %}
