@@ -1,5 +1,5 @@
 ---
-title: "Cfarë do të thotë diskriminim?"
+title: "Çfarë është diskriminimi?"
 tag: cfarë-është-diskriminimi
 ---
 
