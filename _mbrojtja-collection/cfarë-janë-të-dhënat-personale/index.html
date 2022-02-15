@@ -5,12 +5,12 @@ layout: post
 category: familja
 image: familja.png
 lang: sq
-permalink: /mbrotja/cfarë-janë-të-dhënat-personale/
+permalink: /mbrojtja/cfarë-janë-të-dhënat-personale/
 order: 1
 ---
 <div class="col-md-3">
   <ul class="nav nav-tabs custom-nav-tabs" role="tablist">
-    {% for file in site.mbrotja-collection %}
+    {% for file in site.mbrojtja-collection %}
     {% if file.tag == "cfarë-janë-të-dhënat-personale" %}
     {% assign counter=counter | plus:1 %}
     <li role="presentation">
@@ -21,7 +21,7 @@ order: 1
   </ul>
 </div>
 <div class="tab-content col-md-9">
-  {% for file in site.mbrotja-collection %}
+  {% for file in site.mbrojtja-collection %}
   {% if file.tag == "cfarë-janë-të-dhënat-personale" %}
   {% assign counter1=counter1 | plus:1 %}
     <div role="tabpanel" class="tab-pane fade {% if counter1 == 1 %} active in {% endif %} " id="{{ counter1 }}">
