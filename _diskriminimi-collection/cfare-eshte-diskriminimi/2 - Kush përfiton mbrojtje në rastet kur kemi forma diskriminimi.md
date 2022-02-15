@@ -1,6 +1,6 @@
 ---
 title: "Kush përfiton mbrojtje në rastet kur kemi forma diskriminimi?"
-tag: cfarë-është-diskriminimi
+tag: cfare-eshte-diskriminimi
 ---
 ### Ligji për mbrojtjen nga diskriminimi aplikohet për: 
 
