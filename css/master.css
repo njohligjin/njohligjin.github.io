@@ -825,6 +825,14 @@ li.dropdown{
 .home .kategori-container:nth-of-type(15) .kategori-details{
   background-color: #2c3c4d;
 }
+.home .kategori-container:nth-of-type(16) > .kategori-ligjore{
+  background: url("/img/front-14.png") center no-repeat;
+  background-size: 100% 100%;
+}
+.home .kategori-container:nth-of-type(16) .kategori-details{
+  background-color: #2c3c4d;
+}
+
 
 /* fotot e punës */
 .puna .kategori-container:nth-of-type(1) > .kategori-ligjore{
