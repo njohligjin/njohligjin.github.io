@@ -1,0 +1,65 @@
+---
+layout: default
+title: Çfarë janë të dhënat personale
+image: bashkepronesia.png
+category: zam
+permalink: /zam/
+---
+<main id="content" class="content container zam" role="main" style="margin-bottom: 200px;">
+  <h2 class="kat-title"><i class="fa fa-building"></i> {{page.title}}</h2>
+  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 kategori-container" >
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+        Zgjidhja Alternative e Mosmarrëveshjeve (ZAM)
+      </div>
+      <div class="kategori-details">
+        <ul>
+          <li><a href="/zam/zgjidhja-alternative-e-mosmarrëveshjeve">Zgjidhja Alternative e Mosmarrëveshjeve (ZAM)</a></li>
+          {% for file in site.zam-collection %}
+          {% if file.tag == "zgjidhja-alternative-e-mosmarrëveshjeve" %}
+          {% assign counter=counter | plus:1 %}
+            <li><a href="/zam/zgjidhja-alternative-e-mosmarrëveshjeve#{{counter}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 kategori-container" >
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+       Çfarë është ndërmjetësimi
+      </div>
+      <div class="kategori-details">
+        <ul>
+          <li><a href="/zam/cfarë-është-ndërmjetësimi">Mbrojtja e të dhënave personale</a></li>
+          {% for file in site.zam-collection %}
+          {% if file.tag == "cfarë-është-ndërmjetësimi" %}
+          {% assign counter1=counter1 | plus:1 %}
+            <li><a href="/zam/cfarë-është-ndërmjetësimi#{{counter1}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 kategori-container" >
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+      Si funksionon procesi i ndermjetësimit
+      </div>
+      <div class="kategori-details">
+        <ul>
+          <li><a href="/zam/si-funksionon-procesi-i-ndermjetësimit">Mbrojtja e të dhënave personale</a></li>
+          {% for file in site.zam-collection %}
+          {% if file.tag == "si-funksionon-procesi-i-ndermjetësimit" %}
+          {% assign counter1=counter1 | plus:1 %}
+            <li><a href="/zam/si-funksionon-procesi-i-ndermjetësimit#{{counter1}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+</main>
