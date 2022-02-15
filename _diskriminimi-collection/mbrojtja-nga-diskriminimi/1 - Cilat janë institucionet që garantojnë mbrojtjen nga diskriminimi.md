@@ -2,6 +2,7 @@
 title: "Cilat janë institucionet që garantojnë mbrojtjen nga diskriminimi?"
 tag: mbrojtja-nga-diskriminimi
 ---
+
 ### Cilat janë institucionet që garantojnë mbrojtjen nga diskriminimi?
 
 Institucioni që garanton mbrojtjen nga diskriminimi është Komisioneri për Mbrojtjen nga Diskriminimi. Komisioneri është person juridik publik dhe i pavarur në ushtrimin e detyrës dhe i nënshtrohet vetëm Kushtetutës dhe ligjit. 
