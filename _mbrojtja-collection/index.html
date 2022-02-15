@@ -1,0 +1,118 @@
+---
+layout: default
+title: Bashkëpronësia në ndërtesat e banimit
+image: bashkepronesia.png
+category: mbrotja
+permalink: /mbrotja/
+---
+<main id="content" class="content container mbrotja" role="main" style="margin-bottom: 200px;">
+  <h2 class="kat-title"><i class="fa fa-building"></i> {{page.title}}</h2>
+  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 kategori-container" >
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+        mbrotja
+      </div>
+      <div class="kategori-details">
+        <ul>
+          <li><a href="/bashkepronesia-ne-ndertesa/bashkepronesia">Bashkëpronësia në ndërtesa</a></li>
+          {% for file in site.bashkepronesia-ne-ndertesa-collection %}
+          {% if file.tag == "bashkepronesia" %}
+          {% assign counter=counter | plus:1 %}
+            <li><a href="/bashkepronesia-ne-ndertesa/bashkepronesia#{{counter}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 kategori-container" >
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+        Asambleja e Bashkëpronarëve
+      </div>
+      <div class="kategori-details">
+        <ul>
+          <li><a href="/bashkepronesia-ne-ndertesa/asambleja">Asambleja e Bashkëpronarëve</a></li>
+          {% for file in site.bashkepronesia-ne-ndertesa-collection %}
+          {% if file.tag == "asambleja" %}
+          {% assign counter1=counter1 | plus:1 %}
+            <li><a href="/bashkepronesia-ne-ndertesa/asambleja#{{counter1}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 kategori-container" id="ref">
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+        Të drejtat dhe detyrimet
+      </div>
+      <div class="kategori-details">
+        <ul>
+          <li><a href="/bashkepronesia-ne-ndertesa/te-drejtat-dhe-detyrimet">Të drejtat dhe detyrimet</a></li>
+          {% for file in site.bashkepronesia-ne-ndertesa-collection %}
+          {% if file.tag == "te-drejtat-dhe-detyrimet" %}
+          {% assign counter2=counter2 | plus:1 %}
+            <li><a href="/bashkepronesia-ne-ndertesa/te-drejtat-dhe-detyrimet#{{counter2}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 kategori-container">
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+        Administrimi i ndërtesave
+      </div>
+      <div class="kategori-details">
+        <ul>
+          <li><a href="/bashkepronesia-ne-ndertesa/administrimi">Administrimi i ndërtesave</a></li>
+          {% for file in site.bashkepronesia-ne-ndertesa-collection %}
+          {% if file.tag == "administrimi" %}
+          {% assign counter3=counter3 | plus:1 %}
+            <li><a href="/bashkepronesia-ne-ndertesa/administrimi#{{counter3}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 kategori-container">
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+        Pronari i banesës
+      </div>
+      <div class="kategori-details">
+        <ul>
+          <li><a href="/bashkepronesia-ne-ndertesa/pronari-i-baneses">Pronari i banesës</a></li>
+          {% for file in site.bashkepronesia-ne-ndertesa-collection %}
+          {% if file.tag == "pronari-i-baneses" %}
+          {% assign counter4=counter4 | plus:1 %}
+            <li><a href="/bashkepronesia-ne-ndertesa/pronari-i-baneses#{{counter4}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 kategori-container">
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+        Restaurimi dhe shembja
+      </div>
+      <div class="kategori-details">
+        <ul>
+          <li><a href="/bashkepronesia-ne-ndertesa/restaurimi-dhe-shembja">Restaurimi dhe shembja</a></li>
+          {% for file in site.bashkepronesia-ne-ndertesa-collection %}
+          {% if file.tag == "restaurimi-dhe-shembja" %}
+          {% assign counter5=counter5 | plus:1 %}
+            <li><a href="/bashkepronesia-ne-ndertesa/restaurimi-dhe-shembja#{{counter5}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</main>
