@@ -16,7 +16,7 @@ permalink: /diskriminimi/
         <ul>
           <li><a href="/diskriminimi/cfarë-është-diskriminimi/">Çfarë është diskriminimi</a></li>
           {% for file in site.diskriminimi-collection %}
-          {% if file.tag == "cfare-eshte-diskriminimi" %}
+          {% if file.tag == "cfarë-është-diskriminimi" %}
           {% assign counter=counter | plus:1 %}
             <li><a href="/diskriminimi/cfarë-është-diskriminimi/#{{counter}}">{{file.title}}</a></li>
           {% endif %}
