@@ -281,12 +281,12 @@ image: cover2.png
     <div class="kategori-ligjore">
       <div class="kategori-ligjore-titull">
         <i class="fa fa-book"></i><br>
-       mbrotja
+       Të dhënat personale
       </div>
       <div class="kategori-details">
         <a href="/mbrotja/" class="kat-link"></a>
         <ul>
-          <li><a href="/mbrojtja/">mbrojtja</a></li>
+          <li><a href="/mbrojtja/">Të dhënat personale</a></li>
           {% assign posts = site.mbrojtja-collection | where: "role","main" | sort: "order" %}
           {% for file in posts | sort: order %}
           <li><a href="{{ BASE_PATH }}{{ file.permalink }}">{{ file.title }}</a></li>
