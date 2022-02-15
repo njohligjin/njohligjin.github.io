@@ -1223,6 +1223,13 @@ li.dropdown{
 .diskriminimi .kategori-container:nth-of-type(1) .kategori-details{
   background-color: #014B68;
 }
+.diskriminimi .kategori-container:nth-of-type(2) > .kategori-ligjore{
+  background: url("/img/bashkepronesia-1.jpg") center no-repeat;
+  background-size: 100% 100%;
+}
+.diskriminimi .kategori-container:nth-of-type(2) .kategori-details{
+  background-color: #014B68;
+}
 /* fotot e bashkepronesise */
 .bashkepronesia .kategori-container:nth-of-type(1) > .kategori-ligjore{
   background: url("/img/bashkepronesia-1.jpg") center no-repeat;
