@@ -32,11 +32,11 @@ permalink: /diskriminimi/
       </div>
       <div class="kategori-details">
         <ul>
-          <li><a href="/diskriminimi/Mbrojtja-nga-diskriminimi/">Mbrojtja nga diskriminimi</a></li>
+          <li><a href="/diskriminimi/mbrojtja-nga-diskriminimi/">Mbrojtja nga diskriminimi</a></li>
           {% for file in site.diskriminimi-collection %}
           {% if file.tag == "asambleja" %}
           {% assign counter1=counter1 | plus:1 %}
-            <li><a href="diskriminimi/Mbrojtja-nga-diskriminimi/"#{{counter1}}">{{file.title}}</a></li>
+            <li><a href="diskriminimi/mbrojtja-nga-diskriminimi/"#{{counter1}}">{{file.title}}</a></li>
           {% endif %}
           {% endfor %}
         </ul>
