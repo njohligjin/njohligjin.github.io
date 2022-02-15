@@ -175,10 +175,10 @@ image: cover2.png
        Mbrojtja
       </div>
       <div class="kategori-details">
-        <a href="/mbrojtja/" class="kat-link"></a>
+        <a href="/diskriminimi/" class="kat-link"></a>
         <ul>
-          <li><a href="/mbrojtja/">mbrojtja</a></li>
-          {% assign posts = site.mbrojtja-collection | where: "role","main" | sort: "order" %}
+          <li><a href="/diskriminimi/">Diskriminimi</a></li>
+          {% assign posts = site.diskriminimi-collection | where: "role","main" | sort: "order" %}
           {% for file in posts | sort: order %}
           <li><a href="{{ BASE_PATH }}{{ file.permalink }}">{{ file.title }}</a></li>
           {% endfor %}
