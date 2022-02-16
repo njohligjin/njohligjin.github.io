@@ -1,1 +1,158 @@
-
+---
+layout: default
+title: procesi
+image: familja.png
+category: procesi
+permalink: /procesi/
+---
+<main id="content" class="content container familja" role="main" style="margin-bottom: 200px;">
+  <!-- {% for post in site.categories.familja %}
+<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %} -->
+<h2 class="kat-title"><i class="fa fa-users"></i> {{page.title}}</h2>
+  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 kategori-container">
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+        Martesa
+      </div>
+      <div class="kategori-details">
+        <ul>
+          <li><a href="/familja/martesa">Martesa</a></li>
+          {% for file in site.familja-collection %}
+          {% if file.tag == "martesa" %}
+          {% assign counter=counter | plus:1 %}
+            <li><a href="/familja/martesa#{{counter}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 kategori-container">
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+        Kujdestaria
+      </div>
+      <div class="kategori-details">
+        <ul>
+          <li><a href="/familja/kujdestaria">Kujdestaria </a></li>
+          {% for file in site.familja-collection %}
+          {% if file.tag == "kujdestaria" %}
+          {% assign counter1=counter1 | plus:1 %}
+            <li><a href="/familja/kujdestaria#{{counter1}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 kategori-container" id="ref">
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+        Dhuna në familje
+      </div>
+      <div class="kategori-details">
+        <ul>
+          <li><a href="/familja/dhuna-ne-familje">Dhuna në familje</a></li>
+          {% for file in site.familja-collection %}
+          {% if file.tag == "dhuna-ne-familje" %}
+          {% assign counter2=counter2 | plus:1 %}
+            <li><a href="/familja/dhuna-ne-familje#{{counter2}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 kategori-container">
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+        Deklarimi dhe regjistrimi i fëmijës
+      </div>
+      <div class="kategori-details">
+        <ul>
+          <li><a href="/familja/deklarimi-dhe-regjistrimi-i-femijes/">Deklarimi dhe regjistrimi i fëmijës</a></li>
+          {% for file in site.familja-collection %}
+          {% if file.tag == "deklarimi-dhe-regjistrimi-i-femijes" %}
+          {% assign counter3=counter3 | plus:1 %}
+            <li><a href="/familja/deklarimi-dhe-regjistrimi-i-femijes#{{counter3}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 kategori-container">
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+        Birësimi
+      </div>
+      <div class="kategori-details">
+        <ul>
+          <li><a href="/familja/biresimi/">Birësimi</a></li>
+          {% for file in site.familja-collection %}
+          {% if file.tag == "biresimi" %}
+          {% assign counter4=counter4 | plus:1 %}
+            <li><a href="/familja/biresimi#{{counter4}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 kategori-container">
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+        Bashkëjetesa
+      </div>
+      <div class="kategori-details">
+        <ul>
+          <li><a href="/familja/bashkejetesa/">Bashkëjetesa</a></li>
+          {% for file in site.familja-collection %}
+          {% if file.tag == "bashkejetesa" %}
+          {% assign counter5=counter5 | plus:1 %}
+            <li><a href="/familja/bashkejetesa#{{counter5}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 kategori-container">
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+        Amësia dhe Atësia
+      </div>
+      <div class="kategori-details">
+        <ul>
+          <li><a href="/familja/amesia-dhe-atesia/">Amësia dhe Atësia</a></li>
+          {% for file in site.familja-collection %}
+          {% if file.tag == "amesia-dhe-atesia" %}
+          {% assign counter6=counter6 | plus:1 %}
+            <li><a href="/familja/amesia-dhe-atesia#{{counter6}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 kategori-container">
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+        Trashëgimia
+      </div>
+      <div class="kategori-details">
+        <ul>
+          <li><a href="/familja/trashegimia/">Trashëgimia</a></li>
+          {% for file in site.familja-collection %}
+          {% if file.tag == "trashegimia" %}
+          {% assign counter7=counter7 | plus:1 %}
+            <li><a href="/familja/trashegimia#{{counter7}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  </div> 
+</main>
