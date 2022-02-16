@@ -1,6 +1,6 @@
 ---
 title: "Cili është objektivi i çdo ligji?"
-tag: ligji
+tag: cfarë-është-ligji
 ---
 
 Objektivi i çdo ligji duhet të jetë që të sigurojë një rregullim të plotë, të qartë dhe të kuptueshëm të problemit që trajtohet nëpërmjet tij duke përcaktuar saktë të drejtat dhe detyrimet e palëve mbi të cilët zbatohet ligji.
