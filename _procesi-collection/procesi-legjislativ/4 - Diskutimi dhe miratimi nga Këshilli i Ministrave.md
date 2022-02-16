@@ -1,0 +1,8 @@
+---
+title: "Diskutimi dhe miratimi nga Këshilli i Ministrave"
+tag: procesi-legjislativ
+---
+Përpara se projektligji të parashtrohet për shqyrtim në mbledhjen e Këshillit të Ministrave, ligji i Këshillit të Ministrave kërkon që ligji t’i paraqitet Sekretarit të Pergjithshem te Keshillit te Ministrave, i cili ka për detyrë të kontrollojë nëse rregullat formale procedurale janë respektuar, si për shembull ato që kanë të bëjnë me konsultimin e brendshëm dhe te jashtëm, si dhe nëse dokumentet shoqëruese të projektitligjit janë të plota. 
+Në të njëjtën kohë, Sekretari i Përgjithshëm është i ngarkuar me një sërë përgjegjësish të tjera: ai vlerëson nëse projektligji gëzon mbështetjen e ministrive të interesuara, si dhe përcakton nëse cilësia e aktit është e kenaqshme nga pikëpamja e teknikës legjislative dhe terminologjisë ligjore. Në rastet kur projektligji nuk ka plotësuar kriteret procedurale, Sekretari i Përgjithshëm duhet ta refuzojë projektligjin dhe ta kthejë atë në ministrinë përkatëse për respektimin e formaliteteve të nevojshme.
+Projektligjet parashtrohen në mbledhjen e Këshillit të Ministrave përpara se të dërgohen në Kuvend. Me qëllim që projektligji të diskutohet në mbledhjen e Këshillit të Ministrave ministri e parashtron projektligjin së bashku me relacionin.
+Pasi konsiderohen dhe miratohen nga Këshilli i Ministrave, projektligjet janë gati për t’u paraqitur menjëherë në Kuvend. Sekretari i Përgjithshëm i Këshillit të Ministrave duhet të kujdeset për reflektimin në projektligj të të gjitha ndryshimeve dhe komenteve që janë bërë ose për të cilat është rënë dakord nga ministrat në mbledhjen e Këshillit të Ministrave përpara dërgimit të projektligjit në Kuvend. 
