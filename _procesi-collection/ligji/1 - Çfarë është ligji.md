@@ -1,6 +1,6 @@
 ---
 title: "Çfarë është ligji?"
-tag: cfarë-është-ligji
+tag: ligji
 ---
 
 Sipas një përkufizimi formal ligji nënkupton çdo normë që hartohet në një formë të caktuar, shqyrtohet sipas një procedure të veçantë dhe miratohet nga një organ i caktuar.
