@@ -1,6 +1,6 @@
 ---
 title: "Si ndahen ligjet?"
-tag: ligji
+tag: cfarë-është-ligji
 ---
 
 
