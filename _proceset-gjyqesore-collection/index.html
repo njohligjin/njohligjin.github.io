@@ -5,45 +5,28 @@ image: cover2.png
 category: proceset-gjyqesore
 permalink: /proceset-gjyqesore/
 ---
-<main id="content" class="content container diskriminimi" role="main" style="margin-bottom: 200px;">
-  <!-- {% for post in site.categories.konsumatori %}
+<main id="content" class="content container proceset-gjyqesore" role="main" style="margin-bottom: 200px;">
+  <!-- {% for post in site.categories.proceset-gjyqesore %}
         <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %} -->
   <h2 class="kat-title"><i class="fa fa-building"></i> {{page.title}}</h2>
   <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 kategori-container" >
     <div class="kategori-ligjore">
       <div class="kategori-ligjore-titull">
-        Çfarë është diskriminimi
+        Procesi Gjyqesor Civil
       </div>
       <div class="kategori-details">
         <ul>
-          <li><a href="/diskriminimi/cfare-eshte-diskriminimi/">Çfarë është diskriminimi</a></li>
-          {% for file in site.diskriminimi-collection %}
-          {% if file.tag == "cfare-eshte-diskriminimi" %}
+          <li><a href="/proceset-gjyqesore/procesi-gjyqesor-civil/">Procesi Gjyqesor Civil</a></li>
+          {% for file in site.proceset-gjyqesore-collection %}
+          {% if file.tag == "procesi-gjyqesor-civil" %}
           {% assign counter=counter | plus:1 %}
-            <li><a href="/diskriminimi/cfare-eshte-diskriminimi/#{{counter}}">{{file.title}}</a></li>
+            <li><a href="/proceset-gjyqesore/procesi-gjyqesor-civil/#{{counter}}">{{file.title}}</a></li>
           {% endif %}
           {% endfor %}
         </ul>
       </div>
     </div>
   </div>
-  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 kategori-container" >
-    <div class="kategori-ligjore">
-      <div class="kategori-ligjore-titull">
-        Mbrojtja nga diskriminimi
-      </div>
-      <div class="kategori-details">
-        <ul>
-          <li><a href="/diskriminimi/mbrojtja-nga-diskriminimi/">Mbrojtja nga diskriminimi</a></li>
-          {% for file in site.diskriminimi-collection %}
-          {% if file.tag == "mbrojtja-nga-diskriminimi" %}
-          {% assign counter1=counter1 | plus:1 %}
-            <li><a href="diskriminimi/mbrojtja-nga-diskriminimi/"#{{counter1}}">{{file.title}}</a></li>
-          {% endif %}
-          {% endfor %}
-        </ul>
-      </div>
-    </div>
-              </div></div>
+ </div>
 </main>
