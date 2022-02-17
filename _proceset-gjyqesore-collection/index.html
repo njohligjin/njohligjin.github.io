@@ -17,11 +17,11 @@ permalink: /proceset-gjyqesore/
       </div>
       <div class="kategori-details">
         <ul>
-          <li><a href="/proceset-gjyqesore/procesi-gjyqesor-civil/">Procesi Gjyqesor Civil</a></li>
+          <li><a href="/proceset-gjyqesore/procesi-civil/">Procesi Gjyqesor Civil</a></li>
           {% for file in site.proceset-gjyqesore-collection %}
-          {% if file.tag == "procesi-gjyqesor-civil" %}
+          {% if file.tag == "procesi-civil" %}
           {% assign counter=counter | plus:1 %}
-            <li><a href="/proceset-gjyqesore/procesi-gjyqesor-civil/#{{counter}}">{{file.title}}</a></li>
+            <li><a href="/proceset-gjyqesore/procesi-civil/#{{counter}}">{{file.title}}</a></li>
           {% endif %}
           {% endfor %}
         </ul>
