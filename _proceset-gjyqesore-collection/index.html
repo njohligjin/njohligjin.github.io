@@ -1,0 +1,33 @@
+---
+layout: default
+title: Kodi rrugor
+image: kodi-rrugor.png
+category: proceset-gjyqesore
+permalink: /proceset-gjyqesore/
+---
+<main id="content" class="content container proceset-gjyqesore" role="main" style="margin-bottom: 200px;">
+  <!-- {% for post in site.categories.proceset-gjyqesore %}
+        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %} -->
+
+
+  <h2 class="kat-title"><i class="fa fa-car"></i> {{page.title}}</h2>
+  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 kategori-container">
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+        Si veprohet në rrugë
+      </div>
+      <div class="kategori-details">
+        <ul>
+          <li><a href="/kodi-rrugor/si-veprohet-ne-rruge">Si veprohet në rrugë </a></li>
+          {% for file in site.kodi-rrugor-collection %}
+          {% if file.tag == "si-veprohet-ne-rruge" %}
+          {% assign counter=counter | plus:1 %}
+            <li><a href="/kodi-rrugor/si-veprohet-ne-rruge#{{counter}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</main>
