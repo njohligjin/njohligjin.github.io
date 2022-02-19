@@ -15,3 +15,8 @@ Megjithatë, ligji përmend këto funksione të kujdestarit të posaçëm:
 * Përfaqëson të miturin dhe mund të kryejë të gjitha veprimet që kanë të bëjnë me ruajtjen dhe administrimin e pasurisë në raste urgjente.
 
 Kujdestaria e posaçme mbaron kur pushojnë shkaqet për të cilat është vendosur, me të njëjtën procedurë me të cilën ajo është vendosur. 
+
+Kujdestari i posaçëm caktohet nga gjykata mbi bazën e kërkesës së prindit, të kujdestarit, të afërmve të të miturit, të miturit që ka mbushur moshën katërmbëdhjetë vjeç dhe personave të interesuar.
+
+Mbarimi i kujdestarisë së posaçme bëhet me kërkesën e prindit, të kujdestarit, të afërmve të të miturit, të miturit që ka mbushur moshën katërmbëdhjetë vjeç dhe personave të interesuar.
+
