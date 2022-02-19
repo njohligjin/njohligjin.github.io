@@ -7,11 +7,17 @@ tag: martesa
 
 Bashkëshorti që me lidhjen e martesës ka ndryshuar mbiemrin e tij, pas zgjidhjes së saj, merr mbiemrin që ka pasur më parë. Gjykata, me kërkesën e bashkëshortit dhe kur është në interes të tij ose të fëmijëve, mund të lejojë që ai të mbajë mbiemrin që ka marrë me lidhjen e martesës. Në rast se banesa familjare është në pronësi të njërit bashkëshort dhe bashkëshorti tjetër nuk ka në pronësi një banesë tjetër të përshtatshme në vendbanimin e tyre, gjykata mund të lejojë përdorimin nga ish-bashkëshorti jopronar të banesës kur:
 
-* fëmijët i janë lënë për rritje dhe edukim këtij të fundit, derisa ata të arrijnë moshën madhore;
-* zgjidhja e martesës bëhet nga ish-bashkëshorti pronar për ndërprerje prej tij të jetesës së përbashkët. Në këtë rast e drejta e përdorimit të banesës është deri në 7 vjet, por në rast se ish-bashkëshorti jopronar rimartohet, e humbet këtë të drejtë;
-* kur ish-bashkëshorti jopronar ka instaluar në banesën e ish-bashkëshortit pronar një kabinet profesional me vlerë të madhe, lëvizja e të cilit do të kërkonte shpenzime të mëdha. Në këtë rast e drejta e përdorimit është deri në 3 vjet. Në këto raste gjykata përcakton afatin e përdorimit dhe masën e qirasë që detyrohet të paguajë ish-bashkëshorti jopronar në përputhje me të ardhurat e tij. Në çdo rast gjykata mund të zgjidhë kontratën e qirasë, në qoftë se kjo justifikohet nga rrethana të reja.
+•	fëmijët i janë lënë për rritje dhe edukim këtij të fundit, derisa ata të arrijnë moshën madhore;
 
+•	zgjidhja e martesës bëhet nga ish-bashkëshorti pronar për ndërprerje prej tij të jetesës së përbashkët. Në këtë rast e drejta e përdorimit të banesës është deri në 7 vjet, por në rast se ish-bashkëshorti jopronar rimartohet, e humbet këtë të drejtë;
+
+•	kur ish-bashkëshorti jopronar ka instaluar në banesën e ish-bashkëshortit pronar një kabinet profesional me vlerë të madhe, lëvizja e të cilit do të kërkonte shpenzime të mëdha. Në këtë rast e drejta e përdorimit është deri në 3 vjet. Në këto raste gjykata përcakton afatin e përdorimit dhe masën e qirasë që detyrohet të paguajë ish-bashkëshorti jopronar në përputhje me të ardhurat e tij. Në çdo rast gjykata mund të zgjidhë kontratën e qirasë, në qoftë se kjo justifikohet nga rrethana të reja.
 Zgjidhja e martesës nuk prek të drejtat dhe detyrimet që kanë prindërit ndaj fëmijëve të tyre, me përjashtim të rasteve të parashikuara në Kodin e Familjes.
+
+
+Gjykata mund të detyrojë njërin nga ish-bashkëshortët të derdhë për llogari të tjetrit një kontribut të destinuar për të kompensuar sa të jetë e mundur pabarazinë që mund të shkaktojë në jetën e tjetrit ndarja e pasurisë në zgjidhjen e martesës, përveç detyrimit për ushqim.
+
+
 
 ### Cilat janë pasojat e zgjidhjes së martesës për fëmijët?
 
