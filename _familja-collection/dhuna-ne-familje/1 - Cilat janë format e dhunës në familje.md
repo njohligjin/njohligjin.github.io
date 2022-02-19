@@ -3,6 +3,11 @@ title: "Cilat janë format e dhunës në familje?"
 tag: dhuna-ne-familje
 ---
 
+### Si mund të më mbrojë ligji nga dhuna në familje?
+
+Sipas ligjit kundër dhunës në familje, gjykatat mund të vendosin masa mbrojtëse për viktimat përmes një procedure të thjeshtë siç është lëshimi i urdhërave të mbrojtjes. Pala e interesuar mund t’i kërkojë gjykatës lëshimin e urdhrit të mbrojtjes, pa kërkuar paraprakisht nxjerrjen e urdhrit të menjëhershëm të mbrojtjes.
+Në rastin kur gjykata ka lëshuar një urdhër të menjëhershëm mbrojtjeje, pala e interesuar mund të kërkojë lëshimin e një urdhri mbrojtës përkatës qe shërben për të rikonfirmuar vazhdimësinë e urdhrit të menjëhershëm të mbrojtjes, si dhe siguron masat mbrojtëse të përcaktuara.
+
 ### Çfarë është dhuna në familje?
 
 Ligji e përcakton dhunën në familje në formën e çdo veprimi apo mosveprimi të një personi ndaj një personi tjetër, që është apo ka qenë në marrëdhënie familjare, e që sjell si pasojë cenim të integritetit fizik, moral, psikologjik, seksual, social, ekonomik.
