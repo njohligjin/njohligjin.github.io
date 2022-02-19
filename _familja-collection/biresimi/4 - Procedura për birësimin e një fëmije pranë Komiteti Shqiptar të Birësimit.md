@@ -27,9 +27,9 @@ Web: [http://kshb.gov.al/](http://kshb.gov.al/){:target="_blank_"}
 
 Adresa: Rruga “ Mine Peza” , Pallati 87/3, Shkalla 2,Tiranë.
 
-Tel/Fax: 0355226465/003557478
+Tel/Fax: +355 42 22 64 65 , +355 42 22 74 87
 
-E-mail: <genci.terpo@kshb.gov.al>
+E-mail: <info@kshb.gov.al>
 
 ### Çfarë dokumentesh duhet të paraqesë aplikanti birësues pranë “Komitetit Shqiptar të Birësimit”?
 
