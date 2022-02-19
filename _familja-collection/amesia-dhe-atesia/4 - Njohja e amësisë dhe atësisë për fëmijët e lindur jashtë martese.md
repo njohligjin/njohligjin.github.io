@@ -21,11 +21,20 @@ Nga njohja e amësisë ose e atësisë së një fëmije të lindur jashtë marte
 Njohja mund të kundërshtohet nga të gjithë personat që kanë një interes të ligjshëm dhe kanë dijeni se njohja e bërë është e pavërtetë. Kundërshtimin mund ta bëjë dhe personi që ka bërë njohjen, e ëma apo i ati, kur njohja është bërë në kushtet e mashtrimit ose të kanosjes. Të drejtën e kundërshtimit e ka dhe prokurori, në rast se, nga të dhënat që figurojnë në aktet e gjendjes civile, rezulton pavërtetësia e amësisë dhe e atësisë së deklaruar.
 
 ### Kush ka të drejtë të kundërshtojë njohjen e amësisë?
+
 Njohja e amësisë mund të kundërshtohet në gjykatë;
 •	nga gruaja që kërkon të njihet si nënë;
 •	nga fëmija kur bëhet madhor;
 •	nga prokurori.
 
 E drejta e padisë nuk u kalon trashëgimtarëve, por gjykimi i filluar më parë mund të vazhdojë nga trashëgimtarët e paditësit.Kjo padi mund të ngrihet edhe kundër trashëgimtarëve të nënës që ka njohur fëmijën.E drejta e padisë për kundërshtimin e amësisë nuk parashkruhet.
+
+### Kush mund ta kundershtoje njohjen e atesise dhe si?
+
+•Fëmija, kur bëhet madhor, mund të kundërshtojë që të jetë i ati i tij burri që e ka njohur në çdo kohe.  Padia për kundërshtimin e atësisë mund të ngrihet edhe kundër trashëgimtarëve të burrit që ka bërë njohjen.
+
+•	Burri që e quan veten si i ati i fëmijës së lindur jashtë martese, mund të kundërshtojë që një burrë tjetër, i cili e ka njohur fëmijën, të jetë i ati i tij. Padia duhet te ngrihet pa kaluar 1 vit nga regjistrimi i atësisë në regjistrin e gjendjes civile. Kjo padi mund të ngrihet edhe kundër trashëgimtarëve të burrit që ka njohur fëmijën si të tij.  
+ 
+	
 
 
