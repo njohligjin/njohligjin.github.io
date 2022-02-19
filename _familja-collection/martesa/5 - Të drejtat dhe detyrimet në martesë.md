@@ -5,6 +5,13 @@ tag: martesa
 
 ### Cilat janë të drejtat dhe detyrimet që lindin nga martesa?
 
+* Marrja e masave  kundër dhunës
+ Bashkëshorti ndaj të cilit ushtrohet dhunë, ka të drejtë t’i drejtohet gjykatës me kërkesë për vendosjen si masë urgjente largimin e bashkëshortit, që ushtron dhunë, nga banesa bashkëshortore.
+ 
+* Kryerja e veprimeve juridike pa pëlqimin e bashkëshortit tjetër
+Secili nga bashkëshortët mund të kryejë vetë, pa pëlqimin e bashkëshortit tjetër, veprimet juridike që kanë të bëjnë me mbajtjen e familjes ose me edukimin e fëmijëve. Për detyrimet e marra përsipër nga njëri bashkëshort, detyrohet solidarisht edhe bashkëshorti tjetër. Në qoftë se njëri nga bashkëshortët nuk është në gjendje të shprehë vullnetin e tij, bashkëshorti tjetër mund ta përfaqësojë në të gjitha veprimet juridike ose në veprime juridike të caktuara që lidhen me regjimin pasuror martesor. Bashkëshortët nuk mund të disponojnë banesën bashkëshortore dhe pajisjet e saj pa pëlqimin e tjetrit, cilido qoftë regjimi pasuror martesor. Secili nga bashkëshortët ka të drejtën e administrimit dhe të tjetërsimit lirisht të sendeve të tij vetjake, pa qenë nevoja e pëlqimit të bashkëshortit tjetër. Në qoftë se njëri nga bashkëshortët nuk plotëson në mënyrë të dukshme detyrimet e tij dhe vë në rrezik interesat e familjes, gjykata, me kërkesën e bashkëshortit tjetër, mund të përcaktojë të gjitha masat urgjente që lidhen me ta.
+
+
 * Ruajtja e besnikërisë bashkëshortore
 
   Ruajta e besnikërisë bashkëshortore është detyrim i ndërsjellë i cilitdo bashkëshort. Ky detyrim i ndërsjellë i bashkëshortëve për ruajtjen e besnikërisë nis që nga çasti i lidhjes së martesës dhe është i vlefshëm gjatë gjithë kohëzgjatjes së martesës, deri në mbarimin ose shpalljen e pavlefshmërisë së saj. Legjislacioni ynë, në rast shkelje të besnikërisë bashkëshortore nga njëri bashkëshort, i jep të drejtën të ngrejë padi për zgjidhjen e martesës, vetëm bashkëshortit tjetër.
@@ -12,6 +19,8 @@ tag: martesa
 * Ndihma e ndërsjellë mes bashkëshorteve
 
   Ndihma morale (dhe materiale) përbëhet nga një tërësi detyrimesh dhe është një tipar themelor i familjes. Nga martesa lind detyrimi për ndihmë morale dhe materiale, për bashkëpunim në interes të familjes dhe të bashkëjetesës. Ndihma e ndërsjellë midis çiftit bashkëshortor përfshin përkujdesjen në rast sëmundje, gjate çdo periudhe të paaftësisë së përkohshme ose në rast invaliditeti, gjatë kohës kur bashkëshortja është shtatzënë ose është me leje pas lindjes së fëmijës, përkujdesjen e përbashkët për edukimin dhe rritjen e fëmijëve, pjesëmarrjen në kryerjen e punëve të shtëpisë, etj. Mospërmbushja e shpeshtë e ndonjërit prej detyrimeve të mësipërme mund të përbëjë shkak për zgjidhjen e martesës.
+E drejta për ndihmë morale dhe materiale ndërpritet kundrejt bashkëshortit, që është larguar pa shkak nga vendbanimi familjar dhe refuzon të kthehet. Në rast të mospërmbushjes së detyrimeve që rrjedhin nga martesa, gjykata, sipas rrethanave, mund të urdhërojë sekuestrimin e të mirave të bashkëshortit të larguar, në masën e duhur.
+
 
 * Kujdesi i përbashkët për fëmijët
 
