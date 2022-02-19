@@ -1,0 +1,67 @@
+---
+layout: default
+title: Procesi Gjyqesor Adminstrativ
+image: cover2.png
+category: procesi-gjyqesor-administrativ
+permalink: /procesi-gjyqesor-administrativ/
+---
+<main id="content" class="content container procesi-gjyqesor-administrativ" role="main" style="margin-bottom: 200px;">
+  <!-- {% for post in site.categories.procesi-gjyqesor-administrativ %}
+        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %} -->
+  <h2 class="kat-title"><i class="fa fa-building"></i> {{page.title}}</h2>
+  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 kategori-container" >
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+  Gjykata
+      </div>
+      <div class="kategori-details">
+        <ul>
+          <li><a href="/procesi-gjyqesor-administrativ/gjykata">Gjykata</a></li>
+          {% for file in site.procesi-gjyqesor-administrativ-collection %}
+          {% if file.tag == "gjykata" %}
+          {% assign counter=counter | plus:1 %}
+            <li><a href="/procesi-gjyqesor-administrativ/gjykata#{{counter}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 kategori-container" >
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+       Palët në proces
+      </div>
+      <div class="kategori-details">
+        <ul>
+          <li><a href="/procesi-gjyqesor-administrativ/pales-ne-proces/">Palët në proces</a></li>
+          {% for file in site.procesi-gjyqesor-administrativ-collection %}
+          {% if file.tag == "pales-ne-proces" %}
+          {% assign counter1=counter1 | plus:1 %}
+            <li><a href="/procesi-gjyqesor-administrativ/pales-ne-proces/"#{{counter1}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 kategori-container" >
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+       Ankimi Administrativ
+      </div>
+      <div class="kategori-details">
+        <ul>
+          <li><a href="/procesi-gjyqesor-administrativ/ankimi-administrativ/">Ankimi Administrativ</a></li>
+          {% for file in site.procesi-gjyqesor-administrativ-collection %}
+          {% if file.tag == "ankimi-administrativ" %}
+          {% assign counter1=counter1 | plus:1 %}
+            <li><a href="/procesi-gjyqesor-administrativ/ankimi-administrativ/"#{{counter1}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+              </div></div>
+</main>
