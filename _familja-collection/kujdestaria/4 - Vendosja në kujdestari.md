@@ -37,3 +37,6 @@ Në regjistrin e kujdestarisë, që ndodhet pranë gjykatës, regjistrohen vendo
 ### Si veprohet me të miturit të cilët nuk kanë të afërm të njohur ose të aftë për të ushtruar detyrën e kujdestarit?
 
 Të miturit të cilët nuk kanë të afërm të njohur ose të aftë për të ushtruar detyrën e kujdestarit, gjykata mund t’i dërgojë në një institucion publik ose privat të licencuar për përkujdesjen e fëmijëve.
+
+Drejtuesi i institucionit i delegon njërit prej punonjësve të tij të drejtën e ushtrimit të funksioneve të  kujdestarit dhe me pas i dergon gjykatës aktin përkatës, i cili depozitohet në dosjen gjyqësore dhe pasqyrohet në regjistrin e kujdestarisë.
+
