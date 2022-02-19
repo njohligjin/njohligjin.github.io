@@ -9,17 +9,26 @@ Në cilat forma jepet Ndihma Juridike?
 
 Ndihma juridike jepet në format e mëposhtme: 
 a) ndihmë juridike parësore; 
+
 b) ndihmë juridike dytësore; 
+
 c) përjashtim nga pagimi i tarifave gjyqësore dhe shpenzimeve gjyqësore dhe përjashtim nga detyrimi për të parapaguar tarifën e vënies në ekzekutim të urdhrit të ekzekutimit.
+
 
 Mbi cila parime jepet Ndihma Juridike Falas?
 
 ### Dhënia e ndihmës juridike bazohet në parimet e mëposhtme: 
 
 a) aksesit të barabartë të individëve në ndihmën juridike; 
+
 b) barazisë dhe mosdiskriminimit të individëve që gëzojnë të drejtën për ndihmë juridike; 
+
 c) profesionalizmit në dhënien e shërbimit të ndihmës juridike; 
+
 ç) cilësisë, efiçencës dhe efikasitetit në kosto për shërbimet e ofruara të ndihmës juridike; 
+
 d) ruajtjes së konfidencialitetit; 
+
 dh) shmangies dhe parandalimit të konfliktit të interesit; 
+
 e) mbrojtjes së të drejtave të personave vulnerabël.
