@@ -10,6 +10,8 @@ Marrëdhënia pasurore midis bashkëshortëve rregullohet me ligj në formën e 
 ### Kontrata martesore
 
 Kontrata martesore bëhet me akt noterial përpara lidhjes së martesës, në prani dhe me pëlqimin e njëkohshëm të dy bashkëshortëve të ardhshëm në mënyrë që të përjashtohen nga bashkësia ligjore në momentin e lidhjes së martesës. Në qoftë se në aktin e martesës tregohet se bashkëshortët nuk kanë lidhur kontratë, ata do të konsiderohen kundrejt të tretëve si të martuar nën regjimin pasuror martesor të bashkësisë ligjore, që parashikon Kodi i Familjes.
+Bashkëshortët, për detyrimet e tyre para martesës, përgjigjen mbi pasurinë në bashkësi deri në kufirin e vlerës së pasurisë së tyre, e cila, në bazë të kontratës së lidhur, sipas Kodit te Familjes, është pjesë përbërëse e bashkësisë. Bashkëshortët, në kontratën e martesës, mund të bien dakord të caktojnë pjesë jo të barabarta për pasurinë në bashkësi dhe në kete rast ata ose trashëgimtarët e tyre i përballojnë detyrimet në raport me pasurinë që kanë në bashkësi ose që kanë përfituar nga bashkësia. Kur bashkëshortët kanë përcaktuar në kontratën e martesës regjimin e pasurive të ndara, secili prej tyre ruan të drejtën e administrimit, përdorimit dhe disponimit të lirë mbi pasurinë e tij.
+
 
 ### Bashkësia ligjore
 
