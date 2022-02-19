@@ -13,3 +13,12 @@ Ligji mbron një person mbi të cilin është ushtruar dhunë, e cila ndodh midi
 * prindërit dhe fëmijët e birësuar të bashkëshortëve ose partnerëve bashkëjetues;
 * vëllezërit dhe motrat e bashkëshortëve nëse këta kanë jetuar bashkë gjatë 3 muajve të fundit;
 * fëmijët e bashkëshortëve ose partnerëve bashkëjetues.
+
+
+Ligji për dhunën në familje mbron:
+
+*	Shtetasit Shqiptarë me vendbanim ose vendqëndrim në territorin e Shqipërisë
+* Shtetasit e huaj që kanë kërkuar mbrojtje ndërkombëtare
+* Personat pa shtetësi që kanë kërkuar mbrojtje ndërkombëtare
+* Të huajt me qëndrim të rregullt për motive të ndryshme.
+
