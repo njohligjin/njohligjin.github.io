@@ -9,3 +9,9 @@ tag: biresimi
 * Nuk lejohet birësimi i të miturit nga kujdestari i tij, pa u parë më parë nga gjykata administrimi i pasurisë së të miturit.
 
 I mituri nuk mund të birësohet nga shumë persona, përveç rastit kur ata janë bashkëshortë. 
+
+Birësimi ndërvendas nuk lejohet kur: 
+•	birësimi nuk njihet në shtetin ku banojnë birësuesit; 
+•	birësimi është me pasoja të rënda për të miturin; 
+•	i mituri, në shtetin ku banojnë birësuesit, nuk gëzon të njëjtat të drejta që njihen në Shqipëri.
+
