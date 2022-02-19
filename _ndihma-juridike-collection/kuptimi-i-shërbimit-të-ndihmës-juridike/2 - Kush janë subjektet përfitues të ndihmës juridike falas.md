@@ -1,7 +1,6 @@
 ---
 title: "Kush janë subjektet përfitues të ndihmës juridike falas?"
 tag: kuptimi-i-shërbimit-të-ndihmës-juridike
-
 ---
 Subjektet që përfitojnë ndihmë juridike falas janë: 
 •	individët që kanë të ardhura dhe pasuri të pamjaftueshme, dhe 
