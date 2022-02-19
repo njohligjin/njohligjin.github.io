@@ -39,12 +39,8 @@ collections:
     output: true
   mbrojtja-collection:
     output: true
-  zam-collection:
-   output: true
-  procesi-collection:
-   output: true
   procesi-gjyqesor-administrativ:
-   output: true
+    output: true
  
   
       
