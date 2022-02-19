@@ -299,13 +299,13 @@ image: cover2.png
     <div class="kategori-ligjore">
       <div class="kategori-ligjore-titull">
         <i class="fa fa-book"></i><br>
-       Ndërmjetësimi
+       Procesi Gjyqesor Administrativ
       </div>
       <div class="kategori-details">
-        <a href="/zam/" class="kat-link"></a>
+        <a href="/procesi-gjyqesor-administrativ/" class="kat-link"></a>
         <ul>
-          <li><a href="/zam/">Ndërmjetësimi</a></li>
-          {% assign posts = site.zam-collection | where: "role","main" | sort: "order" %}
+          <li><a href="/procesi-gjyqesor-administrativ/"> Procesi Gjyqesor Administrativ</a></li>
+          {% assign posts = site.procesi-gjyqesor-administrativ-collection | where: "role","main" | sort: "order" %}
           {% for file in posts | sort: order %}
           <li><a href="{{ BASE_PATH }}{{ file.permalink }}">{{ file.title }}</a></li>
           {% endfor %}
@@ -313,42 +313,7 @@ image: cover2.png
       </div>
     </div>
     </div>
-    <div class="col-lg-2 col-md-6 col-sm-4 col-xs-12 kategori-container">
-    <div class="kategori-ligjore">
-      <div class="kategori-ligjore-titull">
-        <i class="fa fa-book"></i><br>
-    Procesi Legjislativ
-      </div>
-      <div class="kategori-details">
-        <a href="/procesi/" class="kat-link"></a>
-        <ul>
-          <li><a href="/procesi/">Procesi Legjislativ</a></li>
-          {% assign posts = site.procesi-collection | where: "role","main" | sort: "order" %}
-          {% for file in posts | sort: order %}
-          <li><a href="{{ BASE_PATH }}{{ file.permalink }}">{{ file.title }}</a></li>
-          {% endfor %}
-        </ul>
-      </div>
-    </div>
-    </div>
-   <div class="col-lg-2 col-md-6 col-sm-4 col-xs-12 kategori-container">
-    <div class="kategori-ligjore">
-      <div class="kategori-ligjore-titull">
-        <i class="fa fa-book"></i><br>
-    Proceset Gjyqesore
-      </div>
-      <div class="kategori-details">
-        <a href="/proceset-gjyqesore/" class="kat-link"></a>
-        <ul>
-          <li><a href="/proceset-gjyqesore/"> Proceset Gjyqesore</a></li>
-          {% assign posts = site.proceset-gjyqesore-collection | where: "role","main" | sort: "order" %}
-          {% for file in posts | sort: order %}
-          <li><a href="{{ BASE_PATH }}{{ file.permalink }}">{{ file.title }}</a></li>
-          {% endfor %}
-        </ul>
-      </div>
-    </div>
-    </div>
+    
   </div>
 </main>
 <div class="clearfix"></div>
