@@ -18,7 +18,7 @@ Ankuesi nuk ngarkohet me ndonjë tarifë per shqyrtimin e ankesës.
 Komisioneri jep vendim brenda 90 ditëve nga dita e marrjes së ankesës ose nëse është zhvilluar seancë dëgjimore publike, brenda 90 ditëve nga dita e seancës.
      
 
- ### Kur i drejtohemi  gjykatës:
+### Kur i drejtohemi  gjykatës:
 Çdo person ose grup personash që pretendojnë se janë diskriminuar mund të paraqesin kërkesëpadi përpara gjykatës kompetente për dëmshpërblim sipas ligjit ose mund të kryejnë kallëzim përpara organeve kompetente për ndjekje penale. Gjithashtu mund të paraqesin kërkesëpadi një organizatë me interes të ligjshëm ose komisioneri në emër të një personi ose grup personash, me kusht që të jenë pajisur me prokurë të posaçme  ose me deklarim përpara gjykatës të personave të dëmtuar.
 
 Padia duhet të paraqitet para gjykatës kompetente jo më vonë se 5 vjet nga dita që ka ndodhur sjellja diskriminuese e pretenduar dhe jo më vonë se 3 vjet nga dita që i dëmtuari merr dijeni për këtë sjellje. 
