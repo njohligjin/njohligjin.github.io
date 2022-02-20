@@ -1,5 +1,5 @@
 ---
-title: "Sigurimi vullnetar"
+title: "Sigurimi vullnetar dhe suplementar"
 tag: sigurimi-shoqeror-i-detyrueshem
 ---
 
@@ -23,4 +23,12 @@ Sigurimi vullnetarë përfshin një numër të kuzifuar skemash për:
 •	Pension 
 •	Barrëlindje
 •	Sigurime shëndetësore
+
+### Çfarë është sigurimi shoqëror suplementar?
+
+Sigurimi shoqëror suplementar është një lloj i vecantë sigurimi i cili u jepet disa personave me karakteristika të veçanta si:
+•	Personat që ushtrojnë funksione ose detyra të veçanta kushtetuese dhe personat me tituj shkencorë; 
+
+•	Punonjësit e shtetit, ushtarakët që shërbejnë në strukturat e Forcave të Armatosura, punonjësit e Policisë së Shtetit, të Gardës së Republikës, të Shërbimit Informativ të Shtetit, të Policisë së Burgjeve, të Policisë së Mbrojtjes nga Zjarri dhe të Shpëtimit, punonjësit e Shërbimit për Ankesat dhe Çështjet e Brendshme. 
+
 
