@@ -14,15 +14,67 @@ permalink: /procesi-penal/
   <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 kategori-container" id="ref">
     <div class="kategori-ligjore">
       <div class="kategori-ligjore-titull">
-        Procesi Penal
+        Provat
       </div>
       <div class="kategori-details">
         <ul>
-          <li><a href="/procesi-penal/procesi-penal/">Procesi Penal</a></li>
+          <li><a href="/procesi-penal/provat/">Provat</a></li>
           {% for file in site.procesi-penal-collection %}
-          {% if file.tag == "procesi-penal" %}
+          {% if file.tag == "provat" %}
           {% assign counter=counter | plus:1 %}
-            <li><a href="/procesi-penal/procesi-penal#{{counter}}">{{file.title}}</a></li>
+            <li><a href="/procesi-penal/provat#{{counter}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 kategori-container" id="ref">
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+        Gjykata
+      </div>
+      <div class="kategori-details">
+        <ul>
+          <li><a href="/procesi-penal/gjykata/">Gjykata</a></li>
+          {% for file in site.procesi-penal-collection %}
+          {% if file.tag == "gjykata" %}
+          {% assign counter=counter | plus:1 %}
+            <li><a href="/procesi-penal/gjykata#{{counter}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 kategori-container" id="ref">
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+       Ankimi
+      </div>
+      <div class="kategori-details">
+        <ul>
+          <li><a href="/procesi-penal/ankimi/">Ankimi</a></li>
+          {% for file in site.procesi-penal-collection %}
+          {% if file.tag == "ankimi" %}
+          {% assign counter=counter | plus:1 %}
+            <li><a href="/procesi-penal/ankimi#{{counter}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 kategori-container" id="ref">
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+       Ekstradimi
+      </div>
+      <div class="kategori-details">
+        <ul>
+          <li><a href="/procesi-penal/ekstradimi/">Ekstradimi</a></li>
+          {% for file in site.procesi-penal-collection %}
+          {% if file.tag == "ekstradimi" %}
+          {% assign counter=counter | plus:1 %}
+            <li><a href="/procesi-penal/ekstradimi#{{counter}}">{{file.title}}</a></li>
           {% endif %}
           {% endfor %}
         </ul>
