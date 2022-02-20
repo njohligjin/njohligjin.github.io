@@ -7,7 +7,7 @@ Prokurori, i pandehuri dhe paditësi dhe i padituri civil kanë të drejtë të 
 gjykatës së shkallës së parë.
 
 
-•	Çfarë mund të vendosë gjykata e apelit?
+### Çfarë mund të vendosë gjykata e apelit?
 
 Gjykata e apelit, pasi shqyrton çështjen, vendos:
 
