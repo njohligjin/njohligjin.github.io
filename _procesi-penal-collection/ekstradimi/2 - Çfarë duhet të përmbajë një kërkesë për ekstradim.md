@@ -3,7 +3,6 @@ title: "Çfarë duhet të përmbajë një kërkesë për ekstradim?"
 tag: ekstradimi
 ---
 ### Çfarë duhet të përmbajë një kërkesë për ekstradim?
-
 Ekstradimi lejohet vetëm mbi bazën e një kërkese drejtuar Ministrisë së Drejtësisë.
 Kërkesës për ekstradim i bashkëngjiten:
 a) kopja e vendimit të dënimit me burgim ose e aktit të procedimit;
@@ -30,4 +29,3 @@ ndryshe);
 ë) kur është parashkruar ndjekja penale ose dënimi sipas ligjit të shtetit të kërkuar;
 f) kur personi i kërkuar është dënuar në mungesë, me përjashtim të rastit kur shteti kërkues jep
 garanci për rishikimin e vendimit.
-
