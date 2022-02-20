@@ -4,7 +4,6 @@ tag: ankimi
 ---
 
 ### Mjetet për t’u ankuar ndaj vendimeve të gjykatës janë:
-
 1.Ankimi në Gjykatën e Apelit, kundër vendimeve përfundimtare të gjykatës së shkallës së parë, brenda 15 ditëve
 2.Rekursi në Gjykatën e Lartë, kundër vendimeve të gjykatës së apelit ose të gjykatës së shkallës së parë, brenda 45 ditëve.
 3.Rishikimi në Gjykatën e Lartë, kundër një vendimi të formës së prerë, që mund të përdoret si mjet në çdo kohë, mjafton të jenë përmbushur kriteret ligjore për ushtrimin e tij.
