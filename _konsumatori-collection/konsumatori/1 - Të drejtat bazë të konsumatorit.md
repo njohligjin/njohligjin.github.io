@@ -5,7 +5,7 @@ tag: konsumatori
 
 ### Kush do të konsiderohet “konsumator”?
 
-“Konsumator” quhet çdo individ, i cili blen ose përdor mallra apo shërbime për plotësimin e nevojave vetjake. Mallrat apo shërbimet nuk duhet të kenë lidhje me veprimtarinë tregtare ose ushtrimin e profesionit nga individi.
+“Konsumator” quhet çdo individ, i cili blen ose përdor mallra apo shërbime për plotësimin e nevojave vetjake. Mallrat apo shërbimet nuk duhet të kenë lidhje me veprimtarinë tregtare ose ushtrimin e profesionit nga individi. Edhe organizatat jofitimprurëse konsiderohen si konsumatorë.
 
 ### Cilat janë të drejtat bazë të konsumatorëve?
 
