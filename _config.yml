@@ -43,6 +43,8 @@ collections:
     output: true
   procesi-penal-collection:
     output: true
+  procesi-civil-collection:
+    output: true
  
   
    
