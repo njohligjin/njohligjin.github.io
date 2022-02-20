@@ -1,6 +1,6 @@
 ---
 title: "Cfarë vendimi mund të marrë gjykata në fund të proçesit gjyqësor penal?"
-tag: procesi-penal
+tag: gjykata
 ---
 
 Gjykata mund të marrë 3 lloje vendimesh në fund të procesit; a) vendimi i pushimit të çështjes b) vendimi i pafajësisë c) vendimi i dënimit të të pandehurit.
