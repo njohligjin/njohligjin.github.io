@@ -1,6 +1,6 @@
 ---
 title: "Cilat janë palët në një proces gjyqësor administrativ?"
-tag: gjykata
+tag: palet-ne-proces
 ---
 Palë në procedurën administrative, është çdo person: 
 •	me kërkesë të të cilit ka filluar procedura administrative; 
