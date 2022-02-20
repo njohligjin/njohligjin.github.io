@@ -5,6 +5,7 @@ tag: tregtari
 
 ### Cilat janë disa nga detyrimet e tregtarëve për ofrimin e mallrave dhe shërbimeve?
 
+*	Te japin të dhëna të plota dhe të sakta për mallrat dhe shërbimet e vendosura në treg ose të parashikuara për t’u vendosur në treg.
 * Të vendosin në treg vetëm mallra të sigurta, të cilat plotësojnë kërkesat e përcaktuara nga legjislacioni në fuqi për mallrat ushqimore dhe joushqimore. I njëjti detyrim ekziston edhe për ofrimin e shërbimeve.
 * Çmimi i shitjes së mallrave ose shërbimeve të ofruara duhet të jetë i qartë, lehtësisht i dallueshëm dhe i lexueshëm. Ai duhet të shprehet vetëm në lekë.
 * Në mallrat për shitje, duhet të jenë të shënuara në gjuhën shqipe, dukshëm dhe kuptueshëm: emërtimi i mallit, adresa e fabrikuesit dhe/ose importuesit, marka ose çdo shenjë tjetër dalluese e fabrikuesit, importuesit ose furnizuesit, pesha, sasia, përmasat ose dimensionet, jetëgjatësia minimale ose data e skadimit, nëse ka, si dhe çdo informacion tjetër që, në vartësi të natyrës së mallit, është i domosdoshëm për identifikimin ose përdorimin e tij.
