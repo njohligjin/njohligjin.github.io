@@ -37,13 +37,15 @@ collections:
     output: true
   diskriminimi-collection:
     output: true
-  mbrojtja-collection:
+  mbrojtja-collection-collection:
     output: true
-  procesi-administrativ:
+  procesi-administrativ-collection:
     output: true
  
   
-      
+   
+   
+   
 encoding: UTF-8
 social:
 title: Njoh ligjin
