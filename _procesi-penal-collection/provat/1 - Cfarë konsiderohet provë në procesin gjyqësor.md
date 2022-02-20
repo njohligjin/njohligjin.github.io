@@ -1,5 +1,5 @@
 ---
-title: "Cfarë konsiderohet provë në procesin gjyqësor?"
+title: "Cfarë konsiderohet provë në procesin gjyqësor"
 tag: provat
 ---
 
