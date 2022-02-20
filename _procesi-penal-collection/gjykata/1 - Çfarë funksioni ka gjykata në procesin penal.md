@@ -2,6 +2,7 @@
 title: "Çfarë funksioni ka gjykata në procesin penal?"
 tag: procesi-penal
 ---
+
 Gjykata është organi që realizon dhënien e drejtësisë. Askush nuk mund të deklarohet fajtor dhe të dënohet për kryerjen e një vepre penale pa vendim të gjykatës. Gjykatat që japin vendime për çështjet penale janë: 
 
 a) gjykatat penale të shkallës së parë; 
