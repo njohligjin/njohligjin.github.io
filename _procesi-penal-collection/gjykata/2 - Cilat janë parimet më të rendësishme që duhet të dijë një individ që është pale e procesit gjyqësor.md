@@ -1,6 +1,6 @@
 ---
 title: "Cilat janë parimet më të rendësishme që duhet të dijë një individ që është pale e procesit gjyqësor?"
-tag: procesi-penal
+tag: gjykata
 ---
 
 Parimi i prezumimit të pafajësisë që tregon se i pandehuri prezumohet i pafajshëm gjersa nuk vërtetohet fajësia e tij me vendim gjyqësor të formës së prerë. Gjithashtu gjykata jep vendim fajësie kur i pandehuri rezulton fajtor për faktin penal që i atribuohet përtej çdo dyshimi të arsyeshëm.
