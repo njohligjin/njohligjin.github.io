@@ -28,5 +28,41 @@ permalink: /procesi-administrativ/
       </div>
     </div>
   </div>
+    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 kategori-container">
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+       Palet ne proces
+      </div>
+      <div class="kategori-details">
+        <ul>
+          <li><a href="/procesi-administrativ/palet-ne-proces">Palet ne proces</a></li>
+          {% for file in site.procesi-administrativ-collection %}
+          {% if file.tag == "palet-ne-proces" %}
+          {% assign counter=counter | plus:1 %}
+            <li><a href="/procesi-administrativ/palet-ne-proces#{{counter}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 kategori-container">
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+       Ankimi Administrativ
+      </div>
+      <div class="kategori-details">
+        <ul>
+          <li><a href="/procesi-administrativ/ankimi-administrativ">Ankimi Administrativ</a></li>
+          {% for file in site.procesi-administrativ-collection %}
+          {% if file.tag == "ankimi-administrativ" %}
+          {% assign counter=counter | plus:1 %}
+            <li><a href="/procesi-administrativ/ankimi-administrativ#{{counter}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
   </div> 
 </main>
