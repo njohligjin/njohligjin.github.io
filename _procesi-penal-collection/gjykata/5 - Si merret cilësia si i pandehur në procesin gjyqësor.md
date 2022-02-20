@@ -1,6 +1,6 @@
 ---
 title: "Si merret cilësia si i pandehur në procesin gjyqësor?"
-tag: procesi-penal
+tag: gjykata
 ---
 
 Cilësinë e të pandehurit e merr personi të cilit i atribuohet (referohet) vepra penale në aktin e njoftimit të akuzës. Cilësia e të pandehurit ruhet në çdo gjendje dhe shkallë të procesit derisa të ketë marrë formë të prerë vendimi i pushimit, i pafajësisë ose i dënimit. Cilësia e të pandehurit rimerret kur prishet vendimi i pushimit ose kur vendoset rishqyrtimi i procesit.
