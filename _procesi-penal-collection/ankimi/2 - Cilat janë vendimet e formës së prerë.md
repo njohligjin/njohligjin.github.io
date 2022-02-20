@@ -1,5 +1,5 @@
 ---
-title: "Cilat janë vendimet e formës së prerë?"
+title: "Cilat janë vendimet e formës së prerë"
 tag: ankimi
 ---
 
