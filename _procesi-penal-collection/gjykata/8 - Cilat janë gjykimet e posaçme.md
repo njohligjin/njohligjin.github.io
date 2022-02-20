@@ -1,6 +1,6 @@
 ---
 title: "Cilat janë gjykimet e posaçme?"
-tag: procesi-penal
+tag: gjykata
 ---
 
 Gjykimet që bazohen mbi rregulla të veçanta dhe të ndryshme nga procesi i zakonshëm gjyqësor janë;
