@@ -41,6 +41,8 @@ collections:
     output: true
   procesi-administrativ-collection:
     output: true
+  procesi-penal-collection:
+    output: true
  
   
    
