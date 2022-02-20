@@ -311,6 +311,24 @@ image: cover2.png
         </ul>
       </div>
     </div>
+  </div>
+   </div><div class="col-lg-2 col-md-6 col-sm-4 col-xs-12 kategori-container">
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+        <i class="fa fa-book"></i><br>
+       Procesi Gjyqesor Penal
+      </div>
+      <div class="kategori-details">
+        <a href="/procesi-penal/" class="kat-link"></a>
+        <ul>
+          <li><a href="/procesi-penal/">Procesi Gjyqesor Penal</a></li>
+          {% assign posts = site.procesi-penal-collection | where: "role","main" | sort: "order" %}
+          {% for file in posts | sort: order %}
+          <li><a href="{{ BASE_PATH }}{{ file.permalink }}">{{ file.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
   </div></div>
 </main>
 <div class="clearfix"></div>
