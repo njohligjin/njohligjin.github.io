@@ -1,0 +1,33 @@
+---
+layout: default
+title: Procesi Gjyqesor Administrativ
+image: ankimi.png
+category: procesi-administrativ
+permalink: /procesi-administrativ/
+---
+<main id="content" class="content container procesi-administrativ" role="main" style="margin-bottom: 200px;">
+  <!-- {% for post in site.categories.procesi-administrativ %}
+        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %} -->
+
+  <h2 class="kat-title"><i class="fa fa-university"></i> {{page.title}}</h2>
+  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 kategori-container" id="ref">
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
+        Procesi Administrativ
+      </div>
+      <div class="kategori-details">
+        <ul>
+          <li><a href="/procesi-administrativ/procesi-administrativ/">Procesi Administrativ</a></li>
+          {% for file in site.procesi-administrativ-collection %}
+          {% if file.tag == "procesi-administrativ" %}
+          {% assign counter=counter | plus:1 %}
+            <li><a href="/procesi-administrativ/procesi-administrativ#{{counter}}">{{file.title}}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div></div>
+
+</main>
