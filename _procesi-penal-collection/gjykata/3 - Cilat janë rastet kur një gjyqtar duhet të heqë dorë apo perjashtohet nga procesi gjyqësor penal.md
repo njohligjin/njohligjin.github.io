@@ -1,6 +1,6 @@
 ---
 title: "Cilat janë rastet kur një gjyqtar duhet të heqë dorë apo perjashtohet nga procesi gjyqësor penal?"
-tag: procesi-penal
+tag: gjykata
 ---
 
 ### Cilat janë rastet kur një gjyqtar duhet të heqë dorë nga procesi gjyqësor penal?
