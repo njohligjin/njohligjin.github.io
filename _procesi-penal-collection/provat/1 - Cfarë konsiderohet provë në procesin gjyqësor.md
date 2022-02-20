@@ -1,6 +1,6 @@
 ---
 title: "Cfarë konsiderohet provë në procesin gjyqësor?"
-tag: ankimi
+tag: provat
 ---
 
 Prova janë njoftimet mbi faktet e rrethanat që lidhen me veprën penale, që merren prej burimeve të parashikuara në ligjin penal, në përputhje me rregullat e caktuara prej tij dhe që shërbejnë për të vërtetuar kryerjen ose jo të veprës penale, pasojat e ardhura prej saj, fajësinë ose pafajësinë e të pandehurit dhe shkallën e përgjegjësisë së tij.
