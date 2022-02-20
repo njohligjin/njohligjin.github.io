@@ -1,6 +1,6 @@
 ---
 title: "Nga kush paguhen shpenzimet gjyqësore për gjyqin?"
-tag: procesi-penal
+tag: gjykata
 ---
 
 
