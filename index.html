@@ -104,7 +104,7 @@ image: cover2.png
       <div class="kategori-details">
         <a href="/informimi-publik/" class="kat-link"></a>
         <ul>
-          <li><a href="/informimi-publik/">Informimi dhe kosnultimi publik</a></li>
+          <li><a href="/informimi-publik/">Informimi dhe konsultimi publik</a></li>
           {% assign posts = site.informimi-publik-collection | where: "role","main" | sort: "order" %}
           {% for file in posts | sort: order %}
             <li><a href="{{ BASE_PATH }}{{ file.permalink }}">{{ file.title }}</a></li>
