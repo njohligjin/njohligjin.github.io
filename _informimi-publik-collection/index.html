@@ -54,7 +54,7 @@ permalink: /informimi-publik/
           <li><a href="/informimi-publik/konsultimi-publik/">Konsultimi Publik </li>
             {% for file in site.informimi-publik-collection %}
             {% if file.tag == "konsultimi-publik" %}
-            {% assign counter1=counter1 | plus:1 %}
+            {% assign counter2=counter2 | plus:1 %}
               <li><a href="/informimi-publik/konsultimi-publik#{{counter1}}">{{file.title}}</a></li>
             {% endif %}
             {% endfor %}
