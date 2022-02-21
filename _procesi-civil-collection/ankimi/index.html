@@ -2,15 +2,15 @@
 title: "Ankimi"
 role: main
 layout: post
-category: procesi-gjyqesor-civil
-image: procesi-gjyqesor-civil.png
+category: procesi-civil
+image: procesi-civil.png
 lang: sq
-permalink: /procesi-gjyqesor-civil/ankimi/
+permalink: /procesi-civil/ankimi/
 order: 3
 ---
 <div class="col-md-3">
   <ul class="nav nav-tabs custom-nav-tabs" role="tablist">
-    {% for file in site.procesi-gjyqesor-civil-collection %}
+    {% for file in site.procesi-civil-collection %}
     {% if file.tag == "ankimi" %}
     {% assign counter=counter | plus:1 %}
     <li role="presentation">
@@ -21,7 +21,7 @@ order: 3
   </ul>
 </div>
 <div class="tab-content col-md-9">
-  {% for file in site.procesi-gjyqesor-civil-collection %}
+  {% for file in site.procesi-civil-collection %}
   {% if file.tag == "ankimi" %}
   {% assign counter1=counter1 | plus:1 %}
     <div role="tabpanel" class="tab-pane fade {% if counter1 == 1 %} active in {% endif %} " id="{{ counter1 }}">
