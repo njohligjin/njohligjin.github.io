@@ -2,8 +2,8 @@
 layout: default
 title: Procesi gjyqësor civil
 image: procesi-gjyqesor-civil.png
-category: procesi-gjyqesor-civil
-permalink: /procesi-gjyqesor-civil/
+category: procesi-civil
+permalink: /procesi-civil/
 ---
 <main id="content" class="content container procesi" role="main" style="margin-bottom: 200px;">
   <h2 class="kat-title"><i class="fa fa-gavel"></i> {{page.title}}</h2>
@@ -14,11 +14,11 @@ permalink: /procesi-gjyqesor-civil/
       </div>
       <div class="kategori-details">
         <ul>
-          <li><a href="/procesi-gjyqesor-civil/gjykata">Gjykata</a></li>
-          {% for file in site.procesi-gjyqesor-civil-collection %}
+          <li><a href="/procesi-civil/gjykata">Gjykata</a></li>
+          {% for file in site.procesi-civil-collection %}
           {% if file.tag == "gjykata" %}
           {% assign counter=counter | plus:1 %}
-            <li><a href="/procesi-gjyqesor-civil/gjykata#{{counter}}">{{file.title}}</a></li>
+            <li><a href="/procesi-civil/gjykata#{{counter}}">{{file.title}}</a></li>
           {% endif %}
           {% endfor %}
         </ul>
@@ -32,11 +32,11 @@ permalink: /procesi-gjyqesor-civil/
       </div>
       <div class="kategori-details">
         <ul>
-          <li><a href="/procesi-gjyqesor-civil/ankimi">Ankimi</a></li>
-          {% for file in site.procesi-gjyqesor-civil-collection %}
+          <li><a href="/procesi-civil/ankimi">Ankimi</a></li>
+          {% for file in site.procesi-civil-collection %}
           {% if file.tag == "ankimi" %}
           {% assign counter1=counter1 | plus:1 %}
-            <li><a href="/procesi-gjyqesor-civil/ankimi#{{counter1}}">{{file.title}}</a></li>
+            <li><a href="/procesi-civil/ankimi#{{counter1}}">{{file.title}}</a></li>
           {% endif %}
           {% endfor %}
         </ul>
@@ -50,11 +50,11 @@ permalink: /procesi-gjyqesor-civil/
       </div>
       <div class="kategori-details">
         <ul>
-          <li><a href="/procesi-gjyqesor-civil/padia">Padia</a></li>
-          {% for file in site.procesi-gjyqesor-civil-collection %}
+          <li><a href="/procesi-civil/padia">Padia</a></li>
+          {% for file in site.procesi-civil-collection %}
           {% if file.tag == "padia" %}
           {% assign counter2=counter2 | plus:1 %}
-            <li><a href="/procesi-gjyqesor-civil/padia#{{counter2}}">{{file.title}}</a></li>
+            <li><a href="/procesi-civil/padia#{{counter2}}">{{file.title}}</a></li>
           {% endif %}
           {% endfor %}
         </ul>
@@ -68,11 +68,11 @@ permalink: /procesi-gjyqesor-civil/
       </div>
       <div class="kategori-details">
         <ul>
-          <li><a href="/procesi-gjyqesor-civil/ekzekutimi-i-detyrueshem">Ekzekutimi i detyrueshëm</a></li>
-          {% for file in site.procesi-gjyqesor-civil-collection %}
+          <li><a href="/procesi-civil/ekzekutimi-i-detyrueshem">Ekzekutimi i detyrueshëm</a></li>
+          {% for file in site.procesi-civil-collection %}
           {% if file.tag == "ekzekutimi-i-detyrueshem" %}
           {% assign counter3=counter3 | plus:1 %}
-            <li><a href="/procesi-gjyqesor-civil/ekzekutimi-i-detyrueshem#{{counter3}}">{{file.title}}</a></li>
+            <li><a href="/procesi-civil/ekzekutimi-i-detyrueshem#{{counter3}}">{{file.title}}</a></li>
           {% endif %}
           {% endfor %}
         </ul>
