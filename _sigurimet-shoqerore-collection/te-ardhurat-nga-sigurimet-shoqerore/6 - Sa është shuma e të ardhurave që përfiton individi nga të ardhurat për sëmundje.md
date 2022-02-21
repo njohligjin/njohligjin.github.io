@@ -1,5 +1,5 @@
 ---
-title: "Të ardhurat nga sigurimet shoqërore"
+title: "Sa është shuma e të ardhurave që përfiton individi nga të ardhurat për sëmundje?"
 tag: te-ardhurat-nga-sigurimet-shoqerore
 ---
 ### Çfarë konsiderohen aksidente në punë dhe sëmundje profesionale. Si përfitohet ndihma në të tilla raste?
