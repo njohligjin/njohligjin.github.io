@@ -39,7 +39,7 @@ permalink: /procesi-penal/
           <li><a href="/procesi-penal/gjykata/">Gjykata</a></li>
           {% for file in site.procesi-penal-collection %}
           {% if file.tag == "gjykata" %}
-          {% assign counter=counter | plus:1 %}
+          {% assign counter1=counter1 | plus:1 %}
             <li><a href="/procesi-penal/gjykata#{{counter}}">{{file.title}}</a></li>
           {% endif %}
           {% endfor %}
@@ -56,7 +56,7 @@ permalink: /procesi-penal/
           <li><a href="/procesi-penal/ankimi/">Ankimi</a></li>
           {% for file in site.procesi-penal-collection %}
           {% if file.tag == "ankimi" %}
-          {% assign counter=counter | plus:1 %}
+          {% assign counter2=counter2 | plus:1 %}
             <li><a href="/procesi-penal/ankimi#{{counter}}">{{file.title}}</a></li>
           {% endif %}
           {% endfor %}
@@ -73,7 +73,7 @@ permalink: /procesi-penal/
           <li><a href="/procesi-penal/ekstradimi/">Ekstradimi</a></li>
           {% for file in site.procesi-penal-collection %}
           {% if file.tag == "ekstradimi" %}
-          {% assign counter=counter | plus:1 %}
+          {% assign counter3=counter3 | plus:1 %}
             <li><a href="/procesi-penal/ekstradimi#{{counter}}">{{file.title}}</a></li>
           {% endif %}
           {% endfor %}
