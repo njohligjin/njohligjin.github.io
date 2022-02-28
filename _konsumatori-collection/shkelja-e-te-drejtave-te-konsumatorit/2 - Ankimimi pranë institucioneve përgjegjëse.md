@@ -13,8 +13,6 @@ Për shqyrtimin e shkeljeve dhe marrjen e masave krijohet Komisioni i Mbrojtjes 
 Kundër vendimit të Komisionit të Mbrojtjes së Konsumatorëve, personi, ndaj të cilit është vendosur masa administrative, ka të drejtë që, brenda 30 ditëve, të kërkojë rishqyrtimin e saj në gjykatë
 
 
-Web: [http://www.financa.gov.al](http://financa.gov.al){:target="_blank_"}   
-Adresa: Ministria e Financave dhe Ekonomise
-Blv. “Dëshmorët e Kombit”, Tiranë.    
+Web: [http://www.financa.gov.al](http://financa.gov.al){:target="_blank_"}    
 Numri i telefonit: +355 42278109    
 E-mail: <kmk@financa.gov.al>
