@@ -80,24 +80,6 @@ image: cover2.png
   <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12 kategori-container">
     <div class="kategori-ligjore">
       <div class="kategori-ligjore-titull">
-        <i class="fa fa-university"></i><br>
-        ANKIMI ADMINISTRATIV
-      </div>
-      <div class="kategori-details">
-        <a href="/ankimi-administrativ/" class="kat-link"></a>
-        <ul>
-          <li><a href="/ankimi-administrativ/">Ankimi Administrativ</a></li>
-          {% assign posts = site.ankimi-administrativ-collection | where: "role","main" | sort: "order" %}
-          {% for file in posts | sort: order %}
-            <li><a href="{{ BASE_PATH }}{{ file.permalink }}">{{ file.title }}</a></li>
-          {% endfor %}
-        </ul>
-      </div>
-    </div>
-  </div>
-  <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12 kategori-container">
-    <div class="kategori-ligjore">
-      <div class="kategori-ligjore-titull">
         <i class="fa fa-info-circle"></i><br>
         INFORMIMI DHE KONSULTIM PUBLIK
       </div>
