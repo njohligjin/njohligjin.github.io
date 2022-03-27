@@ -7,7 +7,6 @@ tag: kontributi
 
 Personat e punësuar dhe punëdhënësit e tyre janë të detyruar të paguajnë kontribut për sëmundje, barrëlindje dhe pensione, në një shumë që varet nga paga e tyre totale (bruto). Kontributi nuk mund të llogaritet nën një pagë minimale dhe mbi një pagë maksimale mujore, paga të cilat përcaktohen me vendim të Këshillit të Ministrave.
 
-(* Sipas verifikimit të fundit në mars 2016: paga minimale mujore është 22 000 (njëzet e dy mijë) lekë dhe paga maksimale mujore është 97 030 (nëntëdhjetë e shtatë mijë e tridhjetë) lekë. Për personat që nuk kanë pagë ose që nuk kanë dokument që vërteton pagën, përfitimet llogariten mbi pagën minimale.)
 
 Punëdhënësit detyrohen të paguajnë kontribut për aksidentin në punë, sëmundjen profesionale dhe papunësinë.
 
