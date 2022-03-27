@@ -36,17 +36,26 @@ Personat e tjerë ekonomikisht aktivë janë të detyruar të paguajnë kontribu
 Punonjësit e papaguar të familjes, që punojnë e bashkëjetojnë me të vetëpunësuarin, paguajnë kontribut për barrëlindje dhe për pensione, mbi bazën e pagës minimale në shkallë vendi.
 Personat e vetëpunësuar në bujqësi janë të detyruar të paguajnë kontribut për barrëlindje dhe për pensione.
 Kontributi që paguhet për sigurimet shoqërore në fondet e sigurimeve për sëmundje, barrëlindje dhe pensione për të punësuarit me kontratë pune, që punojnë mbi 87 orë në muaj, do të jetë:
+
 •	Për punëdhënësit 15% e pagës bruto për secilin punonjës;
+
 •	Për personin e punësuar 9.5% e pagesës së tij totale (bruto).
 Ndërsa për të punësuarit me kontratë pune, që punojnë më pak se 87 orë në muaj, do të jetë:
+
 •	Për punëdhënësit 13.8% e pagës bruto (në listëpagesa) për secilin punonjës;
+
 •	Për personin e punësuar 9.5% e pagesës së tij totale (bruto).
 Kontributi vullnetar llogaritet në kufijtë e pagës minimale dhe maksimale të caktuar nga Këshilli i Ministrave dhe paguhet nga personi i siguruar në shumën dhe afatin e përcaktuar në kontratën e sigurimit vullnetar.
 Pagesa e kontributit bëhet çdo tremujor.
 Në sa lloje ndahen sigurimet ne bazë të përqindjes së kontributit?
+
 1)	Sigurime shoqërore të detyrueshme 
+
 2)	Sigurime shoqërorë vullnetare
+
 3)	Sigurimi shoqëror suplementar
+
 4)	Pensionet shtetërore te posacme
+
 5)	Pensioni social
 
