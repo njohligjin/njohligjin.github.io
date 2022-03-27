@@ -80,13 +80,31 @@ image: cover2.png
   <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12 kategori-container">
     <div class="kategori-ligjore">
       <div class="kategori-ligjore-titull">
+        <i class="fa fa-university"></i><br>
+        ANKIMI ADMINISTRATIV
+      </div>
+      <div class="kategori-details">
+        <a href="/ankimi-administrativ/" class="kat-link"></a>
+        <ul>
+          <li><a href="/ankimi-administrativ/">Ankimi Administrativ</a></li>
+          {% assign posts = site.ankimi-administrativ-collection | where: "role","main" | sort: "order" %}
+          {% for file in posts | sort: order %}
+            <li><a href="{{ BASE_PATH }}{{ file.permalink }}">{{ file.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12 kategori-container">
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
         <i class="fa fa-info-circle"></i><br>
-        INFORMIMI DHE KONSULTIM PUBLIK
+        INFORMIMI PUBLIK
       </div>
       <div class="kategori-details">
         <a href="/informimi-publik/" class="kat-link"></a>
         <ul>
-          <li><a href="/informimi-publik/">Informimi dhe konsultimi publik</a></li>
+          <li><a href="/informimi-publik/">Informimi publik</a></li>
           {% assign posts = site.informimi-publik-collection | where: "role","main" | sort: "order" %}
           {% for file in posts | sort: order %}
             <li><a href="{{ BASE_PATH }}{{ file.permalink }}">{{ file.title }}</a></li>
@@ -149,36 +167,17 @@ image: cover2.png
       </div>
     </div>
   </div>
- 
-  <div class="col-lg-2 col-md-6 col-sm-4 col-xs-12 kategori-container">
+  <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12 kategori-container">
     <div class="kategori-ligjore">
       <div class="kategori-ligjore-titull">
-        <i class="fa fa-book"></i><br>
-       DISKRIMINIMI
+        <i class="fa fa-gavel"></i><br>
+        PROCESI GJYQËSOR CIVIL
       </div>
       <div class="kategori-details">
-        <a href="/diskriminimi/" class="kat-link"></a>
+        <a href="/procesi-gjyqesor-civil/" class="kat-link"></a>
         <ul>
-          <li><a href="/diskriminimi/">Diskriminimi</a></li>
-          {% assign posts = site.diskriminimi-collection | where: "role","main" | sort: "order" %}
-          {% for file in posts | sort: order %}
-          <li><a href="{{ BASE_PATH }}{{ file.permalink }}">{{ file.title }}</a></li>
-          {% endfor %}
-        </ul>
-      </div>
-    </div>
-  </div>
-    <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12 kategori-container">
-    <div class="kategori-ligjore">
-      <div class="kategori-ligjore-titull">
-        <i class="fa fa-money"></i><br>
-        TATIMET DHE TAKSAT
-      </div>
-      <div class="kategori-details">
-        <a href="/tatimet-dhe-taksat/" class="kat-link"></a>
-        <ul>
-          <li><a href="/tatimet-dhe-taksat/">Tatimet dhe taksat</a></li>
-          {% assign posts = site.tatimet-dhe-taksat-collection | where: "role","main" | sort: "order" %}
+          <li><a href="/procesi-gjyqesor-civil/">Procesi gjyqësor civil</a></li>
+          {% assign posts = site.procesi-gjyqesor-civil-collection | where: "role","main" | sort: "order" %}
           {% for file in posts | sort: order %}
             <li><a href="{{ BASE_PATH }}{{ file.permalink }}">{{ file.title }}</a></li>
           {% endfor %}
@@ -207,6 +206,24 @@ image: cover2.png
   <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12 kategori-container">
     <div class="kategori-ligjore">
       <div class="kategori-ligjore-titull">
+        <i class="fa fa-money"></i><br>
+        TATIMET DHE TAKSAT
+      </div>
+      <div class="kategori-details">
+        <a href="/tatimet-dhe-taksat/" class="kat-link"></a>
+        <ul>
+          <li><a href="/tatimet-dhe-taksat/">Tatimet dhe taksat</a></li>
+          {% assign posts = site.tatimet-dhe-taksat-collection | where: "role","main" | sort: "order" %}
+          {% for file in posts | sort: order %}
+            <li><a href="{{ BASE_PATH }}{{ file.permalink }}">{{ file.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12 kategori-container">
+    <div class="kategori-ligjore">
+      <div class="kategori-ligjore-titull">
         <i class="fa fa-building"></i><br>
         BASHKËPRONËSIA NË NDËRTESAT E BANIMIT
       </div>
@@ -222,7 +239,6 @@ image: cover2.png
       </div>
     </div>
   </div>
-  
   <div class="col-lg-2 col-md-6 col-sm-4 col-xs-12 kategori-container">
     <div class="kategori-ligjore">
         <div class="kategori-ligjore-titull">
@@ -244,7 +260,7 @@ image: cover2.png
   <div class="col-lg-2 col-md-6 col-sm-4 col-xs-12 kategori-container">
     <div class="kategori-ligjore">
       <div class="kategori-ligjore-titull">
-        <i class="fa fa-book"></i><br>
+        <i class="fa fa-book""></i><br>
         STRATEGJIA PËR EDUKIMIN LIGJOR TË PUBLIKUT 2018-2022
       </div>
       <div class="kategori-details">
@@ -258,84 +274,17 @@ image: cover2.png
         </ul>
       </div>
     </div>
-    </div>
-<div class="col-lg-2 col-md-6 col-sm-4 col-xs-12 kategori-container">
-    <div class="kategori-ligjore">
-      <div class="kategori-ligjore-titull">
-        <i class="fa fa-book"></i><br>
-       TE DHENAT PERSONALE
-      </div>
-      <div class="kategori-details">
-        <a href="/mbrojtja/" class="kat-link"></a>
-        <ul>
-          <li><a href="/mbrojtja/">Të dhënat personale</a></li>
-          {% assign posts = site.mbrojtja-collection | where: "role","main" | sort: "order" %}
-          {% for file in posts | sort: order %}
-          <li><a href="{{ BASE_PATH }}{{ file.permalink }}">{{ file.title }}</a></li>
-          {% endfor %}
-        </ul>
-      </div>
-    </div>
-  </div><div class="col-lg-2 col-md-6 col-sm-4 col-xs-12 kategori-container">
-    <div class="kategori-ligjore">
-      <div class="kategori-ligjore-titull">
-        <i class="fa fa-book"></i><br>
-       PROCESI GJYQESOR ADMINISTRATIV
-      </div>
-      <div class="kategori-details">
-        <a href="/procesi-administrativ/" class="kat-link"></a>
-        <ul>
-          <li><a href="/procesi-administrativ/">Procesi Gjyqesor Administrativ</a></li>
-          {% assign posts = site.procesi-administrativ-collection | where: "role","main" | sort: "order" %}
-          {% for file in posts | sort: order %}
-          <li><a href="{{ BASE_PATH }}{{ file.permalink }}">{{ file.title }}</a></li>
-          {% endfor %}
-        </ul>
-      </div>
-    </div>
   </div>
-  <div class="col-lg-2 col-md-6 col-sm-4 col-xs-12 kategori-container">
-    <div class="kategori-ligjore">
-      <div class="kategori-ligjore-titull">
-        <i class="fa fa-book"></i><br>
-       PROCESI GJYQESOR PENAL
-      </div>
-      <div class="kategori-details">
-        <a href="/procesi-penal/" class="kat-link"></a>
-        <ul>
-          <li><a href="/procesi-penal/">Procesi Gjyqesor Penal</a></li>
-          {% assign posts = site.procesi-penal-collection | where: "role","main" | sort: "order" %}
-          {% for file in posts | sort: order %}
-          <li><a href="{{ BASE_PATH }}{{ file.permalink }}">{{ file.title }}</a></li>
-          {% endfor %}
-        </ul>
-      </div>
-    </div>
-  </div>
-  <div class="col-lg-2 col-md-6 col-sm-4 col-xs-12 kategori-container">
-    <div class="kategori-ligjore">
-      <div class="kategori-ligjore-titull">
-        <i class="fa fa-book"></i><br>
-       PROCESI GJYQESOR CIVIL
-      </div>
-      <div class="kategori-details">
-        <a href="/procesi-civil/" class="kat-link"></a>
-        <ul>
-          <li><a href="/procesi-civil/">Procesi Gjyqesor Civil</a></li>
-          {% assign posts = site.procesi-civil-collection | where: "role","main" | sort: "order" %}
-          {% for file in posts | sort: order %}
-          <li><a href="{{ BASE_PATH }}{{ file.permalink }}">{{ file.title }}</a></li>
-          {% endfor %}
-        </ul>
-      </div>
-    </div>
-  </div></div>
+</div>
+
 </main>
 <div class="clearfix"></div>
+
 <div class="te-tjera">
   <div class="container">
   <div class="col-md-3 col-sm-6 col-xs-12">
     <div class="page-parts">
+
     <div class="text-left">
       <img src="/img/1.png" alt="Rreth projektit" />
       <h4><a href="/rreth-faqes">Rreth projektit</a></h4>
@@ -343,6 +292,7 @@ image: cover2.png
     </div>
     <hr class="underline">
     </div>
+
   </div>
   <div class="col-md-3 col-sm-6 col-xs-12">
     <div class="page-parts">
