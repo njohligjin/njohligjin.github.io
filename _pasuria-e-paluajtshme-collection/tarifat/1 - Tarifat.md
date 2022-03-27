@@ -5,4 +5,6 @@ tag: tarifat
 
 ### A paguhet shërbimi i ofruar nga ZRPP?
 
-Për lëshimin e certifikatave të pasurive të paluajtshme, qirave, kopjeve të vërtetuara, kontrolleve, planeve të rilevimit, formularëve të shtypur, informacioneve për gjendjen juridike të pasurive, si dhe për shërbime të tjera të ofruara nga Zyra e Regjistrimit të Pasurive të Paluajtshme, paguhen tarifa dhe nëse është rasti edhe kamatëvonesa. Në rast se këto pagesa nuk kryhen, organet e regjistrimit të pasurive të paluajtshme kanë të drejtë të refuzojnë kryerjen e veprimeve të mësipërme deri në kryerjen e pagesave.
+Në bazë të ligjit per agjencinë shtetërore të kadastrës, çdo shërbim kadastral që ofrohet, tarifohet në bazë të shërbimit, me përjashtim të rasteve të veçanta të cilat janë të parashikuara nga ligji. Lista e shërbimeve kadastrale dhe tarifat për çdo shërbim përcaktohen me vendim të Këshillit të Ministrave. Në këtë mënyrë në rast se nuk bëhet pagesa e këtyre tarifave, organet e ASHK kanë të drejtë të refuzojnë dhënien e shërbimeve të kërkuara.
+
+
