@@ -338,7 +338,6 @@ $(document).ready(function(){
     $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 8116, datë 29.03.1996, “Kodi i Procedurës Civile i Republikës së Shqipërisë”, i ndryshuar.</li></ul>")
   } else if(window.location.href.indexOf("/shkaktimi-i-demit/")!=-1){
     $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 7850, datë 29.07.1994, “Kodi Civil i Republikës së Shqipërisë”, i ndryshuar.</li><li>Ligjin Nr. 9109, datë 17.07.2003, “Për profesionin e avokatit në Republikën e Shqipërisë”, i ndryshuar.</li></ul>")
-  }
   } else if(window.location.href.indexOf("/sigurimet-shoqerore/pensionet/")!=-1){
     $(".legal-reference").html("Bazuar në: <ul><li>Ligji nr. 7703, datë 11.05.1993 “Për sigurimet shoqërore në Republikën e Shqipërisë”, i ndryshuar. • Ligji Nr.9136, Datë 11.9.2003, “Për Mbledhjen e Kontributeve të Detyrueshme të Sigurimeve Shoqërore dhe Shëndetësore në Republikën e Shqipërisë”.</li><li>Ligji Nr.10383, Datë 24.2.2011, “Për Sigurimin e Detyrueshëm të Kujdesit Shëndetësor në Republikën e Shqipërisë” i ndryshuar.</li><li>Ligj Nr. 9705, Datë 02.04.2007, “Për Faljen e Kamatëvonesave të Papaguara të Kontributeve të Sigurimeve të Detyrueshme Shoqërore Dhe Shëndetësore”.</li></ul>")
   }
