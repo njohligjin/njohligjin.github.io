@@ -311,7 +311,7 @@ $(document).ready(function(){
   } else if(window.location.href.indexOf("/ankimi-administrativ/")!=-1){
     $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 44/2015, datë 30.04.2015, “Kodi i Procedurave Administrative”, i cili hyn në fuqi në maj 2016.</li><li>Ligjin Nr. 49/2012, datë 03.05.2012, “Për organizimin dhe funksionimin e gjykatave administrative dhe gjykimin e mosmarrëveshjeve administrative”, i ndryshuar.</li></ul>")
   } else if(window.location.href.indexOf("/informimi-publik/")!=-1){
-    $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 8417, datë 21.10.1998, “Kushtetuta e Republikës së Shqipërisë”, i ndryshuar.</li><li>Ligjin Nr.119/2014, datë 18.09.2014, “Për të Drejtën e Informimit”.</li></ul>")
+    $(".legal-reference").html("Bazuar në: <ul><li>Ligji nr. 146/2014 datë 30.10.2014 “Per njoftimin dhe konsultimin publik“</li></ul>")
   } else if(window.location.href.indexOf("/familja/")!=-1){
     if(window.location.href.indexOf("bashkejetesa")!=-1){
       $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 9062, datë 08.05.2003, “Kodi i Familjes dhe legjislacioni për birësimet i Republikës së Shqipërisë”, i ndryshuar.</li><li>Ligjin Nr. 7850, datë 29.07.1994, “Kodi Civil i Republikës së Shqipërisë”, i ndryshuar.</li></ul>")
@@ -329,7 +329,7 @@ $(document).ready(function(){
   } else if(window.location.href.indexOf("/konsumatori/")!=-1){
     $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 9902, datë 17.4.2008, “Për mbrojtjen e konsumatorëve”, i ndryshuar.</li><li>Ligjin Nr. 9779, datë 16.7.2007, ”Për sigurinë e përgjithshme, kërkesat thelbësore dhe vlerësimin e konformitetit të produkteve joushqimore”, i ndryshuar.</li></ul>")
   } else if(window.location.href.indexOf("/pasuria-e-paluajtshme/")!=-1){
-    $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 33/2012, datë 21.31.2012, “Për regjistrimin e pasurive të paluajtshme”.</li></ul>")
+    $(".legal-reference").html("Bazuar në: <ul><li>•	Ligji 111/2018 date 07.02.2019, “Per Kadastren”.</li></ul>")
   } else if(window.location.href.indexOf("/bashkepronesia-ne-ndertesa/")!=-1){
     $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 10112, datë 09.04.2009, “Për administrimin e bashkëpronësisë në ndërtesat e banimit”.</li></ul>")
   } else if(window.location.href.indexOf("/tatimet-dhe-taksat/")!=-1){
@@ -338,6 +338,9 @@ $(document).ready(function(){
     $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 8116, datë 29.03.1996, “Kodi i Procedurës Civile i Republikës së Shqipërisë”, i ndryshuar.</li></ul>")
   } else if(window.location.href.indexOf("/shkaktimi-i-demit/")!=-1){
     $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 7850, datë 29.07.1994, “Kodi Civil i Republikës së Shqipërisë”, i ndryshuar.</li><li>Ligjin Nr. 9109, datë 17.07.2003, “Për profesionin e avokatit në Republikën e Shqipërisë”, i ndryshuar.</li></ul>")
+  }
+  } else if(window.location.href.indexOf("/sigurimet-shoqerore/pensionet/")!=-1){
+    $(".legal-reference").html("Bazuar në: <ul><li>Ligji nr. 7703, datë 11.05.1993 “Për sigurimet shoqërore në Republikën e Shqipërisë”, i ndryshuar. • Ligji Nr.9136, Datë 11.9.2003, “Për Mbledhjen e Kontributeve të Detyrueshme të Sigurimeve Shoqërore dhe Shëndetësore në Republikën e Shqipërisë”.</li><li>Ligji Nr.10383, Datë 24.2.2011, “Për Sigurimin e Detyrueshëm të Kujdesit Shëndetësor në Republikën e Shqipërisë” i ndryshuar.</li><li>Ligj Nr. 9705, Datë 02.04.2007, “Për Faljen e Kamatëvonesave të Papaguara të Kontributeve të Sigurimeve të Detyrueshme Shoqërore Dhe Shëndetësore”.</li></ul>")
   }
   
 
