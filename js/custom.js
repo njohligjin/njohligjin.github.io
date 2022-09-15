@@ -341,7 +341,7 @@ $(document).ready(function(){
   } else if(window.location.href.indexOf("/sigurimet-shoqerore/pensionet/")!=-1){
     $(".legal-reference").html("Bazuar në: <ul><li>Ligji nr. 7703, datë 11.05.1993 “Për sigurimet shoqërore në Republikën e Shqipërisë”, i ndryshuar. • Ligji Nr.9136, Datë 11.9.2003, “Për Mbledhjen e Kontributeve të Detyrueshme të Sigurimeve Shoqërore dhe Shëndetësore në Republikën e Shqipërisë”.</li><li>Ligji Nr.10383, Datë 24.2.2011, “Për Sigurimin e Detyrueshëm të Kujdesit Shëndetësor në Republikën e Shqipërisë” i ndryshuar.</li><li>Ligj Nr. 9705, Datë 02.04.2007, “Për Faljen e Kamatëvonesave të Papaguara të Kontributeve të Sigurimeve të Detyrueshme Shoqërore Dhe Shëndetësore”.</li></ul>")
   } else if(window.location.href.indexOf("/diskriminimi/")!=-1){
-    $(".legal-reference").html("Bazuar në: <ul><li>•	Ligji nr. 10 221 datë 04.02.2010 “Për mbrojtjen nga diskriminimi” i ndryshuar.</li></ul>")
+    $(".legal-reference").html("Bazuar në: <ul><li>Ligji nr. 10 221 datë 04.02.2010 “Për mbrojtjen nga diskriminimi” i ndryshuar.</li></ul>")
   }
   
 
