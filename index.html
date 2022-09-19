@@ -174,10 +174,10 @@ image: cover2.png
         PROCESI GJYQËSOR CIVIL
       </div>
       <div class="kategori-details">
-        <a href="/procesi-gjyqesor-civil/" class="kat-link"></a>
+        <a href="/procesi-civil/" class="kat-link"></a>
         <ul>
-          <li><a href="/procesi-gjyqesor-civil/">Procesi gjyqësor civil</a></li>
-          {% assign posts = site.procesi-gjyqesor-civil-collection | where: "role","main" | sort: "order" %}
+          <li><a href="/procesi-civil/">Procesi gjyqësor civil</a></li>
+          {% assign posts = site.procesi-civil-collection | where: "role","main" | sort: "order" %}
           {% for file in posts | sort: order %}
             <li><a href="{{ BASE_PATH }}{{ file.permalink }}">{{ file.title }}</a></li>
           {% endfor %}
