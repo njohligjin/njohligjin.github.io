@@ -1,5 +1,5 @@
 ---
-title: "Kur ngrihet padia?"
+title: "Për çfarë mund të ngrihet padia?"
 tag: padia
 ---
 
