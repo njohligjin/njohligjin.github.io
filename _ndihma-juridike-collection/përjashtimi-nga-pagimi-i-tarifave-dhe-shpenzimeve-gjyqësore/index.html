@@ -5,13 +5,13 @@ layout: post
 category: ndihma-juridike
 image: ndihma-juridike.png
 lang: sq
-permalink: /ndihma-juridike//përjashtimi-nga-pagimi-i-tarifave-dhe-shpenzimeve-gjyqësore
+permalink: /ndihma-juridike/perjashtimi-nga-pagimi-i-tarifave-dhe-shpenzimeve-gjyqesore
 order: 4
 ---
 <div class="col-md-3">
   <ul class="nav nav-tabs custom-nav-tabs" role="tablist">
     {% for file in site.ndihma-juridike-collection %}
-    {% if file.tag == "përjashtimi-nga-pagimi-i-tarifave-dhe-shpenzimeve-gjyqësore" %}
+    {% if file.tag == "perjashtimi-nga-pagimi-i-tarifave-dhe-shpenzimeve-gjyqesore" %}
     {% assign counter=counter | plus:1 %}
     <li role="presentation">
       <a href="#{{ counter }}" aria-controls="settings" role="tab" data-toggle="tab">{{file.title}}</a>
@@ -22,7 +22,7 @@ order: 4
 </div>
 <div class="tab-content col-md-9">
   {% for file in site.ndihma-juridike-collection %}
-  {% if file.tag == "përjashtimi-nga-pagimi-i-tarifave-dhe-shpenzimeve-gjyqësore" %}
+  {% if file.tag == "perjashtimi-nga-pagimi-i-tarifave-dhe-shpenzimeve-gjyqesore" %}
   {% assign counter1=counter1 | plus:1 %}
     <div role="tabpanel" class="tab-pane fade {% if counter1 == 1 %} active in {% endif %} " id="{{ counter1 }}">
       {{ file.content }}

@@ -1,6 +1,6 @@
 ---
 title: "Çfarë përfshihet brenda paketës së formës së tretë të Ndihmës Juridike?"
-tag: përjashtimi-nga-pagimi-i-tarifave-dhe-shpenzimeve-gjyqësore
+tag: perjashtimi-nga-pagimi-i-tarifave-dhe-shpenzimeve-gjyqesore
 ---
 
 Personat, të cilët kanë të drejtën për të marrë ndihmë juridike dytësore, gëzojnë të drejtën për përjashtim nga: 

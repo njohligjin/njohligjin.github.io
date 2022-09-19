@@ -1,6 +1,6 @@
 ---
 title: "Rimbursimi"
-tag: përjashtimi-nga-pagimi-i-tarifave-dhe-shpenzimeve-gjyqësore
+tag: perjashtimi-nga-pagimi-i-tarifave-dhe-shpenzimeve-gjyqesore
 ---
 
 Çfarë ndodh nëse gjyqi fitohet nga pala përfituese e Ndihmës Juridike falas?
