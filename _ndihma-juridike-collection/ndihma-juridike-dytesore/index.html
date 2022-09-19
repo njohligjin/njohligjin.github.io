@@ -22,8 +22,7 @@ order: 3
 </div>
 <div class="tab-content col-md-9">
   {% for file in site.ndihma-juridike-collection %}
-  {% if file.tag == "/
-ndihma-juridike-dytesore" %}
+  {% if file.tag == "ndihma-juridike-dytesore" %}
   {% assign counter1=counter1 | plus:1 %}
     <div role="tabpanel" class="tab-pane fade {% if counter1 == 1 %} active in {% endif %} " id="{{ counter1 }}">
       {{ file.content }}
