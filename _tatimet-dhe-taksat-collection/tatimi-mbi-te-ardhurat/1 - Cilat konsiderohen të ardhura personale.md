@@ -30,7 +30,7 @@ Nga korriku 2022, tatimi mbi të ardhurat personale nga punësimi, bazohet në k
 | --- | --- | --- |
 | 0 - 40 000 | 0 - 40 000 | 0% |
 | 40 001 - 50 000 | 0 - 30 000 | 0% |
-| | 30 001 - 50 000 | 50% * 13% të shumës mbi 30 000 lekë |
+|| 30 001 - 50 000 | 50% * 13% të shumës mbi 30 000 lekë |
 | 50 001 - Më tepër | 0 - 30 000 | 0% |
-| | 30 001 - 200 000 | 13% e shumës mbi 30 000 lekë |
-| | 200 001 - Më tepër | 22 100 lekë + 23% të shumës mbi 200 000 lekë |
+|| 30 001 - 200 000 | 13% e shumës mbi 30 000 lekë |
+|| 200 001 - Më tepër | 22 100 lekë + 23% të shumës mbi 200 000 lekë |
