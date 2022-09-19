@@ -1,6 +1,6 @@
 ---
 title: "Çfarë përfshin Ndihma Juridike Parësore?"
-tag: ndihma-juridike-parësore
+tag: ndihma-juridike-paresore
 ---
 
 “Ndihmë juridike parësore” është: 
