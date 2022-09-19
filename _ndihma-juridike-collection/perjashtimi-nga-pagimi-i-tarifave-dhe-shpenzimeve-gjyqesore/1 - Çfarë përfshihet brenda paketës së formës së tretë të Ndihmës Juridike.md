@@ -3,6 +3,8 @@ title: "Çfarë përfshihet brenda paketës së formës së tretë të Ndihmës 
 tag: perjashtimi-nga-pagimi-i-tarifave-dhe-shpenzimeve-gjyqesore
 ---
 
+### Çfarë përfshihet brenda paketës së formës së tretë të Ndihmës Juridike?
+
 Personat, të cilët kanë të drejtën për të marrë ndihmë juridike dytësore, gëzojnë të drejtën për përjashtim nga: 
 
 a) pagimi i tarifave të përgjithshme dhe të veçanta, sipas përcaktimeve të ligjit për tarifat gjyqësore në Republikën e Shqipërisë; 
@@ -10,7 +12,7 @@ b) pagimi i shpenzimeve gjyqësore (shpenzimet për dëshmitarët, ekspertët, p
 c) detyrimi për të parapaguar tarifën e vënies në ekzekutim të urdhrit të ekzekutimit pranë shërbimit përmbarimor gjyqësor shtetëror.
 
 
-Cilët janë elementët e kësaj forme të Ndihmës Juridike?
+### Cilët janë elementët e kësaj forme të Ndihmës Juridike?
 
 “Përjashtim nga tarifat dhe shpenzimet gjyqësore” është një formë e ndihmës juridike falas për përjashtimin nga pagesa e tarifave gjyqësore dhe shpenzimeve gjyqësore, me vendim të gjykatës kompetente, nëse plotësohen kriteret e vendosura nga ligj për “Ndihmën Juridike të Garantuar nga Shteti”. 
 

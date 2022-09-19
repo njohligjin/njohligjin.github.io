@@ -3,6 +3,8 @@ title: "Si përfitohet shërbimi i përjashtimit nga pagimi i tarifave dhe shpen
 tag: perjashtimi-nga-pagimi-i-tarifave-dhe-shpenzimeve-gjyqesore
 ---
 
+### Si përfitohet shërbimi i përjashtimit nga pagimi i tarifave dhe shpenzimeve gjyqësore?
+
 Kërkesa për përjashtim nga pagimi i tarifave gjyqësore dhe shpenzimeve gjyqësore mund të paraqitet:
 •	së bashku me kërkesën për ndihmë juridike dytësore;
 •	bashkëlidhur kërkesëpadisë, në përputhje me parashikimet e legjislacionit procedural;

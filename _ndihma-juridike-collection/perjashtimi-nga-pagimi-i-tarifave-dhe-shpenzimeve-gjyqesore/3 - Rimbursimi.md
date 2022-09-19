@@ -3,11 +3,11 @@ title: "Rimbursimi"
 tag: perjashtimi-nga-pagimi-i-tarifave-dhe-shpenzimeve-gjyqesore
 ---
 
-Çfarë ndodh nëse gjyqi fitohet nga pala përfituese e Ndihmës Juridike falas?
+### Çfarë ndodh nëse gjyqi fitohet nga pala përfituese e Ndihmës Juridike falas?
 
 Kur pala që është përjashtuar nga pagimi i tarifave gjyqësore dhe shpenzimeve gjyqësore, sipas parashikimeve të ligjit, fiton me vendim gjyqësor të formës së prerë çështjen, për të cilën është dhënë ndihma juridike dytësore dhe/ose përjashtimi nga tarifat gjyqësore dhe shpenzimet gjyqësore, pala tjetër që humb gjyqin, së cilës i ngarkohen pagimi i tarifave gjyqësore dhe shpenzimeve gjyqësore, sipas vendimit gjyqësor, detyrohet të kalojë këtë shumë menjëherë për llogari të Drejtorisë së Ndihmës Juridike Falas.
 
-Në cilat raste subjekti përfitues i Ndihmës Juridike detyrohet të kthejë shpenzimet e kryera? 
+### Në cilat raste subjekti përfitues i Ndihmës Juridike detyrohet të kthejë shpenzimet e kryera? 
 
 Në rast se një person, të cilit i është pranuar kërkesa për ndihmë juridike dytësore dhe/ose përjashtimin nga tarifat gjyqësore dhe shpenzimet gjyqësore, i kanë ndryshuar rrethanat në një mënyrë të tillë që nuk plotëson kriteret ligjore për të qenë subjekt përfitues i ndihmës juridike dytësore, Drejtoria e Ndihmës Juridike Falas i njofton përfituesit të ndihmës juridike detyrimin për kthimin vullnetar të shpenzimeve të kryera, shumën konkrete dhe afatin për përmbushjen e këtij detyrimi.
 
