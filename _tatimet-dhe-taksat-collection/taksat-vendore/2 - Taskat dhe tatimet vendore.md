@@ -11,6 +11,6 @@ Në taksat dhe tatimet vendore përfshihen:
 * Taksa e fjetjes në hotel;
 * Taksa e ndikimit në infrastrukturë nga ndërtimet e reja;
 * Taksa mbi kalimin e së drejtës së pronësisë për pasuritë e paluajtshme;
-* Taksa e regjistrimit të përvitshëm të mjeteve;
 * Taksa e tabelës;
+* Taksa për zënien e hapësirave publike
 * Taksa të përkohshme.
