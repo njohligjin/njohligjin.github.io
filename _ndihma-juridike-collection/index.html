@@ -73,7 +73,7 @@ permalink: /ndihma-juridike/
         <ul>
           <li><a href="/ndihma-juridike/perjashtimi-nga-pagimi-i-tarifave-dhe-shpenzimeve-gjyqesore">Përjashtimi nga pagimi i tarifave dhe shpenzimeve gjyqësore.</a></li>
           {% for file in site.ndihma-juridike-collection %}
-          {% if file.tag == "përjashtimi-nga-pagimi-i-tarifave-dhe-shpenzimeve-gjyqësore" %}
+          {% if file.tag == "perjashtimi-nga-pagimi-i-tarifave-dhe-shpenzimeve-gjyqesore" %}
           {% assign counter3=counter3 | plus:1 %}
             <li><a href="/ndihma-juridike/perjashtimi-nga-pagimi-i-tarifave-dhe-shpenzimeve-gjyqesore#{{counter3}}">{{file.title}}</a></li>
           {% endif %}
