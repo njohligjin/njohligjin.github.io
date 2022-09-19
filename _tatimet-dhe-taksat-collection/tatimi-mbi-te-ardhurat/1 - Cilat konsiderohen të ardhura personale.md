@@ -19,3 +19,18 @@ Të ardhurat personale që tatohen janë:
 * Kalimi i së drejtës së pronësisë për banesën dhe/ose truallin, brenda lidhjes gjinore në familje, bashkëshort, bashkëshorte, fëmijë, vetëm një herë ndaj një përfituesi, nëpërmjet dhurimit dhe /ose heqjes dorë nga pasuria; 
 * Pagat dhe shpërblimet e cdo lloji të sportistëve, që kanë kontrata të rregullta me klubet sportive, të cilat njihen nga federatat përkatëse sportive, të përfituara gjatë periudhës 1 janar 2021 deri më dhjetor 2022; 
 * Të ardhurat nga pensionet dhe shpërblimet e tjera të ngjashme të shtetasve të huaj me origjinë shqiptare apo të atyre nga vendet e Bashkimit Evropian, me leje qëndrimi në Republikën e Shqipërisë, si dhe të shtetasve të huaj që kanë marrë shtetësinë shqiptare e janë rezidentë në Republikën e Shqipërisë dhe që i përfitojnë këto të ardhura sipas legjislacionit të vendit ku përfitojnë pensionin apo shpërblimet e tjera të ngjashme.
+
+### Si paguhet tatimi mbi të ardhurat personale në formën e pagës apo shpërblimit?
+
+Çdo punëdhënës, që paguan një pagë a shpërblim, mban tatimin mbi të ardhurat personale, dhe e derdh tatimin e mbajtur në favor të organeve tatimore, jo më vonë se data 20 e muajit pasardhës nga ai kur është kryer pagesa.
+Të gjithë punëdhënësit dhe personat e vetëpunësuar janë të detyruar të deklarojnë tatimin mbi të ardhurat vetjake, të mbajtur në burim për punëmarrësit.
+Nga korriku 2022, tatimi mbi të ardhurat personale nga punësimi, bazohet në këtë tabelë:
+
+| E ardhura nga paga nëlekë/muaj | E ardhura e tatueshme nëlekë/muaj | Norma tatimore në përqindje/mujore |
+| --- | --- | --- |
+| 0 - 40 000 | 0 - 40 000 | 0% |
+| 40 001 - 50 000 | 0 - 30 000 | 0% |
+| | 30 001 - 50 000 | 50% * 13% të shumës mbi 30 000 lekë |
+| 50 001 - Më tepër | 0 - 30 000 | 0% |
+| | 30 001 - 200 000 | 13% e shumës mbi 30 000 lekë |
+| | 200 001 - Më tepër | 22 100 lekë + 23% të shumës mbi 200 000 lekë |
