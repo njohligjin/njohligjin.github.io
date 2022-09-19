@@ -3,6 +3,8 @@ title: "Çfarë përfshin Ndihma Juridike Parësore?"
 tag: ndihma-juridike-paresore
 ---
 
+### Çfarë përfshin Ndihma Juridike Parësore?
+
 “Ndihmë juridike parësore” është: 
 
 a) dhënia e informacioneve në lidhje me sistemin ligjor të Republikës së Shqipërisë, aktet normative në fuqi, të drejtat dhe detyrimet e subjekteve të ligjit dhe metodat për ushtrimin e këtyre të drejtave në procesin gjyqësor dhe në atë jashtëgjyqësor;

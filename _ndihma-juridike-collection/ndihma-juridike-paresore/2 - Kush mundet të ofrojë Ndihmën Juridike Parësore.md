@@ -3,6 +3,8 @@ title: "Kush mundet të ofrojë Ndihmën Juridike Parësore?"
 tag: ndihma-juridike-paresore
 ---
 
+### Kush mundet të ofrojë Ndihmën Juridike Parësore?
+
 Ndihma juridike parësore jepet nga: 
 - punonjësit me trajnim të posaçëm; 
 - nga organizatat jofitimprurëse të autorizuara; 

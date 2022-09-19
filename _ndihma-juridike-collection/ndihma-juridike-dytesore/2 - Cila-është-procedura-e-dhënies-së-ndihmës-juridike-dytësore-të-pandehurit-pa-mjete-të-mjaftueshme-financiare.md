@@ -3,6 +3,8 @@ title: "Cila është procedura e dhënies së ndihmës juridike dytësore të pa
 tag: ndihma-juridike-dytesore
 ---
 
+### Cila është procedura e dhënies së ndihmës juridike dytësore të pandehurit pa mjete të mjaftueshme financiare?
+
 Kërkesa për ndihmë juridike dytësore e të pandehurit pa mjete të mjaftueshme financiare paraqitet pranë organit procedues që fillon hetimet.
 
 Organi procedues që fillon hetimet shqyrton menjëherë kërkesën për përfitimin e Ndihmës Juridike Dytësore. Nëse organi procedues që fillon hetimet vlerëson se kriteret janë përmbushur, cakton menjëherë një avokat mbrojtës nga lista e avokatëve që ofrojnë shërbimet e ndihmës juridike dytësore dhe njofton menjëherë personin, të cilit i ofrohet ndihmë juridike dytësore, si dhe avokatin e caktuar mbrojtës.

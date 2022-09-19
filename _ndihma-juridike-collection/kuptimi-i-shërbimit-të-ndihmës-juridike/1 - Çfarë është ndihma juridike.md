@@ -3,6 +3,8 @@ title: "Çfarë është Ndihma Juridike?"
 tag: kuptimi-i-shërbimit-të-ndihmës-juridike
 ---
 
+### Çfarë është Ndihma Juridike?
+
 “Ndihma juridike” është shërbimi juridik falas, i garantuar dhe financuar nga shteti për të gjithë personat që janë subjekte përfitues, sepse bëjnë pjesë në një nga kategoritë e veçanta, apo për shkak të të ardhurave të pamjaftueshme, sipas kritereve dhe parashikimeve të ligjit nr. 111/2017, për “Ndihmën Juridike të Garantuar nga Shteti”. 
 
 ### Në cilat forma jepet Ndihma Juridike?
