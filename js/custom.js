@@ -334,7 +334,7 @@ $(document).ready(function(){
     $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 10112, datë 09.04.2009, “Për administrimin e bashkëpronësisë në ndërtesat e banimit”.</li></ul>")
   } else if(window.location.href.indexOf("/tatimet-dhe-taksat/")!=-1){
     $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 9920, datë 19.05.2008, “Për procedurat tatimore në Republikën e Shqipërisë”, i ndryshuar.</li><li>Ligjin Nr. 9975, datë 28.07.2008, “Për taksat kombëtare”, i ndryshuar.</li><li>Ligjin Nr. 8438, datë 28.12.1998, “Për tatimin mbi të ardhurat”, i ndryshuar.</li><li>Ligjin Nr. 9632, datë 30.10.2006, “Për sistemin e taksave vendore”, i ndryshuar.</li></ul>")
-  } else if(window.location.href.indexOf("/procesi-gjyqesor-civil/")!=-1){
+  } else if(window.location.href.indexOf("/procesi-civil/")!=-1){
     $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 8116, datë 29.03.1996, “Kodi i Procedurës Civile i Republikës së Shqipërisë”, i ndryshuar.</li></ul>")
   } else if(window.location.href.indexOf("/shkaktimi-i-demit/")!=-1){
     $(".legal-reference").html("Bazuar në: <ul><li>Ligjin Nr. 7850, datë 29.07.1994, “Kodi Civil i Republikës së Shqipërisë”, i ndryshuar.</li><li>Ligjin Nr. 9109, datë 17.07.2003, “Për profesionin e avokatit në Republikën e Shqipërisë”, i ndryshuar.</li></ul>")

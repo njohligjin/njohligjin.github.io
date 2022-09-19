@@ -112,7 +112,7 @@ layout: null
     },
   {% endfor %}
 
-  {% assign posts = site.procesi-gjyqesor-civil-collection | where: "role", "main" %}
+  {% assign posts = site.procesi-civil-collection | where: "role", "main" %}
   {% for post in posts %}
     {
       "title"    : "{{ post.title | escape }}",
