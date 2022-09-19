@@ -16,3 +16,4 @@ Disa nga të drejtat që ka tatimpaguesi janë:
 * Të kërkojë kopje të noterizuar të origjinalit, për çdo dokument, që ndodhet në dosjen e hapur për të, apo të kërkojë kopje të printuara dhe të certifikuara të të dhënave elektronike, të lidhura me të.
 * Të dëgjohet nga administrata tatimore përpara se ajo të marrë një vendim administrativ për të dhe pasurinë e tij.
 * Të drejtën e ankohet dhe të garantohet për një shqyrtim të pavarur administrativ të çështjeve të lidhura me të.
+* Tatimpaguesi ka të drejtë t’i sigurohen kontrolle të arsyeshme, të cilat të kryhen në kohë të arsyeshme, në vendin e duhur dhe brenda afateve.
