@@ -1,6 +1,6 @@
 ---
 title: "Cila është procedura e dhënies së ndihmës juridike dytësore të pandehurit pa mjete të mjaftueshme financiare?"
-tag: ndihma-juridike-dytësore
+tag: ndihma-juridike-dytesore
 ---
 Kërkesa për ndihmë juridike dytësore e të pandehurit pa mjete të mjaftueshme financiare paraqitet pranë organit procedues që fillon hetimet.
 
