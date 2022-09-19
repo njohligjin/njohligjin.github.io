@@ -1,7 +1,6 @@
 ---
 title: "Çfarë është Ndihma Juridike Dytësore?"
 tag: Ndihma-juridike-dytësore
-
 ---
 
 “Ndihmë juridike dytësore” është shërbimi juridik që ofrohet për përpilimin e akteve të nevojshme për të vënë në lëvizje gjykatën; ofrimi i këshillimit, përfaqësimit dhe mbrojtjes para gjykatës në çështjet administrative, civile dhe në çështjet penale, për të cilat nuk zbatohet mbrojtja e detyrueshme, sipas përcaktimeve të legjislacionit procedural penal.
@@ -10,8 +9,7 @@ Kush mundet të ofrojë Ndihmën Juridike Dytësore?
 
 Ndihma juridike dytësore jepet nga avokatët që përfshihen në listën e miratuar nga Dhoma Kombëtare e Avokatisë, në bazë të kërkesës së personit që gëzon të drejtën për përfitimin e ndihmës juridike dytësore.
 
-
-Si mund të përfitohet Ndihma Juridike Dytësore?
+### Si mund të përfitohet Ndihma Juridike Dytësore?
 
 Kërkesa për dhënien e ndihmës juridike dytësore paraqitet nga personi i interesuar personalisht ose me anë të shërbimit postar pranë gjykatës ose organit procedues që fillon hetimet. Kërkesa paraqitet përpara fillimit të një procesi gjyqësor, në fillim të një procesi gjyqësor dhe/ose në çdo fazë të procesit gjyqësor, derisa nuk është deklaruar i mbyllur hetimi gjyqësor. Kërkesa mund të paraqitet dhe nga një përfaqësues ligjor apo të pajisur me prokurë, ose nëpërmjet bashkëshortit/es, bashkëjetuesit/es ose një të afërmi të shkallës së parë.
 
